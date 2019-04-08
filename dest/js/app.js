@@ -842,12 +842,6 @@ $(document).ready(function (ev) {
       $(el).closest('.c-form__field').removeClass('is-focus').find('.c-form__dropdown').hide();
     };
 
-    var changeInputText = function changeInputText(el) {
-      var _val = $(el).find('p').text();
-
-      $(el).closest('.c-form__field').find('[input-drop-js]').val(_val);
-    };
-
     _inputDrop.on('focus', function (ev) {
       showDropFocus(ev.currentTarget);
     });
@@ -858,12 +852,22 @@ $(document).ready(function (ev) {
       //   hideDrop(ev.currentTarget);
       // }
     });
-    _inputDrop.on('blur', function (ev) {
-      hideDrop(ev.currentTarget);
-    });
-    _dropBtn.on('click', function (ev) {
-      changeInputText(ev.currentTarget);
-      hideDrop('[input-drop-js]');
+    // _inputDrop.on('blur', (ev) => {
+    //   setTimeout(() => {
+    //     hideDrop(ev.currentTarget);
+    //   }, 100);
+    // });
+    // _dropBtn.on('click', (ev) => {
+    //   console.log(`click`);
+    //   hideDrop('[input-drop-js]');
+    // });
+
+    $('body').on('click', function (e) {
+      var className = ".c-form--r-main";
+
+      if (!$(e.target).closest(className).length) {
+        hideDrop('[input-drop-js]');
+      }
     });
   };
 
