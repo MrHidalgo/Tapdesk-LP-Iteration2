@@ -6709,27 +6709,24 @@ picture {
   }
 }
 
-/* line 41, src/scss/_components/resources/_facilities.scss */
-.facilities__main-row > div {
-  width: 50%;
+/* line 42, src/scss/_components/resources/_facilities.scss */
+.facilities__main-row > div:nth-of-type(1) {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-right: 30px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 41, src/scss/_components/resources/_facilities.scss */
-  .facilities__main-row > div {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  /* line 47, src/scss/_components/resources/_facilities.scss */
+  /* line 42, src/scss/_components/resources/_facilities.scss */
   .facilities__main-row > div:nth-of-type(1) {
+    padding-right: 0;
     padding-bottom: 30px;
     text-align: center;
   }
 }
 
-/* line 54, src/scss/_components/resources/_facilities.scss */
+/* line 52, src/scss/_components/resources/_facilities.scss */
 .facilities__main-row > div:nth-of-type(2) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6737,11 +6734,13 @@ picture {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  width: 324px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 54, src/scss/_components/resources/_facilities.scss */
+  /* line 52, src/scss/_components/resources/_facilities.scss */
   .facilities__main-row > div:nth-of-type(2) {
+    width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -6782,10 +6781,16 @@ picture {
   font-size: 50px;
   color: #FFFFFF;
   letter-spacing: 0;
-  line-height: 60px;
 }
 
-/* line 93, src/scss/_components/resources/_facilities.scss */
+@media screen and (max-width: 767px) {
+  /* line 84, src/scss/_components/resources/_facilities.scss */
+  .facilities__main-title {
+    font-size: 40px;
+  }
+}
+
+/* line 95, src/scss/_components/resources/_facilities.scss */
 .facilities__main-badge {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -6808,7 +6813,7 @@ picture {
   text-align: center;
 }
 
-/* line 109, src/scss/_components/resources/_facilities.scss */
+/* line 111, src/scss/_components/resources/_facilities.scss */
 .facilities__main-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6837,7 +6842,7 @@ picture {
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-/* line 128, src/scss/_components/resources/_facilities.scss */
+/* line 130, src/scss/_components/resources/_facilities.scss */
 .facilities__main-btn:hover {
   color: #CD084B;
   background-color: transparent;
@@ -6846,27 +6851,27 @@ picture {
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-/* line 136, src/scss/_components/resources/_facilities.scss */
+/* line 138, src/scss/_components/resources/_facilities.scss */
 .facilities__description {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 136, src/scss/_components/resources/_facilities.scss */
+  /* line 138, src/scss/_components/resources/_facilities.scss */
   .facilities__description {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
 
-/* line 146, src/scss/_components/resources/_facilities.scss */
+/* line 148, src/scss/_components/resources/_facilities.scss */
 .facilities__description p a,
 .facilities__description li a {
   color: #00449d;
 }
 
-/* line 149, src/scss/_components/resources/_facilities.scss */
+/* line 151, src/scss/_components/resources/_facilities.scss */
 .facilities__description p a:visited, .facilities__description p a:hover, .facilities__description p a:focus,
 .facilities__description li a:visited,
 .facilities__description li a:hover,
@@ -6874,7 +6879,7 @@ picture {
   color: #00449d;
 }
 
-/* line 157, src/scss/_components/resources/_facilities.scss */
+/* line 159, src/scss/_components/resources/_facilities.scss */
 .facilities__description p {
   padding-bottom: 30px;
   font-size: 17px;
@@ -6884,13 +6889,13 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 157, src/scss/_components/resources/_facilities.scss */
+  /* line 159, src/scss/_components/resources/_facilities.scss */
   .facilities__description p {
     font-size: 15px;
   }
 }
 
-/* line 168, src/scss/_components/resources/_facilities.scss */
+/* line 170, src/scss/_components/resources/_facilities.scss */
 .facilities__description h6 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6911,13 +6916,13 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 168, src/scss/_components/resources/_facilities.scss */
+  /* line 170, src/scss/_components/resources/_facilities.scss */
   .facilities__description h6 {
     font-size: 15px;
   }
 }
 
-/* line 186, src/scss/_components/resources/_facilities.scss */
+/* line 188, src/scss/_components/resources/_facilities.scss */
 .facilities__description h2 {
   padding-bottom: 10px;
   font-weight: normal;
@@ -6928,18 +6933,18 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 186, src/scss/_components/resources/_facilities.scss */
+  /* line 188, src/scss/_components/resources/_facilities.scss */
   .facilities__description h2 {
     font-size: 22px;
   }
 }
 
-/* line 198, src/scss/_components/resources/_facilities.scss */
+/* line 200, src/scss/_components/resources/_facilities.scss */
 .facilities__description ul {
   padding-left: 15px;
 }
 
-/* line 201, src/scss/_components/resources/_facilities.scss */
+/* line 203, src/scss/_components/resources/_facilities.scss */
 .facilities__description ul li {
   padding-left: 20px;
   padding-bottom: 15px;
@@ -6951,25 +6956,25 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 201, src/scss/_components/resources/_facilities.scss */
+  /* line 203, src/scss/_components/resources/_facilities.scss */
   .facilities__description ul li {
     font-size: 15px;
   }
 }
 
-/* line 216, src/scss/_components/resources/_facilities.scss */
+/* line 218, src/scss/_components/resources/_facilities.scss */
 .facilities__more {
   padding-bottom: 80px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 216, src/scss/_components/resources/_facilities.scss */
+  /* line 218, src/scss/_components/resources/_facilities.scss */
   .facilities__more {
     padding-bottom: 40px;
   }
 }
 
-/* line 222, src/scss/_components/resources/_facilities.scss */
+/* line 224, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block {
   overflow: hidden;
   display: -webkit-box;
@@ -6982,19 +6987,19 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 222, src/scss/_components/resources/_facilities.scss */
+  /* line 224, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-/* line 233, src/scss/_components/resources/_facilities.scss */
+/* line 235, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 237, src/scss/_components/resources/_facilities.scss */
+/* line 239, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7005,7 +7010,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 242, src/scss/_components/resources/_facilities.scss */
+/* line 244, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-left {
   overflow: hidden;
   position: relative;
@@ -7019,7 +7024,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 242, src/scss/_components/resources/_facilities.scss */
+  /* line 244, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block-left {
     -webkit-box-flex: 1;
         -ms-flex: auto;
@@ -7030,13 +7035,13 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 242, src/scss/_components/resources/_facilities.scss */
+  /* line 244, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block-left {
     height: 250px;
   }
 }
 
-/* line 260, src/scss/_components/resources/_facilities.scss */
+/* line 262, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-left:hover .main__video-progress {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
@@ -7048,7 +7053,7 @@ picture {
   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
-/* line 266, src/scss/_components/resources/_facilities.scss */
+/* line 268, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-left--image {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7059,7 +7064,7 @@ picture {
   padding: 22px 22px 0;
 }
 
-/* line 274, src/scss/_components/resources/_facilities.scss */
+/* line 276, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-left--image img {
   display: block;
   max-width: 100%;
@@ -7068,7 +7073,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 283, src/scss/_components/resources/_facilities.scss */
+/* line 285, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-left img,
 .facilities__more .facilities__block-left iframe {
   z-index: 1;
@@ -7083,7 +7088,7 @@ picture {
      object-position: center;
 }
 
-/* line 295, src/scss/_components/resources/_facilities.scss */
+/* line 297, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-left video {
   z-index: 1;
   position: absolute;
@@ -7099,19 +7104,19 @@ picture {
      object-position: center;
 }
 
-/* line 308, src/scss/_components/resources/_facilities.scss */
+/* line 310, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-left .main__video-btn {
   background-color: transparent;
 }
 
-/* line 311, src/scss/_components/resources/_facilities.scss */
+/* line 313, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-left .main__video-btn svg {
   fill: #fff;
   width: auto;
   height: 54px;
 }
 
-/* line 319, src/scss/_components/resources/_facilities.scss */
+/* line 321, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7129,7 +7134,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 319, src/scss/_components/resources/_facilities.scss */
+  /* line 321, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block-right {
     width: 300px;
     padding-left: 25px;
@@ -7138,20 +7143,20 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 319, src/scss/_components/resources/_facilities.scss */
+  /* line 321, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block-right {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 575px) {
-  /* line 319, src/scss/_components/resources/_facilities.scss */
+  /* line 321, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block-right {
     padding: 30px 15px;
   }
 }
 
-/* line 339, src/scss/_components/resources/_facilities.scss */
+/* line 341, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-title {
   padding-bottom: 20px;
   font-size: 26px;
@@ -7161,13 +7166,13 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 339, src/scss/_components/resources/_facilities.scss */
+  /* line 341, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block-title {
     font-size: 22px;
   }
 }
 
-/* line 350, src/scss/_components/resources/_facilities.scss */
+/* line 352, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-text {
   font-size: 17px;
   color: #FFFFFF;
@@ -7176,20 +7181,20 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 350, src/scss/_components/resources/_facilities.scss */
+  /* line 352, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block-text {
     padding-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 575px) {
-  /* line 350, src/scss/_components/resources/_facilities.scss */
+  /* line 352, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block-text {
     font-size: 15px;
   }
 }
 
-/* line 363, src/scss/_components/resources/_facilities.scss */
+/* line 365, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7199,7 +7204,7 @@ picture {
           align-items: center;
 }
 
-/* line 367, src/scss/_components/resources/_facilities.scss */
+/* line 369, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-link span {
   text-transform: uppercase;
   font-weight: bold;
@@ -7210,13 +7215,13 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 367, src/scss/_components/resources/_facilities.scss */
+  /* line 369, src/scss/_components/resources/_facilities.scss */
   .facilities__more .facilities__block-link span {
     font-size: 12px;
   }
 }
 
-/* line 379, src/scss/_components/resources/_facilities.scss */
+/* line 381, src/scss/_components/resources/_facilities.scss */
 .facilities__more .facilities__block-link svg {
   width: 12px;
   height: 12px;
@@ -7224,19 +7229,19 @@ picture {
   fill: #fff;
 }
 
-/* line 389, src/scss/_components/resources/_facilities.scss */
+/* line 391, src/scss/_components/resources/_facilities.scss */
 .facilities__share {
   padding-bottom: 80px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 389, src/scss/_components/resources/_facilities.scss */
+  /* line 391, src/scss/_components/resources/_facilities.scss */
   .facilities__share {
     padding-bottom: 40px;
   }
 }
 
-/* line 395, src/scss/_components/resources/_facilities.scss */
+/* line 397, src/scss/_components/resources/_facilities.scss */
 .facilities__share .facilities__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7253,14 +7258,14 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 395, src/scss/_components/resources/_facilities.scss */
+  /* line 397, src/scss/_components/resources/_facilities.scss */
   .facilities__share .facilities__wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-/* line 406, src/scss/_components/resources/_facilities.scss */
+/* line 408, src/scss/_components/resources/_facilities.scss */
 .facilities__share .facilities__wrapper > p {
   padding-right: 30px;
   font-weight: bold;
@@ -7272,7 +7277,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 406, src/scss/_components/resources/_facilities.scss */
+  /* line 408, src/scss/_components/resources/_facilities.scss */
   .facilities__share .facilities__wrapper > p {
     font-size: 16px;
     padding-right: 0;
@@ -7280,7 +7285,7 @@ picture {
   }
 }
 
-/* line 422, src/scss/_components/resources/_facilities.scss */
+/* line 424, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7291,7 +7296,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 422, src/scss/_components/resources/_facilities.scss */
+  /* line 424, src/scss/_components/resources/_facilities.scss */
   .facilities__share-social {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -7301,55 +7306,55 @@ picture {
   }
 }
 
-/* line 431, src/scss/_components/resources/_facilities.scss */
+/* line 433, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--fb {
   background-image: -webkit-linear-gradient(269deg, #4C79D3 2%, #224A9B 94%);
   background-image: -o-linear-gradient(269deg, #4C79D3 2%, #224A9B 94%);
   background-image: linear-gradient(-179deg, #4C79D3 2%, #224A9B 94%);
 }
 
-/* line 434, src/scss/_components/resources/_facilities.scss */
+/* line 436, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--fb svg {
   fill: #fff;
 }
 
-/* line 438, src/scss/_components/resources/_facilities.scss */
+/* line 440, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--ln {
   background-image: -webkit-linear-gradient(269deg, #2198D3 3%, #107FB7 95%);
   background-image: -o-linear-gradient(269deg, #2198D3 3%, #107FB7 95%);
   background-image: linear-gradient(-179deg, #2198D3 3%, #107FB7 95%);
 }
 
-/* line 441, src/scss/_components/resources/_facilities.scss */
+/* line 443, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--ln svg {
   fill: #fff;
 }
 
-/* line 445, src/scss/_components/resources/_facilities.scss */
+/* line 447, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--tw {
   background-image: -webkit-linear-gradient(269deg, #4FBAFD 5%, #2AA3EF 92%);
   background-image: -o-linear-gradient(269deg, #4FBAFD 5%, #2AA3EF 92%);
   background-image: linear-gradient(-179deg, #4FBAFD 5%, #2AA3EF 92%);
 }
 
-/* line 448, src/scss/_components/resources/_facilities.scss */
+/* line 450, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--tw svg {
   fill: #fff;
 }
 
-/* line 452, src/scss/_components/resources/_facilities.scss */
+/* line 454, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--em {
   background-image: -webkit-linear-gradient(269deg, #4B4B4B 7%, #000000 91%);
   background-image: -o-linear-gradient(269deg, #4B4B4B 7%, #000000 91%);
   background-image: linear-gradient(-179deg, #4B4B4B 7%, #000000 91%);
 }
 
-/* line 455, src/scss/_components/resources/_facilities.scss */
+/* line 457, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--em svg {
   fill: #fff;
 }
 
-/* line 459, src/scss/_components/resources/_facilities.scss */
+/* line 461, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--sh {
   background-image: -webkit-linear-gradient(269deg, #FFFFFF 7%, #FDFDFD 88%);
   background-image: -o-linear-gradient(269deg, #FFFFFF 7%, #FDFDFD 88%);
@@ -7358,12 +7363,12 @@ picture {
           box-shadow: 0 2px 10px 0 rgba(0, 68, 157, 0.1);
 }
 
-/* line 463, src/scss/_components/resources/_facilities.scss */
+/* line 465, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social--sh svg {
   fill: #000;
 }
 
-/* line 468, src/scss/_components/resources/_facilities.scss */
+/* line 470, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social > a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7380,17 +7385,17 @@ picture {
   margin-right: 10px;
 }
 
-/* line 477, src/scss/_components/resources/_facilities.scss */
+/* line 479, src/scss/_components/resources/_facilities.scss */
 .facilities__share-social > a:last-of-type {
   margin-right: 0;
 }
 
-/* line 484, src/scss/_components/resources/_facilities.scss */
+/* line 486, src/scss/_components/resources/_facilities.scss */
 .facilities__similar {
   padding-bottom: 131px;
 }
 
-/* line 487, src/scss/_components/resources/_facilities.scss */
+/* line 489, src/scss/_components/resources/_facilities.scss */
 .facilities__similar-title {
   padding-bottom: 30px;
   font-size: 26px;
@@ -7400,7 +7405,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 487, src/scss/_components/resources/_facilities.scss */
+  /* line 489, src/scss/_components/resources/_facilities.scss */
   .facilities__similar-title {
     font-size: 22px;
   }

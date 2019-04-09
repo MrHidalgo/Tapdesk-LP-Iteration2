@@ -605,8 +605,6 @@ $(document).ready(function (ev) {
           elemName = elem.find('span').text(),
           topicTitle = topicNode.find('h2').text();
 
-      console.log("supportTopicBtn");
-
       elem.addClass('is-inside');
 
       insideNode.find('.help__back span').html(topicTitle);
@@ -619,8 +617,6 @@ $(document).ready(function (ev) {
 
         insideNode.fadeIn(300).addClass('is-descr');
         insideNode.find('div').addClass('slideInUp');
-
-        console.log("topic link choose setTimeout :: end");
       }, 400);
     });
 
@@ -692,7 +688,6 @@ $(document).ready(function (ev) {
           return false;
         }
       }
-      console.log("supportBackToTop");
     });
   };
 
@@ -839,6 +834,7 @@ $(document).ready(function (ev) {
     };
 
     var hideDrop = function hideDrop(el) {
+      console.log("hide");
       $(el).closest('.c-form__field').removeClass('is-focus').find('.c-form__dropdown').hide();
     };
 
@@ -857,13 +853,35 @@ $(document).ready(function (ev) {
     //     hideDrop(ev.currentTarget);
     //   }, 100);
     // });
-    // _dropBtn.on('click', (ev) => {
-    //   console.log(`click`);
-    //   hideDrop('[input-drop-js]');
-    // });
+    _dropBtn.on('click', function (ev) {
+      if ($('#help').length > 0) {
+        $('.help--block, .help--topic').hide(150);
+        $('.help--inside').fadeIn(450).addClass('is-descr');
+
+        var elemHref = $(ev.currentTarget).attr('href'),
+            headerHeight = $(".header").outerHeight() || 0,
+            topHeightOffset = $(elemHref).offset().top - headerHeight;
+
+        if (location.pathname.replace(/^\//, '') === ev.currentTarget.pathname.replace(/^\//, '') && location.hostname === ev.currentTarget.hostname) {
+          var target = $(ev.currentTarget.hash);
+
+          target = target.length ? target : $('[name=' + ev.currentTarget.hash.slice(1) + ']');
+
+          if (target.length) {
+            $('body, html').animate({
+              scrollTop: topHeightOffset
+            }, 1000);
+
+            hideDrop('[input-drop-js]');
+
+            return false;
+          }
+        }
+      }
+    });
 
     $('body').on('click', function (e) {
-      var className = ".c-form--r-main";
+      var className = ".c-form--r-main, .c-form--assistance";
 
       if (!$(e.target).closest(className).length) {
         hideDrop('[input-drop-js]');
