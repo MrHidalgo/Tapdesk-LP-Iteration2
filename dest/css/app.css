@@ -4612,11 +4612,10 @@ picture {
 
 /* line 3, src/scss/_components/support/_assistance.scss */
 .assistance {
-  overflow: hidden;
   position: relative;
 }
 
-/* line 7, src/scss/_components/support/_assistance.scss */
+/* line 6, src/scss/_components/support/_assistance.scss */
 .assistance__bg {
   overflow: hidden;
   z-index: -1;
@@ -4632,7 +4631,7 @@ picture {
   border-bottom-left-radius: 50% 100px;
 }
 
-/* line 21, src/scss/_components/support/_assistance.scss */
+/* line 20, src/scss/_components/support/_assistance.scss */
 .assistance__bg-inner {
   width: 100%;
   height: 100%;
@@ -4643,7 +4642,7 @@ picture {
   background: linear-gradient(to right, #F8FAFC, #F8FAFC);
 }
 
-/* line 28, src/scss/_components/support/_assistance.scss */
+/* line 27, src/scss/_components/support/_assistance.scss */
 .assistance__wrapper {
   z-index: 1;
   position: relative;
@@ -4651,7 +4650,7 @@ picture {
   padding-top: 177px;
 }
 
-/* line 35, src/scss/_components/support/_assistance.scss */
+/* line 34, src/scss/_components/support/_assistance.scss */
 .assistance__title {
   padding-bottom: 40px;
   color: #000;
@@ -4662,20 +4661,20 @@ picture {
 }
 
 @media screen and (min-width: 320px) {
-  /* line 35, src/scss/_components/support/_assistance.scss */
+  /* line 34, src/scss/_components/support/_assistance.scss */
   .assistance__title {
     font-size: calc(30px + 20 * (100vw - 320px) / 1120);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  /* line 35, src/scss/_components/support/_assistance.scss */
+  /* line 34, src/scss/_components/support/_assistance.scss */
   .assistance__title {
     font-size: 50px;
   }
 }
 
-/* line 44, src/scss/_components/support/_assistance.scss */
+/* line 43, src/scss/_components/support/_assistance.scss */
 .assistance__subtitle {
   padding-bottom: 10px;
   color: rgba(0, 68, 157, 0.4);
@@ -4687,20 +4686,20 @@ picture {
 }
 
 @media screen and (min-width: 320px) {
-  /* line 44, src/scss/_components/support/_assistance.scss */
+  /* line 43, src/scss/_components/support/_assistance.scss */
   .assistance__subtitle {
     font-size: calc(14px + 4 * (100vw - 320px) / 1120);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  /* line 44, src/scss/_components/support/_assistance.scss */
+  /* line 43, src/scss/_components/support/_assistance.scss */
   .assistance__subtitle {
     font-size: 18px;
   }
 }
 
-/* line 54, src/scss/_components/support/_assistance.scss */
+/* line 53, src/scss/_components/support/_assistance.scss */
 .assistance__info {
   z-index: -1;
   position: relative;
@@ -4710,34 +4709,34 @@ picture {
 }
 
 @media screen and (min-width: 320px) {
-  /* line 54, src/scss/_components/support/_assistance.scss */
+  /* line 53, src/scss/_components/support/_assistance.scss */
   .assistance__info {
     padding-bottom: calc(50px + 62 * (100vw - 320px) / 1120);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  /* line 54, src/scss/_components/support/_assistance.scss */
+  /* line 53, src/scss/_components/support/_assistance.scss */
   .assistance__info {
     padding-bottom: 112px;
   }
 }
 
 @media screen and (min-width: 320px) {
-  /* line 54, src/scss/_components/support/_assistance.scss */
+  /* line 53, src/scss/_components/support/_assistance.scss */
   .assistance__info {
     font-size: calc(16px + 3 * (100vw - 320px) / 1120);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  /* line 54, src/scss/_components/support/_assistance.scss */
+  /* line 53, src/scss/_components/support/_assistance.scss */
   .assistance__info {
     font-size: 19px;
   }
 }
 
-/* line 61, src/scss/_components/support/_assistance.scss */
+/* line 60, src/scss/_components/support/_assistance.scss */
 .assistance__info a {
   color: #00449D;
 }
