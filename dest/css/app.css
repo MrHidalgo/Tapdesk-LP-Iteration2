@@ -636,6 +636,7 @@ ul li {
 a {
   outline: none;
   text-decoration: none;
+  color: #00449D;
 }
 
 /* line 124, src/scss/_shared/_main-reset.scss */
