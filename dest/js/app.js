@@ -25,16 +25,18 @@ var initHamburger = function initHamburger() {
       hideScrollContainer = document.querySelectorAll("html, body"),
       mobileContainer = document.querySelector("[mobile-block-js]");
 
-  btn.addEventListener("click", function (ev) {
-    var elem = ev.currentTarget;
+  if (btn) {
+    btn.addEventListener("click", function (ev) {
+      var elem = ev.currentTarget;
 
-    elem.classList.toggle("is-active");
-    mobileContainer.classList.toggle("is-open");
+      elem.classList.toggle("is-active");
+      mobileContainer.classList.toggle("is-open");
 
-    hideScrollContainer.forEach(function (val, idx) {
-      val.classList.toggle("is-hideScroll");
+      hideScrollContainer.forEach(function (val, idx) {
+        val.classList.toggle("is-hideScroll");
+      });
     });
-  });
+  }
 };
 
 /**
@@ -313,6 +315,25 @@ var initSwiper = function initSwiper() {
    * @description
    */
   var mySwiperControl = new Swiper('.swiper-container--control', swiperOption());
+
+  var mySwiperIteration = new Swiper('.swiper-container-iteration', {
+    loop: false,
+    watchOverflow: true,
+    normalizeSlideIndex: true,
+    mousewheel: true,
+    freeMode: true,
+    slidesPerView: 1,
+    spaceBetween: 0,
+
+    // off touch for destop
+    touchMoveStopPropagation: false,
+    simulateTouch: false,
+    allowSwipeToNext: true,
+    allowSwipeToPrev: true,
+    allowPageScroll: "auto ",
+
+    initialSlide: 1
+  });
 };
 
 /**
@@ -834,7 +855,6 @@ $(document).ready(function (ev) {
     };
 
     var hideDrop = function hideDrop(el) {
-      console.log("hide");
       $(el).closest('.c-form__field').removeClass('is-focus').find('.c-form__dropdown').hide();
     };
 

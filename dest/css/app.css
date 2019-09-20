@@ -7418,4 +7418,63 @@ picture {
   }
 }
 
+/* line 3, src/scss/_components/iteration/_iteration.scss */
+.iteration {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+/* line 9, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* line 15, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--1 img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 27, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--2 p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  max-width: 898px;
+  height: 218px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 52px;
+  color: #9b9b9b;
+}
+
+/* line 42, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--2 p span {
+  color: #000000;
+}
+
+/* line 50, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
 /*# sourceMappingURL=maps/app.css.map */
