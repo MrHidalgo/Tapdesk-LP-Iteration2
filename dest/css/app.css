@@ -7431,9 +7431,10 @@ picture {
   position: relative;
   width: 100%;
   min-height: 100%;
+  padding: 30px 100px;
 }
 
-/* line 15, src/scss/_components/iteration/_iteration.scss */
+/* line 16, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--1 img {
   position: absolute;
   top: 50%;
@@ -7446,7 +7447,7 @@ picture {
   height: auto;
 }
 
-/* line 27, src/scss/_components/iteration/_iteration.scss */
+/* line 28, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--2 p {
   position: absolute;
   top: 50%;
@@ -7465,12 +7466,62 @@ picture {
   color: #9b9b9b;
 }
 
-/* line 42, src/scss/_components/iteration/_iteration.scss */
+/* line 43, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--2 p span {
   color: #000000;
 }
 
-/* line 50, src/scss/_components/iteration/_iteration.scss */
+/* line 49, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 55, src/scss/_components/iteration/_iteration.scss */
+.iteration__advantages {
+  width: 100%;
+  max-width: calc(100% / 3);
+}
+
+/* line 59, src/scss/_components/iteration/_iteration.scss */
+.iteration__advantages-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 68, src/scss/_components/iteration/_iteration.scss */
+.iteration__advantages-img {
+  min-height: 220px;
+}
+
+/* line 71, src/scss/_components/iteration/_iteration.scss */
+.iteration__advantages-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 78, src/scss/_components/iteration/_iteration.scss */
+.iteration__advantages-text {
+  width: 100%;
+  max-width: 310px;
+  padding-left: 35px;
+  padding-top: 35px;
+}
+
+/* line 87, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-container {
   width: 100%;
   height: 100%;
