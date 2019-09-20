@@ -339,7 +339,7 @@ var initSwiper = function initSwiper() {
       }
     },
 
-    initialSlide: 11
+    initialSlide: 12
   });
 };
 
