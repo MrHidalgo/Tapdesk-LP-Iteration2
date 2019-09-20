@@ -332,7 +332,7 @@ var initSwiper = function initSwiper() {
     allowSwipeToPrev: true,
     allowPageScroll: "auto ",
 
-    initialSlide: 2
+    initialSlide: 4
   });
 };
 
