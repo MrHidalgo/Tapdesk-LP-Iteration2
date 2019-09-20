@@ -7472,7 +7472,7 @@ picture {
 }
 
 /* line 52, src/scss/_components/iteration/_iteration.scss */
-.iteration__slide--3, .iteration__slide--4, .iteration__slide--5 {
+.iteration__slide--3, .iteration__slide--4, .iteration__slide--5, .iteration__slide--9 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7481,7 +7481,7 @@ picture {
           align-items: center;
 }
 
-/* line 62, src/scss/_components/iteration/_iteration.scss */
+/* line 63, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--5 .iteration__bg-path {
   top: 50%;
   right: -28%;
@@ -7494,17 +7494,29 @@ picture {
   background-color: #fafafa;
 }
 
-/* line 76, src/scss/_components/iteration/_iteration.scss */
+/* line 77, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--6 p {
   max-width: 1040px;
 }
 
-/* line 82, src/scss/_components/iteration/_iteration.scss */
+/* line 83, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--8 p {
   max-width: 760px;
 }
 
-/* line 88, src/scss/_components/iteration/_iteration.scss */
+/* line 91, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--9 .iteration__bg-path {
+  top: 0;
+  right: -55%;
+  width: 1806px;
+  height: 1020px;
+  -webkit-transform: skewX(-30deg);
+      -ms-transform: skewX(-30deg);
+          transform: skewX(-30deg);
+  background-color: #f8fafc;
+}
+
+/* line 104, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg {
   z-index: 0;
   position: absolute;
@@ -7514,12 +7526,12 @@ picture {
   min-height: 100%;
 }
 
-/* line 96, src/scss/_components/iteration/_iteration.scss */
+/* line 112, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg-path {
   position: absolute;
 }
 
-/* line 101, src/scss/_components/iteration/_iteration.scss */
+/* line 117, src/scss/_components/iteration/_iteration.scss */
 .iteration__title {
   z-index: 0;
   position: absolute;
@@ -7534,13 +7546,13 @@ picture {
   color: #fafafa;
 }
 
-/* line 113, src/scss/_components/iteration/_iteration.scss */
+/* line 129, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages {
   width: 100%;
   max-width: calc(100% / 3);
 }
 
-/* line 117, src/scss/_components/iteration/_iteration.scss */
+/* line 133, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7554,19 +7566,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 126, src/scss/_components/iteration/_iteration.scss */
+/* line 142, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img {
   min-height: 220px;
 }
 
-/* line 129, src/scss/_components/iteration/_iteration.scss */
+/* line 145, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 136, src/scss/_components/iteration/_iteration.scss */
+/* line 152, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-text {
   width: 100%;
   max-width: 310px;
@@ -7574,7 +7586,7 @@ picture {
   padding-top: 35px;
 }
 
-/* line 144, src/scss/_components/iteration/_iteration.scss */
+/* line 160, src/scss/_components/iteration/_iteration.scss */
 .iteration__search {
   z-index: 2;
   position: relative;
@@ -7584,7 +7596,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 152, src/scss/_components/iteration/_iteration.scss */
+/* line 168, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-title {
   width: 100%;
   max-width: 525px;
@@ -7595,12 +7607,12 @@ picture {
   color: #000;
 }
 
-/* line 162, src/scss/_components/iteration/_iteration.scss */
+/* line 178, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img {
   padding-bottom: 50px;
 }
 
-/* line 165, src/scss/_components/iteration/_iteration.scss */
+/* line 181, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img img {
   display: block;
   max-width: 100%;
@@ -7608,7 +7620,7 @@ picture {
   margin-left: auto;
 }
 
-/* line 173, src/scss/_components/iteration/_iteration.scss */
+/* line 189, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7617,7 +7629,7 @@ picture {
   color: #848484;
 }
 
-/* line 182, src/scss/_components/iteration/_iteration.scss */
+/* line 198, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai {
   z-index: 2;
   position: relative;
@@ -7627,7 +7639,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 190, src/scss/_components/iteration/_iteration.scss */
+/* line 206, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-title {
   width: 100%;
   max-width: 525px;
@@ -7638,7 +7650,7 @@ picture {
   color: #000;
 }
 
-/* line 200, src/scss/_components/iteration/_iteration.scss */
+/* line 216, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7655,7 +7667,7 @@ picture {
   padding-bottom: 60px;
 }
 
-/* line 210, src/scss/_components/iteration/_iteration.scss */
+/* line 226, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7676,7 +7688,7 @@ picture {
   background-color: #00449d;
 }
 
-/* line 223, src/scss/_components/iteration/_iteration.scss */
+/* line 239, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a p {
   position: relative;
   top: -1px;
@@ -7687,13 +7699,13 @@ picture {
   color: #fff;
 }
 
-/* line 233, src/scss/_components/iteration/_iteration.scss */
+/* line 249, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a svg {
   width: 18px;
   height: 18px;
 }
 
-/* line 240, src/scss/_components/iteration/_iteration.scss */
+/* line 256, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7702,7 +7714,38 @@ picture {
   color: #848484;
 }
 
-/* line 250, src/scss/_components/iteration/_iteration.scss */
+/* line 265, src/scss/_components/iteration/_iteration.scss */
+.iteration__column {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 273, src/scss/_components/iteration/_iteration.scss */
+.iteration__column-img {
+  padding-bottom: 50px;
+}
+
+/* line 276, src/scss/_components/iteration/_iteration.scss */
+.iteration__column-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 283, src/scss/_components/iteration/_iteration.scss */
+.iteration__column-text {
+  padding-left: 100px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #848484;
+}
+
+/* line 293, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-container {
   opacity: 0;
   width: 100%;
