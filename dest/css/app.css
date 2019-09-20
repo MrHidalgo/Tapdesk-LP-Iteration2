@@ -7447,8 +7447,8 @@ picture {
   height: auto;
 }
 
-/* line 28, src/scss/_components/iteration/_iteration.scss */
-.iteration__slide--2 p {
+/* line 29, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--2 p, .iteration__slide--6 p {
   position: absolute;
   top: 50%;
   left: 0;
@@ -7466,12 +7466,12 @@ picture {
   color: #9b9b9b;
 }
 
-/* line 43, src/scss/_components/iteration/_iteration.scss */
-.iteration__slide--2 p span {
+/* line 44, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--2 p span, .iteration__slide--6 p span {
   color: #000000;
 }
 
-/* line 49, src/scss/_components/iteration/_iteration.scss */
+/* line 50, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--3, .iteration__slide--4, .iteration__slide--5 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7481,7 +7481,7 @@ picture {
           align-items: center;
 }
 
-/* line 59, src/scss/_components/iteration/_iteration.scss */
+/* line 60, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--5 .iteration__bg-path {
   top: 50%;
   right: -28%;
@@ -7494,7 +7494,12 @@ picture {
   background-color: #fafafa;
 }
 
-/* line 73, src/scss/_components/iteration/_iteration.scss */
+/* line 74, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--6 p {
+  max-width: 1040px;
+}
+
+/* line 80, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg {
   z-index: 0;
   position: absolute;
@@ -7504,12 +7509,12 @@ picture {
   min-height: 100%;
 }
 
-/* line 81, src/scss/_components/iteration/_iteration.scss */
+/* line 88, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg-path {
   position: absolute;
 }
 
-/* line 86, src/scss/_components/iteration/_iteration.scss */
+/* line 93, src/scss/_components/iteration/_iteration.scss */
 .iteration__title {
   z-index: 0;
   position: absolute;
@@ -7524,13 +7529,13 @@ picture {
   color: #fafafa;
 }
 
-/* line 98, src/scss/_components/iteration/_iteration.scss */
+/* line 105, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages {
   width: 100%;
   max-width: calc(100% / 3);
 }
 
-/* line 102, src/scss/_components/iteration/_iteration.scss */
+/* line 109, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7544,19 +7549,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 111, src/scss/_components/iteration/_iteration.scss */
+/* line 118, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img {
   min-height: 220px;
 }
 
-/* line 114, src/scss/_components/iteration/_iteration.scss */
+/* line 121, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 121, src/scss/_components/iteration/_iteration.scss */
+/* line 128, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-text {
   width: 100%;
   max-width: 310px;
@@ -7564,7 +7569,7 @@ picture {
   padding-top: 35px;
 }
 
-/* line 129, src/scss/_components/iteration/_iteration.scss */
+/* line 136, src/scss/_components/iteration/_iteration.scss */
 .iteration__search {
   z-index: 2;
   position: relative;
@@ -7574,7 +7579,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 137, src/scss/_components/iteration/_iteration.scss */
+/* line 144, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-title {
   width: 100%;
   max-width: 525px;
@@ -7585,12 +7590,12 @@ picture {
   color: #000;
 }
 
-/* line 147, src/scss/_components/iteration/_iteration.scss */
+/* line 154, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img {
   padding-bottom: 50px;
 }
 
-/* line 150, src/scss/_components/iteration/_iteration.scss */
+/* line 157, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img img {
   display: block;
   max-width: 100%;
@@ -7598,7 +7603,7 @@ picture {
   margin-left: auto;
 }
 
-/* line 158, src/scss/_components/iteration/_iteration.scss */
+/* line 165, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7607,7 +7612,7 @@ picture {
   color: #848484;
 }
 
-/* line 167, src/scss/_components/iteration/_iteration.scss */
+/* line 174, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai {
   z-index: 2;
   position: relative;
@@ -7617,7 +7622,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 175, src/scss/_components/iteration/_iteration.scss */
+/* line 182, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-title {
   width: 100%;
   max-width: 525px;
@@ -7628,7 +7633,7 @@ picture {
   color: #000;
 }
 
-/* line 185, src/scss/_components/iteration/_iteration.scss */
+/* line 192, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7645,7 +7650,7 @@ picture {
   padding-bottom: 60px;
 }
 
-/* line 195, src/scss/_components/iteration/_iteration.scss */
+/* line 202, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7666,7 +7671,7 @@ picture {
   background-color: #00449d;
 }
 
-/* line 208, src/scss/_components/iteration/_iteration.scss */
+/* line 215, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a p {
   position: relative;
   top: -1px;
@@ -7677,13 +7682,13 @@ picture {
   color: #fff;
 }
 
-/* line 218, src/scss/_components/iteration/_iteration.scss */
+/* line 225, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a svg {
   width: 18px;
   height: 18px;
 }
 
-/* line 225, src/scss/_components/iteration/_iteration.scss */
+/* line 232, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7692,8 +7697,9 @@ picture {
   color: #848484;
 }
 
-/* line 235, src/scss/_components/iteration/_iteration.scss */
+/* line 242, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-container {
+  opacity: 0;
   width: 100%;
   height: 100%;
   padding: 0;

@@ -331,8 +331,15 @@ var initSwiper = function initSwiper() {
     allowSwipeToNext: true,
     allowSwipeToPrev: true,
     allowPageScroll: "auto ",
+    on: {
+      'init': function init() {
+        $(this.$el).animate({
+          'opacity': 1
+        }, 500);
+      }
+    },
 
-    initialSlide: 4
+    initialSlide: 5
   });
 };
 
