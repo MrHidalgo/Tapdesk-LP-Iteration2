@@ -7447,8 +7447,8 @@ picture {
   height: auto;
 }
 
-/* line 31, src/scss/_components/iteration/_iteration.scss */
-.iteration__slide--2 p, .iteration__slide--6 p, .iteration__slide--8 p {
+/* line 32, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--2 p, .iteration__slide--6 p, .iteration__slide--8 p, .iteration__slide--11 p {
   position: absolute;
   top: 50%;
   left: 0;
@@ -7458,7 +7458,6 @@ picture {
           transform: translateY(-50%);
   width: 100%;
   max-width: 898px;
-  height: 218px;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
@@ -7467,7 +7466,7 @@ picture {
 }
 
 /* line 46, src/scss/_components/iteration/_iteration.scss */
-.iteration__slide--2 p span, .iteration__slide--6 p span, .iteration__slide--8 p span {
+.iteration__slide--2 p span, .iteration__slide--6 p span, .iteration__slide--8 p span, .iteration__slide--11 p span {
   color: #000000;
 }
 
@@ -7516,7 +7515,29 @@ picture {
   background-color: #f8fafc;
 }
 
-/* line 105, src/scss/_components/iteration/_iteration.scss */
+/* line 107, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--10 .iteration__bg img {
+  position: absolute;
+}
+
+/* line 110, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--10 .iteration__bg img:nth-of-type(1) {
+  right: 220px;
+  bottom: 250px;
+}
+
+/* line 115, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--10 .iteration__bg img:nth-of-type(2) {
+  right: -350px;
+  bottom: -90px;
+}
+
+/* line 125, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--12 p {
+  max-width: 1040px;
+}
+
+/* line 131, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg {
   z-index: 0;
   position: absolute;
@@ -7526,12 +7547,12 @@ picture {
   min-height: 100%;
 }
 
-/* line 113, src/scss/_components/iteration/_iteration.scss */
+/* line 139, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg-path {
   position: absolute;
 }
 
-/* line 118, src/scss/_components/iteration/_iteration.scss */
+/* line 144, src/scss/_components/iteration/_iteration.scss */
 .iteration__title {
   z-index: 0;
   position: absolute;
@@ -7546,13 +7567,13 @@ picture {
   color: #fafafa;
 }
 
-/* line 130, src/scss/_components/iteration/_iteration.scss */
+/* line 156, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages {
   width: 100%;
   max-width: calc(100% / 3);
 }
 
-/* line 134, src/scss/_components/iteration/_iteration.scss */
+/* line 160, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7566,19 +7587,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 143, src/scss/_components/iteration/_iteration.scss */
+/* line 169, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img {
   min-height: 220px;
 }
 
-/* line 146, src/scss/_components/iteration/_iteration.scss */
+/* line 172, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 153, src/scss/_components/iteration/_iteration.scss */
+/* line 179, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-text {
   width: 100%;
   max-width: 310px;
@@ -7586,7 +7607,7 @@ picture {
   padding-top: 35px;
 }
 
-/* line 161, src/scss/_components/iteration/_iteration.scss */
+/* line 187, src/scss/_components/iteration/_iteration.scss */
 .iteration__search {
   z-index: 2;
   position: relative;
@@ -7596,7 +7617,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 169, src/scss/_components/iteration/_iteration.scss */
+/* line 195, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-title {
   width: 100%;
   max-width: 525px;
@@ -7606,12 +7627,12 @@ picture {
   color: #000;
 }
 
-/* line 178, src/scss/_components/iteration/_iteration.scss */
+/* line 204, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img {
   padding-bottom: 50px;
 }
 
-/* line 181, src/scss/_components/iteration/_iteration.scss */
+/* line 207, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img img {
   display: block;
   max-width: 100%;
@@ -7619,7 +7640,7 @@ picture {
   margin-left: auto;
 }
 
-/* line 189, src/scss/_components/iteration/_iteration.scss */
+/* line 215, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7627,7 +7648,7 @@ picture {
   color: #848484;
 }
 
-/* line 197, src/scss/_components/iteration/_iteration.scss */
+/* line 223, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai {
   z-index: 2;
   position: relative;
@@ -7637,7 +7658,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 205, src/scss/_components/iteration/_iteration.scss */
+/* line 231, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-title {
   width: 100%;
   max-width: 525px;
@@ -7647,7 +7668,7 @@ picture {
   color: #000;
 }
 
-/* line 214, src/scss/_components/iteration/_iteration.scss */
+/* line 240, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7664,7 +7685,7 @@ picture {
   padding-bottom: 60px;
 }
 
-/* line 224, src/scss/_components/iteration/_iteration.scss */
+/* line 250, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7685,7 +7706,7 @@ picture {
   background-color: #00449d;
 }
 
-/* line 237, src/scss/_components/iteration/_iteration.scss */
+/* line 263, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a p {
   position: relative;
   top: -1px;
@@ -7696,13 +7717,13 @@ picture {
   color: #fff;
 }
 
-/* line 247, src/scss/_components/iteration/_iteration.scss */
+/* line 273, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a svg {
   width: 18px;
   height: 18px;
 }
 
-/* line 254, src/scss/_components/iteration/_iteration.scss */
+/* line 280, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7710,7 +7731,7 @@ picture {
   color: #848484;
 }
 
-/* line 262, src/scss/_components/iteration/_iteration.scss */
+/* line 288, src/scss/_components/iteration/_iteration.scss */
 .iteration__column {
   z-index: 2;
   position: relative;
@@ -7720,19 +7741,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 270, src/scss/_components/iteration/_iteration.scss */
+/* line 296, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-img {
   padding-bottom: 50px;
 }
 
-/* line 273, src/scss/_components/iteration/_iteration.scss */
+/* line 299, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 280, src/scss/_components/iteration/_iteration.scss */
+/* line 306, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-text {
   padding-left: 100px;
   font-weight: normal;
@@ -7740,7 +7761,7 @@ picture {
   color: #848484;
 }
 
-/* line 288, src/scss/_components/iteration/_iteration.scss */
+/* line 314, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines {
   z-index: 2;
   position: relative;
@@ -7750,7 +7771,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 296, src/scss/_components/iteration/_iteration.scss */
+/* line 322, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-title {
   width: 100%;
   max-width: 525px;
@@ -7760,19 +7781,19 @@ picture {
   color: #000;
 }
 
-/* line 305, src/scss/_components/iteration/_iteration.scss */
+/* line 331, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-img {
   padding-bottom: 20px;
 }
 
-/* line 308, src/scss/_components/iteration/_iteration.scss */
+/* line 334, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 315, src/scss/_components/iteration/_iteration.scss */
+/* line 341, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-desc {
   padding-left: 160px;
   font-weight: normal;
@@ -7780,7 +7801,7 @@ picture {
   color: #848484;
 }
 
-/* line 324, src/scss/_components/iteration/_iteration.scss */
+/* line 350, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-container {
   opacity: 0;
   width: 100%;
