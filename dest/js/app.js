@@ -337,9 +337,9 @@ var initSwiper = function initSwiper() {
           'opacity': 1
         }, 500);
       }
-    },
+    }
 
-    initialSlide: 33
+    // initialSlide: 33
   });
 };
 
