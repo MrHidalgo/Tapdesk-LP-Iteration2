@@ -7472,7 +7472,7 @@ picture {
 }
 
 /* line 64, src/scss/_components/iteration/_iteration.scss */
-.iteration__slide--3, .iteration__slide--4, .iteration__slide--5, .iteration__slide--9, .iteration__slide--10, .iteration__slide--12, .iteration__slide--17, .iteration__slide--23, .iteration__slide--25 {
+.iteration__slide--3, .iteration__slide--4, .iteration__slide--5, .iteration__slide--9, .iteration__slide--10, .iteration__slide--12, .iteration__slide--17, .iteration__slide--23, .iteration__slide--25, .iteration__slide--27 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7481,8 +7481,8 @@ picture {
           align-items: center;
 }
 
-/* line 80, src/scss/_components/iteration/_iteration.scss */
-.iteration__slide--5 .iteration__bg-path {
+/* line 82, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--5 .iteration__bg-path, .iteration__slide--27 .iteration__bg-path {
   top: 50%;
   right: -28%;
   -webkit-transform: translateY(-50%);
@@ -7494,17 +7494,17 @@ picture {
   background-color: #fafafa;
 }
 
-/* line 94, src/scss/_components/iteration/_iteration.scss */
+/* line 96, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--6 p {
   max-width: 1040px;
 }
 
-/* line 100, src/scss/_components/iteration/_iteration.scss */
+/* line 102, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--8 p {
   max-width: 760px;
 }
 
-/* line 109, src/scss/_components/iteration/_iteration.scss */
+/* line 111, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--9 .iteration__bg-path, .iteration__slide--16 .iteration__bg-path {
   top: 0;
   right: -55%;
@@ -7516,39 +7516,39 @@ picture {
   background-color: #f8fafc;
 }
 
-/* line 124, src/scss/_components/iteration/_iteration.scss */
+/* line 126, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--10 .iteration__bg img {
   position: absolute;
 }
 
-/* line 127, src/scss/_components/iteration/_iteration.scss */
+/* line 129, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--10 .iteration__bg img:nth-of-type(1) {
   right: 220px;
   bottom: 250px;
 }
 
-/* line 132, src/scss/_components/iteration/_iteration.scss */
+/* line 134, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--10 .iteration__bg img:nth-of-type(2) {
   right: -350px;
   bottom: -90px;
 }
 
-/* line 142, src/scss/_components/iteration/_iteration.scss */
+/* line 144, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--11 p {
   max-width: 1040px;
 }
 
-/* line 153, src/scss/_components/iteration/_iteration.scss */
+/* line 155, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--13 p, .iteration__slide--15 p, .iteration__slide--18 p, .iteration__slide--22 p, .iteration__slide--24 p, .iteration__slide--26 p {
   max-width: 1315px;
 }
 
-/* line 159, src/scss/_components/iteration/_iteration.scss */
+/* line 161, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--20 p {
   max-width: 920px;
 }
 
-/* line 165, src/scss/_components/iteration/_iteration.scss */
+/* line 167, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg {
   z-index: 0;
   position: absolute;
@@ -7558,12 +7558,12 @@ picture {
   min-height: 100%;
 }
 
-/* line 173, src/scss/_components/iteration/_iteration.scss */
+/* line 175, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg-path {
   position: absolute;
 }
 
-/* line 178, src/scss/_components/iteration/_iteration.scss */
+/* line 180, src/scss/_components/iteration/_iteration.scss */
 .iteration__title {
   z-index: 0;
   position: absolute;
@@ -7578,13 +7578,13 @@ picture {
   color: #fafafa;
 }
 
-/* line 190, src/scss/_components/iteration/_iteration.scss */
+/* line 192, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages {
   width: 100%;
   max-width: calc(100% / 3);
 }
 
-/* line 194, src/scss/_components/iteration/_iteration.scss */
+/* line 196, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7598,19 +7598,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 203, src/scss/_components/iteration/_iteration.scss */
+/* line 205, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img {
   min-height: 220px;
 }
 
-/* line 206, src/scss/_components/iteration/_iteration.scss */
+/* line 208, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 213, src/scss/_components/iteration/_iteration.scss */
+/* line 215, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-text {
   width: 100%;
   max-width: 310px;
@@ -7618,7 +7618,7 @@ picture {
   padding-top: 35px;
 }
 
-/* line 221, src/scss/_components/iteration/_iteration.scss */
+/* line 223, src/scss/_components/iteration/_iteration.scss */
 .iteration__search {
   z-index: 2;
   position: relative;
@@ -7628,7 +7628,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 229, src/scss/_components/iteration/_iteration.scss */
+/* line 231, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-title {
   width: 100%;
   max-width: 525px;
@@ -7638,12 +7638,12 @@ picture {
   color: #000;
 }
 
-/* line 238, src/scss/_components/iteration/_iteration.scss */
+/* line 240, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img {
   padding-bottom: 50px;
 }
 
-/* line 241, src/scss/_components/iteration/_iteration.scss */
+/* line 243, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img img {
   display: block;
   max-width: 100%;
@@ -7651,7 +7651,7 @@ picture {
   margin-left: auto;
 }
 
-/* line 249, src/scss/_components/iteration/_iteration.scss */
+/* line 251, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7659,7 +7659,7 @@ picture {
   color: #848484;
 }
 
-/* line 257, src/scss/_components/iteration/_iteration.scss */
+/* line 259, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai {
   z-index: 2;
   position: relative;
@@ -7669,7 +7669,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 265, src/scss/_components/iteration/_iteration.scss */
+/* line 267, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-title {
   width: 100%;
   max-width: 525px;
@@ -7679,7 +7679,7 @@ picture {
   color: #000;
 }
 
-/* line 274, src/scss/_components/iteration/_iteration.scss */
+/* line 276, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7696,7 +7696,7 @@ picture {
   padding-bottom: 60px;
 }
 
-/* line 284, src/scss/_components/iteration/_iteration.scss */
+/* line 286, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7717,7 +7717,7 @@ picture {
   background-color: #00449d;
 }
 
-/* line 297, src/scss/_components/iteration/_iteration.scss */
+/* line 299, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a p {
   position: relative;
   top: -1px;
@@ -7728,13 +7728,13 @@ picture {
   color: #fff;
 }
 
-/* line 307, src/scss/_components/iteration/_iteration.scss */
+/* line 309, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a svg {
   width: 18px;
   height: 18px;
 }
 
-/* line 314, src/scss/_components/iteration/_iteration.scss */
+/* line 316, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7742,7 +7742,7 @@ picture {
   color: #848484;
 }
 
-/* line 322, src/scss/_components/iteration/_iteration.scss */
+/* line 324, src/scss/_components/iteration/_iteration.scss */
 .iteration__column {
   z-index: 2;
   position: relative;
@@ -7752,19 +7752,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 330, src/scss/_components/iteration/_iteration.scss */
+/* line 332, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-img {
   padding-bottom: 50px;
 }
 
-/* line 333, src/scss/_components/iteration/_iteration.scss */
+/* line 335, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 340, src/scss/_components/iteration/_iteration.scss */
+/* line 342, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-text {
   padding-left: 100px;
   font-weight: normal;
@@ -7772,7 +7772,7 @@ picture {
   color: #848484;
 }
 
-/* line 348, src/scss/_components/iteration/_iteration.scss */
+/* line 350, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines {
   z-index: 2;
   position: relative;
@@ -7782,7 +7782,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 356, src/scss/_components/iteration/_iteration.scss */
+/* line 358, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-title {
   width: 100%;
   max-width: 525px;
@@ -7792,19 +7792,19 @@ picture {
   color: #000;
 }
 
-/* line 365, src/scss/_components/iteration/_iteration.scss */
+/* line 367, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-img {
   padding-bottom: 20px;
 }
 
-/* line 368, src/scss/_components/iteration/_iteration.scss */
+/* line 370, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 375, src/scss/_components/iteration/_iteration.scss */
+/* line 377, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-desc {
   padding-left: 160px;
   font-weight: normal;
@@ -7812,7 +7812,7 @@ picture {
   color: #848484;
 }
 
-/* line 383, src/scss/_components/iteration/_iteration.scss */
+/* line 385, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts {
   z-index: 2;
   position: relative;
@@ -7822,7 +7822,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 391, src/scss/_components/iteration/_iteration.scss */
+/* line 393, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts-title {
   padding-left: 115px;
   padding-bottom: 25px;
@@ -7831,14 +7831,14 @@ picture {
   color: #000;
 }
 
-/* line 400, src/scss/_components/iteration/_iteration.scss */
+/* line 402, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 408, src/scss/_components/iteration/_iteration.scss */
+/* line 410, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule {
   z-index: 2;
   position: relative;
@@ -7848,14 +7848,14 @@ picture {
   margin-right: auto;
 }
 
-/* line 417, src/scss/_components/iteration/_iteration.scss */
+/* line 419, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 424, src/scss/_components/iteration/_iteration.scss */
+/* line 426, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule-desc {
   padding-left: 120px;
   font-weight: normal;
@@ -7863,7 +7863,7 @@ picture {
   color: #848484;
 }
 
-/* line 432, src/scss/_components/iteration/_iteration.scss */
+/* line 434, src/scss/_components/iteration/_iteration.scss */
 .iteration__data {
   z-index: 2;
   position: relative;
@@ -7873,7 +7873,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 440, src/scss/_components/iteration/_iteration.scss */
+/* line 442, src/scss/_components/iteration/_iteration.scss */
 .iteration__data-title {
   width: 100%;
   max-width: 450px;
@@ -7882,19 +7882,19 @@ picture {
   font-size: 20px;
 }
 
-/* line 448, src/scss/_components/iteration/_iteration.scss */
+/* line 450, src/scss/_components/iteration/_iteration.scss */
 .iteration__data-img {
   padding-left: 50px;
 }
 
-/* line 451, src/scss/_components/iteration/_iteration.scss */
+/* line 453, src/scss/_components/iteration/_iteration.scss */
 .iteration__data-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 459, src/scss/_components/iteration/_iteration.scss */
+/* line 461, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac {
   z-index: 2;
   position: relative;
@@ -7904,14 +7904,14 @@ picture {
   margin-right: auto;
 }
 
-/* line 468, src/scss/_components/iteration/_iteration.scss */
+/* line 470, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 475, src/scss/_components/iteration/_iteration.scss */
+/* line 477, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac-desc {
   padding-left: 120px;
   font-weight: normal;
@@ -7919,7 +7919,32 @@ picture {
   color: #848484;
 }
 
-/* line 484, src/scss/_components/iteration/_iteration.scss */
+/* line 485, src/scss/_components/iteration/_iteration.scss */
+.iteration__flow {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 494, src/scss/_components/iteration/_iteration.scss */
+.iteration__flow-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 501, src/scss/_components/iteration/_iteration.scss */
+.iteration__flow-desc {
+  padding-left: 120px;
+  font-weight: normal;
+  font-size: 20px;
+  color: #848484;
+}
+
+/* line 510, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-container {
   opacity: 0;
   width: 100%;
