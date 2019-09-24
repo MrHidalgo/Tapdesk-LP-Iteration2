@@ -331,6 +331,13 @@ var initSwiper = function initSwiper() {
     allowSwipeToNext: true,
     allowSwipeToPrev: true,
     allowPageScroll: "auto ",
+    breakpoints: {
+      767: {
+        slidesPerView: 'auto',
+        direction: 'vertical',
+        autoHeight: true
+      }
+    },
     on: {
       'init': function init() {
         $(this.$el).animate({
