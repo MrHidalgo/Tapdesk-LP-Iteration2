@@ -2193,30 +2193,32 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 30, src/scss/_components/_header.scss */
-.header--iteration {
-  background-color: #ffffff;
+@media screen and (max-width: 767px) {
+  /* line 30, src/scss/_components/_header.scss */
+  .header--iteration {
+    background-color: #ffffff;
+  }
 }
 
-/* line 34, src/scss/_components/_header.scss */
+/* line 36, src/scss/_components/_header.scss */
 .header--iteration .header__wrapper {
   padding-top: 0;
 }
 
-/* line 40, src/scss/_components/_header.scss */
+/* line 42, src/scss/_components/_header.scss */
 .header .c-grid {
   max-width: 100%;
 }
 
 @media screen and (min-width: 1366px) {
-  /* line 40, src/scss/_components/_header.scss */
+  /* line 42, src/scss/_components/_header.scss */
   .header .c-grid {
     padding-left: 70px;
     padding-right: 70px;
   }
 }
 
-/* line 48, src/scss/_components/_header.scss */
+/* line 50, src/scss/_components/_header.scss */
 .header__wrapper {
   z-index: 1;
   position: relative;
@@ -2234,14 +2236,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 48, src/scss/_components/_header.scss */
+  /* line 50, src/scss/_components/_header.scss */
   .header__wrapper {
     padding-top: 0;
     min-height: 55px;
   }
 }
 
-/* line 61, src/scss/_components/_header.scss */
+/* line 63, src/scss/_components/_header.scss */
 .header--fixed .header__wrapper {
   min-height: 65px;
   padding-top: 0;
@@ -2251,26 +2253,26 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 61, src/scss/_components/_header.scss */
+  /* line 63, src/scss/_components/_header.scss */
   .header--fixed .header__wrapper {
     min-height: 55px;
   }
 }
 
-/* line 70, src/scss/_components/_header.scss */
+/* line 72, src/scss/_components/_header.scss */
 .header__wrapper-left {
   width: 211px;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 70, src/scss/_components/_header.scss */
+  /* line 72, src/scss/_components/_header.scss */
   .header__wrapper-left {
     width: 170px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 70, src/scss/_components/_header.scss */
+  /* line 72, src/scss/_components/_header.scss */
   .header__wrapper-left {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2285,19 +2287,19 @@ picture {
   }
 }
 
-/* line 82, src/scss/_components/_header.scss */
+/* line 84, src/scss/_components/_header.scss */
 .header__wrapper-left .hamburger {
   display: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 82, src/scss/_components/_header.scss */
+  /* line 84, src/scss/_components/_header.scss */
   .header__wrapper-left .hamburger {
     display: block;
   }
 }
 
-/* line 90, src/scss/_components/_header.scss */
+/* line 92, src/scss/_components/_header.scss */
 .header__wrapper-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2310,14 +2312,14 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 90, src/scss/_components/_header.scss */
+  /* line 92, src/scss/_components/_header.scss */
   .header__wrapper-right {
     max-width: calc(100% - 170px);
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 90, src/scss/_components/_header.scss */
+  /* line 92, src/scss/_components/_header.scss */
   .header__wrapper-right {
     display: none;
     z-index: 100;
@@ -2331,7 +2333,7 @@ picture {
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.985);
   }
-  /* line 111, src/scss/_components/_header.scss */
+  /* line 113, src/scss/_components/_header.scss */
   .header__wrapper-right.is-open {
     display: block;
     -webkit-animation-fill-mode: both;
@@ -2341,14 +2343,14 @@ picture {
     -webkit-animation-name: c-zoomIn;
             animation-name: c-zoomIn;
   }
-  /* line 117, src/scss/_components/_header.scss */
+  /* line 119, src/scss/_components/_header.scss */
   .header__wrapper-right.is-open .nav__link,
   .header__wrapper-right.is-open .header__link {
     color: #00449D;
   }
 }
 
-/* line 124, src/scss/_components/_header.scss */
+/* line 126, src/scss/_components/_header.scss */
 .header__wrapper-right > div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2359,7 +2361,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 124, src/scss/_components/_header.scss */
+  /* line 126, src/scss/_components/_header.scss */
   .header__wrapper-right > div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2368,27 +2370,27 @@ picture {
   }
 }
 
-/* line 131, src/scss/_components/_header.scss */
+/* line 133, src/scss/_components/_header.scss */
 .header__wrapper-right > div:first-of-type {
   width: 100%;
   max-width: calc(100% - 211px);
 }
 
 @media screen and (max-width: 991px) {
-  /* line 131, src/scss/_components/_header.scss */
+  /* line 133, src/scss/_components/_header.scss */
   .header__wrapper-right > div:first-of-type {
     max-width: calc(100% - 170px);
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 131, src/scss/_components/_header.scss */
+  /* line 133, src/scss/_components/_header.scss */
   .header__wrapper-right > div:first-of-type {
     max-width: 100%;
   }
 }
 
-/* line 142, src/scss/_components/_header.scss */
+/* line 144, src/scss/_components/_header.scss */
 .header__wrapper-right > div:last-of-type {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2403,20 +2405,20 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 142, src/scss/_components/_header.scss */
+  /* line 144, src/scss/_components/_header.scss */
   .header__wrapper-right > div:last-of-type {
     width: 170px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 142, src/scss/_components/_header.scss */
+  /* line 144, src/scss/_components/_header.scss */
   .header__wrapper-right > div:last-of-type {
     width: 100%;
   }
 }
 
-/* line 158, src/scss/_components/_header.scss */
+/* line 160, src/scss/_components/_header.scss */
 .header__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2430,7 +2432,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 158, src/scss/_components/_header.scss */
+  /* line 160, src/scss/_components/_header.scss */
   .header__link {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -2442,17 +2444,17 @@ picture {
   }
 }
 
-/* line 172, src/scss/_components/_header.scss */
+/* line 174, src/scss/_components/_header.scss */
 .header--blue .header__link {
   color: #00449D;
 }
 
-/* line 176, src/scss/_components/_header.scss */
+/* line 178, src/scss/_components/_header.scss */
 .header--fixed .header__link {
   color: #fff;
 }
 
-/* line 181, src/scss/_components/_header.scss */
+/* line 183, src/scss/_components/_header.scss */
 .header__link:hover svg {
   fill: white;
   -webkit-transition: fill 0.3s ease-in-out;
@@ -2460,22 +2462,22 @@ picture {
   transition: fill 0.3s ease-in-out;
 }
 
-/* line 185, src/scss/_components/_header.scss */
+/* line 187, src/scss/_components/_header.scss */
 .header--blue .header__link:hover svg {
   fill: #00449d;
 }
 
-/* line 189, src/scss/_components/_header.scss */
+/* line 191, src/scss/_components/_header.scss */
 .header--fixed .header__link:hover svg {
   fill: white;
 }
 
-/* line 195, src/scss/_components/_header.scss */
+/* line 197, src/scss/_components/_header.scss */
 .header__link-1 {
   border-bottom: none;
 }
 
-/* line 199, src/scss/_components/_header.scss */
+/* line 201, src/scss/_components/_header.scss */
 .header__link svg {
   fill: rgba(255, 255, 255, 0.4);
   margin-right: 12px;
@@ -2485,18 +2487,18 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 199, src/scss/_components/_header.scss */
+  /* line 201, src/scss/_components/_header.scss */
   .header__link svg {
     display: none;
   }
 }
 
-/* line 207, src/scss/_components/_header.scss */
+/* line 209, src/scss/_components/_header.scss */
 .header--blue .header__link svg {
   fill: rgba(0, 68, 157, 0.4);
 }
 
-/* line 211, src/scss/_components/_header.scss */
+/* line 213, src/scss/_components/_header.scss */
 .header--fixed .header__link svg {
   fill: rgba(255, 255, 255, 0.4);
 }
@@ -2523,7 +2525,7 @@ picture {
   }
 }
 
-/* line 229, src/scss/_components/_header.scss */
+/* line 231, src/scss/_components/_header.scss */
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
@@ -7463,15 +7465,7 @@ picture {
   width: 100%;
   height: 100%;
   max-height: 100vh;
-  padding: 75px 100px;
-}
-
-@media screen and (max-width: 1023px) {
-  /* line 9, src/scss/_components/iteration/_iteration.scss */
-  .iteration__slide {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
+  padding: 75px 15px;
 }
 
 @media screen and (max-width: 767px) {
@@ -7479,19 +7473,18 @@ picture {
   .iteration__slide {
     height: auto;
     max-height: unset;
-    padding-left: 30px;
-    padding-right: 30px;
   }
 }
 
 @media screen and (max-width: 424px) {
   /* line 9, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide {
-    padding: 50px 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
-/* line 33, src/scss/_components/iteration/_iteration.scss */
+/* line 28, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide > div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7507,12 +7500,12 @@ picture {
   max-height: 100%;
 }
 
-/* line 40, src/scss/_components/iteration/_iteration.scss */
+/* line 35, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide > div img {
   max-height: 100%;
 }
 
-/* line 46, src/scss/_components/iteration/_iteration.scss */
+/* line 41, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--image img {
   z-index: 2;
   position: relative;
@@ -7524,7 +7517,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 59, src/scss/_components/iteration/_iteration.scss */
+/* line 54, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--text p {
   z-index: 2;
   position: relative;
@@ -7538,54 +7531,68 @@ picture {
 }
 
 @media screen and (max-width: 1439px) {
-  /* line 59, src/scss/_components/iteration/_iteration.scss */
+  /* line 54, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--text p {
     font-size: 44px;
   }
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 59, src/scss/_components/iteration/_iteration.scss */
+  /* line 54, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--text p {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 59, src/scss/_components/iteration/_iteration.scss */
+  /* line 54, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--text p {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 59, src/scss/_components/iteration/_iteration.scss */
+  /* line 54, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--text p {
     font-size: 33px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 59, src/scss/_components/iteration/_iteration.scss */
+  /* line 54, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--text p {
     font-size: 30px;
   }
 }
 
-/* line 85, src/scss/_components/iteration/_iteration.scss */
+/* line 80, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--text p span {
   color: #000000;
 }
 
-/* line 91, src/scss/_components/iteration/_iteration.scss */
-.iteration__slide--1 {
-  padding-top: 150px;
+@media screen and (max-width: 767px) {
+  /* line 86, src/scss/_components/iteration/_iteration.scss */
+  .iteration__slide--1 {
+    padding-top: 150px;
+  }
 }
 
-/* line 100, src/scss/_components/iteration/_iteration.scss */
+/* line 92, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--2 {
+  padding-left: 150px;
+  padding-right: 384px;
+}
+
+/* line 97, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--4 {
+  padding-left: 398px;
+  padding-right: 250px;
+}
+
+/* line 107, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--5 .iteration__bg-path, .iteration__slide--27 .iteration__bg-path, .iteration__slide--33 .iteration__bg-path {
   top: 50%;
-  right: -28%;
+  right: -36%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -7596,24 +7603,34 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 100, src/scss/_components/iteration/_iteration.scss */
+  /* line 107, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--5 .iteration__bg-path, .iteration__slide--27 .iteration__bg-path, .iteration__slide--33 .iteration__bg-path {
-    left: 28%;
+    left: 36%;
     right: auto;
   }
 }
 
-/* line 118, src/scss/_components/iteration/_iteration.scss */
+/* line 124, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--5 {
+  padding-right: 350px;
+}
+
+/* line 128, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--6 {
+  padding-right: 333px;
+}
+
+/* line 131, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--6 p {
   max-width: 1040px;
 }
 
-/* line 124, src/scss/_components/iteration/_iteration.scss */
+/* line 137, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--8 p {
   max-width: 760px;
 }
 
-/* line 133, src/scss/_components/iteration/_iteration.scss */
+/* line 146, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--9 .iteration__bg-path, .iteration__slide--16 .iteration__bg-path {
   top: 0;
   right: -55%;
@@ -7626,7 +7643,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 133, src/scss/_components/iteration/_iteration.scss */
+  /* line 146, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--9 .iteration__bg-path, .iteration__slide--16 .iteration__bg-path {
     left: 55%;
     right: auto;
@@ -7634,25 +7651,25 @@ picture {
   }
 }
 
-/* line 153, src/scss/_components/iteration/_iteration.scss */
+/* line 166, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--10 .iteration__bg img {
   position: absolute;
 }
 
-/* line 156, src/scss/_components/iteration/_iteration.scss */
+/* line 169, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--10 .iteration__bg img:nth-of-type(1) {
   right: 220px;
   bottom: 250px;
 }
 
-/* line 161, src/scss/_components/iteration/_iteration.scss */
+/* line 174, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--10 .iteration__bg img:nth-of-type(2) {
   right: -350px;
   bottom: -90px;
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 161, src/scss/_components/iteration/_iteration.scss */
+  /* line 174, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--10 .iteration__bg img:nth-of-type(2) {
     -webkit-transform: scale(0.5);
         -ms-transform: scale(0.5);
@@ -7660,75 +7677,77 @@ picture {
   }
 }
 
-/* line 174, src/scss/_components/iteration/_iteration.scss */
+/* line 187, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--11 p {
   max-width: 1040px;
 }
 
-/* line 186, src/scss/_components/iteration/_iteration.scss */
+/* line 199, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--13 p, .iteration__slide--15 p, .iteration__slide--18 p, .iteration__slide--22 p, .iteration__slide--24 p, .iteration__slide--26 p, .iteration__slide--32 p {
   max-width: 1315px;
 }
 
-/* line 192, src/scss/_components/iteration/_iteration.scss */
+/* line 205, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--20 p {
   max-width: 920px;
 }
 
-/* line 200, src/scss/_components/iteration/_iteration.scss */
+/* line 213, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--27 .iteration__bg-path {
   right: -20%;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 200, src/scss/_components/iteration/_iteration.scss */
+  /* line 213, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--27 .iteration__bg-path {
     left: 50%;
     right: auto;
   }
 }
 
-/* line 212, src/scss/_components/iteration/_iteration.scss */
+/* line 225, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--28 p {
   max-width: 1180px;
 }
 
-/* line 218, src/scss/_components/iteration/_iteration.scss */
+/* line 231, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--30 p {
   max-width: 1420px;
 }
 
-/* line 226, src/scss/_components/iteration/_iteration.scss */
+/* line 239, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--33 .iteration__bg-path {
   left: 0;
   right: auto;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 226, src/scss/_components/iteration/_iteration.scss */
+  /* line 239, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--33 .iteration__bg-path {
     left: 60%;
   }
 }
 
-/* line 237, src/scss/_components/iteration/_iteration.scss */
-.iteration__slide--34 {
-  padding-bottom: 150px;
+@media screen and (max-width: 767px) {
+  /* line 250, src/scss/_components/iteration/_iteration.scss */
+  .iteration__slide--34 {
+    padding-bottom: 150px;
+  }
 }
 
-/* line 242, src/scss/_components/iteration/_iteration.scss */
+/* line 257, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--34 .iteration__bg img {
   position: absolute;
 }
 
-/* line 245, src/scss/_components/iteration/_iteration.scss */
+/* line 260, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--34 .iteration__bg img:nth-of-type(1) {
   top: 100px;
   left: 100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 245, src/scss/_components/iteration/_iteration.scss */
+  /* line 260, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--34 .iteration__bg img:nth-of-type(1) {
     top: 50px;
     left: 50px;
@@ -7738,14 +7757,14 @@ picture {
   }
 }
 
-/* line 255, src/scss/_components/iteration/_iteration.scss */
+/* line 270, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--34 .iteration__bg img:nth-of-type(2) {
   right: -100px;
   bottom: -100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 255, src/scss/_components/iteration/_iteration.scss */
+  /* line 270, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--34 .iteration__bg img:nth-of-type(2) {
     -webkit-transform: scale(0.5);
         -ms-transform: scale(0.5);
@@ -7755,7 +7774,7 @@ picture {
   }
 }
 
-/* line 270, src/scss/_components/iteration/_iteration.scss */
+/* line 285, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg {
   z-index: 0;
   position: absolute;
@@ -7765,12 +7784,12 @@ picture {
   min-height: 100%;
 }
 
-/* line 278, src/scss/_components/iteration/_iteration.scss */
+/* line 293, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg-path {
   position: absolute;
 }
 
-/* line 283, src/scss/_components/iteration/_iteration.scss */
+/* line 298, src/scss/_components/iteration/_iteration.scss */
 .iteration__title {
   z-index: 0;
   position: absolute;
@@ -7786,7 +7805,7 @@ picture {
 }
 
 @media screen and (max-width: 1534px) {
-  /* line 283, src/scss/_components/iteration/_iteration.scss */
+  /* line 298, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 300px;
     line-height: 300px;
@@ -7794,7 +7813,7 @@ picture {
 }
 
 @media screen and (max-width: 1439px) {
-  /* line 283, src/scss/_components/iteration/_iteration.scss */
+  /* line 298, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 250px;
     line-height: 250px;
@@ -7802,7 +7821,7 @@ picture {
 }
 
 @media screen and (max-width: 1335px) {
-  /* line 283, src/scss/_components/iteration/_iteration.scss */
+  /* line 298, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 200px;
     line-height: 190px;
@@ -7810,7 +7829,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 283, src/scss/_components/iteration/_iteration.scss */
+  /* line 298, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 150px;
     line-height: 140px;
@@ -7818,28 +7837,28 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 283, src/scss/_components/iteration/_iteration.scss */
+  /* line 298, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 100px;
     line-height: 110px;
   }
 }
 
-/* line 315, src/scss/_components/iteration/_iteration.scss */
+/* line 330, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages {
   width: 100%;
   max-width: calc(100% / 3);
 }
 
 @media screen and (max-width: 767px) {
-  /* line 315, src/scss/_components/iteration/_iteration.scss */
+  /* line 330, src/scss/_components/iteration/_iteration.scss */
   .iteration__advantages {
     max-width: 100%;
     padding-bottom: 30px;
   }
 }
 
-/* line 323, src/scss/_components/iteration/_iteration.scss */
+/* line 338, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7852,33 +7871,33 @@ picture {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  max-width: 1250px;
+  max-width: 1253px;
   height: auto !important;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 323, src/scss/_components/iteration/_iteration.scss */
+  /* line 338, src/scss/_components/iteration/_iteration.scss */
   .iteration__advantages-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-/* line 337, src/scss/_components/iteration/_iteration.scss */
+/* line 352, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img {
   min-height: 220px;
 }
 
-/* line 340, src/scss/_components/iteration/_iteration.scss */
+/* line 355, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 347, src/scss/_components/iteration/_iteration.scss */
+/* line 362, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-text {
   width: 100%;
   max-width: 310px;
@@ -7886,7 +7905,7 @@ picture {
   padding-top: 35px;
 }
 
-/* line 355, src/scss/_components/iteration/_iteration.scss */
+/* line 370, src/scss/_components/iteration/_iteration.scss */
 .iteration__search {
   z-index: 2;
   position: relative;
@@ -7896,7 +7915,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 363, src/scss/_components/iteration/_iteration.scss */
+/* line 378, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-title {
   width: 100%;
   max-width: 525px;
@@ -7906,13 +7925,13 @@ picture {
   color: #000;
 }
 
-/* line 372, src/scss/_components/iteration/_iteration.scss */
+/* line 387, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img {
   padding-bottom: 50px;
   max-height: 100%;
 }
 
-/* line 376, src/scss/_components/iteration/_iteration.scss */
+/* line 391, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img img {
   display: block;
   max-width: 100%;
@@ -7920,7 +7939,7 @@ picture {
   margin-left: auto;
 }
 
-/* line 384, src/scss/_components/iteration/_iteration.scss */
+/* line 399, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7928,7 +7947,7 @@ picture {
   color: #848484;
 }
 
-/* line 392, src/scss/_components/iteration/_iteration.scss */
+/* line 407, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai {
   z-index: 2;
   position: relative;
@@ -7938,7 +7957,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 400, src/scss/_components/iteration/_iteration.scss */
+/* line 415, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-title {
   width: 100%;
   max-width: 525px;
@@ -7948,7 +7967,7 @@ picture {
   color: #000;
 }
 
-/* line 409, src/scss/_components/iteration/_iteration.scss */
+/* line 424, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7965,7 +7984,7 @@ picture {
   padding-bottom: 60px;
 }
 
-/* line 419, src/scss/_components/iteration/_iteration.scss */
+/* line 434, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7987,7 +8006,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 419, src/scss/_components/iteration/_iteration.scss */
+  /* line 434, src/scss/_components/iteration/_iteration.scss */
   .iteration__ai-badge a {
     max-width: 141px;
     margin-left: 5px;
@@ -7995,7 +8014,7 @@ picture {
   }
 }
 
-/* line 437, src/scss/_components/iteration/_iteration.scss */
+/* line 452, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a p {
   position: relative;
   top: -1px;
@@ -8006,13 +8025,13 @@ picture {
   color: #fff;
 }
 
-/* line 447, src/scss/_components/iteration/_iteration.scss */
+/* line 462, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a svg {
   width: 18px;
   height: 18px;
 }
 
-/* line 454, src/scss/_components/iteration/_iteration.scss */
+/* line 469, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -8020,7 +8039,7 @@ picture {
   color: #848484;
 }
 
-/* line 462, src/scss/_components/iteration/_iteration.scss */
+/* line 477, src/scss/_components/iteration/_iteration.scss */
 .iteration__column {
   z-index: 2;
   position: relative;
@@ -8030,20 +8049,20 @@ picture {
   margin-right: auto;
 }
 
-/* line 470, src/scss/_components/iteration/_iteration.scss */
+/* line 485, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-img {
   padding-bottom: 50px;
   max-height: 100%;
 }
 
-/* line 474, src/scss/_components/iteration/_iteration.scss */
+/* line 489, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 481, src/scss/_components/iteration/_iteration.scss */
+/* line 496, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-text {
   padding-left: 100px;
   font-weight: normal;
@@ -8051,7 +8070,7 @@ picture {
   color: #848484;
 }
 
-/* line 489, src/scss/_components/iteration/_iteration.scss */
+/* line 504, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines {
   z-index: 2;
   position: relative;
@@ -8061,7 +8080,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 497, src/scss/_components/iteration/_iteration.scss */
+/* line 512, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-title {
   width: 100%;
   max-width: 525px;
@@ -8071,20 +8090,20 @@ picture {
   color: #000;
 }
 
-/* line 506, src/scss/_components/iteration/_iteration.scss */
+/* line 521, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-img {
   padding-bottom: 20px;
   max-height: 100%;
 }
 
-/* line 510, src/scss/_components/iteration/_iteration.scss */
+/* line 525, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 517, src/scss/_components/iteration/_iteration.scss */
+/* line 532, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-desc {
   padding-left: 160px;
   font-weight: normal;
@@ -8093,13 +8112,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 517, src/scss/_components/iteration/_iteration.scss */
+  /* line 532, src/scss/_components/iteration/_iteration.scss */
   .iteration__pipelines-desc {
     padding-left: 80px;
   }
 }
 
-/* line 528, src/scss/_components/iteration/_iteration.scss */
+/* line 543, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts {
   z-index: 2;
   position: relative;
@@ -8109,7 +8128,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 536, src/scss/_components/iteration/_iteration.scss */
+/* line 551, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts-title {
   min-height: 67px;
   padding-left: 115px;
@@ -8120,25 +8139,25 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 536, src/scss/_components/iteration/_iteration.scss */
+  /* line 551, src/scss/_components/iteration/_iteration.scss */
   .iteration__contacts-title {
     padding-left: 0;
   }
 }
 
-/* line 548, src/scss/_components/iteration/_iteration.scss */
+/* line 563, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts-img {
   max-height: calc(100% - 67px);
 }
 
-/* line 551, src/scss/_components/iteration/_iteration.scss */
+/* line 566, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 559, src/scss/_components/iteration/_iteration.scss */
+/* line 574, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule {
   z-index: 2;
   position: relative;
@@ -8148,19 +8167,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 567, src/scss/_components/iteration/_iteration.scss */
+/* line 582, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule-img {
   max-height: calc(100% - 84px);
 }
 
-/* line 570, src/scss/_components/iteration/_iteration.scss */
+/* line 585, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 577, src/scss/_components/iteration/_iteration.scss */
+/* line 592, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule-desc {
   min-height: 84px;
   padding-left: 120px;
@@ -8170,13 +8189,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 577, src/scss/_components/iteration/_iteration.scss */
+  /* line 592, src/scss/_components/iteration/_iteration.scss */
   .iteration__schedule-desc {
     padding-left: 80px;
   }
 }
 
-/* line 589, src/scss/_components/iteration/_iteration.scss */
+/* line 604, src/scss/_components/iteration/_iteration.scss */
 .iteration__data {
   z-index: 2;
   position: relative;
@@ -8186,7 +8205,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 597, src/scss/_components/iteration/_iteration.scss */
+/* line 612, src/scss/_components/iteration/_iteration.scss */
 .iteration__data-title {
   width: 100%;
   max-width: 450px;
@@ -8196,20 +8215,20 @@ picture {
   font-size: 20px;
 }
 
-/* line 606, src/scss/_components/iteration/_iteration.scss */
+/* line 621, src/scss/_components/iteration/_iteration.scss */
 .iteration__data-img {
   padding-left: 50px;
   max-height: calc(100% - 136px);
 }
 
-/* line 610, src/scss/_components/iteration/_iteration.scss */
+/* line 625, src/scss/_components/iteration/_iteration.scss */
 .iteration__data-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 618, src/scss/_components/iteration/_iteration.scss */
+/* line 633, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac {
   z-index: 2;
   position: relative;
@@ -8219,19 +8238,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 626, src/scss/_components/iteration/_iteration.scss */
+/* line 641, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac-img {
   max-height: calc(100% - 56px);
 }
 
-/* line 629, src/scss/_components/iteration/_iteration.scss */
+/* line 644, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 636, src/scss/_components/iteration/_iteration.scss */
+/* line 651, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac-desc {
   min-height: 56px;
   padding-left: 120px;
@@ -8241,14 +8260,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 636, src/scss/_components/iteration/_iteration.scss */
+  /* line 651, src/scss/_components/iteration/_iteration.scss */
   .iteration__almanac-desc {
     padding-top: 30px;
     padding-left: 80px;
   }
 }
 
-/* line 649, src/scss/_components/iteration/_iteration.scss */
+/* line 664, src/scss/_components/iteration/_iteration.scss */
 .iteration__flow {
   z-index: 2;
   position: relative;
@@ -8258,19 +8277,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 657, src/scss/_components/iteration/_iteration.scss */
+/* line 672, src/scss/_components/iteration/_iteration.scss */
 .iteration__flow-img {
   max-height: 100%;
 }
 
-/* line 660, src/scss/_components/iteration/_iteration.scss */
+/* line 675, src/scss/_components/iteration/_iteration.scss */
 .iteration__flow-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 667, src/scss/_components/iteration/_iteration.scss */
+/* line 682, src/scss/_components/iteration/_iteration.scss */
 .iteration__flow-desc {
   padding-left: 120px;
   font-weight: normal;
@@ -8279,14 +8298,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 667, src/scss/_components/iteration/_iteration.scss */
+  /* line 682, src/scss/_components/iteration/_iteration.scss */
   .iteration__flow-desc {
     padding-top: 30px;
     padding-left: 80px;
   }
 }
 
-/* line 679, src/scss/_components/iteration/_iteration.scss */
+/* line 694, src/scss/_components/iteration/_iteration.scss */
 .iteration__setting {
   z-index: 2;
   position: relative;
@@ -8296,19 +8315,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 687, src/scss/_components/iteration/_iteration.scss */
+/* line 702, src/scss/_components/iteration/_iteration.scss */
 .iteration__setting-img {
   max-height: calc(100% - 84px);
 }
 
-/* line 690, src/scss/_components/iteration/_iteration.scss */
+/* line 705, src/scss/_components/iteration/_iteration.scss */
 .iteration__setting-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 697, src/scss/_components/iteration/_iteration.scss */
+/* line 712, src/scss/_components/iteration/_iteration.scss */
 .iteration__setting-desc {
   position: relative;
   top: -80px;
@@ -8323,7 +8342,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 697, src/scss/_components/iteration/_iteration.scss */
+  /* line 712, src/scss/_components/iteration/_iteration.scss */
   .iteration__setting-desc {
     top: 0;
     padding-top: 30px;
@@ -8331,7 +8350,7 @@ picture {
   }
 }
 
-/* line 716, src/scss/_components/iteration/_iteration.scss */
+/* line 731, src/scss/_components/iteration/_iteration.scss */
 .iteration__now {
   z-index: 2;
   position: relative;
@@ -8341,7 +8360,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 724, src/scss/_components/iteration/_iteration.scss */
+/* line 739, src/scss/_components/iteration/_iteration.scss */
 .iteration__now-title {
   padding-bottom: 15px;
   font-weight: bold;
@@ -8350,34 +8369,34 @@ picture {
 }
 
 @media screen and (max-width: 1439px) {
-  /* line 724, src/scss/_components/iteration/_iteration.scss */
+  /* line 739, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-title {
     font-size: 58px;
   }
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 724, src/scss/_components/iteration/_iteration.scss */
+  /* line 739, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-title {
     font-size: 50px;
   }
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 724, src/scss/_components/iteration/_iteration.scss */
+  /* line 739, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-title {
     font-size: 45px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 724, src/scss/_components/iteration/_iteration.scss */
+  /* line 739, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-title {
     font-size: 40px;
   }
 }
 
-/* line 743, src/scss/_components/iteration/_iteration.scss */
+/* line 758, src/scss/_components/iteration/_iteration.scss */
 .iteration__now-desc {
   padding-bottom: 30px;
   font-weight: bold;
@@ -8386,20 +8405,20 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 743, src/scss/_components/iteration/_iteration.scss */
+  /* line 758, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-desc {
     font-size: 22px;
   }
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 743, src/scss/_components/iteration/_iteration.scss */
+  /* line 758, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-desc {
     font-size: 20px;
   }
 }
 
-/* line 756, src/scss/_components/iteration/_iteration.scss */
+/* line 771, src/scss/_components/iteration/_iteration.scss */
 .iteration__now-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8423,7 +8442,7 @@ picture {
 }
 
 @media screen and (max-width: 1439px) {
-  /* line 756, src/scss/_components/iteration/_iteration.scss */
+  /* line 771, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-btn {
     height: 60px;
     font-size: 16px;
@@ -8431,7 +8450,7 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 756, src/scss/_components/iteration/_iteration.scss */
+  /* line 771, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-btn {
     height: 55px;
     letter-spacing: 0.04em;
@@ -8440,7 +8459,7 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 756, src/scss/_components/iteration/_iteration.scss */
+  /* line 771, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-btn {
     height: 50px;
     max-width: 200px;
@@ -8449,7 +8468,7 @@ picture {
   }
 }
 
-/* line 789, src/scss/_components/iteration/_iteration.scss */
+/* line 804, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-container {
   opacity: 0;
   width: 100%;
@@ -8457,9 +8476,20 @@ picture {
   padding: 0;
 }
 
-/* line 796, src/scss/_components/iteration/_iteration.scss */
+/* line 811, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide {
   z-index: 0;
+  width: auto;
+}
+
+/* line 815, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-slide:nth-of-type(1) {
+  width: 100%;
+}
+
+/* line 818, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-slide:nth-of-type(3) {
+  width: 1383px;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

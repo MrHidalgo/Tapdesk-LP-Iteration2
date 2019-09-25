@@ -317,12 +317,9 @@ var initSwiper = function initSwiper() {
   var mySwiperControl = new Swiper('.swiper-container--control', swiperOption());
 
   var mySwiperIteration = new Swiper('.swiper-container-iteration', {
-    loop: false,
-    watchOverflow: true,
-    normalizeSlideIndex: true,
     mousewheel: true,
     freeMode: true,
-    slidesPerView: 1,
+    slidesPerView: 'auto',
     spaceBetween: 0,
 
     // off touch for destop
@@ -333,7 +330,6 @@ var initSwiper = function initSwiper() {
     allowPageScroll: "auto ",
     breakpoints: {
       767: {
-        slidesPerView: 'auto',
         direction: 'vertical',
         autoHeight: true
       }
