@@ -319,15 +319,16 @@ var initSwiper = function initSwiper() {
   var mySwiperIteration = new Swiper('.swiper-container-iteration', {
     mousewheel: true,
     freeMode: true,
+    grabCursor: true,
     slidesPerView: 'auto',
     spaceBetween: 0,
 
     // off touch for destop
-    touchMoveStopPropagation: false,
-    simulateTouch: false,
-    allowSwipeToNext: true,
-    allowSwipeToPrev: true,
-    allowPageScroll: "auto ",
+    // touchMoveStopPropagation:false,
+    // simulateTouch : false,
+    // allowSwipeToNext: true,
+    // allowSwipeToPrev: true,
+    // allowPageScroll: "auto ",
     breakpoints: {
       767: {
         direction: 'vertical',
@@ -342,7 +343,7 @@ var initSwiper = function initSwiper() {
       }
     }
 
-    // initialSlide: 33
+    // initialSlide: 30
   });
 };
 
