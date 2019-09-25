@@ -7727,67 +7727,97 @@ picture {
   padding-right: 282px;
 }
 
-/* line 231, src/scss/_components/iteration/_iteration.scss */
+/* line 230, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--16 {
+  padding-right: 329px;
+}
+
+/* line 234, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--17 {
+  padding-right: 282px;
+}
+
+/* line 238, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--18 {
+  padding-right: 231px;
+}
+
+/* line 242, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--19 {
+  padding-right: 282px;
+}
+
+/* line 246, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--20 {
+  padding-right: 282px;
+}
+
+/* line 249, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--20 p {
   max-width: 920px;
 }
 
-/* line 239, src/scss/_components/iteration/_iteration.scss */
+/* line 254, src/scss/_components/iteration/_iteration.scss */
+.iteration__slide--21 {
+  padding-right: 418px;
+}
+
+/* line 261, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--27 .iteration__bg-path {
   right: -20%;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 239, src/scss/_components/iteration/_iteration.scss */
+  /* line 261, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--27 .iteration__bg-path {
     left: 50%;
     right: auto;
   }
 }
 
-/* line 251, src/scss/_components/iteration/_iteration.scss */
+/* line 273, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--28 p {
   max-width: 1180px;
 }
 
-/* line 257, src/scss/_components/iteration/_iteration.scss */
+/* line 279, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--30 p {
   max-width: 1420px;
 }
 
-/* line 265, src/scss/_components/iteration/_iteration.scss */
+/* line 287, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--33 .iteration__bg-path {
   left: 0;
   right: auto;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 265, src/scss/_components/iteration/_iteration.scss */
+  /* line 287, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--33 .iteration__bg-path {
     left: 60%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 276, src/scss/_components/iteration/_iteration.scss */
+  /* line 298, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--34 {
     padding-bottom: 150px;
   }
 }
 
-/* line 283, src/scss/_components/iteration/_iteration.scss */
+/* line 305, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--34 .iteration__bg img {
   position: absolute;
 }
 
-/* line 286, src/scss/_components/iteration/_iteration.scss */
+/* line 308, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--34 .iteration__bg img:nth-of-type(1) {
   top: 100px;
   left: 100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 286, src/scss/_components/iteration/_iteration.scss */
+  /* line 308, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--34 .iteration__bg img:nth-of-type(1) {
     top: 50px;
     left: 50px;
@@ -7797,14 +7827,14 @@ picture {
   }
 }
 
-/* line 296, src/scss/_components/iteration/_iteration.scss */
+/* line 318, src/scss/_components/iteration/_iteration.scss */
 .iteration__slide--34 .iteration__bg img:nth-of-type(2) {
   right: -100px;
   bottom: -100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 296, src/scss/_components/iteration/_iteration.scss */
+  /* line 318, src/scss/_components/iteration/_iteration.scss */
   .iteration__slide--34 .iteration__bg img:nth-of-type(2) {
     -webkit-transform: scale(0.5);
         -ms-transform: scale(0.5);
@@ -7814,7 +7844,7 @@ picture {
   }
 }
 
-/* line 311, src/scss/_components/iteration/_iteration.scss */
+/* line 333, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg {
   z-index: 0;
   position: absolute;
@@ -7824,12 +7854,12 @@ picture {
   min-height: 100%;
 }
 
-/* line 319, src/scss/_components/iteration/_iteration.scss */
+/* line 341, src/scss/_components/iteration/_iteration.scss */
 .iteration__bg-path {
   position: absolute;
 }
 
-/* line 324, src/scss/_components/iteration/_iteration.scss */
+/* line 346, src/scss/_components/iteration/_iteration.scss */
 .iteration__title {
   z-index: 0;
   position: absolute;
@@ -7845,7 +7875,7 @@ picture {
 }
 
 @media screen and (max-width: 1534px) {
-  /* line 324, src/scss/_components/iteration/_iteration.scss */
+  /* line 346, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 300px;
     line-height: 300px;
@@ -7853,7 +7883,7 @@ picture {
 }
 
 @media screen and (max-width: 1439px) {
-  /* line 324, src/scss/_components/iteration/_iteration.scss */
+  /* line 346, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 250px;
     line-height: 250px;
@@ -7861,7 +7891,7 @@ picture {
 }
 
 @media screen and (max-width: 1335px) {
-  /* line 324, src/scss/_components/iteration/_iteration.scss */
+  /* line 346, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 200px;
     line-height: 190px;
@@ -7869,7 +7899,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 324, src/scss/_components/iteration/_iteration.scss */
+  /* line 346, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 150px;
     line-height: 140px;
@@ -7877,28 +7907,28 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 324, src/scss/_components/iteration/_iteration.scss */
+  /* line 346, src/scss/_components/iteration/_iteration.scss */
   .iteration__title {
     font-size: 100px;
     line-height: 110px;
   }
 }
 
-/* line 356, src/scss/_components/iteration/_iteration.scss */
+/* line 378, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages {
   width: 100%;
   max-width: calc(100% / 3);
 }
 
 @media screen and (max-width: 767px) {
-  /* line 356, src/scss/_components/iteration/_iteration.scss */
+  /* line 378, src/scss/_components/iteration/_iteration.scss */
   .iteration__advantages {
     max-width: 100%;
     padding-bottom: 30px;
   }
 }
 
-/* line 364, src/scss/_components/iteration/_iteration.scss */
+/* line 386, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7917,26 +7947,26 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 364, src/scss/_components/iteration/_iteration.scss */
+  /* line 386, src/scss/_components/iteration/_iteration.scss */
   .iteration__advantages-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-/* line 377, src/scss/_components/iteration/_iteration.scss */
+/* line 399, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img {
   min-height: 220px;
 }
 
-/* line 380, src/scss/_components/iteration/_iteration.scss */
+/* line 402, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 387, src/scss/_components/iteration/_iteration.scss */
+/* line 409, src/scss/_components/iteration/_iteration.scss */
 .iteration__advantages-text {
   width: 100%;
   max-width: 310px;
@@ -7944,7 +7974,7 @@ picture {
   padding-top: 35px;
 }
 
-/* line 395, src/scss/_components/iteration/_iteration.scss */
+/* line 417, src/scss/_components/iteration/_iteration.scss */
 .iteration__search {
   z-index: 2;
   position: relative;
@@ -7954,7 +7984,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 403, src/scss/_components/iteration/_iteration.scss */
+/* line 425, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-title {
   width: 100%;
   max-width: 525px;
@@ -7964,13 +7994,13 @@ picture {
   color: #000;
 }
 
-/* line 412, src/scss/_components/iteration/_iteration.scss */
+/* line 434, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img {
   padding-bottom: 50px;
   max-height: 100%;
 }
 
-/* line 416, src/scss/_components/iteration/_iteration.scss */
+/* line 438, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-img img {
   display: block;
   max-width: 100%;
@@ -7978,7 +8008,7 @@ picture {
   margin-left: auto;
 }
 
-/* line 424, src/scss/_components/iteration/_iteration.scss */
+/* line 446, src/scss/_components/iteration/_iteration.scss */
 .iteration__search-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -7986,7 +8016,7 @@ picture {
   color: #848484;
 }
 
-/* line 432, src/scss/_components/iteration/_iteration.scss */
+/* line 454, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai {
   z-index: 2;
   position: relative;
@@ -7996,7 +8026,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 440, src/scss/_components/iteration/_iteration.scss */
+/* line 462, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-title {
   width: 100%;
   max-width: 525px;
@@ -8006,7 +8036,7 @@ picture {
   color: #000;
 }
 
-/* line 449, src/scss/_components/iteration/_iteration.scss */
+/* line 471, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8023,7 +8053,7 @@ picture {
   padding-bottom: 60px;
 }
 
-/* line 459, src/scss/_components/iteration/_iteration.scss */
+/* line 481, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8045,7 +8075,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 459, src/scss/_components/iteration/_iteration.scss */
+  /* line 481, src/scss/_components/iteration/_iteration.scss */
   .iteration__ai-badge a {
     max-width: 141px;
     margin-left: 5px;
@@ -8053,7 +8083,7 @@ picture {
   }
 }
 
-/* line 477, src/scss/_components/iteration/_iteration.scss */
+/* line 499, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a p {
   position: relative;
   top: -1px;
@@ -8064,13 +8094,13 @@ picture {
   color: #fff;
 }
 
-/* line 487, src/scss/_components/iteration/_iteration.scss */
+/* line 509, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-badge a svg {
   width: 18px;
   height: 18px;
 }
 
-/* line 494, src/scss/_components/iteration/_iteration.scss */
+/* line 516, src/scss/_components/iteration/_iteration.scss */
 .iteration__ai-desc {
   padding-left: 80px;
   font-weight: normal;
@@ -8078,7 +8108,7 @@ picture {
   color: #848484;
 }
 
-/* line 502, src/scss/_components/iteration/_iteration.scss */
+/* line 524, src/scss/_components/iteration/_iteration.scss */
 .iteration__column {
   z-index: 2;
   position: relative;
@@ -8088,20 +8118,20 @@ picture {
   margin-right: auto;
 }
 
-/* line 510, src/scss/_components/iteration/_iteration.scss */
+/* line 532, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-img {
   padding-bottom: 50px;
   max-height: 100%;
 }
 
-/* line 514, src/scss/_components/iteration/_iteration.scss */
+/* line 536, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 521, src/scss/_components/iteration/_iteration.scss */
+/* line 543, src/scss/_components/iteration/_iteration.scss */
 .iteration__column-text {
   padding-left: 100px;
   font-weight: normal;
@@ -8109,7 +8139,7 @@ picture {
   color: #848484;
 }
 
-/* line 529, src/scss/_components/iteration/_iteration.scss */
+/* line 551, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines {
   z-index: 2;
   position: relative;
@@ -8119,7 +8149,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 537, src/scss/_components/iteration/_iteration.scss */
+/* line 559, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-title {
   padding-left: 112px;
   padding-bottom: 40px;
@@ -8129,26 +8159,26 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 537, src/scss/_components/iteration/_iteration.scss */
+  /* line 559, src/scss/_components/iteration/_iteration.scss */
   .iteration__pipelines-title {
     padding-left: 0;
   }
 }
 
-/* line 548, src/scss/_components/iteration/_iteration.scss */
+/* line 570, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-img {
   padding-bottom: 20px;
   max-height: 100%;
 }
 
-/* line 552, src/scss/_components/iteration/_iteration.scss */
+/* line 574, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 559, src/scss/_components/iteration/_iteration.scss */
+/* line 581, src/scss/_components/iteration/_iteration.scss */
 .iteration__pipelines-desc {
   padding-left: 160px;
   font-weight: normal;
@@ -8157,13 +8187,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 559, src/scss/_components/iteration/_iteration.scss */
+  /* line 581, src/scss/_components/iteration/_iteration.scss */
   .iteration__pipelines-desc {
     padding-left: 80px;
   }
 }
 
-/* line 570, src/scss/_components/iteration/_iteration.scss */
+/* line 592, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts {
   z-index: 2;
   position: relative;
@@ -8172,7 +8202,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 577, src/scss/_components/iteration/_iteration.scss */
+/* line 599, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts-title {
   min-height: 67px;
   padding-left: 115px;
@@ -8183,25 +8213,25 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 577, src/scss/_components/iteration/_iteration.scss */
+  /* line 599, src/scss/_components/iteration/_iteration.scss */
   .iteration__contacts-title {
     padding-left: 0;
   }
 }
 
-/* line 589, src/scss/_components/iteration/_iteration.scss */
+/* line 611, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts-img {
   max-height: calc(100% - 67px);
 }
 
-/* line 592, src/scss/_components/iteration/_iteration.scss */
+/* line 614, src/scss/_components/iteration/_iteration.scss */
 .iteration__contacts-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 600, src/scss/_components/iteration/_iteration.scss */
+/* line 622, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule {
   z-index: 2;
   position: relative;
@@ -8211,21 +8241,22 @@ picture {
   margin-right: auto;
 }
 
-/* line 608, src/scss/_components/iteration/_iteration.scss */
+/* line 630, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule-img {
   max-height: calc(100% - 84px);
 }
 
-/* line 611, src/scss/_components/iteration/_iteration.scss */
+/* line 633, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 618, src/scss/_components/iteration/_iteration.scss */
+/* line 640, src/scss/_components/iteration/_iteration.scss */
 .iteration__schedule-desc {
   min-height: 84px;
+  padding-top: 50px;
   padding-left: 120px;
   font-weight: normal;
   font-size: 20px;
@@ -8233,13 +8264,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 618, src/scss/_components/iteration/_iteration.scss */
+  /* line 640, src/scss/_components/iteration/_iteration.scss */
   .iteration__schedule-desc {
     padding-left: 80px;
   }
 }
 
-/* line 630, src/scss/_components/iteration/_iteration.scss */
+/* line 653, src/scss/_components/iteration/_iteration.scss */
 .iteration__data {
   z-index: 2;
   position: relative;
@@ -8249,7 +8280,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 638, src/scss/_components/iteration/_iteration.scss */
+/* line 661, src/scss/_components/iteration/_iteration.scss */
 .iteration__data-title {
   width: 100%;
   max-width: 450px;
@@ -8259,20 +8290,20 @@ picture {
   font-size: 20px;
 }
 
-/* line 647, src/scss/_components/iteration/_iteration.scss */
+/* line 670, src/scss/_components/iteration/_iteration.scss */
 .iteration__data-img {
   padding-left: 50px;
   max-height: calc(100% - 136px);
 }
 
-/* line 651, src/scss/_components/iteration/_iteration.scss */
+/* line 674, src/scss/_components/iteration/_iteration.scss */
 .iteration__data-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 659, src/scss/_components/iteration/_iteration.scss */
+/* line 682, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac {
   z-index: 2;
   position: relative;
@@ -8282,19 +8313,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 667, src/scss/_components/iteration/_iteration.scss */
+/* line 690, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac-img {
   max-height: calc(100% - 56px);
 }
 
-/* line 670, src/scss/_components/iteration/_iteration.scss */
+/* line 693, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 677, src/scss/_components/iteration/_iteration.scss */
+/* line 700, src/scss/_components/iteration/_iteration.scss */
 .iteration__almanac-desc {
   min-height: 56px;
   padding-left: 120px;
@@ -8304,14 +8335,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 677, src/scss/_components/iteration/_iteration.scss */
+  /* line 700, src/scss/_components/iteration/_iteration.scss */
   .iteration__almanac-desc {
     padding-top: 30px;
     padding-left: 80px;
   }
 }
 
-/* line 690, src/scss/_components/iteration/_iteration.scss */
+/* line 713, src/scss/_components/iteration/_iteration.scss */
 .iteration__flow {
   z-index: 2;
   position: relative;
@@ -8321,19 +8352,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 698, src/scss/_components/iteration/_iteration.scss */
+/* line 721, src/scss/_components/iteration/_iteration.scss */
 .iteration__flow-img {
   max-height: 100%;
 }
 
-/* line 701, src/scss/_components/iteration/_iteration.scss */
+/* line 724, src/scss/_components/iteration/_iteration.scss */
 .iteration__flow-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 708, src/scss/_components/iteration/_iteration.scss */
+/* line 731, src/scss/_components/iteration/_iteration.scss */
 .iteration__flow-desc {
   padding-left: 120px;
   font-weight: normal;
@@ -8342,14 +8373,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 708, src/scss/_components/iteration/_iteration.scss */
+  /* line 731, src/scss/_components/iteration/_iteration.scss */
   .iteration__flow-desc {
     padding-top: 30px;
     padding-left: 80px;
   }
 }
 
-/* line 720, src/scss/_components/iteration/_iteration.scss */
+/* line 743, src/scss/_components/iteration/_iteration.scss */
 .iteration__setting {
   z-index: 2;
   position: relative;
@@ -8359,19 +8390,19 @@ picture {
   margin-right: auto;
 }
 
-/* line 728, src/scss/_components/iteration/_iteration.scss */
+/* line 751, src/scss/_components/iteration/_iteration.scss */
 .iteration__setting-img {
   max-height: calc(100% - 84px);
 }
 
-/* line 731, src/scss/_components/iteration/_iteration.scss */
+/* line 754, src/scss/_components/iteration/_iteration.scss */
 .iteration__setting-img img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 738, src/scss/_components/iteration/_iteration.scss */
+/* line 761, src/scss/_components/iteration/_iteration.scss */
 .iteration__setting-desc {
   position: relative;
   top: -80px;
@@ -8386,7 +8417,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 738, src/scss/_components/iteration/_iteration.scss */
+  /* line 761, src/scss/_components/iteration/_iteration.scss */
   .iteration__setting-desc {
     top: 0;
     padding-top: 30px;
@@ -8394,7 +8425,7 @@ picture {
   }
 }
 
-/* line 757, src/scss/_components/iteration/_iteration.scss */
+/* line 780, src/scss/_components/iteration/_iteration.scss */
 .iteration__now {
   z-index: 2;
   position: relative;
@@ -8404,7 +8435,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 765, src/scss/_components/iteration/_iteration.scss */
+/* line 788, src/scss/_components/iteration/_iteration.scss */
 .iteration__now-title {
   padding-bottom: 15px;
   font-weight: bold;
@@ -8413,34 +8444,34 @@ picture {
 }
 
 @media screen and (max-width: 1439px) {
-  /* line 765, src/scss/_components/iteration/_iteration.scss */
+  /* line 788, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-title {
     font-size: 58px;
   }
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 765, src/scss/_components/iteration/_iteration.scss */
+  /* line 788, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-title {
     font-size: 50px;
   }
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 765, src/scss/_components/iteration/_iteration.scss */
+  /* line 788, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-title {
     font-size: 45px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 765, src/scss/_components/iteration/_iteration.scss */
+  /* line 788, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-title {
     font-size: 40px;
   }
 }
 
-/* line 784, src/scss/_components/iteration/_iteration.scss */
+/* line 807, src/scss/_components/iteration/_iteration.scss */
 .iteration__now-desc {
   padding-bottom: 30px;
   font-weight: bold;
@@ -8449,20 +8480,20 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 784, src/scss/_components/iteration/_iteration.scss */
+  /* line 807, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-desc {
     font-size: 22px;
   }
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 784, src/scss/_components/iteration/_iteration.scss */
+  /* line 807, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-desc {
     font-size: 20px;
   }
 }
 
-/* line 797, src/scss/_components/iteration/_iteration.scss */
+/* line 820, src/scss/_components/iteration/_iteration.scss */
 .iteration__now-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8486,7 +8517,7 @@ picture {
 }
 
 @media screen and (max-width: 1439px) {
-  /* line 797, src/scss/_components/iteration/_iteration.scss */
+  /* line 820, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-btn {
     height: 60px;
     font-size: 16px;
@@ -8494,7 +8525,7 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 797, src/scss/_components/iteration/_iteration.scss */
+  /* line 820, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-btn {
     height: 55px;
     letter-spacing: 0.04em;
@@ -8503,7 +8534,7 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 797, src/scss/_components/iteration/_iteration.scss */
+  /* line 820, src/scss/_components/iteration/_iteration.scss */
   .iteration__now-btn {
     height: 50px;
     max-width: 200px;
@@ -8512,7 +8543,7 @@ picture {
   }
 }
 
-/* line 830, src/scss/_components/iteration/_iteration.scss */
+/* line 853, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-container {
   opacity: 0;
   width: 100%;
@@ -8520,23 +8551,23 @@ picture {
   padding: 0;
 }
 
-/* line 837, src/scss/_components/iteration/_iteration.scss */
+/* line 860, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide {
   z-index: 0;
   width: auto;
 }
 
-/* line 841, src/scss/_components/iteration/_iteration.scss */
+/* line 864, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide:nth-of-type(1) {
   width: 100%;
 }
 
-/* line 844, src/scss/_components/iteration/_iteration.scss */
+/* line 867, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide:nth-of-type(3) {
   width: 1383px;
 }
 
-/* line 847, src/scss/_components/iteration/_iteration.scss */
+/* line 870, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide:nth-of-type(12) {
   width: 1250px;
 }
