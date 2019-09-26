@@ -317,18 +317,20 @@ var initSwiper = function initSwiper() {
   var mySwiperControl = new Swiper('.swiper-container--control', swiperOption());
 
   var mySwiperIteration = new Swiper('.swiper-container-iteration', {
+    direction: 'horizontal',
     mousewheel: true,
     freeMode: true,
-    grabCursor: true,
+    // grabCursor: false,
     slidesPerView: 'auto',
-    spaceBetween: 0,
+    // spaceBetween: 0,
+    autoHeight: false,
 
     // off touch for destop
-    // touchMoveStopPropagation:false,
-    // simulateTouch : false,
-    // allowSwipeToNext: true,
-    // allowSwipeToPrev: true,
-    // allowPageScroll: "auto ",
+    touchMoveStopPropagation: false,
+    simulateTouch: false,
+    allowSwipeToNext: true,
+    allowSwipeToPrev: true,
+    allowPageScroll: "auto ",
     breakpoints: {
       767: {
         direction: 'vertical',
@@ -340,6 +342,8 @@ var initSwiper = function initSwiper() {
         $(this.$el).animate({
           'opacity': 1
         }, 500);
+
+        // initViewPortCheckerTour();
       }
     }
 
@@ -395,6 +399,48 @@ var initViewPortChecker = function initViewPortChecker() {
       callbackFunction: function callbackFunction(elem, action) {
 
         callbackFunctionName(elem, el);
+      }
+    });
+  });
+};
+
+var initViewPortCheckerTour = function initViewPortCheckerTour() {
+  var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "viewport-hideTimeline-js";
+  var classNameToAdd = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "viewport-startTimeline-js animated";
+  var offsetVal = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 300;
+  var callbackFunctionName = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : scrollAnimation;
+
+
+  var isAnyPartOfElementInViewport = function isAnyPartOfElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+
+    var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+    var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+    var vertInView = rect.top <= windowHeight && rect.top + rect.height >= 50;
+    var horInView = rect.left <= windowWidth && rect.left + rect.width >= 50;
+
+    return vertInView && horInView;
+  };
+
+  $("." + className).not(".full-visible").each(function (idx, el) {
+    $(el).viewportChecker({
+      classToAddForFullView: 'full-visible',
+      removeClassAfterAnimation: false,
+      offset: offsetVal,
+      repeat: false,
+      callbackFunction: function callbackFunction(elem, action) {
+
+        console.log(elem);
+
+        setTimeout(function () {
+
+          if (elem.length > 0 && isAnyPartOfElementInViewport(elem[0])) {
+            console.log(isAnyPartOfElementInViewport(elem[0]));
+
+            $(elem).removeClass(className).addClass(classNameToAdd);
+            // callbackFunctionName(elem, el);
+          }
+        }, 300);
       }
     });
   });
