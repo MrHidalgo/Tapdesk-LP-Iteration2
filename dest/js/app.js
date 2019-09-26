@@ -316,38 +316,52 @@ var initSwiper = function initSwiper() {
    */
   var mySwiperControl = new Swiper('.swiper-container--control', swiperOption());
 
-  var mySwiperIteration = new Swiper('.swiper-container-iteration', {
+  var mySwiperIterationOpt = {
     direction: 'horizontal',
-    mousewheel: true,
+    mousewheel: {
+      releaseOnEdges: true
+    },
     freeMode: true,
-    // grabCursor: false,
     slidesPerView: 'auto',
-    // spaceBetween: 0,
+    spaceBetween: 0,
     autoHeight: false,
-
-    // off touch for destop
     touchMoveStopPropagation: false,
     simulateTouch: false,
     allowSwipeToNext: true,
     allowSwipeToPrev: true,
     allowPageScroll: "auto ",
-    breakpoints: {
-      767: {
-        direction: 'vertical',
-        autoHeight: true
-      }
-    },
     on: {
       'init': function init() {
+
         $(this.$el).animate({
           'opacity': 1
         }, 500);
+      },
+      'beforeDestroy': function beforeDestroy() {
 
-        // initViewPortCheckerTour();
+        $('.swiper-container-iteration, .swiper-container-iteration .swiper-wrapper').attr('style', '');
       }
     }
+  };
 
-    // initialSlide: 30
+  var mySwiperIteration = undefined;
+
+  $(window).on('load resize', function (ev) {
+
+    if ($('.iteration').length > 0) {
+
+      if ($(window).width() > 767) {
+
+        mySwiperIteration = new Swiper('.swiper-container-iteration', mySwiperIterationOpt);
+      } else {
+
+        if (mySwiperIteration !== undefined) {
+
+          mySwiperIteration.destroy(true, true);
+          mySwiperIteration = undefined;
+        }
+      }
+    }
   });
 };
 
