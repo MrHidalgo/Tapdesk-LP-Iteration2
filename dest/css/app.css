@@ -205,240 +205,246 @@
 }
 
 /* line 29, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-close {
+  width: 47.97px;
+  height: 47.97px;
+}
+
+/* line 33, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-cloud {
   width: 44px;
   height: 42px;
 }
 
-/* line 33, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 37, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-done {
   width: 26px;
   height: 26px;
 }
 
-/* line 37, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 41, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features {
   width: 40px;
   height: 37px;
 }
 
-/* line 41, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 45, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-0 {
   width: 40px;
   height: 40px;
 }
 
-/* line 45, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 49, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-1 {
   width: 40px;
   height: 40px;
 }
 
-/* line 49, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 53, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-2 {
   width: 40px;
   height: 42px;
 }
 
-/* line 53, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 57, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-3 {
   width: 44px;
   height: 46px;
 }
 
-/* line 57, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 61, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-4 {
   width: 40px;
   height: 40px;
 }
 
-/* line 61, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 65, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-flag {
   width: 24px;
   height: 28px;
 }
 
-/* line 65, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 69, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-accounts {
   width: 48px;
   height: 60px;
 }
 
-/* line 69, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 73, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-admin-tools {
   width: 56px;
   height: 56px;
 }
 
-/* line 73, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 77, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-analytics {
   width: 60px;
   height: 60px;
 }
 
-/* line 77, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 81, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-apps-settings {
   width: 72px;
   height: 60px;
 }
 
-/* line 81, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 85, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-calendar {
   width: 60px;
   height: 62px;
 }
 
-/* line 85, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 89, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-compaigns {
   width: 60px;
   height: 60px;
 }
 
-/* line 89, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 93, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-contacts {
   width: 60px;
   height: 60px;
 }
 
-/* line 93, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 97, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-faq {
   width: 64px;
   height: 64px;
 }
 
-/* line 97, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 101, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-flows {
   width: 60px;
   height: 60px;
 }
 
-/* line 101, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 105, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-invoicing {
   width: 54px;
   height: 60px;
 }
 
-/* line 105, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 109, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-pipelines {
   width: 60px;
   height: 56px;
 }
 
-/* line 109, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 113, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-search {
   width: 59px;
   height: 59px;
 }
 
-/* line 113, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 117, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-email {
   width: 24px;
   height: 19px;
 }
 
-/* line 117, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 121, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-facebook {
   width: 11px;
   height: 23px;
 }
 
-/* line 121, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 125, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-linkdin {
   width: 22px;
   height: 21px;
 }
 
-/* line 125, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 129, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-share {
   width: 22px;
   height: 22px;
 }
 
-/* line 129, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 133, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-twitter {
   width: 21px;
   height: 17px;
 }
 
-/* line 133, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 137, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-leads {
   width: 44px;
   height: 43px;
 }
 
-/* line 137, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 141, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-login {
   width: 20px;
   height: 20px;
 }
 
-/* line 141, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 145, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-logo {
   width: 145px;
   height: 36px;
 }
 
-/* line 145, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 149, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-money {
   width: 26px;
   height: 36px;
 }
 
-/* line 149, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 153, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-pipelines {
   width: 40px;
   height: 42px;
 }
 
-/* line 153, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 157, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play {
   width: 69px;
   height: 80px;
 }
 
-/* line 157, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 161, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play-1 {
   width: 27px;
   height: 33px;
 }
 
-/* line 161, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 165, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-request {
   width: 48px;
   height: 36px;
 }
 
-/* line 165, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 169, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-right-arrow {
   width: 240.82px;
   height: 240.82px;
 }
 
-/* line 169, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 173, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-robot {
   width: 44px;
   height: 42px;
 }
 
-/* line 173, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 177, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-signup {
   width: 16px;
   height: 20px;
 }
 
-/* line 177, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 181, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-0 {
   width: 60px;
   height: 60px;
 }
 
-/* line 181, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 185, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-1 {
   width: 60px;
   height: 60px;
 }
 
-/* line 185, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 189, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-2 {
   width: 51px;
   height: 62px;
@@ -2201,25 +2207,84 @@ picture {
   }
 }
 
-/* line 36, src/scss/_components/_header.scss */
+/* line 37, src/scss/_components/_header.scss */
+.header--iteration.header--fixed .header__close svg {
+  fill: #fff;
+}
+
+/* line 44, src/scss/_components/_header.scss */
 .header--iteration .header__wrapper {
   padding-top: 0;
 }
 
-/* line 42, src/scss/_components/_header.scss */
+/* line 48, src/scss/_components/_header.scss */
+.header--iteration .header__wrapper-left .header__close {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 48, src/scss/_components/_header.scss */
+  .header--iteration .header__wrapper-left .header__close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/* line 56, src/scss/_components/_header.scss */
+.header--iteration .header__wrapper-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 56, src/scss/_components/_header.scss */
+  .header--iteration .header__wrapper-right {
+    display: none;
+  }
+}
+
+/* line 65, src/scss/_components/_header.scss */
+.header--iteration .header__close {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 73, src/scss/_components/_header.scss */
+.header--iteration .header__close svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 82, src/scss/_components/_header.scss */
 .header .c-grid {
   max-width: 100%;
 }
 
 @media screen and (min-width: 1366px) {
-  /* line 42, src/scss/_components/_header.scss */
+  /* line 82, src/scss/_components/_header.scss */
   .header .c-grid {
     padding-left: 70px;
     padding-right: 70px;
   }
 }
 
-/* line 50, src/scss/_components/_header.scss */
+/* line 90, src/scss/_components/_header.scss */
 .header__wrapper {
   z-index: 1;
   position: relative;
@@ -2237,14 +2302,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 50, src/scss/_components/_header.scss */
+  /* line 90, src/scss/_components/_header.scss */
   .header__wrapper {
     padding-top: 0;
     min-height: 55px;
   }
 }
 
-/* line 63, src/scss/_components/_header.scss */
+/* line 103, src/scss/_components/_header.scss */
 .header--fixed .header__wrapper {
   min-height: 65px;
   padding-top: 0;
@@ -2254,26 +2319,26 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 63, src/scss/_components/_header.scss */
+  /* line 103, src/scss/_components/_header.scss */
   .header--fixed .header__wrapper {
     min-height: 55px;
   }
 }
 
-/* line 72, src/scss/_components/_header.scss */
+/* line 112, src/scss/_components/_header.scss */
 .header__wrapper-left {
   width: 211px;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 72, src/scss/_components/_header.scss */
+  /* line 112, src/scss/_components/_header.scss */
   .header__wrapper-left {
     width: 170px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 72, src/scss/_components/_header.scss */
+  /* line 112, src/scss/_components/_header.scss */
   .header__wrapper-left {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2288,19 +2353,19 @@ picture {
   }
 }
 
-/* line 84, src/scss/_components/_header.scss */
+/* line 124, src/scss/_components/_header.scss */
 .header__wrapper-left .hamburger {
   display: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 84, src/scss/_components/_header.scss */
+  /* line 124, src/scss/_components/_header.scss */
   .header__wrapper-left .hamburger {
     display: block;
   }
 }
 
-/* line 92, src/scss/_components/_header.scss */
+/* line 132, src/scss/_components/_header.scss */
 .header__wrapper-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2313,14 +2378,14 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 92, src/scss/_components/_header.scss */
+  /* line 132, src/scss/_components/_header.scss */
   .header__wrapper-right {
     max-width: calc(100% - 170px);
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 92, src/scss/_components/_header.scss */
+  /* line 132, src/scss/_components/_header.scss */
   .header__wrapper-right {
     display: none;
     z-index: 100;
@@ -2334,7 +2399,7 @@ picture {
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.985);
   }
-  /* line 113, src/scss/_components/_header.scss */
+  /* line 153, src/scss/_components/_header.scss */
   .header__wrapper-right.is-open {
     display: block;
     -webkit-animation-fill-mode: both;
@@ -2344,14 +2409,14 @@ picture {
     -webkit-animation-name: c-zoomIn;
             animation-name: c-zoomIn;
   }
-  /* line 119, src/scss/_components/_header.scss */
+  /* line 159, src/scss/_components/_header.scss */
   .header__wrapper-right.is-open .nav__link,
   .header__wrapper-right.is-open .header__link {
     color: #00449D;
   }
 }
 
-/* line 126, src/scss/_components/_header.scss */
+/* line 166, src/scss/_components/_header.scss */
 .header__wrapper-right > div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2362,7 +2427,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 126, src/scss/_components/_header.scss */
+  /* line 166, src/scss/_components/_header.scss */
   .header__wrapper-right > div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2371,27 +2436,27 @@ picture {
   }
 }
 
-/* line 133, src/scss/_components/_header.scss */
+/* line 173, src/scss/_components/_header.scss */
 .header__wrapper-right > div:first-of-type {
   width: 100%;
   max-width: calc(100% - 211px);
 }
 
 @media screen and (max-width: 991px) {
-  /* line 133, src/scss/_components/_header.scss */
+  /* line 173, src/scss/_components/_header.scss */
   .header__wrapper-right > div:first-of-type {
     max-width: calc(100% - 170px);
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 133, src/scss/_components/_header.scss */
+  /* line 173, src/scss/_components/_header.scss */
   .header__wrapper-right > div:first-of-type {
     max-width: 100%;
   }
 }
 
-/* line 144, src/scss/_components/_header.scss */
+/* line 184, src/scss/_components/_header.scss */
 .header__wrapper-right > div:last-of-type {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2406,20 +2471,20 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 144, src/scss/_components/_header.scss */
+  /* line 184, src/scss/_components/_header.scss */
   .header__wrapper-right > div:last-of-type {
     width: 170px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 144, src/scss/_components/_header.scss */
+  /* line 184, src/scss/_components/_header.scss */
   .header__wrapper-right > div:last-of-type {
     width: 100%;
   }
 }
 
-/* line 160, src/scss/_components/_header.scss */
+/* line 200, src/scss/_components/_header.scss */
 .header__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2433,7 +2498,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 160, src/scss/_components/_header.scss */
+  /* line 200, src/scss/_components/_header.scss */
   .header__link {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -2445,17 +2510,17 @@ picture {
   }
 }
 
-/* line 174, src/scss/_components/_header.scss */
+/* line 214, src/scss/_components/_header.scss */
 .header--blue .header__link {
   color: #00449D;
 }
 
-/* line 178, src/scss/_components/_header.scss */
+/* line 218, src/scss/_components/_header.scss */
 .header--fixed .header__link {
   color: #fff;
 }
 
-/* line 183, src/scss/_components/_header.scss */
+/* line 223, src/scss/_components/_header.scss */
 .header__link:hover svg {
   fill: white;
   -webkit-transition: fill 0.3s ease-in-out;
@@ -2463,22 +2528,22 @@ picture {
   transition: fill 0.3s ease-in-out;
 }
 
-/* line 187, src/scss/_components/_header.scss */
+/* line 227, src/scss/_components/_header.scss */
 .header--blue .header__link:hover svg {
   fill: #00449d;
 }
 
-/* line 191, src/scss/_components/_header.scss */
+/* line 231, src/scss/_components/_header.scss */
 .header--fixed .header__link:hover svg {
   fill: white;
 }
 
-/* line 197, src/scss/_components/_header.scss */
+/* line 237, src/scss/_components/_header.scss */
 .header__link-1 {
   border-bottom: none;
 }
 
-/* line 201, src/scss/_components/_header.scss */
+/* line 241, src/scss/_components/_header.scss */
 .header__link svg {
   fill: rgba(255, 255, 255, 0.4);
   margin-right: 12px;
@@ -2488,18 +2553,18 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 201, src/scss/_components/_header.scss */
+  /* line 241, src/scss/_components/_header.scss */
   .header__link svg {
     display: none;
   }
 }
 
-/* line 209, src/scss/_components/_header.scss */
+/* line 249, src/scss/_components/_header.scss */
 .header--blue .header__link svg {
   fill: rgba(0, 68, 157, 0.4);
 }
 
-/* line 213, src/scss/_components/_header.scss */
+/* line 253, src/scss/_components/_header.scss */
 .header--fixed .header__link svg {
   fill: rgba(255, 255, 255, 0.4);
 }
@@ -2526,7 +2591,7 @@ picture {
   }
 }
 
-/* line 231, src/scss/_components/_header.scss */
+/* line 271, src/scss/_components/_header.scss */
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
