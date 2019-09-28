@@ -316,29 +316,31 @@ var initSwiper = function initSwiper() {
    */
   var mySwiperControl = new Swiper('.swiper-container--control', swiperOption());
 
+  var isAnyPartOfElementInViewport = function isAnyPartOfElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+
+    var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+    var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+    var vertInView = rect.top <= windowHeight && rect.top + rect.height >= 0;
+    var horInView = rect.left <= windowWidth + 150 && rect.left + rect.width >= 0;
+
+    return vertInView && horInView;
+  };
+
   var mySwiperIterationOpt = {
+    init: false,
     direction: 'horizontal',
     mousewheel: {
       releaseOnEdges: true
     },
     freeMode: true,
+    grabCursor: true,
     slidesPerView: 'auto',
-    spaceBetween: 0,
-    autoHeight: false,
-    touchMoveStopPropagation: false,
-    simulateTouch: false,
-    allowSwipeToNext: true,
-    allowSwipeToPrev: true,
-    allowPageScroll: "auto ",
     on: {
       'init': function init() {
-
-        $(this.$el).animate({
-          'opacity': 1
-        }, 500);
+        $(this.$el).animate({ 'opacity': 1 }, 500);
       },
       'beforeDestroy': function beforeDestroy() {
-
         $('.swiper-container-iteration, .swiper-container-iteration .swiper-wrapper').attr('style', '');
       }
     }
@@ -353,6 +355,23 @@ var initSwiper = function initSwiper() {
       if ($(window).width() > 767) {
 
         mySwiperIteration = new Swiper('.swiper-container-iteration', mySwiperIterationOpt);
+        mySwiperIteration.on('init', function () {
+          $.each(mySwiperIteration.$wrapperEl.children(), function (idx, val) {
+            if (idx === 0) {
+              if (isAnyPartOfElementInViewport($(val)[0]) && $(val).hasClass('viewport-hideTimeline-js')) {
+                $(val).removeClass('viewport-hideTimeline-js').addClass('viewport-startTimeline-js animated fadeIn');
+              }
+            }
+          });
+        });
+        mySwiperIteration.on('slideChange slideMove slideChangeTransitionStart', function () {
+          $.each(mySwiperIteration.$wrapperEl.children(), function (idx, val) {
+            if (isAnyPartOfElementInViewport($(val)[0]) && $(val).hasClass('viewport-hideTimeline-js')) {
+              $(val).removeClass('viewport-hideTimeline-js').addClass('viewport-startTimeline-js animated fadeIn');
+            }
+          });
+        });
+        mySwiperIteration.init();
       } else {
 
         if (mySwiperIteration !== undefined) {
@@ -421,42 +440,27 @@ var initViewPortChecker = function initViewPortChecker() {
 var initViewPortCheckerTour = function initViewPortCheckerTour() {
   var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "viewport-hideTimeline-js";
   var classNameToAdd = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "viewport-startTimeline-js animated";
-  var offsetVal = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 300;
+  var offsetVal = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 100;
   var callbackFunctionName = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : scrollAnimation;
 
 
-  var isAnyPartOfElementInViewport = function isAnyPartOfElementInViewport(el) {
-    var rect = el.getBoundingClientRect();
-
-    var windowHeight = window.innerHeight || document.documentElement.clientHeight;
-    var windowWidth = window.innerWidth || document.documentElement.clientWidth;
-    var vertInView = rect.top <= windowHeight && rect.top + rect.height >= 50;
-    var horInView = rect.left <= windowWidth && rect.left + rect.width >= 50;
-
-    return vertInView && horInView;
-  };
-
   $("." + className).not(".full-visible").each(function (idx, el) {
-    $(el).viewportChecker({
-      classToAddForFullView: 'full-visible',
-      removeClassAfterAnimation: false,
-      offset: offsetVal,
-      repeat: false,
-      callbackFunction: function callbackFunction(elem, action) {
 
-        console.log(elem);
+    if ($(window).width() < 768) {
 
-        setTimeout(function () {
+      $(el).viewportChecker({
+        classToAdd: classNameToAdd,
+        classToAddForFullView: 'full-visible',
+        classToRemove: className,
+        removeClassAfterAnimation: true,
+        offset: offsetVal,
+        repeat: false,
+        callbackFunction: function callbackFunction(elem, action) {
+          callbackFunctionName(elem, el);
+        }
 
-          if (elem.length > 0 && isAnyPartOfElementInViewport(elem[0])) {
-            console.log(isAnyPartOfElementInViewport(elem[0]));
-
-            $(elem).removeClass(className).addClass(classNameToAdd);
-            // callbackFunctionName(elem, el);
-          }
-        }, 300);
-      }
-    });
+      });
+    }
   });
 };
 
@@ -990,8 +994,15 @@ $(document).ready(function (ev) {
     initSvg4everybody();
 
     // lib
+    initHamburger();
     initStellar();
+    initSwiper();
     initViewPortChecker();
+    initViewPortCheckerTour();
+    $(window).on('resize', function (ev) {
+      initViewPortCheckerTour();
+    });
+
     initSmoothScroll();
     initPopups();
 
@@ -999,8 +1010,6 @@ $(document).ready(function (ev) {
     initSelect();
     initPipelinesTabs();
     initVideo();
-    initHamburger();
-    initSwiper();
     initSupportLogic();
     pricingTypes();
     initResourcesMainBtn();

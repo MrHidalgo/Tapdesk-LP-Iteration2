@@ -1224,12 +1224,14 @@ picture {
 }
 
 /* line 1, src/scss/_shared/_viewPortChecker.scss */
-.viewport-hide-js {
+.viewport-hide-js,
+.viewport-hideTimeline-js {
   opacity: 0;
 }
 
-/* line 4, src/scss/_shared/_viewPortChecker.scss */
-.viewport-show-js {
+/* line 5, src/scss/_shared/_viewPortChecker.scss */
+.viewport-show-js,
+.viewport-startTimeline-js {
   opacity: 1;
 }
 
@@ -9109,6 +9111,11 @@ picture {
   }
 }
 
+/* line 1123, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-wrapper {
+  position: relative;
+}
+
 @media screen and (max-width: 767px) {
   /* line 1123, src/scss/_components/iteration/_iteration.scss */
   .iteration .swiper-wrapper {
@@ -9117,62 +9124,150 @@ picture {
   }
 }
 
-/* line 1130, src/scss/_components/iteration/_iteration.scss */
+/* line 1131, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide {
   z-index: 0;
   width: auto;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 1130, src/scss/_components/iteration/_iteration.scss */
+  /* line 1131, src/scss/_components/iteration/_iteration.scss */
   .iteration .swiper-slide {
     width: 100% !important;
   }
 }
 
-/* line 1137, src/scss/_components/iteration/_iteration.scss */
+/* line 1140, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide > img,
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide > p,
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide > div, .iteration .swiper-slide.viewport-startTimeline-js .iteration__slide__title,
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide .iteration__advantages {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+}
+
+/* line 1149, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide > img,
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide > p,
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide > div:last-of-type {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 1149, src/scss/_components/iteration/_iteration.scss */
+  .iteration .swiper-slide.viewport-startTimeline-js .iteration__slide > img,
+  .iteration .swiper-slide.viewport-startTimeline-js .iteration__slide > p,
+  .iteration .swiper-slide.viewport-startTimeline-js .iteration__slide > div:last-of-type {
+    -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+  }
+}
+
+/* line 1158, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide__title,
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide .iteration__bg {
+  -webkit-animation-name: fadeIn, zoomIn;
+          animation-name: fadeIn, zoomIn;
+}
+
+/* line 1163, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide .iteration__advantages {
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 1163, src/scss/_components/iteration/_iteration.scss */
+  .iteration .swiper-slide.viewport-startTimeline-js .iteration__slide .iteration__advantages {
+    -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+  }
+}
+
+/* line 1169, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide .iteration__advantages-2 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+/* line 1172, src/scss/_components/iteration/_iteration.scss */
+.iteration .swiper-slide.viewport-startTimeline-js .iteration__slide .iteration__advantages-3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+/* line 1179, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide:nth-of-type(1) {
   width: 100%;
 }
 
-/* line 1140, src/scss/_components/iteration/_iteration.scss */
+/* line 1182, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide:nth-of-type(3) {
   width: 1383px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1140, src/scss/_components/iteration/_iteration.scss */
+  /* line 1182, src/scss/_components/iteration/_iteration.scss */
   .iteration .swiper-slide:nth-of-type(3) {
     width: 1024px;
   }
 }
 
-/* line 1146, src/scss/_components/iteration/_iteration.scss */
+/* line 1188, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide:nth-of-type(12) {
   width: 1250px;
 }
 
 @media screen and (max-width: 1439px) {
-  /* line 1146, src/scss/_components/iteration/_iteration.scss */
+  /* line 1188, src/scss/_components/iteration/_iteration.scss */
   .iteration .swiper-slide:nth-of-type(12) {
     width: 1000px;
   }
 }
 
-/* line 1152, src/scss/_components/iteration/_iteration.scss */
+/* line 1194, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide:nth-of-type(23) {
   width: 1050px;
 }
 
-/* line 1155, src/scss/_components/iteration/_iteration.scss */
+/* line 1197, src/scss/_components/iteration/_iteration.scss */
 .iteration .swiper-slide:nth-of-type(33) {
   width: 1400px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1155, src/scss/_components/iteration/_iteration.scss */
+  /* line 1197, src/scss/_components/iteration/_iteration.scss */
   .iteration .swiper-slide:nth-of-type(33) {
     width: 1100px;
+  }
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(200px, 0, 0);
+            transform: translate3d(200px, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(200px, 0, 0);
+            transform: translate3d(200px, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    visibility: visible;
   }
 }
 
