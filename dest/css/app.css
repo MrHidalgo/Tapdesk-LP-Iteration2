@@ -6331,7 +6331,7 @@ picture {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 21px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
 }
 
@@ -6556,6 +6556,476 @@ picture {
   -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 191, src/scss/_components/pricing/_plans.scss */
+.plans .types__checkbox {
+  opacity: 1;
+}
+
+/* line 195, src/scss/_components/pricing/_plans.scss */
+.plans .types__checkbox .c-form__field {
+  margin-bottom: 0;
+}
+
+/* line 201, src/scss/_components/pricing/_plans.scss */
+.plans__row {
+  display: none;
+  padding-top: 50px;
+}
+
+/* line 205, src/scss/_components/pricing/_plans.scss */
+.plans__row-1 {
+  display: block;
+}
+
+/* line 210, src/scss/_components/pricing/_plans.scss */
+.plans__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 210, src/scss/_components/pricing/_plans.scss */
+  .plans__header {
+    padding-bottom: 50px;
+  }
+}
+
+/* line 221, src/scss/_components/pricing/_plans.scss */
+.plans__header-1 svg {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 227, src/scss/_components/pricing/_plans.scss */
+.plans__header-2 svg {
+  width: 42px;
+  height: 42px;
+}
+
+/* line 233, src/scss/_components/pricing/_plans.scss */
+.plans__header-3 svg {
+  width: 34px;
+  height: 42px;
+}
+
+/* line 239, src/scss/_components/pricing/_plans.scss */
+.plans__header svg {
+  fill: #CD084B;
+}
+
+/* line 243, src/scss/_components/pricing/_plans.scss */
+.plans__header-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  color: #000;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 243, src/scss/_components/pricing/_plans.scss */
+  .plans__header-title {
+    font-size: 36px;
+  }
+}
+
+/* line 255, src/scss/_components/pricing/_plans.scss */
+.plans__header-subtitle {
+  font-size: 19px;
+  text-align: center;
+  color: #575757;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 255, src/scss/_components/pricing/_plans.scss */
+  .plans__header-subtitle {
+    font-size: 16px;
+  }
+}
+
+/* line 265, src/scss/_components/pricing/_plans.scss */
+.plans__box {
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  min-height: 500px;
+  padding: 40px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #f8fafc;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 265, src/scss/_components/pricing/_plans.scss */
+  .plans__box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* line 282, src/scss/_components/pricing/_plans.scss */
+.plans__box--popular {
+  height: calc(100% + 10px);
+  margin-top: 0;
+  padding-top: 50px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 15px 35px rgba(0, 68, 157, 0.07);
+          box-shadow: 0px 15px 35px rgba(0, 68, 157, 0.07);
+}
+
+/* line 289, src/scss/_components/pricing/_plans.scss */
+.plans__box--popular img {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 297, src/scss/_components/pricing/_plans.scss */
+.plans__box-title {
+  z-index: 3;
+  position: relative;
+  padding-bottom: 50px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 297, src/scss/_components/pricing/_plans.scss */
+  .plans__box-title {
+    font-size: 22px;
+  }
+}
+
+/* line 310, src/scss/_components/pricing/_plans.scss */
+.plans__box-body {
+  z-index: 3;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 317, src/scss/_components/pricing/_plans.scss */
+.plans__box-price {
+  padding-bottom: 50px;
+}
+
+/* line 320, src/scss/_components/pricing/_plans.scss */
+.plans__box-price p {
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+  color: #00449d;
+  line-height: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 320, src/scss/_components/pricing/_plans.scss */
+  .plans__box-price p {
+    font-size: 40px;
+  }
+}
+
+/* line 330, src/scss/_components/pricing/_plans.scss */
+.plans__box-price p sup {
+  position: relative;
+  left: 10px;
+  top: -25px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.13em;
+  color: rgba(0, 68, 157, 0.4);
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 330, src/scss/_components/pricing/_plans.scss */
+  .plans__box-price p sup {
+    top: -20px;
+  }
+}
+
+/* line 344, src/scss/_components/pricing/_plans.scss */
+.plans__box-price span {
+  position: relative;
+  left: 20px;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  color: #939393;
+  line-height: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 344, src/scss/_components/pricing/_plans.scss */
+  .plans__box-price span {
+    left: 15px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 344, src/scss/_components/pricing/_plans.scss */
+  .plans__box-price span {
+    left: 0;
+  }
+}
+
+/* line 362, src/scss/_components/pricing/_plans.scss */
+.plans__box-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 185px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #cd084b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: #cd084b;
+  will-change: background-color, color;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 362, src/scss/_components/pricing/_plans.scss */
+  .plans__box-btn {
+    height: 55px;
+  }
+}
+
+/* line 386, src/scss/_components/pricing/_plans.scss */
+.plans__box-btn:hover {
+  background-color: #cd084b;
+  color: #ffffff;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 393, src/scss/_components/pricing/_plans.scss */
+.plans__box-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 50px;
+}
+
+/* line 398, src/scss/_components/pricing/_plans.scss */
+.plans__box-list li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 398, src/scss/_components/pricing/_plans.scss */
+  .plans__box-list li {
+    padding-bottom: 15px;
+  }
+}
+
+/* line 406, src/scss/_components/pricing/_plans.scss */
+.plans__box-list li:last-of-type {
+  padding-bottom: 0;
+}
+
+/* line 410, src/scss/_components/pricing/_plans.scss */
+.plans__box-list li i {
+  position: absolute;
+  top: 8px;
+  left: -18px;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #00449d;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 410, src/scss/_components/pricing/_plans.scss */
+  .plans__box-list li i {
+    left: -10px;
+  }
+}
+
+/* line 424, src/scss/_components/pricing/_plans.scss */
+.plans__box-list li p {
+  font-size: 16px;
+  color: #939393;
+}
+
+/* line 428, src/scss/_components/pricing/_plans.scss */
+.plans__box-list li p span {
+  font-weight: 500;
+  color: #000000;
+}
+
+/* line 436, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+/* line 446, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper-1 > div {
+  max-width: calc((100% - 80px) / 3);
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 446, src/scss/_components/pricing/_plans.scss */
+  .plans__box-wrapper-1 > div {
+    max-width: calc((100% - 30px) / 3);
+  }
+}
+
+/* line 453, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper-2 {
+  max-width: 858px;
+}
+
+/* line 456, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper-2 > div {
+  max-width: calc((100% - 40px) / 2);
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 456, src/scss/_components/pricing/_plans.scss */
+  .plans__box-wrapper-2 > div {
+    max-width: calc((100% - 15px) / 2);
+  }
+}
+
+/* line 463, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper-3 {
+  max-width: 854px;
+}
+
+/* line 466, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper-3 > div {
+  max-width: 100%;
+}
+
+/* line 471, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper-3 .plans__box svg {
+  z-index: 0;
+  position: absolute;
+  right: -20px;
+  bottom: 60px;
+  width: 320px;
+  height: 395px;
+  fill: #F8FAFC;
+}
+
+/* line 481, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper-3 .plans__box-title {
+  text-align: left;
+}
+
+/* line 485, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper-3 .plans__box-body {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 485, src/scss/_components/pricing/_plans.scss */
+  .plans__box-wrapper-3 .plans__box-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* line 492, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper-3 .plans__box-body-right {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 492, src/scss/_components/pricing/_plans.scss */
+  .plans__box-wrapper-3 .plans__box-body-right {
+    padding-left: 0;
+  }
+}
+
+/* line 502, src/scss/_components/pricing/_plans.scss */
+.plans__box-wrapper > div {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 502, src/scss/_components/pricing/_plans.scss */
+  .plans__box-wrapper > div {
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
 }
 
 /* line 3, src/scss/_components/resources/_main.scss */

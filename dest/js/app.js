@@ -998,6 +998,17 @@ $(document).ready(function (ev) {
       } else {
         $('.plan__tabs:nth-child(1), .plan__tabs:nth-child(3)').removeClass('is-border-hide');
       }
+
+      var linkHref = $(ev.currentTarget).attr('href'),
+          headerHeight = $(".header").outerHeight() || 0,
+          topHeightOffset = $(linkHref).offset().top - headerHeight;
+
+      $('body, html').animate({
+        scrollTop: topHeightOffset
+      }, 750);
+
+      $('.plans__row').hide();
+      $('.plans__row[data-name="' + _elName + '"]').fadeIn(300);
     });
   };
 
