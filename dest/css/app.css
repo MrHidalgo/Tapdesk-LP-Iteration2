@@ -5522,14 +5522,45 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 68, src/scss/_components/pricing/_plan.scss */
+@media screen and (max-width: 1279px) {
+  /* line 54, src/scss/_components/pricing/_plan.scss */
+  .plan__tabs {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 54, src/scss/_components/pricing/_plan.scss */
+  .plan__tabs {
+    width: 100%;
+    max-width: calc(100% / 3);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 54, src/scss/_components/pricing/_plan.scss */
+  .plan__tabs {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  /* line 54, src/scss/_components/pricing/_plan.scss */
+  .plan__tabs {
+    font-size: 14px;
+  }
+}
+
+/* line 83, src/scss/_components/pricing/_plan.scss */
 .plan__tabs:before, .plan__tabs:after {
   z-index: 0;
   content: '';
   position: absolute;
 }
 
-/* line 75, src/scss/_components/pricing/_plan.scss */
+/* line 90, src/scss/_components/pricing/_plan.scss */
 .plan__tabs:before {
   opacity: 0;
   visibility: hidden;
@@ -5547,7 +5578,7 @@ picture {
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
-/* line 89, src/scss/_components/pricing/_plan.scss */
+/* line 104, src/scss/_components/pricing/_plan.scss */
 .plan__tabs:after {
   opacity: 0;
   content: '';
@@ -5563,7 +5594,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 101, src/scss/_components/pricing/_plan.scss */
+/* line 116, src/scss/_components/pricing/_plan.scss */
 .plan__tabs:first-of-type:after {
   opacity: 1;
   right: 0;
@@ -5572,7 +5603,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 108, src/scss/_components/pricing/_plan.scss */
+/* line 123, src/scss/_components/pricing/_plan.scss */
 .plan__tabs:first-of-type.is-active:after {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -5580,7 +5611,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 116, src/scss/_components/pricing/_plan.scss */
+/* line 131, src/scss/_components/pricing/_plan.scss */
 .plan__tabs:last-of-type:after {
   opacity: 1;
   left: 0;
@@ -5589,7 +5620,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 123, src/scss/_components/pricing/_plan.scss */
+/* line 138, src/scss/_components/pricing/_plan.scss */
 .plan__tabs:last-of-type.is-active:after {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -5597,7 +5628,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 130, src/scss/_components/pricing/_plan.scss */
+/* line 145, src/scss/_components/pricing/_plan.scss */
 .plan__tabs:hover {
   color: #00449D;
   -webkit-transition: color 0.3s ease-in-out;
@@ -5605,7 +5636,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 135, src/scss/_components/pricing/_plan.scss */
+/* line 150, src/scss/_components/pricing/_plan.scss */
 .plan__tabs.is-active {
   color: #fff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -5613,7 +5644,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 139, src/scss/_components/pricing/_plan.scss */
+/* line 154, src/scss/_components/pricing/_plan.scss */
 .plan__tabs.is-active:before {
   opacity: 1;
   visibility: visible;
@@ -5622,7 +5653,7 @@ picture {
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
-/* line 147, src/scss/_components/pricing/_plan.scss */
+/* line 162, src/scss/_components/pricing/_plan.scss */
 .plan__tabs.is-border-hide:after {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -5630,13 +5661,13 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 153, src/scss/_components/pricing/_plan.scss */
+/* line 168, src/scss/_components/pricing/_plan.scss */
 .plan__tabs span {
   z-index: 2;
   position: relative;
 }
 
-/* line 158, src/scss/_components/pricing/_plan.scss */
+/* line 173, src/scss/_components/pricing/_plan.scss */
 .plan__tabs-cover {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5646,7 +5677,7 @@ picture {
           justify-content: center;
 }
 
-/* line 163, src/scss/_components/pricing/_plan.scss */
+/* line 178, src/scss/_components/pricing/_plan.scss */
 .plan__tabs-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5663,6 +5694,22 @@ picture {
   margin-right: auto;
   border-radius: 25px;
   background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 178, src/scss/_components/pricing/_plan.scss */
+  .plan__tabs-wrapper {
+    width: 100%;
+    min-width: unset;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* line 178, src/scss/_components/pricing/_plan.scss */
+  .plan__tabs-wrapper {
+    height: 40px;
+  }
 }
 
 /* line 3, src/scss/_components/pricing/_types.scss */
