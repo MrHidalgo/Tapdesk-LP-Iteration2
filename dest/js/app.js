@@ -985,30 +985,105 @@ $(document).ready(function (ev) {
   };
 
   var initPricingTabs = function initPricingTabs() {
+    $(window).on('resize load', function (ev) {
+      $('.plan__tabs-bg').css({
+        'width': $('.plan__tabs-1')[0].clientWidth
+      });
+    });
+
     $('.plan__tabs').on('click', function (ev) {
       var _el = $(ev.currentTarget),
           _elID = _el.attr('data-id'),
           _elName = _el.attr('data-name');
 
+      var _bgNode = $('.plan__tabs-bg');
+
       $('.plan__tabs').removeClass('is-active');
       _el.addClass('is-active');
 
       if (_elID === '2') {
-        $('.plan__tabs:nth-child(1), .plan__tabs:nth-child(3)').addClass('is-border-hide');
+        $('.plan__tabs-1, .plan__tabs-3').addClass('is-border-hide');
       } else {
-        $('.plan__tabs:nth-child(1), .plan__tabs:nth-child(3)').removeClass('is-border-hide');
+        $('.plan__tabs-1, .plan__tabs-3').removeClass('is-border-hide');
       }
 
-      var linkHref = $(ev.currentTarget).attr('href'),
-          headerHeight = $(".header").outerHeight() || 0,
-          topHeightOffset = $(linkHref).offset().top - headerHeight;
+      /* animation tabs bg */
+      if (_elID === '1') {
+        _bgNode.attr('style', 'width:' + _el[0].clientWidth + 'px;transform:translate(0);');
+      } else if (_elID === '2') {
+        _bgNode.attr('style', 'width:' + _el[0].clientWidth + 'px;transform:translate(' + $('.plan__tabs-1')[0].clientWidth + 'px);');
+      } else if (_elID === '3') {
+        _bgNode.attr('style', 'width:' + _el[0].clientWidth + 'px;transform:translate(' + ($('.plan__tabs-2')[0].clientWidth + $('.plan__tabs-1')[0].clientWidth) + 'px);');
+      }
+      /* animation tabs bg :: end */
 
-      $('body, html').animate({
-        scrollTop: topHeightOffset
-      }, 750);
+      $('.plans__header-1, .plans__box-wrapper-1').attr('style', '');
 
       $('.plans__row').hide();
-      $('.plans__row[data-name="' + _elName + '"]').fadeIn(300);
+      $('.plans__row[data-name="' + _elName + '"]').fadeIn(750);
+    });
+
+    $('[plans-checkbox-js]').on('change', function (ev) {
+      var _elem = $(ev.currentTarget),
+          _plansNode = _elem.closest('.plans'),
+          _hiddenElem = _plansNode.find('.plans__box--hide'),
+          _priceChangeElem = _plansNode.find('.plans__box-price i');
+
+      if (_elem.is(':checked')) {
+        _hiddenElem.hide();
+
+        var _iteratorNormalCompletion4 = true;
+        var _didIteratorError4 = false;
+        var _iteratorError4 = undefined;
+
+        try {
+          for (var _iterator4 = _priceChangeElem[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {
+            var elNew = _step4.value;
+
+            $(elNew).text($(elNew).attr('data-new-price'));
+          }
+        } catch (err) {
+          _didIteratorError4 = true;
+          _iteratorError4 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion4 && _iterator4.return) {
+              _iterator4.return();
+            }
+          } finally {
+            if (_didIteratorError4) {
+              throw _iteratorError4;
+            }
+          }
+        }
+      } else {
+        _hiddenElem.show();
+
+        var _iteratorNormalCompletion5 = true;
+        var _didIteratorError5 = false;
+        var _iteratorError5 = undefined;
+
+        try {
+          for (var _iterator5 = _priceChangeElem[Symbol.iterator](), _step5; !(_iteratorNormalCompletion5 = (_step5 = _iterator5.next()).done); _iteratorNormalCompletion5 = true) {
+            var elOrigin = _step5.value;
+
+            $(elOrigin).text($(elOrigin).attr('data-origin-price'));
+          }
+        } catch (err) {
+          _didIteratorError5 = true;
+          _iteratorError5 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion5 && _iterator5.return) {
+              _iterator5.return();
+            }
+          } finally {
+            if (_didIteratorError5) {
+              throw _iteratorError5;
+            }
+          }
+        }
+      }
     });
   };
 
