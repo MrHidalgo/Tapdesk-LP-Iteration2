@@ -984,6 +984,23 @@ $(document).ready(function (ev) {
     });
   };
 
+  var initPricingTabs = function initPricingTabs() {
+    $('.plan__tabs').on('click', function (ev) {
+      var _el = $(ev.currentTarget),
+          _elID = _el.attr('data-id'),
+          _elName = _el.attr('data-name');
+
+      $('.plan__tabs').removeClass('is-active');
+      _el.addClass('is-active');
+
+      if (_elID === '2') {
+        $('.plan__tabs:nth-child(1), .plan__tabs:nth-child(3)').addClass('is-border-hide');
+      } else {
+        $('.plan__tabs:nth-child(1), .plan__tabs:nth-child(3)').removeClass('is-border-hide');
+      }
+    });
+  };
+
   /**
    * @description Init all method
    */
@@ -1014,6 +1031,7 @@ $(document).ready(function (ev) {
     pricingTypes();
     initResourcesMainBtn();
     initSearchDrop();
+    initPricingTabs();
   };
   initJquery();
 });
