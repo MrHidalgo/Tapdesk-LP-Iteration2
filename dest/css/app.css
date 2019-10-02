@@ -6657,7 +6657,7 @@ picture {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  min-height: 500px;
+  height: 100%;
   padding: 40px;
   margin-top: 10px;
   border-radius: 8px;
@@ -6857,7 +6857,6 @@ picture {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 42px;
   padding-bottom: 20px;
 }
 
@@ -6868,12 +6867,12 @@ picture {
   }
 }
 
-/* line 411, src/scss/_components/pricing/_plans.scss */
+/* line 410, src/scss/_components/pricing/_plans.scss */
 .plans__box-list li:last-of-type {
   padding-bottom: 0;
 }
 
-/* line 415, src/scss/_components/pricing/_plans.scss */
+/* line 414, src/scss/_components/pricing/_plans.scss */
 .plans__box-list li i {
   position: absolute;
   top: 8px;
@@ -6886,30 +6885,30 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 415, src/scss/_components/pricing/_plans.scss */
+  /* line 414, src/scss/_components/pricing/_plans.scss */
   .plans__box-list li i {
     left: -10px;
   }
 }
 
-/* line 429, src/scss/_components/pricing/_plans.scss */
+/* line 428, src/scss/_components/pricing/_plans.scss */
 .plans__box-list li p {
   font-size: 16px;
   color: #939393;
 }
 
-/* line 436, src/scss/_components/pricing/_plans.scss */
+/* line 435, src/scss/_components/pricing/_plans.scss */
 .plans__box-list li p.hide span:nth-of-type(2) {
   opacity: 0;
 }
 
-/* line 442, src/scss/_components/pricing/_plans.scss */
+/* line 441, src/scss/_components/pricing/_plans.scss */
 .plans__box-list li p span {
   font-weight: 500;
   color: #000000;
 }
 
-/* line 450, src/scss/_components/pricing/_plans.scss */
+/* line 449, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6925,46 +6924,46 @@ picture {
   padding-bottom: 50px;
 }
 
-/* line 460, src/scss/_components/pricing/_plans.scss */
+/* line 459, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper-1 > div {
   max-width: calc((100% - 80px) / 3);
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 460, src/scss/_components/pricing/_plans.scss */
+  /* line 459, src/scss/_components/pricing/_plans.scss */
   .plans__box-wrapper-1 > div {
     max-width: calc((100% - 30px) / 3);
   }
 }
 
-/* line 467, src/scss/_components/pricing/_plans.scss */
+/* line 466, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper-2 {
   max-width: 858px;
 }
 
-/* line 470, src/scss/_components/pricing/_plans.scss */
+/* line 469, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper-2 > div {
   max-width: calc((100% - 40px) / 2);
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 470, src/scss/_components/pricing/_plans.scss */
+  /* line 469, src/scss/_components/pricing/_plans.scss */
   .plans__box-wrapper-2 > div {
     max-width: calc((100% - 15px) / 2);
   }
 }
 
-/* line 477, src/scss/_components/pricing/_plans.scss */
+/* line 476, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper-3 {
   max-width: 854px;
 }
 
-/* line 480, src/scss/_components/pricing/_plans.scss */
+/* line 479, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper-3 > div {
   max-width: 100%;
 }
 
-/* line 485, src/scss/_components/pricing/_plans.scss */
+/* line 484, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper-3 .plans__box svg {
   z-index: 0;
   position: absolute;
@@ -6975,12 +6974,12 @@ picture {
   fill: #F8FAFC;
 }
 
-/* line 495, src/scss/_components/pricing/_plans.scss */
+/* line 494, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper-3 .plans__box-title {
   text-align: left;
 }
 
-/* line 499, src/scss/_components/pricing/_plans.scss */
+/* line 498, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper-3 .plans__box-body {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -6992,7 +6991,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 499, src/scss/_components/pricing/_plans.scss */
+  /* line 498, src/scss/_components/pricing/_plans.scss */
   .plans__box-wrapper-3 .plans__box-body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -7001,25 +7000,25 @@ picture {
   }
 }
 
-/* line 506, src/scss/_components/pricing/_plans.scss */
+/* line 505, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper-3 .plans__box-body-right {
   padding-left: 20px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 506, src/scss/_components/pricing/_plans.scss */
+  /* line 505, src/scss/_components/pricing/_plans.scss */
   .plans__box-wrapper-3 .plans__box-body-right {
     padding-left: 0;
   }
 }
 
-/* line 516, src/scss/_components/pricing/_plans.scss */
+/* line 515, src/scss/_components/pricing/_plans.scss */
 .plans__box-wrapper > div {
   width: 100%;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 516, src/scss/_components/pricing/_plans.scss */
+  /* line 515, src/scss/_components/pricing/_plans.scss */
   .plans__box-wrapper > div {
     max-width: 100%;
     padding-bottom: 30px;

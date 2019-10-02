@@ -985,10 +985,14 @@ $(document).ready(function (ev) {
   };
 
   var initPricingTabs = function initPricingTabs() {
-    $(window).on('resize load', function (ev) {
+    $(window).on('resize', function (ev) {
       $('.plan__tabs-bg').css({
         'width': $('.plan__tabs-1')[0].clientWidth
       });
+    });
+
+    $('.plan__tabs-bg').css({
+      'width': $('.plan__tabs-1')[0].clientWidth
     });
 
     $('.plan__tabs').on('click', function (ev) {
