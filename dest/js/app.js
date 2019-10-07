@@ -465,27 +465,6 @@ var initViewPortCheckerTour = function initViewPortCheckerTour() {
 };
 
 /**
- * @name initWebFontLoader
- * @description Loading fonts regardless of the source, then adds a standard set of events you may use to control the loading experience... for more details => https://github.com/typekit/fvd
- */
-var initWebFontLoader = function initWebFontLoader() {
-
-  WebFont.load({
-    google: {
-      families: ['Muli:200,300,400,600,700,800,900']
-    }
-  });
-
-  // const WebFontConfig = {
-  //   custom: {
-  //     families: [
-  //       'Lato:n1,n3,n4,n5,n6,n7,n9'
-  //     ]
-  //   }
-  // };
-};
-
-/**
  * @description Window on load.
  */
 $(window).on("load", function (ev) {
@@ -985,15 +964,17 @@ $(document).ready(function (ev) {
   };
 
   var initPricingTabs = function initPricingTabs() {
-    $(window).on('resize', function (ev) {
+    if ($('.plan__tabs-bg').length) {
+      $(window).on('resize', function (ev) {
+        $('.plan__tabs-bg').css({
+          'width': $('.plan__tabs-1')[0].clientWidth
+        });
+      });
+
       $('.plan__tabs-bg').css({
         'width': $('.plan__tabs-1')[0].clientWidth
       });
-    });
-
-    $('.plan__tabs-bg').css({
-      'width': $('.plan__tabs-1')[0].clientWidth
-    });
+    }
 
     $('.plan__tabs').on('click', function (ev) {
       var _el = $(ev.currentTarget),
@@ -1096,7 +1077,7 @@ $(document).ready(function (ev) {
    */
   var initJquery = function initJquery() {
     // default
-    initWebFontLoader();
+    // initWebFontLoader();
     initPreventBehavior();
     initSvg4everybody();
 
