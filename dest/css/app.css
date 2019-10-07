@@ -11354,4 +11354,109 @@ picture {
   font-weight: 900;
 }
 
+/* line 3, src/scss/_components/sale/_join.scss */
+.join {
+  overflow: hidden;
+  position: relative;
+  min-height: 530px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: -webkit-linear-gradient(200deg, #001632 0%, #00449d);
+  background-image: -o-linear-gradient(200deg, #001632 0%, #00449d);
+  background-image: linear-gradient(250deg, #001632 0%, #00449d);
+}
+
+@media screen and (max-width: 767px) {
+  /* line 3, src/scss/_components/sale/_join.scss */
+  .join {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+/* line 15, src/scss/_components/sale/_join.scss */
+.join__bg {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 23, src/scss/_components/sale/_join.scss */
+.join__bg:before {
+  content: '';
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1300px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  mix-blend-mode: soft-light;
+  background-image: url("../img/img-join-bg@2x.png");
+  background-repeat: no-repeat;
+  background-position: center 35%;
+  background-size: cover;
+}
+
+/* line 43, src/scss/_components/sale/_join.scss */
+.join__wrapper {
+  z-index: 2;
+  position: relative;
+}
+
+/* line 48, src/scss/_components/sale/_join.scss */
+.join__desc {
+  padding-bottom: 60px;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 48, src/scss/_components/sale/_join.scss */
+  .join__desc {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 48, src/scss/_components/sale/_join.scss */
+  .join__desc {
+    font-size: 33px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* line 48, src/scss/_components/sale/_join.scss */
+  .join__desc {
+    font-size: 30px;
+  }
+}
+
+/* line 65, src/scss/_components/sale/_join.scss */
+.join__btn {
+  max-width: 239px;
+  -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
+          box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
+  will-change: background-color, border-color, color;
+  -webkit-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 71, src/scss/_components/sale/_join.scss */
+.join__btn:hover {
+  border-color: #fff;
+  -webkit-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 /*# sourceMappingURL=maps/app.css.map */
