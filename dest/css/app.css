@@ -12521,14 +12521,26 @@ picture {
   max-width: 100%;
   -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
           box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 487, src/scss/_components/sale/_impressive.scss */
+/* line 488, src/scss/_components/sale/_impressive.scss */
 .impressive__table-foot a:hover {
   color: #cd084b;
+  -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+          box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 493, src/scss/_components/sale/_impressive.scss */
+/* line 496, src/scss/_components/sale/_impressive.scss */
 .impressive__table-row {
   position: relative;
   display: -webkit-box;
@@ -12536,54 +12548,54 @@ picture {
   display: flex;
 }
 
-/* line 498, src/scss/_components/sale/_impressive.scss */
+/* line 501, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col {
   width: 100%;
   padding: 15px 5px;
 }
 
-/* line 502, src/scss/_components/sale/_impressive.scss */
+/* line 505, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-1 {
   max-width: 265px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 502, src/scss/_components/sale/_impressive.scss */
+  /* line 505, src/scss/_components/sale/_impressive.scss */
   .impressive__table-col-1 {
     max-width: 175px;
   }
 }
 
-/* line 508, src/scss/_components/sale/_impressive.scss */
+/* line 511, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-1 p {
   font-size: 19px;
   color: #939393 !important;
   text-align: left;
 }
 
-/* line 514, src/scss/_components/sale/_impressive.scss */
+/* line 517, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-2 {
   max-width: 200px;
 }
 
-/* line 517, src/scss/_components/sale/_impressive.scss */
+/* line 520, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-3 {
   max-width: 230px;
 }
 
-/* line 520, src/scss/_components/sale/_impressive.scss */
+/* line 523, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-4 {
   max-width: 150px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 520, src/scss/_components/sale/_impressive.scss */
+  /* line 523, src/scss/_components/sale/_impressive.scss */
   .impressive__table-col-4 {
     max-width: 200px;
   }
 }
 
-/* line 526, src/scss/_components/sale/_impressive.scss */
+/* line 529, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-5 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -12592,14 +12604,14 @@ picture {
   max-width: 100%;
 }
 
-/* line 532, src/scss/_components/sale/_impressive.scss */
+/* line 535, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col > * {
   z-index: 5;
   white-space: normal;
   position: relative;
 }
 
-/* line 539, src/scss/_components/sale/_impressive.scss */
+/* line 542, src/scss/_components/sale/_impressive.scss */
 .impressive__table .check {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12616,7 +12628,7 @@ picture {
   background-color: #00449d;
 }
 
-/* line 548, src/scss/_components/sale/_impressive.scss */
+/* line 551, src/scss/_components/sale/_impressive.scss */
 .impressive__table .check svg {
   width: 10px;
   height: 15px;
