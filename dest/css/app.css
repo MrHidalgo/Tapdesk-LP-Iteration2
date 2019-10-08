@@ -2761,8 +2761,6 @@ picture {
   width: 100%;
   max-width: 219px;
   height: 60px;
-  border-radius: 10px;
-  border: solid 2px #cd084b;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1.35px;
@@ -2789,10 +2787,47 @@ picture {
 }
 
 /* line 291, src/scss/_components/_header.scss */
+.header__get span {
+  padding-right: 10px;
+}
+
+/* line 295, src/scss/_components/_header.scss */
+.header__get svg {
+  width: 20px;
+  height: 20px;
+  -webkit-transform: scale(-1);
+      -ms-transform: scale(-1);
+          transform: scale(-1);
+  will-change: transform;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 304, src/scss/_components/_header.scss */
+.header__get:hover svg {
+  -webkit-transform: scale(-1) translateX(-50%);
+      -ms-transform: scale(-1) translateX(-50%);
+          transform: scale(-1) translateX(-50%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 310, src/scss/_components/_header.scss */
 .header--fixed .header__get {
   height: 50px;
   border-color: #fff;
   color: #fff;
+}
+
+/* line 315, src/scss/_components/_header.scss */
+.header--fixed .header__get svg {
+  fill: #fff;
 }
 
 @-webkit-keyframes c-zoomIn {
@@ -2817,7 +2852,7 @@ picture {
   }
 }
 
-/* line 310, src/scss/_components/_header.scss */
+/* line 333, src/scss/_components/_header.scss */
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
@@ -10516,11 +10551,23 @@ picture {
   margin-right: auto;
   -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
           box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 227, src/scss/_components/sale/_main.scss */
+/* line 228, src/scss/_components/sale/_main.scss */
 .s-main__btn:hover {
   color: #cd084b;
+  -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+          box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
 /* line 3, src/scss/_components/sale/_why.scss */
@@ -10598,7 +10645,6 @@ picture {
 
 /* line 50, src/scss/_components/sale/_why.scss */
 .why__title {
-  padding-bottom: 40px;
   font-size: 40px;
   font-weight: 900;
   line-height: 1.25;
@@ -10615,6 +10661,7 @@ picture {
 @media screen and (max-width: 767px) {
   /* line 50, src/scss/_components/sale/_why.scss */
   .why__title {
+    padding-bottom: 40px;
     font-size: 33px;
     text-align: center;
   }
@@ -10735,6 +10782,13 @@ picture {
 /* line 139, src/scss/_components/sale/_why.scss */
 .why__btn:hover {
   color: #cd084b;
+  -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+          box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
 /* line 3, src/scss/_components/sale/_results.scss */
@@ -11003,9 +11057,10 @@ picture {
 /* line 35, src/scss/_components/sale/_more.scss */
 .more__wrapper {
   overflow: hidden;
+  padding-top: 15px;
 }
 
-/* line 39, src/scss/_components/sale/_more.scss */
+/* line 40, src/scss/_components/sale/_more.scss */
 .more__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11017,7 +11072,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 39, src/scss/_components/sale/_more.scss */
+  /* line 40, src/scss/_components/sale/_more.scss */
   .more__row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -11025,19 +11080,19 @@ picture {
   }
 }
 
-/* line 51, src/scss/_components/sale/_more.scss */
+/* line 52, src/scss/_components/sale/_more.scss */
 .more__row-1 .more__cover, .more__row-1 .more__img, .more__row-3 .more__cover, .more__row-3 .more__img {
   margin-left: auto;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 51, src/scss/_components/sale/_more.scss */
+  /* line 52, src/scss/_components/sale/_more.scss */
   .more__row-1 .more__cover, .more__row-1 .more__img, .more__row-3 .more__cover, .more__row-3 .more__img {
     margin-right: auto;
   }
 }
 
-/* line 59, src/scss/_components/sale/_more.scss */
+/* line 60, src/scss/_components/sale/_more.scss */
 .more__row-1 .more__img, .more__row-3 .more__img {
   -webkit-transform: translateX(200px);
       -ms-transform: translateX(200px);
@@ -11045,7 +11100,7 @@ picture {
 }
 
 @media screen and (max-width: 1679px) {
-  /* line 59, src/scss/_components/sale/_more.scss */
+  /* line 60, src/scss/_components/sale/_more.scss */
   .more__row-1 .more__img, .more__row-3 .more__img {
     -webkit-transform: translateX(100px);
         -ms-transform: translateX(100px);
@@ -11054,7 +11109,7 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 59, src/scss/_components/sale/_more.scss */
+  /* line 60, src/scss/_components/sale/_more.scss */
   .more__row-1 .more__img, .more__row-3 .more__img {
     -webkit-transform: translateX(75px);
         -ms-transform: translateX(75px);
@@ -11063,7 +11118,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 59, src/scss/_components/sale/_more.scss */
+  /* line 60, src/scss/_components/sale/_more.scss */
   .more__row-1 .more__img, .more__row-3 .more__img {
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
@@ -11072,7 +11127,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 74, src/scss/_components/sale/_more.scss */
+  /* line 75, src/scss/_components/sale/_more.scss */
   .more__row-2, .more__row-4 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -11081,19 +11136,19 @@ picture {
   }
 }
 
-/* line 81, src/scss/_components/sale/_more.scss */
+/* line 82, src/scss/_components/sale/_more.scss */
 .more__row-2 .more__cover, .more__row-2 .more__img, .more__row-4 .more__cover, .more__row-4 .more__img {
   margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 81, src/scss/_components/sale/_more.scss */
+  /* line 82, src/scss/_components/sale/_more.scss */
   .more__row-2 .more__cover, .more__row-2 .more__img, .more__row-4 .more__cover, .more__row-4 .more__img {
     margin-left: 0;
   }
 }
 
-/* line 89, src/scss/_components/sale/_more.scss */
+/* line 90, src/scss/_components/sale/_more.scss */
 .more__row-2 .more__img, .more__row-4 .more__img {
   -webkit-transform: translateX(-200px);
       -ms-transform: translateX(-200px);
@@ -11101,7 +11156,7 @@ picture {
 }
 
 @media screen and (max-width: 1439px) {
-  /* line 89, src/scss/_components/sale/_more.scss */
+  /* line 90, src/scss/_components/sale/_more.scss */
   .more__row-2 .more__img, .more__row-4 .more__img {
     -webkit-transform: translateX(-250px);
         -ms-transform: translateX(-250px);
@@ -11110,7 +11165,7 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 89, src/scss/_components/sale/_more.scss */
+  /* line 90, src/scss/_components/sale/_more.scss */
   .more__row-2 .more__img, .more__row-4 .more__img {
     -webkit-transform: translateX(-300px);
         -ms-transform: translateX(-300px);
@@ -11119,7 +11174,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 89, src/scss/_components/sale/_more.scss */
+  /* line 90, src/scss/_components/sale/_more.scss */
   .more__row-2 .more__img, .more__row-4 .more__img {
     -webkit-transform: translateX(-75px);
         -ms-transform: translateX(-75px);
@@ -11128,7 +11183,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 89, src/scss/_components/sale/_more.scss */
+  /* line 90, src/scss/_components/sale/_more.scss */
   .more__row-2 .more__img, .more__row-4 .more__img {
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
@@ -11136,25 +11191,25 @@ picture {
   }
 }
 
-/* line 108, src/scss/_components/sale/_more.scss */
+/* line 109, src/scss/_components/sale/_more.scss */
 .more__col {
   width: 50%;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 108, src/scss/_components/sale/_more.scss */
+  /* line 109, src/scss/_components/sale/_more.scss */
   .more__col {
     width: 100%;
   }
 }
 
-/* line 115, src/scss/_components/sale/_more.scss */
+/* line 116, src/scss/_components/sale/_more.scss */
 .more__cover {
   width: 100%;
   max-width: 520px;
 }
 
-/* line 120, src/scss/_components/sale/_more.scss */
+/* line 121, src/scss/_components/sale/_more.scss */
 .more__title {
   padding-bottom: 80px;
   font-size: 40px;
@@ -11162,43 +11217,43 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 120, src/scss/_components/sale/_more.scss */
+  /* line 121, src/scss/_components/sale/_more.scss */
   .more__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 120, src/scss/_components/sale/_more.scss */
+  /* line 121, src/scss/_components/sale/_more.scss */
   .more__title {
     font-size: 33px;
   }
 }
 
 @media screen and (max-width: 424px) {
-  /* line 120, src/scss/_components/sale/_more.scss */
+  /* line 121, src/scss/_components/sale/_more.scss */
   .more__title {
     text-align: center;
   }
-  /* line 133, src/scss/_components/sale/_more.scss */
+  /* line 134, src/scss/_components/sale/_more.scss */
   .more__title br {
     display: none;
   }
 }
 
-/* line 138, src/scss/_components/sale/_more.scss */
+/* line 139, src/scss/_components/sale/_more.scss */
 .more__title span {
   position: relative;
 }
 
-/* line 141, src/scss/_components/sale/_more.scss */
+/* line 142, src/scss/_components/sale/_more.scss */
 .more__title span i {
   z-index: 2;
   position: relative;
   font-style: normal;
 }
 
-/* line 147, src/scss/_components/sale/_more.scss */
+/* line 148, src/scss/_components/sale/_more.scss */
 .more__title span:before {
   content: '';
   z-index: 0;
@@ -11211,26 +11266,26 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 147, src/scss/_components/sale/_more.scss */
+  /* line 148, src/scss/_components/sale/_more.scss */
   .more__title span:before {
     height: 20px;
   }
 }
 
-/* line 163, src/scss/_components/sale/_more.scss */
+/* line 164, src/scss/_components/sale/_more.scss */
 .more__img {
   display: block;
   height: auto;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 163, src/scss/_components/sale/_more.scss */
+  /* line 164, src/scss/_components/sale/_more.scss */
   .more__img {
     max-width: 100%;
   }
 }
 
-/* line 171, src/scss/_components/sale/_more.scss */
+/* line 172, src/scss/_components/sale/_more.scss */
 .more__tabs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11252,14 +11307,14 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 171, src/scss/_components/sale/_more.scss */
+  /* line 172, src/scss/_components/sale/_more.scss */
   .more__tabs {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 171, src/scss/_components/sale/_more.scss */
+  /* line 172, src/scss/_components/sale/_more.scss */
   .more__tabs {
     height: 35px;
     margin-right: 5px;
@@ -11271,7 +11326,7 @@ picture {
 }
 
 @media screen and (max-width: 424px) {
-  /* line 171, src/scss/_components/sale/_more.scss */
+  /* line 172, src/scss/_components/sale/_more.scss */
   .more__tabs {
     margin-right: 10px;
     padding-left: 5px;
@@ -11280,18 +11335,18 @@ picture {
   }
 }
 
-/* line 201, src/scss/_components/sale/_more.scss */
+/* line 202, src/scss/_components/sale/_more.scss */
 .more__tabs:last-of-type {
   margin-right: 0;
 }
 
-/* line 205, src/scss/_components/sale/_more.scss */
+/* line 206, src/scss/_components/sale/_more.scss */
 .more__tabs.is-active {
   background-color: #00449d;
   color: #ffffff;
 }
 
-/* line 210, src/scss/_components/sale/_more.scss */
+/* line 211, src/scss/_components/sale/_more.scss */
 .more__tabs-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11306,7 +11361,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 210, src/scss/_components/sale/_more.scss */
+  /* line 211, src/scss/_components/sale/_more.scss */
   .more__tabs-wrapper {
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
@@ -11315,7 +11370,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 210, src/scss/_components/sale/_more.scss */
+  /* line 211, src/scss/_components/sale/_more.scss */
   .more__tabs-wrapper {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -11323,7 +11378,7 @@ picture {
   }
 }
 
-/* line 224, src/scss/_components/sale/_more.scss */
+/* line 225, src/scss/_components/sale/_more.scss */
 .more__subtitle {
   padding-bottom: 30px;
   font-size: 40px;
@@ -11332,33 +11387,33 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 224, src/scss/_components/sale/_more.scss */
+  /* line 225, src/scss/_components/sale/_more.scss */
   .more__subtitle {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 224, src/scss/_components/sale/_more.scss */
+  /* line 225, src/scss/_components/sale/_more.scss */
   .more__subtitle {
     font-size: 33px;
     padding-bottom: 15px;
   }
-  /* line 236, src/scss/_components/sale/_more.scss */
+  /* line 237, src/scss/_components/sale/_more.scss */
   .more__subtitle br {
     display: none;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 224, src/scss/_components/sale/_more.scss */
+  /* line 225, src/scss/_components/sale/_more.scss */
   .more__subtitle {
     font-size: 30px;
     text-align: center;
   }
 }
 
-/* line 246, src/scss/_components/sale/_more.scss */
+/* line 247, src/scss/_components/sale/_more.scss */
 .more__desc {
   padding-bottom: 40px;
   font-size: 19px;
@@ -11367,14 +11422,14 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 246, src/scss/_components/sale/_more.scss */
+  /* line 247, src/scss/_components/sale/_more.scss */
   .more__desc {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 246, src/scss/_components/sale/_more.scss */
+  /* line 247, src/scss/_components/sale/_more.scss */
   .more__desc {
     font-size: 16px;
     padding-bottom: 20px;
@@ -11382,13 +11437,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 260, src/scss/_components/sale/_more.scss */
+  /* line 261, src/scss/_components/sale/_more.scss */
   .more__list {
     padding-bottom: 40px;
   }
 }
 
-/* line 265, src/scss/_components/sale/_more.scss */
+/* line 266, src/scss/_components/sale/_more.scss */
 .more__list li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11397,24 +11452,24 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 265, src/scss/_components/sale/_more.scss */
+  /* line 266, src/scss/_components/sale/_more.scss */
   .more__list li {
     padding-bottom: 20px;
   }
 }
 
-/* line 272, src/scss/_components/sale/_more.scss */
+/* line 273, src/scss/_components/sale/_more.scss */
 .more__list li:last-of-type {
   padding-bottom: 0;
 }
 
-/* line 277, src/scss/_components/sale/_more.scss */
+/* line 278, src/scss/_components/sale/_more.scss */
 .more__list li > div:nth-of-type(1) {
   width: 35px;
   padding-top: 6px;
 }
 
-/* line 281, src/scss/_components/sale/_more.scss */
+/* line 282, src/scss/_components/sale/_more.scss */
 .more__list li > div:nth-of-type(2) {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -11423,7 +11478,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 289, src/scss/_components/sale/_more.scss */
+/* line 290, src/scss/_components/sale/_more.scss */
 .more__list span {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11440,14 +11495,14 @@ picture {
   background-color: #00449d;
 }
 
-/* line 298, src/scss/_components/sale/_more.scss */
+/* line 299, src/scss/_components/sale/_more.scss */
 .more__list span svg {
   width: 10px;
   height: 15px;
   fill: #fff;
 }
 
-/* line 305, src/scss/_components/sale/_more.scss */
+/* line 306, src/scss/_components/sale/_more.scss */
 .more__list p {
   font-size: 19px;
   line-height: 1.58;
@@ -11455,14 +11510,14 @@ picture {
 }
 
 @media screen and (max-width: 1365px) {
-  /* line 305, src/scss/_components/sale/_more.scss */
+  /* line 306, src/scss/_components/sale/_more.scss */
   .more__list p {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 305, src/scss/_components/sale/_more.scss */
+  /* line 306, src/scss/_components/sale/_more.scss */
   .more__list p {
     font-size: 16px;
   }
@@ -11746,17 +11801,23 @@ picture {
   -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
           box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
   will-change: background-color, border-color, color;
-  -webkit-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
 /* line 71, src/scss/_components/sale/_join.scss */
 .join__btn:hover {
   border-color: #fff;
-  -webkit-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+          box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+  -webkit-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
 /* line 3, src/scss/_components/sale/_impressive.scss */
@@ -11984,28 +12045,44 @@ picture {
   margin-right: auto;
   -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
           box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 180, src/scss/_components/sale/_impressive.scss */
+/* line 181, src/scss/_components/sale/_impressive.scss */
+.impressive__btn:hover {
+  -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+          box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+/* line 186, src/scss/_components/sale/_impressive.scss */
 .impressive__btn-wrapper {
   padding-bottom: 140px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 180, src/scss/_components/sale/_impressive.scss */
+  /* line 186, src/scss/_components/sale/_impressive.scss */
   .impressive__btn-wrapper {
     padding-bottom: 100px;
   }
 }
 
-/* line 188, src/scss/_components/sale/_impressive.scss */
+/* line 194, src/scss/_components/sale/_impressive.scss */
 .impressive__copyright {
   font-size: 16px;
   text-align: center;
   color: #8f8f8f;
 }
 
-/* line 194, src/scss/_components/sale/_impressive.scss */
+/* line 200, src/scss/_components/sale/_impressive.scss */
 .impressive__card {
   width: 100%;
   min-height: 380px;
@@ -12017,14 +12094,14 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 194, src/scss/_components/sale/_impressive.scss */
+  /* line 200, src/scss/_components/sale/_impressive.scss */
   .impressive__card {
     padding: 30px 15px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 194, src/scss/_components/sale/_impressive.scss */
+  /* line 200, src/scss/_components/sale/_impressive.scss */
   .impressive__card {
     max-width: 320px;
     margin-left: auto;
@@ -12032,25 +12109,25 @@ picture {
   }
 }
 
-/* line 211, src/scss/_components/sale/_impressive.scss */
+/* line 217, src/scss/_components/sale/_impressive.scss */
 .impressive__card-1 svg {
   width: 40px;
   height: 40px;
 }
 
-/* line 217, src/scss/_components/sale/_impressive.scss */
+/* line 223, src/scss/_components/sale/_impressive.scss */
 .impressive__card-2 svg {
   width: 40px;
   height: 40px;
 }
 
-/* line 223, src/scss/_components/sale/_impressive.scss */
+/* line 229, src/scss/_components/sale/_impressive.scss */
 .impressive__card-3 svg {
   width: 34px;
   height: 42px;
 }
 
-/* line 229, src/scss/_components/sale/_impressive.scss */
+/* line 235, src/scss/_components/sale/_impressive.scss */
 .impressive__card-wrapper {
   position: relative;
   display: -webkit-box;
@@ -12062,14 +12139,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 229, src/scss/_components/sale/_impressive.scss */
+  /* line 235, src/scss/_components/sale/_impressive.scss */
   .impressive__card-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-/* line 237, src/scss/_components/sale/_impressive.scss */
+/* line 243, src/scss/_components/sale/_impressive.scss */
 .impressive__card-wrapper > div {
   position: relative;
   width: 100%;
@@ -12077,30 +12154,30 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 237, src/scss/_components/sale/_impressive.scss */
+  /* line 243, src/scss/_components/sale/_impressive.scss */
   .impressive__card-wrapper > div {
     max-width: calc((100% - 30px) / 3);
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 237, src/scss/_components/sale/_impressive.scss */
+  /* line 243, src/scss/_components/sale/_impressive.scss */
   .impressive__card-wrapper > div {
     max-width: 100%;
     padding-bottom: 30px;
   }
-  /* line 248, src/scss/_components/sale/_impressive.scss */
+  /* line 254, src/scss/_components/sale/_impressive.scss */
   .impressive__card-wrapper > div:last-of-type {
     padding-bottom: 0;
   }
 }
 
-/* line 255, src/scss/_components/sale/_impressive.scss */
+/* line 261, src/scss/_components/sale/_impressive.scss */
 .impressive__card svg {
   fill: #cd084b;
 }
 
-/* line 259, src/scss/_components/sale/_impressive.scss */
+/* line 265, src/scss/_components/sale/_impressive.scss */
 .impressive__card-title {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -12112,7 +12189,7 @@ picture {
   color: #cd084b;
 }
 
-/* line 270, src/scss/_components/sale/_impressive.scss */
+/* line 276, src/scss/_components/sale/_impressive.scss */
 .impressive__card-desc {
   padding-bottom: 40px;
   font-size: 19px;
@@ -12121,7 +12198,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 270, src/scss/_components/sale/_impressive.scss */
+  /* line 276, src/scss/_components/sale/_impressive.scss */
   .impressive__card-desc {
     min-height: 124px;
     font-size: 18px;
@@ -12129,13 +12206,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 270, src/scss/_components/sale/_impressive.scss */
+  /* line 276, src/scss/_components/sale/_impressive.scss */
   .impressive__card-desc {
     min-height: unset;
   }
 }
 
-/* line 284, src/scss/_components/sale/_impressive.scss */
+/* line 290, src/scss/_components/sale/_impressive.scss */
 .impressive__card-info {
   padding-bottom: 10px;
   font-size: 19px;
@@ -12143,7 +12220,7 @@ picture {
   color: #000000;
 }
 
-/* line 291, src/scss/_components/sale/_impressive.scss */
+/* line 297, src/scss/_components/sale/_impressive.scss */
 .impressive__card-price {
   font-size: 44px;
   font-weight: 900;
@@ -12152,13 +12229,13 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 291, src/scss/_components/sale/_impressive.scss */
+  /* line 297, src/scss/_components/sale/_impressive.scss */
   .impressive__card-price {
     font-size: 40px;
   }
 }
 
-/* line 302, src/scss/_components/sale/_impressive.scss */
+/* line 308, src/scss/_components/sale/_impressive.scss */
 .impressive__table {
   position: relative;
   display: -webkit-box;
@@ -12171,14 +12248,14 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 302, src/scss/_components/sale/_impressive.scss */
+  /* line 308, src/scss/_components/sale/_impressive.scss */
   .impressive__table {
     width: 1024px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 310, src/scss/_components/sale/_impressive.scss */
+  /* line 316, src/scss/_components/sale/_impressive.scss */
   .impressive__table-wrapper {
     white-space: nowrap;
     overflow-x: auto;
@@ -12187,7 +12264,7 @@ picture {
   }
 }
 
-/* line 319, src/scss/_components/sale/_impressive.scss */
+/* line 325, src/scss/_components/sale/_impressive.scss */
 .impressive__table-bg {
   z-index: 1;
   position: absolute;
@@ -12200,26 +12277,26 @@ picture {
   height: 100%;
 }
 
-/* line 328, src/scss/_components/sale/_impressive.scss */
+/* line 334, src/scss/_components/sale/_impressive.scss */
 .impressive__table-bg > div {
   width: 100%;
   height: 100%;
   border-radius: 20px;
 }
 
-/* line 333, src/scss/_components/sale/_impressive.scss */
+/* line 339, src/scss/_components/sale/_impressive.scss */
 .impressive__table-bg > div:nth-of-type(1) {
   max-width: 265px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 333, src/scss/_components/sale/_impressive.scss */
+  /* line 339, src/scss/_components/sale/_impressive.scss */
   .impressive__table-bg > div:nth-of-type(1) {
     max-width: 175px;
   }
 }
 
-/* line 339, src/scss/_components/sale/_impressive.scss */
+/* line 345, src/scss/_components/sale/_impressive.scss */
 .impressive__table-bg > div:nth-of-type(2) {
   max-width: 200px;
   -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
@@ -12227,24 +12304,24 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 344, src/scss/_components/sale/_impressive.scss */
+/* line 350, src/scss/_components/sale/_impressive.scss */
 .impressive__table-bg > div:nth-of-type(3) {
   max-width: 230px;
 }
 
-/* line 347, src/scss/_components/sale/_impressive.scss */
+/* line 353, src/scss/_components/sale/_impressive.scss */
 .impressive__table-bg > div:nth-of-type(4) {
   max-width: 150px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 347, src/scss/_components/sale/_impressive.scss */
+  /* line 353, src/scss/_components/sale/_impressive.scss */
   .impressive__table-bg > div:nth-of-type(4) {
     max-width: 200px;
   }
 }
 
-/* line 353, src/scss/_components/sale/_impressive.scss */
+/* line 359, src/scss/_components/sale/_impressive.scss */
 .impressive__table-bg > div:nth-of-type(5) {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -12253,7 +12330,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 361, src/scss/_components/sale/_impressive.scss */
+/* line 367, src/scss/_components/sale/_impressive.scss */
 .impressive__table-head, .impressive__table-body, .impressive__table-foot {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12264,7 +12341,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 372, src/scss/_components/sale/_impressive.scss */
+/* line 378, src/scss/_components/sale/_impressive.scss */
 .impressive__table-head .impressive__table-row-1 > div {
   padding: 30px 5px;
   font-size: 19px;
@@ -12276,26 +12353,26 @@ picture {
   text-transform: uppercase;
 }
 
-/* line 385, src/scss/_components/sale/_impressive.scss */
+/* line 391, src/scss/_components/sale/_impressive.scss */
 .impressive__table-head .impressive__table-row-2 span,
 .impressive__table-head .impressive__table-row-2 p {
   text-align: center;
   color: #000000;
 }
 
-/* line 391, src/scss/_components/sale/_impressive.scss */
+/* line 397, src/scss/_components/sale/_impressive.scss */
 .impressive__table-head .impressive__table-row-2 span {
   display: block;
   font-size: 19px;
 }
 
-/* line 396, src/scss/_components/sale/_impressive.scss */
+/* line 402, src/scss/_components/sale/_impressive.scss */
 .impressive__table-head .impressive__table-row-2 p {
   font-size: 29px;
   font-weight: 900;
 }
 
-/* line 405, src/scss/_components/sale/_impressive.scss */
+/* line 411, src/scss/_components/sale/_impressive.scss */
 .impressive__table-head .impressive__table-col-1 p {
   font-size: 19px;
   font-weight: 400;
@@ -12303,12 +12380,12 @@ picture {
   text-align: left;
 }
 
-/* line 418, src/scss/_components/sale/_impressive.scss */
+/* line 424, src/scss/_components/sale/_impressive.scss */
 .impressive__table-body .impressive__table-row {
   min-height: 60px;
 }
 
-/* line 422, src/scss/_components/sale/_impressive.scss */
+/* line 428, src/scss/_components/sale/_impressive.scss */
 .impressive__table-body .impressive__table-row:nth-of-type(odd)::before {
   content: '';
   position: absolute;
@@ -12321,14 +12398,14 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 422, src/scss/_components/sale/_impressive.scss */
+  /* line 428, src/scss/_components/sale/_impressive.scss */
   .impressive__table-body .impressive__table-row:nth-of-type(odd)::before {
     left: -15px;
     width: calc(100% + 30px);
   }
 }
 
-/* line 439, src/scss/_components/sale/_impressive.scss */
+/* line 445, src/scss/_components/sale/_impressive.scss */
 .impressive__table-body .impressive__table-col {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12341,36 +12418,36 @@ picture {
           justify-content: center;
 }
 
-/* line 444, src/scss/_components/sale/_impressive.scss */
+/* line 450, src/scss/_components/sale/_impressive.scss */
 .impressive__table-body .impressive__table-col-1 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 
-/* line 447, src/scss/_components/sale/_impressive.scss */
+/* line 453, src/scss/_components/sale/_impressive.scss */
 .impressive__table-body .impressive__table-col-1 p {
   text-align: left !important;
 }
 
-/* line 452, src/scss/_components/sale/_impressive.scss */
+/* line 458, src/scss/_components/sale/_impressive.scss */
 .impressive__table-body .impressive__table-col p {
   font-size: 19px;
   text-align: center;
   color: #000000;
 }
 
-/* line 457, src/scss/_components/sale/_impressive.scss */
+/* line 463, src/scss/_components/sale/_impressive.scss */
 .impressive__table-body .impressive__table-col p strong {
   font-weight: 700;
 }
 
-/* line 466, src/scss/_components/sale/_impressive.scss */
+/* line 472, src/scss/_components/sale/_impressive.scss */
 .impressive__table-foot .impressive__table-col {
   padding: 10px;
 }
 
-/* line 470, src/scss/_components/sale/_impressive.scss */
+/* line 476, src/scss/_components/sale/_impressive.scss */
 .impressive__table-foot p {
   padding-bottom: 20px;
   font-size: 19px;
@@ -12378,19 +12455,19 @@ picture {
   color: #000000;
 }
 
-/* line 477, src/scss/_components/sale/_impressive.scss */
+/* line 483, src/scss/_components/sale/_impressive.scss */
 .impressive__table-foot a {
   max-width: 100%;
   -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
           box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
 }
 
-/* line 481, src/scss/_components/sale/_impressive.scss */
+/* line 487, src/scss/_components/sale/_impressive.scss */
 .impressive__table-foot a:hover {
   color: #cd084b;
 }
 
-/* line 487, src/scss/_components/sale/_impressive.scss */
+/* line 493, src/scss/_components/sale/_impressive.scss */
 .impressive__table-row {
   position: relative;
   display: -webkit-box;
@@ -12398,54 +12475,54 @@ picture {
   display: flex;
 }
 
-/* line 492, src/scss/_components/sale/_impressive.scss */
+/* line 498, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col {
   width: 100%;
   padding: 15px 5px;
 }
 
-/* line 496, src/scss/_components/sale/_impressive.scss */
+/* line 502, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-1 {
   max-width: 265px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 496, src/scss/_components/sale/_impressive.scss */
+  /* line 502, src/scss/_components/sale/_impressive.scss */
   .impressive__table-col-1 {
     max-width: 175px;
   }
 }
 
-/* line 502, src/scss/_components/sale/_impressive.scss */
+/* line 508, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-1 p {
   font-size: 19px;
   color: #939393 !important;
   text-align: left;
 }
 
-/* line 508, src/scss/_components/sale/_impressive.scss */
+/* line 514, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-2 {
   max-width: 200px;
 }
 
-/* line 511, src/scss/_components/sale/_impressive.scss */
+/* line 517, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-3 {
   max-width: 230px;
 }
 
-/* line 514, src/scss/_components/sale/_impressive.scss */
+/* line 520, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-4 {
   max-width: 150px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 514, src/scss/_components/sale/_impressive.scss */
+  /* line 520, src/scss/_components/sale/_impressive.scss */
   .impressive__table-col-4 {
     max-width: 200px;
   }
 }
 
-/* line 520, src/scss/_components/sale/_impressive.scss */
+/* line 526, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col-5 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -12454,14 +12531,14 @@ picture {
   max-width: 100%;
 }
 
-/* line 526, src/scss/_components/sale/_impressive.scss */
+/* line 532, src/scss/_components/sale/_impressive.scss */
 .impressive__table-col > * {
   z-index: 5;
   white-space: normal;
   position: relative;
 }
 
-/* line 533, src/scss/_components/sale/_impressive.scss */
+/* line 539, src/scss/_components/sale/_impressive.scss */
 .impressive__table .check {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12478,7 +12555,7 @@ picture {
   background-color: #00449d;
 }
 
-/* line 542, src/scss/_components/sale/_impressive.scss */
+/* line 548, src/scss/_components/sale/_impressive.scss */
 .impressive__table .check svg {
   width: 10px;
   height: 15px;

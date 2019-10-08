@@ -1072,6 +1072,15 @@ $(document).ready(function (ev) {
     });
   };
 
+  var initSmoothMoreScroll = function initSmoothMoreScroll() {};
+
+  var initStickyElem = function initStickyElem() {
+    stickybits('#why__title', {
+      useStickyClasses: true,
+      stickyBitStickyOffset: 80
+    });
+  };
+
   /**
    * @description Init all method
    */
@@ -1103,6 +1112,8 @@ $(document).ready(function (ev) {
     initResourcesMainBtn();
     initSearchDrop();
     initPricingTabs();
+
+    initStickyElem();
   };
   initJquery();
 });

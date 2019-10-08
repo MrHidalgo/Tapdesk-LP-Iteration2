@@ -43,7 +43,10 @@
             <div class="logo logo--header"><a class="logo__link" href="/" title="">
                 <svg class="icon-svg icon-logo ">
                   <use xlink:href="./img/sprite.svg#logo"></use>
-                </svg></a></div><a class="header__get" href="#" title="">Get Started</a>
+                </svg></a></div><a class="header__get" href="#" title=""><span>Get Started</span>
+              <svg class="icon-svg icon-arrow ">
+                <use xlink:href="./img/sprite.svg#arrow"></use>
+              </svg></a>
           </div>
         </div>
       </div>
@@ -95,7 +98,7 @@
         <div class="c-grid">
           <div class="why__wrapper">
             <div class="why__wrapper-left">
-              <h2 class="why__title">Why choose <br>Tapdesk?</h2>
+              <h2 class="why__title" id="why__title">Why choose <br>Tapdesk?</h2>
             </div>
             <div class="why__wrapper-right">
               <p class="why__subtitle why__subtitle-1">All-in-one</p>
@@ -274,12 +277,12 @@
         <div class="c-grid">
           <h2 class="more__title">Features that allow you <br>to get <span><i>more done.</i></span> In less time.</h2>
         </div>
-        <div class="more__wrapper more__wrapper-1">
+        <div class="more__wrapper more__wrapper-1" id="moreSearch">
           <div class="c-grid-fluid">
             <div class="more__row more__row-1">
               <div class="more__col more__col-1">
                 <div class="more__cover">
-                  <div class="more__tabs-wrapper"><span class="more__tabs is-active">Search</span><span class="more__tabs">Pipelines</span><span class="more__tabs">Contacts</span><span class="more__tabs">Campaigns</span></div>
+                  <div class="more__tabs-wrapper"><a class="more__tabs is-active" href="#moreSearch" anchor-js>Search</a><a class="more__tabs" href="#morePipelines" anchor-js>Pipelines</a><a class="more__tabs" href="#moreContacts" anchor-js>Contacts</a><a class="more__tabs" href="#moreCampaigns" anchor-js>Campaigns</a></div>
                   <p class="more__subtitle">Finding the right leads</p>
                   <p class="more__desc">Searching for leads in Tapdesk is pretty simple. You enter a few keywords related to your search. Our super intelligent AI finds individuals or businesses matching your search. It goes a bit further to perform additional tasks to preliminary selections to ensure that the final results you get are current and highly relevant to your business.</p>
                   <ul class="more__list">
@@ -326,13 +329,13 @@
             </div>
           </div>
         </div>
-        <div class="more__wrapper more__wrapper-2">
+        <div class="more__wrapper more__wrapper-2" id="morePipelines">
           <div class="c-grid-fluid">
             <div class="more__row more__row-2">
               <div class="more__col more__col-1"><img class="more__img" src="./img/img-more-1.png" srcset="./img/img-more-1@2x.png 2x" alt="" title=""></div>
               <div class="more__col more__col-2">
                 <div class="more__cover">
-                  <div class="more__tabs-wrapper"><span class="more__tabs">Search</span><span class="more__tabs is-active">Pipelines</span><span class="more__tabs">Contacts</span><span class="more__tabs">Campaigns</span></div>
+                  <div class="more__tabs-wrapper"><a class="more__tabs" href="#moreSearch" anchor-js>Search</a><a class="more__tabs is-active" href="#morePipelines" anchor-js>Pipelines</a><a class="more__tabs" href="#moreContacts" anchor-js>Contacts</a><a class="more__tabs" href="#moreCampaigns" anchor-js>Campaigns</a></div>
                   <p class="more__subtitle">Managing leads <br>in your sales process</p>
                   <p class="more__desc">Being organized helps you improve the quality of work that you do and meet deadlines consistently. Tapdesk pipelines shows you where a deal has been and provide you with tools to determine where it goes next. It’s designed to enhance your efficiency in your workplace.</p>
                   <ul class="more__list">
@@ -378,12 +381,12 @@
             </div>
           </div>
         </div>
-        <div class="more__wrapper more__wrapper-3">
+        <div class="more__wrapper more__wrapper-3" id="moreContacts">
           <div class="c-grid-fluid">
             <div class="more__row more__row-3">
               <div class="more__col more__col-1">
                 <div class="more__cover">
-                  <div class="more__tabs-wrapper"><span class="more__tabs">Search</span><span class="more__tabs">Pipelines</span><span class="more__tabs is-active">Contacts</span><span class="more__tabs">Campaigns</span></div>
+                  <div class="more__tabs-wrapper"><a class="more__tabs" href="#moreSearch" anchor-js>Search</a><a class="more__tabs" href="#morePipelines" anchor-js>Pipelines</a><a class="more__tabs is-active" href="#moreContacts" anchor-js>Contacts</a><a class="more__tabs" href="#moreCampaigns" anchor-js>Campaigns</a></div>
                   <p class="more__subtitle">Contacts management</p>
                   <p class="more__desc">Contacts provides a very efficient way for managing your clients and contacts while eliminating the need for a secondary contact manager. You can easily segment them into groups and perform even more robust actions specific to a group of customers in you database.</p>
                   <ul class="more__list">
@@ -430,13 +433,13 @@
             </div>
           </div>
         </div>
-        <div class="more__wrapper more__wrapper-4">
+        <div class="more__wrapper more__wrapper-4" id="moreCampaigns">
           <div class="c-grid-fluid">
             <div class="more__row more__row-4">
               <div class="more__col more__col-1"><img class="more__img" src="./img/img-more-3.png" srcset="./img/img-more-3@2x.png 2x" alt="" title=""></div>
               <div class="more__col more__col-2">
                 <div class="more__cover">
-                  <div class="more__tabs-wrapper"><span class="more__tabs">Search</span><span class="more__tabs">Pipelines</span><span class="more__tabs">Contacts</span><span class="more__tabs is-active">Campaigns</span></div>
+                  <div class="more__tabs-wrapper"><a class="more__tabs" href="#moreSearch" anchor-js>Search</a><a class="more__tabs" href="#morePipelines" anchor-js>Pipelines</a><a class="more__tabs" href="#moreContacts" anchor-js>Contacts</a><a class="more__tabs is-active" href="#moreCampaigns" anchor-js>Campaigns</a></div>
                   <p class="more__subtitle">Create and send <br>stunning email campaigns</p>
                   <p class="more__desc">Communicating with your amazing customers is very important and Tapdesk Campaigns makes this process easy and effective so you can get most out of it. Real time analytics helps you make data-driven decisions for your business easily.</p>
                   <ul class="more__list">
