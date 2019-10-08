@@ -102,11 +102,10 @@ var initPreventBehavior = function initPreventBehavior() {
  */
 var initSmoothScroll = function initSmoothScroll() {
   var btnName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "[anchor-js]";
-  var animateSpeed = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1000;
+  var animateSpeed = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 750;
 
 
   $(btnName).on("click", function (e) {
-
     var linkHref = $(e.currentTarget).attr('href'),
         headerHeight = $(".header").outerHeight() || 0,
         topHeightOffset = $(linkHref).offset().top - headerHeight;
@@ -114,6 +113,11 @@ var initSmoothScroll = function initSmoothScroll() {
     $('body, html').animate({
       scrollTop: topHeightOffset
     }, animateSpeed);
+
+    var noHashURL = window.location.href.replace(/#.*$/, '');
+    window.history.replaceState('', document.title, noHashURL);
+
+    e.preventDefault();
   });
 };
 
@@ -487,6 +491,11 @@ $(window).on("scroll", function (ev) {
  * @description Document DOM ready.
  */
 $(document).ready(function (ev) {
+  // window.onbeforeunload = function () {
+  //   if($('[data-file="sale"]').length) {
+  //     window.scrollTo(0, 0);
+  //   }
+  // };
   /**
    * =============================================
    * CALLBACK
@@ -705,7 +714,7 @@ $(document).ready(function (ev) {
       if (location.pathname.replace(/^\//, '') === ev.currentTarget.pathname.replace(/^\//, '') && location.hostname === ev.currentTarget.hostname) {
         var target = $(ev.currentTarget.hash);
 
-        target = target.length ? target : $('[name=' + ev.currentTarget.hash.slice(1) + ']');
+        target = target.length ? target : initSmoothScroll$('[name=' + ev.currentTarget.hash.slice(1) + ']');
 
         if (target.length) {
           $('body, html').animate({
@@ -728,7 +737,6 @@ $(document).ready(function (ev) {
           return false;
         }
       }
-      console.log("supportTopicInsideBtn");
     });
 
     /**
@@ -1072,8 +1080,6 @@ $(document).ready(function (ev) {
     });
   };
 
-  var initSmoothMoreScroll = function initSmoothMoreScroll() {};
-
   var initStickyElem = function initStickyElem() {
     stickybits('#why__title', {
       useStickyClasses: true,
@@ -1086,7 +1092,6 @@ $(document).ready(function (ev) {
    */
   var initJquery = function initJquery() {
     // default
-    // initWebFontLoader();
     initPreventBehavior();
     initSvg4everybody();
 

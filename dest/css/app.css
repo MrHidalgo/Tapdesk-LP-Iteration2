@@ -10225,7 +10225,68 @@ picture {
   }
 }
 
-/* line 11, src/scss/_components/sale/_main.scss */
+/* line 16, src/scss/_components/sale/_main.scss */
+.s-main--mod .s-main__bg-img-obj-1 {
+  top: 24%;
+  bottom: auto;
+}
+
+/* line 23, src/scss/_components/sale/_main.scss */
+.s-main--mod .s-main__bg-icon-1 {
+  top: 200px;
+  bottom: auto;
+  left: 165px;
+  width: 100px;
+  height: 101px;
+  background-image: url("../img/img-obj-hero-2@2x.png");
+  background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 23, src/scss/_components/sale/_main.scss */
+  .s-main--mod .s-main__bg-icon-1 {
+    top: 85px;
+  }
+}
+
+/* line 35, src/scss/_components/sale/_main.scss */
+.s-main--mod .s-main__bg-icon-1 svg {
+  -webkit-transform: translateY(-9px);
+      -ms-transform: translateY(-9px);
+          transform: translateY(-9px);
+}
+
+/* line 39, src/scss/_components/sale/_main.scss */
+.s-main--mod .s-main__bg-icon-2 {
+  left: 80px;
+  top: auto;
+  bottom: 120px;
+  width: 144px;
+  height: 153px;
+  background-image: url("../img/img-obj-hero-5@2x.png");
+  background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 39, src/scss/_components/sale/_main.scss */
+  .s-main--mod .s-main__bg-icon-2 {
+    bottom: 80px;
+  }
+}
+
+/* line 51, src/scss/_components/sale/_main.scss */
+.s-main--mod .s-main__bg-icon-2 svg {
+  -webkit-transform: translate(2px, -16px);
+      -ms-transform: translate(2px, -16px);
+          transform: translate(2px, -16px);
+}
+
+/* line 56, src/scss/_components/sale/_main.scss */
+.s-main--mod .s-main__bg-icon-4 {
+  top: 60%;
+}
+
+/* line 64, src/scss/_components/sale/_main.scss */
 .s-main__bg {
   z-index: 0;
   position: absolute;
@@ -10235,7 +10296,7 @@ picture {
   height: 100%;
 }
 
-/* line 19, src/scss/_components/sale/_main.scss */
+/* line 72, src/scss/_components/sale/_main.scss */
 .s-main__bg-img {
   position: absolute;
   top: 0;
@@ -10244,48 +10305,48 @@ picture {
   height: 100%;
 }
 
-/* line 26, src/scss/_components/sale/_main.scss */
+/* line 79, src/scss/_components/sale/_main.scss */
 .s-main__bg-img-obj {
   position: absolute;
 }
 
-/* line 29, src/scss/_components/sale/_main.scss */
+/* line 82, src/scss/_components/sale/_main.scss */
 .s-main__bg-img-obj-1 {
   left: 0;
   bottom: 30px;
 }
 
-/* line 33, src/scss/_components/sale/_main.scss */
+/* line 86, src/scss/_components/sale/_main.scss */
 .s-main__bg-img-obj-2 {
   left: 20%;
   bottom: 50px;
 }
 
-/* line 37, src/scss/_components/sale/_main.scss */
+/* line 90, src/scss/_components/sale/_main.scss */
 .s-main__bg-img-obj-3 {
   top: 50%;
   left: 50px;
 }
 
-/* line 41, src/scss/_components/sale/_main.scss */
+/* line 94, src/scss/_components/sale/_main.scss */
 .s-main__bg-img-obj-4 {
   top: 30px;
   left: 55%;
 }
 
-/* line 45, src/scss/_components/sale/_main.scss */
+/* line 98, src/scss/_components/sale/_main.scss */
 .s-main__bg-img-obj-5 {
   top: 200px;
   right: 20%;
 }
 
-/* line 49, src/scss/_components/sale/_main.scss */
+/* line 102, src/scss/_components/sale/_main.scss */
 .s-main__bg-img-obj-6 {
   bottom: 30px;
   right: 22%;
 }
 
-/* line 56, src/scss/_components/sale/_main.scss */
+/* line 109, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10302,14 +10363,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 56, src/scss/_components/sale/_main.scss */
+  /* line 109, src/scss/_components/sale/_main.scss */
   .s-main__bg-icon {
     opacity: 0;
     visibility: hidden;
   }
 }
 
-/* line 68, src/scss/_components/sale/_main.scss */
+/* line 121, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-1 {
   left: 80px;
   bottom: 120px;
@@ -10319,14 +10380,14 @@ picture {
   background-size: cover;
 }
 
-/* line 76, src/scss/_components/sale/_main.scss */
+/* line 129, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-1 svg {
   -webkit-transform: translateY(-9px);
       -ms-transform: translateY(-9px);
           transform: translateY(-9px);
 }
 
-/* line 80, src/scss/_components/sale/_main.scss */
+/* line 133, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-2 {
   top: 200px;
   left: 165px;
@@ -10337,27 +10398,27 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 80, src/scss/_components/sale/_main.scss */
+  /* line 133, src/scss/_components/sale/_main.scss */
   .s-main__bg-icon-2 {
     left: 30px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 80, src/scss/_components/sale/_main.scss */
+  /* line 133, src/scss/_components/sale/_main.scss */
   .s-main__bg-icon-2 {
     top: 85px;
   }
 }
 
-/* line 94, src/scss/_components/sale/_main.scss */
+/* line 147, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-2 svg {
   -webkit-transform: translate(2px, -16px);
       -ms-transform: translate(2px, -16px);
           transform: translate(2px, -16px);
 }
 
-/* line 98, src/scss/_components/sale/_main.scss */
+/* line 151, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-3 {
   top: 0;
   left: 60%;
@@ -10368,20 +10429,20 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 98, src/scss/_components/sale/_main.scss */
+  /* line 151, src/scss/_components/sale/_main.scss */
   .s-main__bg-icon-3 {
     left: 40%;
   }
 }
 
-/* line 109, src/scss/_components/sale/_main.scss */
+/* line 162, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-3 svg {
   -webkit-transform: translate(-2px, -20px);
       -ms-transform: translate(-2px, -20px);
           transform: translate(-2px, -20px);
 }
 
-/* line 113, src/scss/_components/sale/_main.scss */
+/* line 166, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-4 {
   top: 50%;
   right: 70px;
@@ -10392,28 +10453,28 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 113, src/scss/_components/sale/_main.scss */
+  /* line 166, src/scss/_components/sale/_main.scss */
   .s-main__bg-icon-4 {
     right: 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 113, src/scss/_components/sale/_main.scss */
+  /* line 166, src/scss/_components/sale/_main.scss */
   .s-main__bg-icon-4 {
     opacity: 0;
     visibility: hidden;
   }
 }
 
-/* line 128, src/scss/_components/sale/_main.scss */
+/* line 181, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-4 svg {
   -webkit-transform: translate(2px, -23px);
       -ms-transform: translate(2px, -23px);
           transform: translate(2px, -23px);
 }
 
-/* line 132, src/scss/_components/sale/_main.scss */
+/* line 185, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-5 {
   bottom: -50px;
   right: 25%;
@@ -10423,36 +10484,36 @@ picture {
   background-size: cover;
 }
 
-/* line 140, src/scss/_components/sale/_main.scss */
+/* line 193, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon-5 svg {
   -webkit-transform: translateY(-10px);
       -ms-transform: translateY(-10px);
           transform: translateY(-10px);
 }
 
-/* line 145, src/scss/_components/sale/_main.scss */
+/* line 198, src/scss/_components/sale/_main.scss */
 .s-main__bg-icon svg {
   fill: #fff;
 }
 
-/* line 151, src/scss/_components/sale/_main.scss */
+/* line 204, src/scss/_components/sale/_main.scss */
 .s-main__wrapper {
   z-index: 2;
   position: relative;
 }
 
-/* line 156, src/scss/_components/sale/_main.scss */
+/* line 209, src/scss/_components/sale/_main.scss */
 .s-main__title, .s-main__subtitle, .s-main__desc {
   padding-bottom: 40px;
   text-align: center;
 }
 
-/* line 163, src/scss/_components/sale/_main.scss */
+/* line 216, src/scss/_components/sale/_main.scss */
 .s-main__title, .s-main__subtitle {
   color: #000000;
 }
 
-/* line 168, src/scss/_components/sale/_main.scss */
+/* line 221, src/scss/_components/sale/_main.scss */
 .s-main__title {
   font-size: 60px;
   font-weight: 900;
@@ -10460,38 +10521,38 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 168, src/scss/_components/sale/_main.scss */
+  /* line 221, src/scss/_components/sale/_main.scss */
   .s-main__title {
     font-size: 55px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 168, src/scss/_components/sale/_main.scss */
+  /* line 221, src/scss/_components/sale/_main.scss */
   .s-main__title {
     font-size: 48px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 168, src/scss/_components/sale/_main.scss */
+  /* line 221, src/scss/_components/sale/_main.scss */
   .s-main__title {
     font-size: 42px;
   }
-  /* line 181, src/scss/_components/sale/_main.scss */
+  /* line 234, src/scss/_components/sale/_main.scss */
   .s-main__title br {
     display: none;
   }
 }
 
 @media screen and (max-width: 575px) {
-  /* line 168, src/scss/_components/sale/_main.scss */
+  /* line 221, src/scss/_components/sale/_main.scss */
   .s-main__title {
     font-size: 36px;
   }
 }
 
-/* line 190, src/scss/_components/sale/_main.scss */
+/* line 243, src/scss/_components/sale/_main.scss */
 .s-main__subtitle {
   font-size: 40px;
   font-weight: 300;
@@ -10499,27 +10560,27 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 190, src/scss/_components/sale/_main.scss */
+  /* line 243, src/scss/_components/sale/_main.scss */
   .s-main__subtitle {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 190, src/scss/_components/sale/_main.scss */
+  /* line 243, src/scss/_components/sale/_main.scss */
   .s-main__subtitle {
     font-size: 33px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 190, src/scss/_components/sale/_main.scss */
+  /* line 243, src/scss/_components/sale/_main.scss */
   .s-main__subtitle {
     font-size: 30px;
   }
 }
 
-/* line 205, src/scss/_components/sale/_main.scss */
+/* line 258, src/scss/_components/sale/_main.scss */
 .s-main__desc {
   width: 100%;
   max-width: 758px;
@@ -10531,20 +10592,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 205, src/scss/_components/sale/_main.scss */
+  /* line 258, src/scss/_components/sale/_main.scss */
   .s-main__desc {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 205, src/scss/_components/sale/_main.scss */
+  /* line 258, src/scss/_components/sale/_main.scss */
   .s-main__desc {
     font-size: 16px;
   }
 }
 
-/* line 221, src/scss/_components/sale/_main.scss */
+/* line 274, src/scss/_components/sale/_main.scss */
 .s-main__btn {
   max-width: 239px;
   margin-left: auto;
@@ -10558,7 +10619,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 228, src/scss/_components/sale/_main.scss */
+/* line 281, src/scss/_components/sale/_main.scss */
 .s-main__btn:hover {
   color: #cd084b;
   -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0);
