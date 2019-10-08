@@ -11472,12 +11472,22 @@ picture {
   }
 }
 
-/* line 10, src/scss/_components/sale/_impressive.scss */
+/* line 13, src/scss/_components/sale/_impressive.scss */
+.impressive--mod .impressive__wrapper-bg-1 {
+  display: none;
+}
+
+/* line 17, src/scss/_components/sale/_impressive.scss */
+.impressive--mod .impressive__wrapper-1 {
+  padding-bottom: 100px;
+}
+
+/* line 24, src/scss/_components/sale/_impressive.scss */
 .impressive__wrapper {
   position: relative;
 }
 
-/* line 15, src/scss/_components/sale/_impressive.scss */
+/* line 29, src/scss/_components/sale/_impressive.scss */
 .impressive__wrapper-2 {
   padding-top: 140px;
   padding-bottom: 120px;
@@ -11485,20 +11495,20 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 15, src/scss/_components/sale/_impressive.scss */
+  /* line 29, src/scss/_components/sale/_impressive.scss */
   .impressive__wrapper-2 {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
-/* line 25, src/scss/_components/sale/_impressive.scss */
+/* line 39, src/scss/_components/sale/_impressive.scss */
 .impressive__wrapper-bg {
   z-index: 0;
   position: absolute;
 }
 
-/* line 29, src/scss/_components/sale/_impressive.scss */
+/* line 43, src/scss/_components/sale/_impressive.scss */
 .impressive__wrapper-bg-1 {
   bottom: 0;
   left: 0;
@@ -11507,7 +11517,7 @@ picture {
   background-color: #191919;
 }
 
-/* line 37, src/scss/_components/sale/_impressive.scss */
+/* line 51, src/scss/_components/sale/_impressive.scss */
 .impressive__wrapper-bg-2 {
   top: 0;
   left: 0;
@@ -11524,13 +11534,13 @@ picture {
   background-position: center bottom;
 }
 
-/* line 55, src/scss/_components/sale/_impressive.scss */
+/* line 69, src/scss/_components/sale/_impressive.scss */
 .impressive__row {
   z-index: 2;
   position: relative;
 }
 
-/* line 63, src/scss/_components/sale/_impressive.scss */
+/* line 77, src/scss/_components/sale/_impressive.scss */
 .impressive__title {
   padding-bottom: 60px;
   font-size: 40px;
@@ -11540,30 +11550,30 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 63, src/scss/_components/sale/_impressive.scss */
+  /* line 77, src/scss/_components/sale/_impressive.scss */
   .impressive__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 63, src/scss/_components/sale/_impressive.scss */
+  /* line 77, src/scss/_components/sale/_impressive.scss */
   .impressive__title {
     font-size: 33px;
     text-align: center;
   }
-  /* line 76, src/scss/_components/sale/_impressive.scss */
+  /* line 90, src/scss/_components/sale/_impressive.scss */
   .impressive__title br {
     display: none;
   }
 }
 
-/* line 81, src/scss/_components/sale/_impressive.scss */
+/* line 95, src/scss/_components/sale/_impressive.scss */
 .impressive__title span {
   position: relative;
 }
 
-/* line 84, src/scss/_components/sale/_impressive.scss */
+/* line 98, src/scss/_components/sale/_impressive.scss */
 .impressive__title span:before {
   content: '';
   z-index: -1;
@@ -11576,20 +11586,20 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 84, src/scss/_components/sale/_impressive.scss */
+  /* line 98, src/scss/_components/sale/_impressive.scss */
   .impressive__title span:before {
     height: 20px;
   }
 }
 
-/* line 100, src/scss/_components/sale/_impressive.scss */
+/* line 114, src/scss/_components/sale/_impressive.scss */
 .impressive__subtitle, .impressive__desc {
   padding-bottom: 50px;
   text-align: center;
   color: #ffffff;
 }
 
-/* line 107, src/scss/_components/sale/_impressive.scss */
+/* line 121, src/scss/_components/sale/_impressive.scss */
 .impressive__subtitle {
   font-size: 60px;
   font-weight: 900;
@@ -11597,27 +11607,27 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 107, src/scss/_components/sale/_impressive.scss */
+  /* line 121, src/scss/_components/sale/_impressive.scss */
   .impressive__subtitle {
     font-size: 55px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 107, src/scss/_components/sale/_impressive.scss */
+  /* line 121, src/scss/_components/sale/_impressive.scss */
   .impressive__subtitle {
     font-size: 50px;
   }
 }
 
 @media screen and (max-width: 424px) {
-  /* line 107, src/scss/_components/sale/_impressive.scss */
+  /* line 121, src/scss/_components/sale/_impressive.scss */
   .impressive__subtitle {
     font-size: 42px;
   }
 }
 
-/* line 122, src/scss/_components/sale/_impressive.scss */
+/* line 136, src/scss/_components/sale/_impressive.scss */
 .impressive__desc {
   font-size: 40px;
   font-weight: 300;
@@ -11625,20 +11635,33 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 122, src/scss/_components/sale/_impressive.scss */
+  /* line 136, src/scss/_components/sale/_impressive.scss */
   .impressive__desc {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 122, src/scss/_components/sale/_impressive.scss */
+  /* line 136, src/scss/_components/sale/_impressive.scss */
   .impressive__desc {
     font-size: 33px;
   }
 }
 
-/* line 134, src/scss/_components/sale/_impressive.scss */
+/* line 148, src/scss/_components/sale/_impressive.scss */
+.impressive__text {
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  font-size: 19px;
+  line-height: 1.58;
+  text-align: center;
+  color: #939393;
+}
+
+/* line 160, src/scss/_components/sale/_impressive.scss */
 .impressive__btn {
   max-width: 239px;
   margin-left: auto;
@@ -11647,26 +11670,26 @@ picture {
           box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
 }
 
-/* line 140, src/scss/_components/sale/_impressive.scss */
+/* line 166, src/scss/_components/sale/_impressive.scss */
 .impressive__btn-wrapper {
   padding-bottom: 140px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 140, src/scss/_components/sale/_impressive.scss */
+  /* line 166, src/scss/_components/sale/_impressive.scss */
   .impressive__btn-wrapper {
     padding-bottom: 100px;
   }
 }
 
-/* line 148, src/scss/_components/sale/_impressive.scss */
+/* line 174, src/scss/_components/sale/_impressive.scss */
 .impressive__copyright {
   font-size: 16px;
   text-align: center;
   color: #8f8f8f;
 }
 
-/* line 154, src/scss/_components/sale/_impressive.scss */
+/* line 180, src/scss/_components/sale/_impressive.scss */
 .impressive__card {
   width: 100%;
   min-height: 380px;
@@ -11678,14 +11701,14 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 154, src/scss/_components/sale/_impressive.scss */
+  /* line 180, src/scss/_components/sale/_impressive.scss */
   .impressive__card {
     padding: 30px 15px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 154, src/scss/_components/sale/_impressive.scss */
+  /* line 180, src/scss/_components/sale/_impressive.scss */
   .impressive__card {
     max-width: 320px;
     margin-left: auto;
@@ -11693,25 +11716,25 @@ picture {
   }
 }
 
-/* line 171, src/scss/_components/sale/_impressive.scss */
+/* line 197, src/scss/_components/sale/_impressive.scss */
 .impressive__card-1 svg {
   width: 40px;
   height: 40px;
 }
 
-/* line 177, src/scss/_components/sale/_impressive.scss */
+/* line 203, src/scss/_components/sale/_impressive.scss */
 .impressive__card-2 svg {
   width: 40px;
   height: 40px;
 }
 
-/* line 183, src/scss/_components/sale/_impressive.scss */
+/* line 209, src/scss/_components/sale/_impressive.scss */
 .impressive__card-3 svg {
   width: 34px;
   height: 42px;
 }
 
-/* line 189, src/scss/_components/sale/_impressive.scss */
+/* line 215, src/scss/_components/sale/_impressive.scss */
 .impressive__card-wrapper {
   position: relative;
   display: -webkit-box;
@@ -11723,14 +11746,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 189, src/scss/_components/sale/_impressive.scss */
+  /* line 215, src/scss/_components/sale/_impressive.scss */
   .impressive__card-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-/* line 197, src/scss/_components/sale/_impressive.scss */
+/* line 223, src/scss/_components/sale/_impressive.scss */
 .impressive__card-wrapper > div {
   position: relative;
   width: 100%;
@@ -11738,30 +11761,30 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 197, src/scss/_components/sale/_impressive.scss */
+  /* line 223, src/scss/_components/sale/_impressive.scss */
   .impressive__card-wrapper > div {
     max-width: calc((100% - 30px) / 3);
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 197, src/scss/_components/sale/_impressive.scss */
+  /* line 223, src/scss/_components/sale/_impressive.scss */
   .impressive__card-wrapper > div {
     max-width: 100%;
     padding-bottom: 30px;
   }
-  /* line 208, src/scss/_components/sale/_impressive.scss */
+  /* line 234, src/scss/_components/sale/_impressive.scss */
   .impressive__card-wrapper > div:last-of-type {
     padding-bottom: 0;
   }
 }
 
-/* line 215, src/scss/_components/sale/_impressive.scss */
+/* line 241, src/scss/_components/sale/_impressive.scss */
 .impressive__card svg {
   fill: #cd084b;
 }
 
-/* line 219, src/scss/_components/sale/_impressive.scss */
+/* line 245, src/scss/_components/sale/_impressive.scss */
 .impressive__card-title {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -11773,7 +11796,7 @@ picture {
   color: #cd084b;
 }
 
-/* line 230, src/scss/_components/sale/_impressive.scss */
+/* line 256, src/scss/_components/sale/_impressive.scss */
 .impressive__card-desc {
   padding-bottom: 40px;
   font-size: 19px;
@@ -11782,7 +11805,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 230, src/scss/_components/sale/_impressive.scss */
+  /* line 256, src/scss/_components/sale/_impressive.scss */
   .impressive__card-desc {
     min-height: 124px;
     font-size: 18px;
@@ -11790,13 +11813,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 230, src/scss/_components/sale/_impressive.scss */
+  /* line 256, src/scss/_components/sale/_impressive.scss */
   .impressive__card-desc {
     min-height: unset;
   }
 }
 
-/* line 244, src/scss/_components/sale/_impressive.scss */
+/* line 270, src/scss/_components/sale/_impressive.scss */
 .impressive__card-info {
   padding-bottom: 10px;
   font-size: 19px;
@@ -11804,7 +11827,7 @@ picture {
   color: #000000;
 }
 
-/* line 251, src/scss/_components/sale/_impressive.scss */
+/* line 277, src/scss/_components/sale/_impressive.scss */
 .impressive__card-price {
   font-size: 44px;
   font-weight: 900;
@@ -11813,10 +11836,332 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 251, src/scss/_components/sale/_impressive.scss */
+  /* line 277, src/scss/_components/sale/_impressive.scss */
   .impressive__card-price {
     font-size: 40px;
   }
+}
+
+/* line 288, src/scss/_components/sale/_impressive.scss */
+.impressive__table {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 288, src/scss/_components/sale/_impressive.scss */
+  .impressive__table {
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 296, src/scss/_components/sale/_impressive.scss */
+  .impressive__table-wrapper {
+    white-space: nowrap;
+    overflow-x: auto;
+    position: relative;
+    width: calc(100% + 15px);
+  }
+}
+
+/* line 305, src/scss/_components/sale/_impressive.scss */
+.impressive__table-bg {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 314, src/scss/_components/sale/_impressive.scss */
+.impressive__table-bg > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* line 319, src/scss/_components/sale/_impressive.scss */
+.impressive__table-bg > div:nth-of-type(1) {
+  max-width: 265px;
+}
+
+@media screen and (max-width: 575px) {
+  /* line 319, src/scss/_components/sale/_impressive.scss */
+  .impressive__table-bg > div:nth-of-type(1) {
+    max-width: 175px;
+  }
+}
+
+/* line 325, src/scss/_components/sale/_impressive.scss */
+.impressive__table-bg > div:nth-of-type(2) {
+  max-width: 200px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+}
+
+/* line 330, src/scss/_components/sale/_impressive.scss */
+.impressive__table-bg > div:nth-of-type(3) {
+  max-width: 230px;
+}
+
+/* line 333, src/scss/_components/sale/_impressive.scss */
+.impressive__table-bg > div:nth-of-type(4) {
+  max-width: 150px;
+}
+
+@media screen and (max-width: 575px) {
+  /* line 333, src/scss/_components/sale/_impressive.scss */
+  .impressive__table-bg > div:nth-of-type(4) {
+    max-width: 200px;
+  }
+}
+
+/* line 339, src/scss/_components/sale/_impressive.scss */
+.impressive__table-bg > div:nth-of-type(5) {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 347, src/scss/_components/sale/_impressive.scss */
+.impressive__table-head, .impressive__table-body, .impressive__table-foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 358, src/scss/_components/sale/_impressive.scss */
+.impressive__table-head .impressive__table-row-1 > div {
+  padding: 30px 5px;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 2.11;
+  letter-spacing: 1px;
+  color: #cd084b;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 371, src/scss/_components/sale/_impressive.scss */
+.impressive__table-head .impressive__table-row-2 span,
+.impressive__table-head .impressive__table-row-2 p {
+  text-align: center;
+  color: #000000;
+}
+
+/* line 377, src/scss/_components/sale/_impressive.scss */
+.impressive__table-head .impressive__table-row-2 span {
+  display: block;
+  font-size: 19px;
+}
+
+/* line 382, src/scss/_components/sale/_impressive.scss */
+.impressive__table-head .impressive__table-row-2 p {
+  font-size: 29px;
+  font-weight: 900;
+}
+
+/* line 391, src/scss/_components/sale/_impressive.scss */
+.impressive__table-head .impressive__table-col-1 p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #939393;
+  text-align: left;
+}
+
+/* line 404, src/scss/_components/sale/_impressive.scss */
+.impressive__table-body .impressive__table-row {
+  min-height: 60px;
+}
+
+/* line 408, src/scss/_components/sale/_impressive.scss */
+.impressive__table-body .impressive__table-row:nth-of-type(odd)::before {
+  content: '';
+  position: absolute;
+  left: -40px;
+  top: 0;
+  width: calc(100% + 80px);
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 68, 157, 0.03);
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 408, src/scss/_components/sale/_impressive.scss */
+  .impressive__table-body .impressive__table-row:nth-of-type(odd)::before {
+    left: -15px;
+    width: calc(100% + 30px);
+  }
+}
+
+/* line 425, src/scss/_components/sale/_impressive.scss */
+.impressive__table-body .impressive__table-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 430, src/scss/_components/sale/_impressive.scss */
+.impressive__table-body .impressive__table-col-1 {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+/* line 433, src/scss/_components/sale/_impressive.scss */
+.impressive__table-body .impressive__table-col-1 p {
+  text-align: left !important;
+}
+
+/* line 438, src/scss/_components/sale/_impressive.scss */
+.impressive__table-body .impressive__table-col p {
+  font-size: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+/* line 443, src/scss/_components/sale/_impressive.scss */
+.impressive__table-body .impressive__table-col p strong {
+  font-weight: 700;
+}
+
+/* line 452, src/scss/_components/sale/_impressive.scss */
+.impressive__table-foot .impressive__table-col {
+  padding: 10px;
+}
+
+/* line 456, src/scss/_components/sale/_impressive.scss */
+.impressive__table-foot p {
+  padding-bottom: 20px;
+  font-size: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+/* line 463, src/scss/_components/sale/_impressive.scss */
+.impressive__table-foot a {
+  max-width: 100%;
+  -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
+          box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
+}
+
+/* line 469, src/scss/_components/sale/_impressive.scss */
+.impressive__table-row {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 474, src/scss/_components/sale/_impressive.scss */
+.impressive__table-col {
+  width: 100%;
+  padding: 15px 5px;
+}
+
+/* line 478, src/scss/_components/sale/_impressive.scss */
+.impressive__table-col-1 {
+  max-width: 265px;
+}
+
+@media screen and (max-width: 575px) {
+  /* line 478, src/scss/_components/sale/_impressive.scss */
+  .impressive__table-col-1 {
+    max-width: 175px;
+  }
+}
+
+/* line 484, src/scss/_components/sale/_impressive.scss */
+.impressive__table-col-1 p {
+  font-size: 19px;
+  color: #939393 !important;
+  text-align: left;
+}
+
+/* line 490, src/scss/_components/sale/_impressive.scss */
+.impressive__table-col-2 {
+  max-width: 200px;
+}
+
+/* line 493, src/scss/_components/sale/_impressive.scss */
+.impressive__table-col-3 {
+  max-width: 230px;
+}
+
+/* line 496, src/scss/_components/sale/_impressive.scss */
+.impressive__table-col-4 {
+  max-width: 150px;
+}
+
+@media screen and (max-width: 575px) {
+  /* line 496, src/scss/_components/sale/_impressive.scss */
+  .impressive__table-col-4 {
+    max-width: 200px;
+  }
+}
+
+/* line 502, src/scss/_components/sale/_impressive.scss */
+.impressive__table-col-5 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 508, src/scss/_components/sale/_impressive.scss */
+.impressive__table-col > * {
+  z-index: 5;
+  white-space: normal;
+  position: relative;
+}
+
+/* line 515, src/scss/_components/sale/_impressive.scss */
+.impressive__table .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00449d;
+}
+
+/* line 524, src/scss/_components/sale/_impressive.scss */
+.impressive__table .check svg {
+  width: 10px;
+  height: 15px;
+  fill: #fff;
 }
 
 /*# sourceMappingURL=maps/app.css.map */
