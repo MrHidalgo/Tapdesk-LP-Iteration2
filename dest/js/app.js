@@ -1110,8 +1110,53 @@ $(document).ready(function (ev) {
       }
     };
 
+    var isAnyPartOfElementInViewport = function isAnyPartOfElementInViewport(el) {
+      var rect = el.getBoundingClientRect();
+      var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+      var vertInView = rect.top <= windowHeight && rect.top + rect.height >= 0;
+      var horInView = rect.left <= windowWidth && rect.left + rect.width >= 0;
+
+      return vertInView && horInView;
+    };
+
     $('.affiliate-inside__input-btn').on('click', function (ev) {
       initCopyToClipboard($(ev.currentTarget).prev('input').val());
+    });
+
+    $('[modal-viewAgreement-js]').magnificPopup({
+      type: 'inline',
+      fixedContentPos: true,
+      fixedBgPos: true,
+      overflowY: 'auto',
+      closeBtnInside: true,
+      preloader: false,
+      midClick: true,
+      removalDelay: 300,
+      mainClass: 'is-show',
+      callbacks: {
+        beforeOpen: function beforeOpen() {
+          this.st.mainClass = this.st.el.attr('data-effect');
+        },
+        close: function close() {}
+      }
+    });
+    $('[modal-agreementClose-js]').on('click', function (ev) {
+      $.magnificPopup.close();
+    });
+
+    $('.c-modal__body-scroll').on('scroll', function (ev) {
+      if (isAnyPartOfElementInViewport($('[visible-top-js]')[0])) {
+        $(ev.currentTarget).closest('.c-modal').find('.c-modal__header').removeClass('is-shadow');
+      } else {
+        $(ev.currentTarget).closest('.c-modal').find('.c-modal__header').addClass('is-shadow');
+      }
+
+      if (isAnyPartOfElementInViewport($('.c-modal__btn')[0])) {
+        $(ev.currentTarget).parent().addClass('is-bottom');
+      } else {
+        $(ev.currentTarget).parent().removeClass('is-bottom');
+      }
     });
   };
 
