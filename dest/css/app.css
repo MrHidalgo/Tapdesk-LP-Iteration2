@@ -14109,16 +14109,87 @@ picture {
 /* line 568, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-question {
   padding-top: 55px;
+  padding-bottom: 200px;
 }
 
-/* line 574, src/scss/_components/affiliate/_affiliate.scss */
+@media screen and (max-width: 767px) {
+  /* line 568, src/scss/_components/affiliate/_affiliate.scss */
+  .affiliate-question {
+    padding-bottom: 100px;
+  }
+}
+
+/* line 575, src/scss/_components/affiliate/_affiliate.scss */
+.affiliate-question__title {
+  padding-bottom: 40px;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 575, src/scss/_components/affiliate/_affiliate.scss */
+  .affiliate-question__title {
+    font-size: 33px;
+    text-align: center;
+  }
+}
+
+/* line 586, src/scss/_components/affiliate/_affiliate.scss */
+.affiliate-question__desc {
+  padding-bottom: 60px;
+  font-size: 19px;
+  line-height: 1.58;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 586, src/scss/_components/affiliate/_affiliate.scss */
+  .affiliate-question__desc {
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
+
+/* line 597, src/scss/_components/affiliate/_affiliate.scss */
+.affiliate-question__btn {
+  max-width: 225px;
+  -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
+          box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 597, src/scss/_components/affiliate/_affiliate.scss */
+  .affiliate-question__btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 606, src/scss/_components/affiliate/_affiliate.scss */
+.affiliate-question__btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+/* line 615, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 574, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 615, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside {
     padding-top: 150px;
     padding-bottom: 150px;
@@ -14126,38 +14197,38 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 574, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 615, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside {
     padding-top: 125px;
     padding-bottom: 125px;
   }
 }
 
-/* line 587, src/scss/_components/affiliate/_affiliate.scss */
+/* line 628, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__wrapper-1 {
   padding-bottom: 110px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 587, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 628, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__wrapper-1 {
     padding-bottom: 100px;
   }
 }
 
-/* line 593, src/scss/_components/affiliate/_affiliate.scss */
+/* line 634, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__wrapper-2 {
   padding-bottom: 110px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 593, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 634, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__wrapper-2 {
     padding-bottom: 100px;
   }
 }
 
-/* line 599, src/scss/_components/affiliate/_affiliate.scss */
+/* line 640, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__wrapper-3 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -14167,28 +14238,28 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 599, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 640, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__wrapper-3 {
     padding-top: 75px;
     padding-bottom: 75px;
   }
 }
 
-/* line 608, src/scss/_components/affiliate/_affiliate.scss */
+/* line 649, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__wrapper-4 {
   padding-top: 110px;
   padding-bottom: 110px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 608, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 649, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__wrapper-4 {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
-/* line 618, src/scss/_components/affiliate/_affiliate.scss */
+/* line 659, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__title {
   padding-bottom: 30px;
   font-size: 60px;
@@ -14198,20 +14269,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 618, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 659, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__title {
     font-size: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 618, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 659, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__title {
     font-size: 45px;
   }
 }
 
-/* line 632, src/scss/_components/affiliate/_affiliate.scss */
+/* line 673, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__subtitle {
   font-size: 40px;
   font-weight: 300;
@@ -14220,26 +14291,26 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 632, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 673, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__subtitle {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 632, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 673, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__subtitle {
     font-size: 30px;
   }
 }
 
-/* line 644, src/scss/_components/affiliate/_affiliate.scss */
+/* line 685, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__subtitle span {
   position: relative;
   font-weight: bold;
 }
 
-/* line 648, src/scss/_components/affiliate/_affiliate.scss */
+/* line 689, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__subtitle span:before {
   z-index: -1;
   content: '';
@@ -14251,7 +14322,7 @@ picture {
   background-color: #ffd400;
 }
 
-/* line 661, src/scss/_components/affiliate/_affiliate.scss */
+/* line 702, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__heading {
   padding-bottom: 40px;
   color: #ffffff;
@@ -14261,25 +14332,25 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 661, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 702, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__heading {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 661, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 702, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__heading {
     font-size: 30px;
   }
 }
 
-/* line 674, src/scss/_components/affiliate/_affiliate.scss */
+/* line 715, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__heading--black {
   color: #000000;
 }
 
-/* line 679, src/scss/_components/affiliate/_affiliate.scss */
+/* line 720, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14291,7 +14362,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 679, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 720, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -14303,25 +14374,25 @@ picture {
   }
 }
 
-/* line 688, src/scss/_components/affiliate/_affiliate.scss */
+/* line 729, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__list li {
   padding-right: 100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 688, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 729, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__list li {
     padding-right: 0;
     padding-bottom: 15px;
   }
 }
 
-/* line 695, src/scss/_components/affiliate/_affiliate.scss */
+/* line 736, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__list li:last-of-type {
   padding-right: 0;
 }
 
-/* line 700, src/scss/_components/affiliate/_affiliate.scss */
+/* line 741, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__list p {
   padding-bottom: 10px;
   font-size: 40px;
@@ -14331,20 +14402,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 700, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 741, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__list p {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 700, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 741, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__list p {
     padding-bottom: 0;
   }
 }
 
-/* line 714, src/scss/_components/affiliate/_affiliate.scss */
+/* line 755, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__list span {
   font-size: 19px;
   line-height: 1.58;
@@ -14352,13 +14423,13 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 714, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 755, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__list span {
     font-size: 17px;
   }
 }
 
-/* line 724, src/scss/_components/affiliate/_affiliate.scss */
+/* line 765, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__btn {
   height: 60px;
   margin-right: 40px;
@@ -14366,25 +14437,25 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 724, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 765, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__btn {
     margin-bottom: 15px;
   }
 }
 
-/* line 732, src/scss/_components/affiliate/_affiliate.scss */
+/* line 773, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__btn:last-of-type {
   margin-right: 0;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 732, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 773, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__btn:last-of-type {
     margin-bottom: 0;
   }
 }
 
-/* line 739, src/scss/_components/affiliate/_affiliate.scss */
+/* line 780, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__btn-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14392,7 +14463,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 739, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 780, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__btn-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -14401,7 +14472,7 @@ picture {
   }
 }
 
-/* line 746, src/scss/_components/affiliate/_affiliate.scss */
+/* line 787, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__btn-wrapper-2 .affiliate-inside__btn {
   width: auto;
   max-width: unset;
@@ -14410,7 +14481,7 @@ picture {
   padding-right: 40px;
 }
 
-/* line 757, src/scss/_components/affiliate/_affiliate.scss */
+/* line 798, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__table {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14423,42 +14494,42 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 757, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 798, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__table {
     width: 768px;
   }
 }
 
-/* line 765, src/scss/_components/affiliate/_affiliate.scss */
+/* line 806, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__table-scroll {
   position: relative;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 765, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 806, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__table-scroll {
     overflow-x: auto;
     width: calc(100% + 15px);
   }
 }
 
-/* line 773, src/scss/_components/affiliate/_affiliate.scss */
+/* line 814, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__table-head {
   border-radius: 10px;
   background-color: #f8fafc;
 }
 
-/* line 779, src/scss/_components/affiliate/_affiliate.scss */
+/* line 820, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__table-body > div {
   border-bottom: 1px solid rgba(216, 216, 216, 0.8);
 }
 
-/* line 782, src/scss/_components/affiliate/_affiliate.scss */
+/* line 823, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__table-body > div:last-of-type {
   border: none;
 }
 
-/* line 788, src/scss/_components/affiliate/_affiliate.scss */
+/* line 829, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__table-tr {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14468,7 +14539,7 @@ picture {
           align-items: center;
 }
 
-/* line 793, src/scss/_components/affiliate/_affiliate.scss */
+/* line 834, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__table-th, .affiliate-inside__table-td {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -14477,7 +14548,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 800, src/scss/_components/affiliate/_affiliate.scss */
+/* line 841, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__table-th {
   padding: 15px 30px;
   font-size: 19px;
@@ -14486,14 +14557,14 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 800, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 841, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__table-th {
     padding: 15px;
     font-size: 17px;
   }
 }
 
-/* line 811, src/scss/_components/affiliate/_affiliate.scss */
+/* line 852, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__table-td {
   padding: 30px;
   font-size: 19px;
@@ -14502,14 +14573,14 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 811, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 852, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__table-td {
     padding: 15px;
     font-size: 17px;
   }
 }
 
-/* line 824, src/scss/_components/affiliate/_affiliate.scss */
+/* line 865, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__input-title {
   padding-bottom: 20px;
   font-size: 19px;
@@ -14518,13 +14589,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 824, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 865, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__input-title {
     font-size: 17px;
   }
 }
 
-/* line 834, src/scss/_components/affiliate/_affiliate.scss */
+/* line 875, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__input-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14535,7 +14606,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 834, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 875, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__input-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -14547,7 +14618,7 @@ picture {
   }
 }
 
-/* line 842, src/scss/_components/affiliate/_affiliate.scss */
+/* line 883, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__input-wrapper input {
   outline: none;
   -webkit-box-flex: 1;
@@ -14567,7 +14638,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 842, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 883, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__input-wrapper input {
     -webkit-box-flex: unset;
         -ms-flex: unset;
@@ -14577,7 +14648,7 @@ picture {
   }
 }
 
-/* line 862, src/scss/_components/affiliate/_affiliate.scss */
+/* line 903, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__input-wrapper a {
   display: block;
   margin-left: 20px;
@@ -14590,7 +14661,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 862, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 903, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-inside__input-wrapper a {
     margin-left: 0;
     padding-top: 15px;
@@ -14598,7 +14669,7 @@ picture {
   }
 }
 
-/* line 880, src/scss/_components/affiliate/_affiliate.scss */
+/* line 921, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__link {
   cursor: pointer;
   display: -webkit-box;
@@ -14609,7 +14680,7 @@ picture {
           align-items: center;
 }
 
-/* line 887, src/scss/_components/affiliate/_affiliate.scss */
+/* line 928, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__link:hover span:before {
   width: calc(100% - 20px);
   -webkit-transition: width 0.3s ease-in-out;
@@ -14617,7 +14688,7 @@ picture {
   transition: width 0.3s ease-in-out;
 }
 
-/* line 893, src/scss/_components/affiliate/_affiliate.scss */
+/* line 934, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__link:hover svg {
   -webkit-transform: scale(-1) translateX(-5px);
       -ms-transform: scale(-1) translateX(-5px);
@@ -14629,7 +14700,7 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 899, src/scss/_components/affiliate/_affiliate.scss */
+/* line 940, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__link span {
   overflow: hidden;
   position: relative;
@@ -14639,7 +14710,7 @@ picture {
   color: #00449d;
 }
 
-/* line 907, src/scss/_components/affiliate/_affiliate.scss */
+/* line 948, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__link span:before {
   content: '';
   z-index: 0;
@@ -14654,7 +14725,7 @@ picture {
   transition: width 0.3s ease-in-out;
 }
 
-/* line 920, src/scss/_components/affiliate/_affiliate.scss */
+/* line 961, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-inside__link svg {
   fill: #00449d;
   width: 20px;
@@ -14669,14 +14740,14 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 933, src/scss/_components/affiliate/_affiliate.scss */
+/* line 974, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-submitted__wrapper {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 933, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 974, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-submitted__wrapper {
     padding-top: 150px;
     padding-bottom: 150px;
@@ -14684,14 +14755,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 933, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 974, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-submitted__wrapper {
     padding-top: 125px;
     padding-bottom: 100px;
   }
 }
 
-/* line 946, src/scss/_components/affiliate/_affiliate.scss */
+/* line 987, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-submitted__img {
   display: block;
   max-width: 100%;
@@ -14700,18 +14771,18 @@ picture {
   margin-right: auto;
 }
 
-/* line 953, src/scss/_components/affiliate/_affiliate.scss */
+/* line 994, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-submitted__img-wrapper {
   padding-bottom: 80px;
 }
 
-/* line 958, src/scss/_components/affiliate/_affiliate.scss */
+/* line 999, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-submitted__title, .affiliate-submitted__desc {
   color: #000000;
   text-align: center;
 }
 
-/* line 964, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1005, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-submitted__title {
   padding-bottom: 15px;
   font-weight: 900;
@@ -14720,28 +14791,28 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 964, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 1005, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-submitted__title {
     font-size: 50px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 964, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 1005, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-submitted__title {
     font-size: 45px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 964, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 1005, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-submitted__title {
     font-size: 40px;
     line-height: normal;
   }
 }
 
-/* line 981, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1022, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate-submitted__desc {
   width: 100%;
   max-width: 620px;
@@ -14751,14 +14822,14 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 981, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 1022, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-submitted__desc {
     font-size: 17px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 981, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 1022, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate-submitted__desc {
     font-size: 15px;
   }
