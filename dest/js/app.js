@@ -1158,6 +1158,19 @@ $(document).ready(function (ev) {
         $(ev.currentTarget).parent().removeClass('is-bottom');
       }
     });
+
+    $('.affiliate-appForm__tab').on('click', function (ev) {
+      $('.affiliate-appForm__tab').removeClass('is-active');
+      $(ev.currentTarget).addClass('is-active');
+    });
+
+    $('[affiliate-accrount-js]').on('change', function (ev) {
+      var _el = $(ev.currentTarget),
+          _elID = _el.attr('data-id');
+
+      $('.affiliate-appForm__container').hide();
+      $('.affiliate-appForm__container.affiliate-appForm__container-' + _elID).fadeIn(300);
+    });
   };
 
   /**
