@@ -1145,6 +1145,27 @@ $(document).ready(function (ev) {
       $.magnificPopup.close();
     });
 
+    $('[modal-updateInfo-js]').magnificPopup({
+      type: 'inline',
+      fixedContentPos: true,
+      fixedBgPos: true,
+      overflowY: 'auto',
+      closeBtnInside: true,
+      preloader: false,
+      midClick: true,
+      removalDelay: 300,
+      mainClass: 'is-show',
+      callbacks: {
+        beforeOpen: function beforeOpen() {
+          this.st.mainClass = this.st.el.attr('data-effect');
+        },
+        close: function close() {}
+      }
+    });
+    $('[modal-updateClose-js]').on('click', function (ev) {
+      $.magnificPopup.close();
+    });
+
     $('.c-modal__body-scroll').on('scroll', function (ev) {
       if (isAnyPartOfElementInViewport($('[visible-top-js]')[0])) {
         $(ev.currentTarget).closest('.c-modal').find('.c-modal__header').removeClass('is-shadow');

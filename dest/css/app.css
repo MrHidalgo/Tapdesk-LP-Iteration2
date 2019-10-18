@@ -499,24 +499,30 @@
 }
 
 /* line 225, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-setting {
+  width: 478.7px;
+  height: 478.7px;
+}
+
+/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-signup {
   width: 16px;
   height: 20px;
 }
 
-/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-0 {
   width: 60px;
   height: 60px;
 }
 
-/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-1 {
   width: 60px;
   height: 60px;
 }
 
-/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 241, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-2 {
   width: 51px;
   height: 62px;
@@ -1462,7 +1468,25 @@ picture {
   display: none;
 }
 
+/* line 22, src/scss/_shared/_magnificPopup.scss */
+.modal#updateInfo {
+  overflow: hidden;
+  max-width: 1040px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
 /* line 28, src/scss/_shared/_magnificPopup.scss */
+.modal#updateInfo .mfp-close {
+  display: none;
+}
+
+/* line 34, src/scss/_shared/_magnificPopup.scss */
+.mfp-container {
+  padding: 15px;
+}
+
+/* line 43, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1473,7 +1497,7 @@ picture {
           transform: scale(0.8);
 }
 
-/* line 34, src/scss/_shared/_magnificPopup.scss */
+/* line 49, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1481,7 +1505,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 40, src/scss/_shared/_magnificPopup.scss */
+/* line 55, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1489,12 +1513,12 @@ picture {
           transform: scale(1);
 }
 
-/* line 44, src/scss/_shared/_magnificPopup.scss */
+/* line 59, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 50, src/scss/_shared/_magnificPopup.scss */
+/* line 65, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing .mfp-with-anim {
   -webkit-transform: scale(0.8);
       -ms-transform: scale(0.8);
@@ -1502,12 +1526,12 @@ picture {
   opacity: 0;
 }
 
-/* line 54, src/scss/_shared/_magnificPopup.scss */
+/* line 69, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
 
-/* line 65, src/scss/_shared/_magnificPopup.scss */
+/* line 80, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1518,7 +1542,7 @@ picture {
           transform: translateX(100%);
 }
 
-/* line 71, src/scss/_shared/_magnificPopup.scss */
+/* line 86, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1526,7 +1550,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 77, src/scss/_shared/_magnificPopup.scss */
+/* line 92, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -1534,12 +1558,12 @@ picture {
           transform: translateX(0);
 }
 
-/* line 81, src/scss/_shared/_magnificPopup.scss */
+/* line 96, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 87, src/scss/_shared/_magnificPopup.scss */
+/* line 102, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing .mfp-with-anim {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -1547,7 +1571,7 @@ picture {
   opacity: 0;
 }
 
-/* line 91, src/scss/_shared/_magnificPopup.scss */
+/* line 106, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -2621,6 +2645,188 @@ picture {
   }
 }
 
+/* line 329, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal {
+  height: 100%;
+}
+
+/* line 332, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .affiliate-appForm__heading--pt {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 332, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .affiliate-appForm__heading--pt {
+    padding-top: 75px;
+  }
+}
+
+/* line 340, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 140px;
+  padding: 50px 60px 40px;
+  background-color: #ffffff;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 340, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__header {
+    min-height: 100px;
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 340, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__header {
+    min-height: 135px;
+    padding: 30px 15px;
+  }
+}
+
+/* line 357, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__header.is-shadow {
+  -webkit-box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
+          box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+/* line 363, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__body {
+  padding: 0 60px 60px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 363, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__body {
+    padding: 0 40px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 363, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__body {
+    padding: 0 15px 15px;
+  }
+}
+
+/* line 373, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__title {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.25;
+  color: #000000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 373, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 373, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__title {
+    font-size: 28px;
+  }
+}
+
+/* line 386, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 391, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__close svg {
+  width: 26px;
+  height: 26px;
+  fill: #000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 391, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__close svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 391, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__close svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* line 406, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__tax {
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.58;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 406, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__tax {
+    font-size: 17px;
+  }
+}
+
+/* line 415, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__tax span {
+  font-weight: normal;
+}
+
+/* line 420, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__desc {
+  padding-bottom: 40px;
+  font-size: 19px;
+  line-height: 1.58;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 420, src/scss/_macros/_modal.scss */
+  #updateInfo .c-modal .c-modal__desc {
+    font-size: 17px;
+  }
+}
+
+/* line 429, src/scss/_macros/_modal.scss */
+#updateInfo .c-modal .c-modal__desc--wpb {
+  padding-bottom: 20px;
+}
+
 /* line 3, src/scss/_macros/_form.scss */
 .c-form {
   display: -webkit-box;
@@ -3431,6 +3637,31 @@ picture {
   fill: #fff;
 }
 
+/* line 321, src/scss/_components/_header.scss */
+.header__setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 326, src/scss/_components/_header.scss */
+.header__setting svg {
+  width: 30px;
+  height: 30px;
+  fill: #00449d;
+}
+
+/* line 331, src/scss/_components/_header.scss */
+.header--fixed .header__setting svg {
+  fill: #fff;
+}
+
 @-webkit-keyframes c-zoomIn {
   from {
     opacity: 0;
@@ -3453,7 +3684,7 @@ picture {
   }
 }
 
-/* line 333, src/scss/_components/_header.scss */
+/* line 349, src/scss/_components/_header.scss */
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
@@ -15169,7 +15400,12 @@ picture {
   }
 }
 
-/* line 1248, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1246, src/scss/_components/affiliate/_affiliate.scss */
+.affiliate__input input[disabled] {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* line 1252, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio {
   opacity: 0;
   position: absolute;
@@ -15179,7 +15415,7 @@ picture {
   height: 0;
 }
 
-/* line 1258, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1262, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio:checked + .affiliate__radio-label .affiliate__radio-circle {
   border-color: #00449d;
   background-color: #00449d;
@@ -15188,7 +15424,7 @@ picture {
   transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-/* line 1263, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1267, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio:checked + .affiliate__radio-label .affiliate__radio-circle:before {
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
@@ -15200,7 +15436,7 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 1271, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1275, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio-wrapper {
   position: relative;
   display: -webkit-box;
@@ -15215,7 +15451,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1278, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 1282, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate__radio-wrapper--wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -15227,27 +15463,27 @@ picture {
   }
 }
 
-/* line 1286, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1290, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio-col {
   padding-right: 60px;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 1286, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 1290, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate__radio-col {
     padding-right: 30px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1286, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 1290, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate__radio-col {
     padding-right: 30px;
     padding-bottom: 10px;
   }
 }
 
-/* line 1297, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1301, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio-label {
   cursor: pointer;
   display: -webkit-box;
@@ -15258,12 +15494,12 @@ picture {
           align-items: center;
 }
 
-/* line 1303, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1307, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio-label p:nth-of-type(1) {
   width: 50px;
 }
 
-/* line 1306, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1310, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio-label p:nth-of-type(2) {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -15272,7 +15508,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 1314, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1318, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio-circle {
   position: relative;
   display: -webkit-box;
@@ -15294,7 +15530,7 @@ picture {
   transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-/* line 1326, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1330, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio-circle:before {
   content: '';
   display: block;
@@ -15312,14 +15548,14 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 1338, src/scss/_components/affiliate/_affiliate.scss */
+/* line 1342, src/scss/_components/affiliate/_affiliate.scss */
 .affiliate__radio-text {
   font-size: 20px;
   line-height: 1.5;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1338, src/scss/_components/affiliate/_affiliate.scss */
+  /* line 1342, src/scss/_components/affiliate/_affiliate.scss */
   .affiliate__radio-text {
     font-size: 16px;
   }

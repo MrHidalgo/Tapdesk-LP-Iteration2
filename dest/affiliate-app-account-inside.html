@@ -39,11 +39,14 @@
     <header class="header header--blue" id="header">
       <div class="c-grid">
         <div class="header__wrapper">
-          <div class="header__wrapper-left">
+          <div class="header__wrapper-left header__wrapper-left--full">
             <div class="logo logo--header"><a class="logo__link" href="/" title="">
                 <svg class="icon-svg icon-logo ">
                   <use xlink:href="./img/sprite.svg#logo"></use>
-                </svg></a></div>
+                </svg></a></div><a class="header__setting" href="#updateInfo" title="" data-effect="mfp-zoom-in" modal-updateInfo-js>
+              <svg class="icon-svg icon-setting ">
+                <use xlink:href="./img/sprite.svg#setting"></use>
+              </svg></a>
           </div>
         </div>
       </div>
@@ -274,6 +277,242 @@
             </div>
             <div class="c-modal__btn"><a class="c-btn c-btn--bg" href="#" title="">I agree</a><a class="c-btn c-btn--border" href="#" title="">I DISAGREE</a></div>
           </div>
+        </div>
+      </div>
+  </div>
+  <!-- SECTION affiliate submitted :: END-->
+  <!-- SECTION affiliate submitted :: START-->
+  <div class="modal mfp-hide mfp-with-anim" id="updateInfo">
+      <div class="c-modal">
+        <div class="c-modal__header">
+          <p class="c-modal__title">Confirm or update your<br>account information</p>
+          <div><a class="c-modal__close" href="#" title="" modal-updateClose-js>
+              <svg class="icon-svg icon-close ">
+                <use xlink:href="./img/sprite.svg#close"></use>
+              </svg></a></div>
+        </div>
+        <div class="c-modal__body">
+          <form class="affiliate__form" action="" method="" autocomplete="off">
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">First name</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Last name</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Email</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="" value="email@gmail.com" disabled>
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Company name</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="affiliate-appForm__btn-wrapper"><a class="affiliate-appForm__btn c-btn c-btn--bg" href="#" title="">Update</a></div>
+          </form>
+          <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Update your password</p>
+          <form class="affiliate__form" action="" method="" autocomplete="off">
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Old password</label>
+                  <div class="affiliate__input">
+                    <input type="password" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper"></div>
+              </div>
+            </div>
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">New password</label>
+                  <div class="affiliate__input">
+                    <input type="password" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Confirm new password</label>
+                  <div class="affiliate__input">
+                    <input type="password" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="affiliate-appForm__btn-wrapper"><a class="affiliate-appForm__btn c-btn c-btn--bg" href="#" title="">Update</a></div>
+          </form>
+          <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Update your contact information</p>
+          <form class="affiliate__form" action="" method="" autocomplete="off">
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Address line 1</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Address line 2</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">City</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">State</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Zip code</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Country</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Phone number</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper"></div>
+              </div>
+            </div>
+            <div class="affiliate-appForm__btn-wrapper"><a class="affiliate-appForm__btn c-btn c-btn--bg" href="#" title="">Update</a></div>
+          </form>
+          <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Update your additional information</p>
+          <form class="affiliate__form" action="" method="" autocomplete="off">
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Website URL</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper"></div>
+              </div>
+            </div>
+            <div class="affiliate__input-label">Which of these best describes you?</div>
+            <div class="affiliate__radio-wrapper affiliate__radio-wrapper--wrap affiliate__radio-wrapper--pb">
+              <div class="affiliate__radio-col">
+                <input class="affiliate__radio" id="solo_affiliate" type="radio" name="describes" checked>
+                <label class="affiliate__radio-label" for="solo_affiliate">
+                  <p><i class="affiliate__radio-circle"></i></p>
+                  <p><span class="affiliate__radio-text">Solo-affiliate</span></p>
+                </label>
+              </div>
+              <div class="affiliate__radio-col">
+                <input class="affiliate__radio" id="agency" type="radio" name="describes">
+                <label class="affiliate__radio-label" for="agency">
+                  <p><i class="affiliate__radio-circle"></i></p>
+                  <p><span class="affiliate__radio-text">Agency</span></p>
+                </label>
+              </div>
+              <div class="affiliate__radio-col">
+                <input class="affiliate__radio" id="marketing_firm" type="radio" name="describes">
+                <label class="affiliate__radio-label" for="marketing_firm">
+                  <p><i class="affiliate__radio-circle"></i></p>
+                  <p><span class="affiliate__radio-text">Marketing Firm</span></p>
+                </label>
+              </div>
+              <div class="affiliate__radio-col">
+                <input class="affiliate__radio" id="none" type="radio" name="describes">
+                <label class="affiliate__radio-label" for="none">
+                  <p><i class="affiliate__radio-circle"></i></p>
+                  <p><span class="affiliate__radio-text">None</span></p>
+                </label>
+              </div>
+            </div>
+            <div class="affiliate-appForm__btn-wrapper"><a class="affiliate-appForm__btn c-btn c-btn--bg" href="#" title="">Update</a></div>
+          </form>
+          <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Tax information</p>
+          <p class="c-modal__tax">SSN or EIN: <span>***-**-5893</span></p>
+          <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Update your payment information</p>
+          <form class="affiliate__form" action="" method="" autocomplete="off">
+            <div class="affiliate__form-group">
+              <div class="affiliate__form-col affiliate__form-col-1">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Routing number</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="affiliate__form-col affiliate__form-col-2">
+                <div class="affiliate__input-wrapper">
+                  <label class="affiliate__input-label" for="">Account number</label>
+                  <div class="affiliate__input">
+                    <input type="text" name="" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="affiliate-appForm__btn-wrapper"><a class="affiliate-appForm__btn c-btn c-btn--bg" href="#" title="">Update</a></div>
+          </form>
+          <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Delete affiliate account</p>
+          <p class="c-modal__desc">Once you delete your account, all your outstanding commissions will be paid to you. You will not receive any commissions on qualified sales that close after you delete your account. You will have access to the affiliate portal until your final payoff transaction has been completed. After that, your data will be deleted.</p>
+          <p class="c-modal__desc c-modal__desc--wpb">This action can be undone before your final payoff transaction is completed. Once the payoff transaction is completed, this action cannot be undone.</p>
+          <div class="affiliate-appForm__btn-wrapper"><a class="affiliate-appForm__btn c-btn c-btn--border" href="#" title="">Delete account</a></div>
         </div>
       </div>
   </div>
