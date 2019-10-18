@@ -1192,6 +1192,18 @@ $(document).ready(function (ev) {
       $('.affiliate-appForm__container').hide();
       $('.affiliate-appForm__container.affiliate-appForm__container-' + _elID).fadeIn(300);
     });
+
+    $('[appSetup-btn-js]').on('click', function (ev) {
+      var _el = $(ev.currentTarget),
+          _elNextID = _el.attr('data-next'),
+          _elProgressVal = _el.attr('data-progress');
+
+      $('[appSetup-progress-js]').attr('style', 'width:' + _elProgressVal + '%;');
+      $('[appSetup-progressVal-js]').text(_elProgressVal);
+
+      $('.affiliate-appSetup__step').hide();
+      $('.affiliate-appSetup__step-' + _elNextID).fadeIn(300);
+    });
   };
 
   /**
