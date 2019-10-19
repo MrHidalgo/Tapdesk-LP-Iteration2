@@ -1173,7 +1173,7 @@ $(document).ready(function (ev) {
         $(ev.currentTarget).closest('.c-modal').find('.c-modal__header').addClass('is-shadow');
       }
 
-      if (isAnyPartOfElementInViewport($('.c-modal__btn')[0])) {
+      if (isAnyPartOfElementInViewport($('.c-modal__input-wrapper')[0])) {
         $(ev.currentTarget).parent().addClass('is-bottom');
       } else {
         $(ev.currentTarget).parent().removeClass('is-bottom');
@@ -1215,6 +1215,10 @@ $(document).ready(function (ev) {
 
       $('.affiliate-appForm__container').hide();
       $('.affiliate-appForm__container.affiliate-appForm__container-' + _elID).fadeIn(300);
+
+      $('.affiliate-appForm__tab-bg').css({
+        'width': $('.affiliate-appForm__tab-1')[0].clientWidth
+      });
     });
 
     $('[appForm-login-js]').on('click', function (ev) {
