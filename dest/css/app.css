@@ -1455,29 +1455,29 @@ picture {
 }
 
 /* line 10, src/scss/_shared/_magnificPopup.scss */
-.modal#viewAgreement, .modal#makeWithdrawal, .modal#updateInfo {
+.modal#viewAgreement, .modal#makeWithdrawal, .modal#paymentHistory, .modal#updateInfo {
   overflow: hidden;
   max-width: 1040px;
   border-radius: 10px;
   background-color: #ffffff;
 }
 
-/* line 18, src/scss/_shared/_magnificPopup.scss */
-.modal#viewAgreement .mfp-close, .modal#makeWithdrawal .mfp-close, .modal#updateInfo .mfp-close {
+/* line 19, src/scss/_shared/_magnificPopup.scss */
+.modal#viewAgreement .mfp-close, .modal#makeWithdrawal .mfp-close, .modal#paymentHistory .mfp-close, .modal#updateInfo .mfp-close {
   display: none;
 }
 
-/* line 23, src/scss/_shared/_magnificPopup.scss */
-.modal#viewAgreement {
+/* line 24, src/scss/_shared/_magnificPopup.scss */
+.modal#paymentHistory, .modal#viewAgreement {
   height: 80vh;
 }
 
-/* line 28, src/scss/_shared/_magnificPopup.scss */
+/* line 30, src/scss/_shared/_magnificPopup.scss */
 .mfp-container {
   padding: 15px;
 }
 
-/* line 37, src/scss/_shared/_magnificPopup.scss */
+/* line 39, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1488,7 +1488,7 @@ picture {
           transform: scale(0.8);
 }
 
-/* line 43, src/scss/_shared/_magnificPopup.scss */
+/* line 45, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1496,7 +1496,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 49, src/scss/_shared/_magnificPopup.scss */
+/* line 51, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1504,12 +1504,12 @@ picture {
           transform: scale(1);
 }
 
-/* line 53, src/scss/_shared/_magnificPopup.scss */
+/* line 55, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 59, src/scss/_shared/_magnificPopup.scss */
+/* line 61, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing .mfp-with-anim {
   -webkit-transform: scale(0.8);
       -ms-transform: scale(0.8);
@@ -1517,12 +1517,12 @@ picture {
   opacity: 0;
 }
 
-/* line 63, src/scss/_shared/_magnificPopup.scss */
+/* line 65, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
 
-/* line 74, src/scss/_shared/_magnificPopup.scss */
+/* line 76, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1533,7 +1533,7 @@ picture {
           transform: translateX(100%);
 }
 
-/* line 80, src/scss/_shared/_magnificPopup.scss */
+/* line 82, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1541,7 +1541,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 86, src/scss/_shared/_magnificPopup.scss */
+/* line 88, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -1549,12 +1549,12 @@ picture {
           transform: translateX(0);
 }
 
-/* line 90, src/scss/_shared/_magnificPopup.scss */
+/* line 92, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 96, src/scss/_shared/_magnificPopup.scss */
+/* line 98, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing .mfp-with-anim {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -1562,7 +1562,7 @@ picture {
   opacity: 0;
 }
 
-/* line 100, src/scss/_shared/_magnificPopup.scss */
+/* line 102, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -2636,7 +2636,378 @@ picture {
   }
 }
 
-/* line 331, src/scss/_macros/_modal.scss */
+/* line 329, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal {
+  height: 100%;
+}
+
+/* line 333, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 140px;
+  padding: 50px 60px 40px;
+  background-color: #ffffff;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 333, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__header {
+    min-height: 100px;
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 333, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__header {
+    min-height: 135px;
+    padding: 30px 15px;
+  }
+}
+
+/* line 350, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__header.is-shadow {
+  -webkit-box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
+          box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+/* line 356, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__body {
+  position: relative;
+  height: calc(100% - 140px);
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 356, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__body {
+    height: calc(100% - 100px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 356, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__body {
+    height: calc(100% - 165px);
+  }
+}
+
+/* line 366, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__body-content {
+  position: relative;
+  padding: 0 30px 30px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 366, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__body-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* line 374, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__body-content.is-scroll {
+  -webkit-box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
+          box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
+}
+
+/* line 379, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__body-scroll {
+  overflow-y: auto;
+  position: relative;
+  height: calc(100% - 90px);
+  max-height: 590px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 379, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__body-scroll {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+/* line 393, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__title {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.25;
+  color: #000000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 393, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 393, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__title {
+    font-size: 28px;
+  }
+}
+
+/* line 406, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 411, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__close svg {
+  width: 26px;
+  height: 26px;
+  fill: #000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 411, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__close svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 411, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__close svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* line 426, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 426, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__btn {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+/* line 433, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__btn > a {
+  width: auto;
+  max-width: unset;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 433, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__btn > a {
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+  }
+}
+
+/* line 447, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-head {
+  overflow: hidden;
+  z-index: 10;
+  position: relative;
+  border-radius: 10px;
+  background-color: #f8fafc;
+}
+
+/* line 454, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-head .c-modal__table-th {
+  min-height: 60px;
+  padding: 5px 10px 5px 30px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 454, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-head .c-modal__table-th {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+/* line 466, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-body .c-modal__table-tr {
+  border-bottom: 1px solid #e6edf4;
+}
+
+/* line 470, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-body .c-modal__table-tr:first-of-type > div {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-height: 59px;
+}
+
+/* line 475, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-body .c-modal__table-tr:last-of-type {
+  border-bottom: none;
+}
+
+/* line 480, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-body .c-modal__table-td {
+  min-height: 89px;
+  padding: 5px 10px 5px 50px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 480, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-body .c-modal__table-td {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+/* line 488, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-body .c-modal__table-td:nth-of-type(1) {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 488, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-body .c-modal__table-td:nth-of-type(1) {
+    padding-left: 5px;
+  }
+}
+
+/* line 498, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-footer {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+/* line 503, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 508, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-th, #paymentHistory .c-modal .c-modal__table-td {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 508, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-th, #paymentHistory .c-modal .c-modal__table-td {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/* line 523, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-th p {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.58;
+  color: #000000;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 523, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-th p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 523, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-th p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  /* line 523, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-th p {
+    font-size: 12px;
+  }
+}
+
+/* line 541, src/scss/_macros/_modal.scss */
+#paymentHistory .c-modal .c-modal__table-td span {
+  font-size: 19px;
+  line-height: 1.58;
+  color: #000000;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 541, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-td span {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* line 541, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-td span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  /* line 541, src/scss/_macros/_modal.scss */
+  #paymentHistory .c-modal .c-modal__table-td span {
+    font-size: 12px;
+  }
+}
+
+/* line 562, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2658,7 +3029,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 331, src/scss/_macros/_modal.scss */
+  /* line 562, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__header {
     min-height: 100px;
     padding: 20px 40px;
@@ -2666,20 +3037,20 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 331, src/scss/_macros/_modal.scss */
+  /* line 562, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__header {
     min-height: 135px;
     padding: 30px 15px;
   }
 }
 
-/* line 349, src/scss/_macros/_modal.scss */
+/* line 580, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__body {
   padding: 0 60px 60px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 349, src/scss/_macros/_modal.scss */
+  /* line 580, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__body {
     padding-left: 40px;
     padding-right: 40px;
@@ -2687,14 +3058,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 349, src/scss/_macros/_modal.scss */
+  /* line 580, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__body {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 361, src/scss/_macros/_modal.scss */
+/* line 592, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__title {
   font-size: 40px;
   font-weight: 900;
@@ -2703,20 +3074,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 361, src/scss/_macros/_modal.scss */
+  /* line 592, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 361, src/scss/_macros/_modal.scss */
+  /* line 592, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__title {
     font-size: 28px;
   }
 }
 
-/* line 374, src/scss/_macros/_modal.scss */
+/* line 605, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__close {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2729,7 +3100,7 @@ picture {
           justify-content: center;
 }
 
-/* line 379, src/scss/_macros/_modal.scss */
+/* line 610, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__close svg {
   width: 26px;
   height: 26px;
@@ -2737,7 +3108,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 379, src/scss/_macros/_modal.scss */
+  /* line 610, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__close svg {
     width: 22px;
     height: 22px;
@@ -2745,14 +3116,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 379, src/scss/_macros/_modal.scss */
+  /* line 610, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__close svg {
     width: 20px;
     height: 20px;
   }
 }
 
-/* line 395, src/scss/_macros/_modal.scss */
+/* line 626, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__input input {
   outline: none;
   width: 100%;
@@ -2803,7 +3174,7 @@ picture {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 414, src/scss/_macros/_modal.scss */
+/* line 645, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__input-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2816,27 +3187,27 @@ picture {
   padding-bottom: 50px;
 }
 
-/* line 421, src/scss/_macros/_modal.scss */
+/* line 652, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__input-left, #makeWithdrawal .c-modal .c-modal__input-right {
   width: 100%;
   max-width: calc((100% - 40px) / 2);
 }
 
 @media screen and (max-width: 767px) {
-  /* line 421, src/scss/_macros/_modal.scss */
+  /* line 652, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__input-left, #makeWithdrawal .c-modal .c-modal__input-right {
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 430, src/scss/_macros/_modal.scss */
+  /* line 661, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__input-left {
     padding-bottom: 8px;
   }
 }
 
-/* line 436, src/scss/_macros/_modal.scss */
+/* line 667, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__input-title {
   padding-bottom: 8px;
   font-size: 16px;
@@ -2845,7 +3216,7 @@ picture {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 445, src/scss/_macros/_modal.scss */
+/* line 676, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2855,7 +3226,7 @@ picture {
           align-items: center;
 }
 
-/* line 449, src/scss/_macros/_modal.scss */
+/* line 680, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__btn > a {
   width: auto;
   max-width: unset;
@@ -2864,7 +3235,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 449, src/scss/_macros/_modal.scss */
+  /* line 680, src/scss/_macros/_modal.scss */
   #makeWithdrawal .c-modal .c-modal__btn > a {
     width: 100%;
     max-width: 100%;
@@ -2872,7 +3243,7 @@ picture {
   }
 }
 
-/* line 460, src/scss/_macros/_modal.scss */
+/* line 691, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__btn > a.c-btn--bg {
   -webkit-box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
           box-shadow: 0 10px 15px 0 rgba(205, 8, 75, 0.2);
@@ -2883,7 +3254,7 @@ picture {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 464, src/scss/_macros/_modal.scss */
+/* line 695, src/scss/_macros/_modal.scss */
 #makeWithdrawal .c-modal .c-modal__btn > a.c-btn--bg:hover {
   color: #cd084b;
   -webkit-box-shadow: none;
@@ -2895,24 +3266,24 @@ picture {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 475, src/scss/_macros/_modal.scss */
+/* line 706, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal {
   height: 100%;
 }
 
-/* line 478, src/scss/_macros/_modal.scss */
+/* line 709, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .affiliate-appForm__heading--pt {
   padding-top: 100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 478, src/scss/_macros/_modal.scss */
+  /* line 709, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .affiliate-appForm__heading--pt {
     padding-top: 75px;
   }
 }
 
-/* line 486, src/scss/_macros/_modal.scss */
+/* line 717, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2934,7 +3305,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 486, src/scss/_macros/_modal.scss */
+  /* line 717, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 100px;
     padding: 20px 40px;
@@ -2942,14 +3313,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 486, src/scss/_macros/_modal.scss */
+  /* line 717, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 135px;
     padding: 30px 15px;
   }
 }
 
-/* line 503, src/scss/_macros/_modal.scss */
+/* line 734, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header.is-shadow {
   -webkit-box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
           box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
@@ -2960,26 +3331,26 @@ picture {
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 509, src/scss/_macros/_modal.scss */
+/* line 740, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__body {
   padding: 0 60px 60px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 509, src/scss/_macros/_modal.scss */
+  /* line 740, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 40px 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 509, src/scss/_macros/_modal.scss */
+  /* line 740, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 15px 15px;
   }
 }
 
-/* line 519, src/scss/_macros/_modal.scss */
+/* line 750, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__title {
   font-size: 40px;
   font-weight: 900;
@@ -2988,20 +3359,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 519, src/scss/_macros/_modal.scss */
+  /* line 750, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 519, src/scss/_macros/_modal.scss */
+  /* line 750, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 28px;
   }
 }
 
-/* line 532, src/scss/_macros/_modal.scss */
+/* line 763, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3014,7 +3385,7 @@ picture {
           justify-content: center;
 }
 
-/* line 537, src/scss/_macros/_modal.scss */
+/* line 768, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close svg {
   width: 26px;
   height: 26px;
@@ -3022,7 +3393,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 537, src/scss/_macros/_modal.scss */
+  /* line 768, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 22px;
     height: 22px;
@@ -3030,14 +3401,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 537, src/scss/_macros/_modal.scss */
+  /* line 768, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 20px;
     height: 20px;
   }
 }
 
-/* line 552, src/scss/_macros/_modal.scss */
+/* line 783, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax {
   font-size: 19px;
   font-weight: 800;
@@ -3046,18 +3417,18 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 552, src/scss/_macros/_modal.scss */
+  /* line 783, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__tax {
     font-size: 17px;
   }
 }
 
-/* line 561, src/scss/_macros/_modal.scss */
+/* line 792, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax span {
   font-weight: normal;
 }
 
-/* line 566, src/scss/_macros/_modal.scss */
+/* line 797, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc {
   padding-bottom: 40px;
   font-size: 19px;
@@ -3066,13 +3437,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 566, src/scss/_macros/_modal.scss */
+  /* line 797, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__desc {
     font-size: 17px;
   }
 }
 
-/* line 575, src/scss/_macros/_modal.scss */
+/* line 806, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc--wpb {
   padding-bottom: 20px;
 }

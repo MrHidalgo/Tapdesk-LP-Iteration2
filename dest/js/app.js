@@ -1124,7 +1124,7 @@ $(document).ready(function (ev) {
       initCopyToClipboard($(ev.currentTarget).prev('input').val());
     });
 
-    $('[modal-viewAgreement-js], [modal-makeWithdrawal-js]').magnificPopup({
+    $('[modal-viewAgreement-js], [modal-makeWithdrawal-js], [modal-paymentHistory-js], [modal-updateInfo-js]').magnificPopup({
       type: 'inline',
       fixedContentPos: true,
       fixedBgPos: true,
@@ -1144,24 +1144,6 @@ $(document).ready(function (ev) {
     $('[modal-agreementClose-js]').on('click', function (ev) {
       $.magnificPopup.close();
     });
-
-    $('[modal-updateInfo-js]').magnificPopup({
-      type: 'inline',
-      fixedContentPos: true,
-      fixedBgPos: true,
-      overflowY: 'auto',
-      closeBtnInside: true,
-      preloader: false,
-      midClick: true,
-      removalDelay: 300,
-      mainClass: 'is-show',
-      callbacks: {
-        beforeOpen: function beforeOpen() {
-          this.st.mainClass = this.st.el.attr('data-effect');
-        },
-        close: function close() {}
-      }
-    });
     $('[modal-updateClose-js]').on('click', function (ev) {
       $.magnificPopup.close();
     });
@@ -1177,6 +1159,14 @@ $(document).ready(function (ev) {
         $(ev.currentTarget).parent().addClass('is-bottom');
       } else {
         $(ev.currentTarget).parent().removeClass('is-bottom');
+      }
+    });
+
+    $('#paymentHistory .c-modal__body-scroll').on('scroll', function (ev) {
+      if ($(ev.currentTarget).scrollTop() > 10) {
+        $('#paymentHistory .c-modal__body-content').addClass('is-scroll');
+      } else {
+        $('#paymentHistory .c-modal__body-content').removeClass('is-scroll');
       }
     });
 
@@ -1234,6 +1224,16 @@ $(document).ready(function (ev) {
       $('[appSetup-progressVal-js]').text(_elProgressVal + '%');
 
       $('.affiliate-appSetup__step-' + _elNextID).fadeIn(300);
+    });
+
+    $('[modal-seeMore-js]').on('click', function (ev) {
+      var _tableTTMPL = "\n        <div class=\"c-modal__table-tr\">\n          <div class=\"c-modal__table-td\"><span>September 23, 2019</span></div>\n          <div class=\"c-modal__table-td\"><span>$287.87</span></div>\n          <div class=\"c-modal__table-td\"><span>In transit</span></div>\n        </div>\n      ";
+
+      var _tableNode = $('.c-modal__table-body');
+
+      for (var i = 0; i < 10; i++) {
+        _tableNode.append(_tableTTMPL);
+      }
     });
   };
 
