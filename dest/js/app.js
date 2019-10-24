@@ -1124,7 +1124,7 @@ $(document).ready(function (ev) {
       initCopyToClipboard($(ev.currentTarget).prev('input').val());
     });
 
-    $('[modal-viewAgreement-js]').magnificPopup({
+    $('[modal-viewAgreement-js], [modal-makeWithdrawal-js]').magnificPopup({
       type: 'inline',
       fixedContentPos: true,
       fixedBgPos: true,

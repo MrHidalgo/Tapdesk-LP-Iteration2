@@ -75,7 +75,7 @@
                 <p>$14,399.90</p><span>Total earnings</span>
               </li>
             </ul>
-            <div class="affiliate-inside__btn-wrapper affiliate-inside__btn-wrapper-1"><a class="affiliate-inside__btn c-btn c-btn--border" href="#" title>Make a withdrawal</a><a class="affiliate-inside__btn c-btn c-btn--border" href="#" title>Payment history</a></div>
+            <div class="affiliate-inside__btn-wrapper affiliate-inside__btn-wrapper-1"><a class="affiliate-inside__btn c-btn c-btn--border" href="#makeWithdrawal" data-effect="mfp-zoom-in" modal-makeWithdrawal-js title>Make a withdrawal</a><a class="affiliate-inside__btn c-btn c-btn--border" href="#" title>Payment history</a></div>
           </div>
         </div>
         <div class="affiliate-inside__wrapper affiliate-inside__wrapper-3">
@@ -291,7 +291,7 @@
               </svg></a></div>
         </div>
         <div class="c-modal__body">
-          <form class="affiliate__form" action="" method="" autocomplete="off">
+          <div class="affiliate__form">
             <div class="affiliate__form-group">
               <div class="affiliate__form-col affiliate__form-col-1">
                 <div class="affiliate__input-wrapper">
@@ -331,9 +331,9 @@
             <div class="affiliate-appForm__btn-wrapper">
               <button class="affiliate-appForm__btn c-btn c-btn--bg" type="button">Update</button>
             </div>
-          </form>
+          </div>
           <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Update your password</p>
-          <form class="affiliate__form" action="" method="" autocomplete="off">
+          <div class="affiliate__form">
             <div class="affiliate__form-group">
               <div class="affiliate__form-col affiliate__form-col-1">
                 <div class="affiliate__input-wrapper">
@@ -368,9 +368,9 @@
             <div class="affiliate-appForm__btn-wrapper">
               <button class="affiliate-appForm__btn c-btn c-btn--bg" type="button">Update</button>
             </div>
-          </form>
+          </div>
           <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Update your contact information</p>
-          <form class="affiliate__form" action="" method="" autocomplete="off">
+          <div class="affiliate__form">
             <div class="affiliate__form-group">
               <div class="affiliate__form-col affiliate__form-col-1">
                 <div class="affiliate__input-wrapper">
@@ -441,9 +441,9 @@
             <div class="affiliate-appForm__btn-wrapper">
               <button class="affiliate-appForm__btn c-btn c-btn--bg" type="button">Update</button>
             </div>
-          </form>
+          </div>
           <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Update your additional information</p>
-          <form class="affiliate__form" action="" method="" autocomplete="off">
+          <div class="affiliate__form">
             <div class="affiliate__form-group">
               <div class="affiliate__form-col affiliate__form-col-1">
                 <div class="affiliate__input-wrapper">
@@ -491,11 +491,11 @@
             <div class="affiliate-appForm__btn-wrapper">
               <button class="affiliate-appForm__btn c-btn c-btn--bg" type="button">Update</button>
             </div>
-          </form>
+          </div>
           <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Tax information</p>
           <p class="c-modal__tax">SSN or EIN: <span>***-**-5893</span></p>
           <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Update your payment information</p>
-          <form class="affiliate__form" action="" method="" autocomplete="off">
+          <div class="affiliate__form">
             <div class="affiliate__form-group">
               <div class="affiliate__form-col affiliate__form-col-1">
                 <div class="affiliate__input-wrapper">
@@ -517,13 +517,38 @@
             <div class="affiliate-appForm__btn-wrapper">
               <button class="affiliate-appForm__btn c-btn c-btn--bg" type="button">Update</button>
             </div>
-          </form>
+          </div>
           <p class="affiliate-appForm__heading affiliate-appForm__heading--pt">Delete affiliate account</p>
           <p class="c-modal__desc">Once you delete your account, all your outstanding commissions will be paid to you. You will not receive any commissions on qualified sales that close after you delete your account. You will have access to the affiliate portal until your final payoff transaction has been completed. After that, your data will be deleted.</p>
           <p class="c-modal__desc c-modal__desc--wpb">This action can be undone before your final payoff transaction is completed. Once the payoff transaction is completed, this action cannot be undone.</p>
           <div class="affiliate-appForm__btn-wrapper">
             <button class="affiliate-appForm__btn c-btn c-btn--border" type="button">Delete account</button>
           </div>
+        </div>
+      </div>
+  </div>
+  <!-- SECTION affiliate submitted :: END-->
+  <!-- SECTION affiliate submitted :: START-->
+  <div class="modal mfp-hide mfp-with-anim" id="makeWithdrawal">
+      <div class="c-modal">
+        <div class="c-modal__header">
+          <p class="c-modal__title">Make a withdrawal</p>
+          <div><a class="c-modal__close" href="#" title="" modal-agreementClose-js>
+              <svg class="icon-svg icon-close ">
+                <use xlink:href="./img/sprite.svg#close"></use>
+              </svg></a></div>
+        </div>
+        <div class="c-modal__body">
+          <div class="c-modal__input-wrapper">
+            <div class="c-modal__input-left">
+              <p class="c-modal__input-title">Enter amount to withdraw</p>
+              <div class="c-modal__input">
+                <input type="text" name="" placeholder="$249.93">
+              </div>
+            </div>
+            <div class="c-modal__input-right"></div>
+          </div>
+          <div class="c-modal__btn"><a class="c-btn c-btn--bg" href="#" title="">Withdraw</a></div>
         </div>
       </div>
   </div>
