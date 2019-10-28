@@ -16480,4 +16480,66 @@ picture {
   }
 }
 
+/* line 4, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__header {
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+}
+
+/* line 9, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__header .c-grid {
+  position: relative;
+}
+
+/* line 13, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 158px;
+}
+
+/* line 18, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__header-wrapper-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 22, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__header-wrapper-left span {
+  display: block;
+  width: 2px;
+  height: 38px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 68, 157, 0.1);
+}
+
+/* line 31, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__header-wrapper-left p {
+  font-weight: 300;
+  font-size: 20px;
+  color: #000;
+}
+
+/* line 39, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__header-marker {
+  position: absolute;
+  top: -6px;
+  right: 0;
+}
+
+/* line 45, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__header svg {
+  fill: #00449D;
+}
+
 /*# sourceMappingURL=maps/app.css.map */
