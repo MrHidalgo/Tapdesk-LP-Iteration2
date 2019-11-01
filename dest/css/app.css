@@ -259,270 +259,288 @@
 }
 
 /* line 65, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-description {
+  width: 18px;
+  height: 18px;
+}
+
+/* line 69, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-done {
   width: 26px;
   height: 26px;
 }
 
-/* line 69, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 73, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-duration {
+  width: 15.999px;
+  height: 20px;
+}
+
+/* line 77, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features {
   width: 40px;
   height: 37px;
 }
 
-/* line 73, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 81, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-0 {
   width: 40px;
   height: 40px;
 }
 
-/* line 77, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 85, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-1 {
   width: 40px;
   height: 40px;
 }
 
-/* line 81, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 89, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-2 {
   width: 40px;
   height: 42px;
 }
 
-/* line 85, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 93, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-3 {
   width: 44px;
   height: 46px;
 }
 
-/* line 89, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 97, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-4 {
   width: 40px;
   height: 40px;
 }
 
-/* line 93, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 101, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-flag {
   width: 24px;
   height: 28px;
 }
 
-/* line 97, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 105, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-accounts {
   width: 48px;
   height: 60px;
 }
 
-/* line 101, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 109, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-admin-tools {
   width: 56px;
   height: 56px;
 }
 
-/* line 105, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 113, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-analytics {
   width: 60px;
   height: 60px;
 }
 
-/* line 109, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 117, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-apps-settings {
   width: 72px;
   height: 60px;
 }
 
-/* line 113, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 121, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-calendar {
   width: 60px;
   height: 62px;
 }
 
-/* line 117, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 125, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-compaigns {
   width: 60px;
   height: 60px;
 }
 
-/* line 121, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 129, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-contacts {
   width: 60px;
   height: 60px;
 }
 
-/* line 125, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 133, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-faq {
   width: 64px;
   height: 64px;
 }
 
-/* line 129, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 137, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-flows {
   width: 60px;
   height: 60px;
 }
 
-/* line 133, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 141, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-invoicing {
   width: 54px;
   height: 60px;
 }
 
-/* line 137, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 145, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-pipelines {
   width: 60px;
   height: 56px;
 }
 
-/* line 141, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 149, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-search {
   width: 59px;
   height: 59px;
 }
 
-/* line 145, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 153, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-1 {
   width: 23px;
   height: 24px;
 }
 
-/* line 149, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 157, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-2 {
   width: 40px;
   height: 42px;
 }
 
-/* line 153, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 161, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-3 {
   width: 30px;
   height: 30px;
 }
 
-/* line 157, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 165, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-4 {
   width: 35px;
   height: 36px;
 }
 
-/* line 161, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 169, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-5 {
   width: 19px;
   height: 26px;
 }
 
-/* line 165, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 173, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-email {
   width: 24px;
   height: 19px;
 }
 
-/* line 169, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 177, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-facebook {
   width: 11px;
   height: 23px;
 }
 
-/* line 173, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 181, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-linkdin {
   width: 22px;
   height: 21px;
 }
 
-/* line 177, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 185, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-share {
   width: 22px;
   height: 22px;
 }
 
-/* line 181, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 189, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-twitter {
   width: 21px;
   height: 17px;
 }
 
-/* line 185, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 193, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-leads {
   width: 44px;
   height: 43px;
 }
 
-/* line 189, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 197, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-location {
+  width: 16px;
+  height: 20px;
+}
+
+/* line 201, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-login {
   width: 20px;
   height: 20px;
 }
 
-/* line 193, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 205, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-logo {
   width: 145px;
   height: 36px;
 }
 
-/* line 197, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 209, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-money {
   width: 26px;
   height: 36px;
 }
 
-/* line 201, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 213, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-pipelines {
   width: 40px;
   height: 42px;
 }
 
-/* line 205, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 217, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play {
   width: 69px;
   height: 80px;
 }
 
-/* line 209, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 221, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play-1 {
   width: 27px;
   height: 33px;
 }
 
-/* line 213, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 225, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-request {
   width: 48px;
   height: 36px;
 }
 
-/* line 217, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-right-arrow {
   width: 240.82px;
   height: 240.82px;
 }
 
-/* line 221, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-robot {
   width: 44px;
   height: 42px;
 }
 
-/* line 225, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-setting {
   width: 478.7px;
   height: 478.7px;
 }
 
-/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 241, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-signup {
   width: 16px;
   height: 20px;
 }
 
-/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 245, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-0 {
   width: 60px;
   height: 60px;
 }
 
-/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 249, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-1 {
   width: 60px;
   height: 60px;
 }
 
-/* line 241, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 253, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-2 {
   width: 51px;
   height: 62px;
@@ -16481,18 +16499,27 @@ picture {
 }
 
 /* line 4, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__title {
+  padding-bottom: 40px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000;
+}
+
+/* line 12, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__header {
   overflow: hidden;
   position: relative;
   background-color: #ffffff;
 }
 
-/* line 9, src/scss/_components/scheduler/_scheduler.scss */
+/* line 17, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__header .c-grid {
   position: relative;
 }
 
-/* line 13, src/scss/_components/scheduler/_scheduler.scss */
+/* line 21, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__header-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16503,7 +16530,7 @@ picture {
   height: 158px;
 }
 
-/* line 18, src/scss/_components/scheduler/_scheduler.scss */
+/* line 26, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__header-wrapper-left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16513,7 +16540,7 @@ picture {
           align-items: center;
 }
 
-/* line 22, src/scss/_components/scheduler/_scheduler.scss */
+/* line 30, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__header-wrapper-left span {
   display: block;
   width: 2px;
@@ -16523,23 +16550,352 @@ picture {
   background-color: rgba(0, 68, 157, 0.1);
 }
 
-/* line 31, src/scss/_components/scheduler/_scheduler.scss */
+/* line 39, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__header-wrapper-left p {
   font-weight: 300;
   font-size: 20px;
   color: #000;
 }
 
-/* line 39, src/scss/_components/scheduler/_scheduler.scss */
+/* line 47, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__header-marker {
   position: absolute;
   top: -6px;
   right: 0;
 }
 
-/* line 45, src/scss/_components/scheduler/_scheduler.scss */
+/* line 53, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__header svg {
   fill: #00449D;
+}
+
+/* line 58, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main {
+  padding-top: 110px;
+  padding-bottom: 120px;
+  background-color: #f8fafc;
+}
+
+/* line 63, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-subtitle {
+  padding-bottom: 24px;
+  font-weight: 300;
+  font-size: 26px;
+  color: #000;
+}
+
+/* line 70, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-title {
+  padding-bottom: 37px;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 70px;
+  color: #000;
+}
+
+/* line 78, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-heading {
+  padding-bottom: 40px;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  color: #000;
+}
+
+/* line 86, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-dropdown {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 91, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-dropdown-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+
+/* line 96, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-dropdown-wrapper > div {
+  padding-right: 60px;
+}
+
+/* line 101, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-dropdown-title {
+  padding-right: 16px;
+  font-size: 20px;
+  color: #222;
+}
+
+/* line 107, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-dropdown-btn {
+  cursor: pointer;
+  padding-right: 7px;
+  font-size: 20px;
+  color: #00449D;
+}
+
+/* line 113, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-dropdown-btn svg {
+  width: 10px;
+  height: 10px;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  fill: #00449D;
+}
+
+/* line 121, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-dropdown-menu {
+  z-index: 899;
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* line 134, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-dropdown-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 5px 15px 5px 30px;
+  color: #00449D;
+  font-size: 16px;
+  line-height: 35px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 143, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-dropdown-link:hover {
+  background-color: #f4f9ff;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 150, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-box {
+  cursor: pointer;
+  height: 100%;
+  padding: 30px 15px 30px 30px;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 159, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-box:hover {
+  background-color: #00449d;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 163, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-box:hover p {
+  color: #ffffff;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 169, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc(100% + 40px);
+  margin-left: -40px;
+}
+
+/* line 175, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-box-wrapper > div {
+  width: 100%;
+  max-width: calc(100% / 3);
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 183, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-box p {
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 187, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-box-title {
+  padding-bottom: 5px;
+  font-weight: 900;
+  font-size: 22px;
+  color: #000;
+}
+
+/* line 194, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-box-subtitle {
+  padding-bottom: 15px;
+  font-size: 18px;
+  color: #222;
+}
+
+/* line 200, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-box-desc {
+  overflow: hidden;
+  position: relative;
+  height: 44px;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(34, 34, 34, 0.4);
+}
+
+/* line 229, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-btn {
+  display: none;
+}
+
+/* line 232, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-btn .c-btn {
+  max-width: unset;
+  width: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* line 239, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-btn .c-btn.is-active svg {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 245, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-btn .c-btn p {
+  padding-right: 5px;
+}
+
+/* line 249, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-btn .c-btn span {
+  padding-right: 20px;
+}
+
+/* line 254, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__main-btn svg {
+  position: relative;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 267, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__data {
+  padding-top: 129px;
+  padding-bottom: 120px;
+}
+
+/* line 271, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__data-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 115px;
+}
+
+/* line 276, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__data-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+/* line 281, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__data-list li:last-of-type {
+  padding-bottom: 0;
+}
+
+/* line 286, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__data-list li > div:nth-of-type(1) {
+  width: 40px;
+  padding-top: 3px;
+}
+
+/* line 290, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__data-list li > div:nth-of-type(2) {
+  width: 100%;
+  max-width: 180px;
+}
+
+/* line 294, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__data-list li > div:nth-of-type(3) {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 301, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__data-list li p,
+.scheduler__data-list li span {
+  font-size: 20px;
+  color: #000;
+}
+
+/* line 307, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__data-list li p {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

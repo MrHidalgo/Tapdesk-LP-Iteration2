@@ -1237,6 +1237,92 @@ $(document).ready(function (ev) {
     });
   };
 
+  var initScheduler = function initScheduler() {
+
+    var _dropdown = function _dropdown() {
+      $('[scheduler-dropdown-js]').on('click', function (ev) {
+        var _el = $(ev.currentTarget);
+
+        $('.scheduler__main-dropdown-menu').slideUp(350);
+
+        if (_el.hasClass('is-open')) {
+          _el.removeClass('is-open').siblings('.scheduler__main-dropdown-menu').slideUp(350);
+        } else {
+          _el.addClass('is-open').siblings('.scheduler__main-dropdown-menu').slideDown(350);
+        }
+      });
+
+      $('[scheduler-dropdown-btn-js]').on('click', function (ev) {
+        var _el = $(ev.currentTarget),
+            _elVal = _el.attr('data-value');
+
+        _el.closest('.scheduler__main-dropdown').find('[scheduler-dropdown-js] span').text(_elVal);
+        $('.scheduler__main-dropdown-menu').slideUp(350);
+      });
+    };
+
+    var _splitDescription = function _splitDescription() {
+      // const getTextareaNumberOfLines = (textarea) => {
+      //   let previous_height = textarea.style.height,
+      //     lines;
+      //
+      //   textarea.style.height = 0;
+      //
+      //   lines = parseInt(textarea.scrollHeight/parseInt(getComputedStyle(textarea).lineHeight));
+      //
+      //   textarea.style.height = previous_height;
+      //
+      //   return lines;
+      // };
+
+      $.each($('[scheduler-desc-js]'), function (idx, val) {
+        // const _textNode = document.createElement('TEXTAREA');
+
+        // _textNode.innerText = $(val).text().trim();
+
+        // $(val).append(_textNode);
+
+        // const _numberOfLines = getTextareaNumberOfLines($(val).find('textarea')[0]);
+
+        // if(_numberOfLines > 2) {
+
+        // if($(val).find('textarea').val().lastIndexOf("\n") > 0) {
+        // console.log(`if: `, $(val).find('textarea').val().substring(0, $(val).find('textarea').val().lastIndexOf("\n")));
+        // } else {
+        // console.log(`x:`, $(val).find('textarea').val());
+        // }
+        // const lessText = $(val).text().substring(0, 68).trim();
+        //
+        // $(val).html(lessText + "...");
+        // }
+      });
+    };
+
+    var _chooseBox = function _chooseBox() {
+      $('.scheduler__main-box').on('click', function (ev) {
+        var _el = $(ev.currentTarget);
+
+        var _toggleBtn = $('[scheduler-toggle-js]');
+
+        $('[scheduler-hidden-1-js]').slideUp(450);
+        $('[scheduler-hidden-2-js]').slideDown(450).css({ 'display': 'flex' });
+
+        _toggleBtn.removeClass('is-active');
+        _toggleBtn.find('p').text(_el.attr('data-name'));
+        _toggleBtn.find('span').text('(' + _el.attr('data-duration') + ')');
+      });
+      $('[scheduler-toggle-js]').on('click', function (ev) {
+        $(ev.currentTarget).toggleClass('is-active');
+
+        $('[scheduler-hidden-1-js]').slideToggle(450);
+      });
+    };
+
+    _dropdown();
+    // _splitDescription();
+    _chooseBox();
+  };
+
   /**
    * @description Init all method
    */
@@ -1270,6 +1356,7 @@ $(document).ready(function (ev) {
 
     initStickyElem();
     initAffiliate();
+    initScheduler();
   };
   initJquery();
 });
