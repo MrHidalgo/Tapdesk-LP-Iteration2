@@ -1304,6 +1304,9 @@ $(document).ready(function (ev) {
 
         var _toggleBtn = $('[scheduler-toggle-js]');
 
+        $('.scheduler__main-box').removeClass('is-active');
+        _el.addClass('is-active');
+
         $('[scheduler-hidden-1-js]').slideUp(450);
         $('[scheduler-hidden-2-js]').slideDown(450).css({ 'display': 'flex' });
 
