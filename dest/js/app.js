@@ -1380,12 +1380,20 @@ $(document).ready(function (ev) {
       });
     };
 
+    var _openFilter = function _openFilter() {
+      $('[scheduler-filter-js]').on('click', function (ev) {
+        $(ev.currentTarget).toggleClass('is-open');
+        $(ev.currentTarget).siblings('[scheduler-filterBody-js]').slideToggle(450);
+      });
+    };
+
     _dropdown();
     // _splitDescription();
     _chooseBox();
     _sliderData();
     _slideDataChoose();
     _chooseTime();
+    _openFilter();
   };
 
   /**
