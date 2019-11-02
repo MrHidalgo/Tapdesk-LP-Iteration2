@@ -1310,6 +1310,12 @@ $(document).ready(function (ev) {
         _toggleBtn.removeClass('is-active');
         _toggleBtn.find('p').text(_el.attr('data-name'));
         _toggleBtn.find('span').text('(' + _el.attr('data-duration') + ')');
+
+        if (!$('[scheduler-dataNode-js]').is(':visible')) {
+          $('[scheduler-dataNode-js]').slideDown(450);
+
+          _sliderData();
+        }
       });
       $('[scheduler-toggle-js]').on('click', function (ev) {
         $(ev.currentTarget).toggleClass('is-active');
@@ -1318,9 +1324,68 @@ $(document).ready(function (ev) {
       });
     };
 
+    var _sliderData = function _sliderData() {
+      if ($('.schedulerData').length) {
+        var swiperScheduler = new Swiper('.schedulerData', {
+          loop: false,
+          grabCursor: true,
+          freeMode: false,
+          effect: 'slide',
+          speed: 750,
+          slidesPerView: 7,
+          slidesPerGroup: 7,
+          spaceBetween: 30,
+          breakpoints: {
+            767: {
+              slidesPerView: 5,
+              slidesPerGroup: 5,
+              spaceBetween: 11
+            }
+          },
+          navigation: {
+            nextEl: '.scheduler__data-next',
+            prevEl: '.scheduler__data-prev'
+          }
+        });
+      }
+    };
+
+    var _slideDataChoose = function _slideDataChoose() {
+      $('.scheduler__data-slide').on('click', function (ev) {
+        if ($(ev.currentTarget).hasClass('is-active')) {
+          $(ev.currentTarget).removeClass('is-active');
+        } else {
+          $('.scheduler__data-slide').removeClass('is-active');
+          $(ev.currentTarget).addClass('is-active');
+        }
+
+        if (!$('[scheduler-timeNode-js]').is(':visible')) {
+          $('[scheduler-timeNode-js]').slideDown(450);
+        }
+      });
+    };
+
+    var _chooseTime = function _chooseTime() {
+      $('.scheduler__time-btn').on('click', function (ev) {
+        if ($(ev.currentTarget).hasClass('is-active')) {
+          $(ev.currentTarget).removeClass('is-active');
+        } else {
+          $('.scheduler__time-btn').removeClass('is-active');
+          $(ev.currentTarget).addClass('is-active');
+        }
+
+        if (!$('[scheduler-infoNode-js]').is(':visible')) {
+          $('[scheduler-infoNode-js]').slideDown(450);
+        }
+      });
+    };
+
     _dropdown();
     // _splitDescription();
     _chooseBox();
+    _sliderData();
+    _slideDataChoose();
+    _chooseTime();
   };
 
   /**

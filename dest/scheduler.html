@@ -51,9 +51,104 @@
         </div>
       </section>
       <!-- SECTION scheduler header :: END-->
-      <!--include components/scheduler/_scheduler-main-->
+      <!-- SECTION scheduler main :: START-->
+      <section class="scheduler__main" id="scheduler__main">
+        <div class="c-grid">
+          <div class="scheduler__main-wrapper">
+            <p class="scheduler__main-subtitle">Steve Evans’ Calendar</p>
+            <h1 class="scheduler__main-title">Good morning. To schedule a time with </br>Steve Evans, select an event below</h1>
+            <div class="scheduler__main-hidden" scheduler-hidden-1-js>
+              <div class="scheduler__main-dropdown-wrapper">
+                <div>
+                  <div class="scheduler__main-dropdown">
+                    <p class="scheduler__main-dropdown-title">Duration</p>
+                    <div class="scheduler__main-dropdown-btn" scheduler-dropdown-js><span>30 minutes</span>
+                      <svg class="icon-svg icon-right-arrow ">
+                        <use xlink:href="./img/sprite.svg#right-arrow"></use>
+                      </svg>
+                    </div>
+                    <div class="scheduler__main-dropdown-menu"><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="20 minutes">20 minutes</a><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="25 minutes">25 minutes</a><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="30 minutes">30 minutes</a><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="35 minutes">35 minutes</a><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="40 minutes">40 minutes</a><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="45 minutes">45 minutes</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="scheduler__main-dropdown">
+                    <p class="scheduler__main-dropdown-title">Event category</p>
+                    <div class="scheduler__main-dropdown-btn" scheduler-dropdown-js><span>Call</span>
+                      <svg class="icon-svg icon-right-arrow ">
+                        <use xlink:href="./img/sprite.svg#right-arrow"></use>
+                      </svg>
+                    </div>
+                    <div class="scheduler__main-dropdown-menu"><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="Call">Call</a><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="Video Call">Video Call</a><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="Conversation">Conversation</a></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="scheduler__main-dropdown">
+                    <p class="scheduler__main-dropdown-title">Event type</p>
+                    <div class="scheduler__main-dropdown-btn" scheduler-dropdown-js><span>One-on-one</span>
+                      <svg class="icon-svg icon-right-arrow ">
+                        <use xlink:href="./img/sprite.svg#right-arrow"></use>
+                      </svg>
+                    </div>
+                    <div class="scheduler__main-dropdown-menu"><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="One-on-one">One-on-one</a><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="One-on-two">One-on-two</a><a class="scheduler__main-dropdown-link" href="#" title="" scheduler-dropdown-btn-js data-value="Two-on-one">Two-on-one</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="scheduler__main-box-wrapper">
+                <div>
+                  <div class="scheduler__main-box" data-name="Introduction call" data-duration="20 minutes">
+                    <p class="scheduler__main-box-title">Introduction call</p>
+                    <p class="scheduler__main-box-subtitle">Duration: 20 minutes</p>
+                    <p class="scheduler__main-box-desc" scheduler-desc-js>Schedule an introductory free call with me. More descriptions goes here. More descriptions goes here</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="scheduler__main-box" data-name="Daily call" data-duration="25 minutes">
+                    <p class="scheduler__main-box-title">Daily call</p>
+                    <p class="scheduler__main-box-subtitle">Duration: 25 minutes</p>
+                    <p class="scheduler__main-box-desc" scheduler-desc-js>Schedule an introductory free call with me.</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="scheduler__main-box" data-name="Morning call" data-duration="30 minutes">
+                    <p class="scheduler__main-box-title">Morning call</p>
+                    <p class="scheduler__main-box-subtitle">Duration: 30 minutes</p>
+                    <p class="scheduler__main-box-desc" scheduler-desc-js>Schedule an introductory free call with me. More descriptions goes, here</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="scheduler__main-box" data-name="Afternoon call" data-duration="35 minutes">
+                    <p class="scheduler__main-box-title">Afternoon call</p>
+                    <p class="scheduler__main-box-subtitle">Duration: 35 minutes</p>
+                    <p class="scheduler__main-box-desc" scheduler-desc-js>Schedule an introductory.</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="scheduler__main-box" data-name="Vacation call" data-duration="40 minutes">
+                    <p class="scheduler__main-box-title">Vacation call</p>
+                    <p class="scheduler__main-box-subtitle">Duration: 40 minutes</p>
+                    <p class="scheduler__main-box-desc" scheduler-desc-js>Schedule an introductory free call with me. More descriptions free call with me. More descriptions.</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="scheduler__main-box" data-name="Evening call" data-duration="45 minutes">
+                    <p class="scheduler__main-box-title">Evening call</p>
+                    <p class="scheduler__main-box-subtitle">Duration: 45 minutes</p>
+                    <p class="scheduler__main-box-desc" scheduler-desc-js>Schedule an introductory free call with me. More schedule an introductory free call with me. More text</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="scheduler__main-btn" scheduler-hidden-2-js><a class="c-btn c-btn--bg c-btn" href="#" title="" scheduler-toggle-js>
+                <p>Introduction call</p><span>(30 minutes)</span>
+                <svg class="icon-svg icon-right-arrow ">
+                  <use xlink:href="./img/sprite.svg#right-arrow"></use>
+                </svg></a></div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION scheduler header :: END-->
       <!-- SECTION scheduler data :: START-->
-      <section class="scheduler__data" id="scheduler__data">
+      <section class="scheduler__data" id="scheduler__data" scheduler-dataNode-js>
         <div class="c-grid">
           <div class="scheduler__data-wrapper">
             <p class="scheduler__main-subtitle">You’ve been invited to schedule a</p>
@@ -94,21 +189,486 @@
               </li>
             </ul>
             <p class="scheduler__title">Choose date</p>
+            <div class="scheduler__data-option">
+              <div><a class="scheduler__data-prev" href="#" title="">
+                  <svg class="icon-svg icon-arrow ">
+                    <use xlink:href="./img/sprite.svg#arrow"></use>
+                  </svg><span>Previous week</span></a></div>
+              <div>
+                <p>September</p>
+              </div>
+              <div><a class="scheduler__data-next" href="#" title=""><span>Next week</span>
+                  <svg class="icon-svg icon-arrow ">
+                    <use xlink:href="./img/sprite.svg#arrow"></use>
+                  </svg></a></div>
+            </div>
+            <div class="scheduler__data-slider">
+              <div class="swiper-container schedulerData">
+                <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--disabled"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Sunday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>1</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Monday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>2</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Tuesday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>3</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--today"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Wednesday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>4</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Thursday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>5</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Friday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>6</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--disabled"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Saturday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>7</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--disabled"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Sunday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>8</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Monday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>9</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Tuesday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>10</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Wednesday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>11</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Thursday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>12</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Friday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>13</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--disabled"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Saturday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>14</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--disabled"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Sunday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>15</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Monday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>16</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Tuesday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>17</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Wednesday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>18</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Thursday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>19</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Friday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>20</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--disabled"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Saturday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>21</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--disabled"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Sunday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>22</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Monday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>23</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Tuesday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>24</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Wednesday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>25</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Thursday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>26</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Friday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>27</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--disabled"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Saturday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>28</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide scheduler__data-slide--disabled"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Sunday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>29</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="scheduler__data-slide"><i></i>
+                                    <div class="scheduler__data-slide--top"><span>today</span></div>
+                                    <div class="scheduler__data-slide--middle">
+                                      <p>Monday</p>
+                                    </div>
+                                    <div class="scheduler__data-slide--bottom">
+                                      <h4>30</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- SECTION scheduler data :: END-->
       <!-- SECTION scheduler time :: START-->
-      <section class="scheduler__time" id="scheduler__time">
+      <section class="scheduler__time" id="scheduler__time" scheduler-timeNode-js>
         <div class="c-grid">
-          <div class="scheduler__time-wrapper"></div>
+          <div class="scheduler__time-wrapper">
+            <p class="scheduler__title">Choose time</p>
+            <div class="scheduler__time-row scheduler__time-row-1">
+              <div class="scheduler__time-col scheduler__time-col-1">
+                <div class="form__field c-form__field--select">
+                  <label class="c-form__label">Select Time Zone</label>
+                  <div class="c-form__select-wrap">
+                    <div class="c-form__select"><span class="c-form__select-value"></span>
+                      <select name="">
+                        <option value="0" disabled selected hidden>Central Time (US) UTC-5</option>
+                        <option value="1">Central Time (US) UTC-1</option>
+                        <option value="1">Central Time (US) UTC-2</option>
+                        <option value="1">Central Time (US) UTC-3</option>
+                        <option value="1">Central Time (US) UTC-4</option>
+                        <option value="1">Central Time (US) UTC-5</option>
+                        <option value="1">Central Time (US) UTC-6</option>
+                        <option value="1">Central Time (US) UTC-7</option>
+                        <option value="1">Central Time (US) UTC-8</option>
+                        <option value="1">Central Time (US) UTC-9</option>
+                        <option value="1">Central Time (US) UTC-10</option>
+                      </select><span class="c-form__select-icon">
+                        <svg class="icon-svg icon-angle ">
+                          <use xlink:href="./img/sprite.svg#angle"></use>
+                        </svg></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="scheduler__time-col scheduler__time-col-2"></div>
+            </div>
+            <div class="scheduler__time-row scheduler__time-row-2">
+              <div class="scheduler__time-col scheduler__time-col-1"><a class="scheduler__time-btn" href="#" title=""><span>09:00 am</span></a><a class="scheduler__time-btn" href="#" title=""><span>10:00 am</span></a><a class="scheduler__time-btn" href="#" title=""><span>11:00 am</span></a></div>
+              <div class="scheduler__time-col scheduler__time-col-2"><a class="scheduler__time-btn" href="#" title=""><span>12:15 pm</span></a><a class="scheduler__time-btn" href="#" title=""><span>01:00 pm</span></a><a class="scheduler__time-btn" href="#" title=""><span>01:45 pm</span></a><a class="scheduler__time-btn" href="#" title=""><span>02:30 pm</span></a><a class="scheduler__time-btn" href="#" title=""><span>03:45 pm</span></a><a class="scheduler__time-btn" href="#" title=""><span>04:30 pm</span></a><a class="scheduler__time-btn" href="#" title=""><span>04:45 pm</span></a></div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- SECTION scheduler data :: END-->
       <!-- SECTION scheduler information :: START-->
-      <section class="scheduler__information" id="scheduler__information">
+      <section class="scheduler__information request" id="scheduler__information" scheduler-infoNode-js>
+        <div class="request__bg">
+          <div class="request__bg-inner"></div>
+        </div>
         <div class="c-grid">
-          <div class="scheduler__information-wrapper"></div>
+          <div class="request__wrapper">
+            <p class="scheduler__title scheduler__title--white">Enter your information</p>
+            <form class="c-form">
+              <div class="c-form__row c-form__row-0 c-form__row--request">
+                <div class="c-form__row-left">
+                  <div class="c-form__field c-form__field--input">
+                    <label class="c-form__label" for="request_name">Name</label>
+                    <div class="c-form__input-wrapper">
+                      <input class="c-form__input" type="text" id="request_name" name="request_name" placeholder="">
+                    </div>
+                  </div>
+                </div>
+                <div class="c-form__row-right">
+                  <div class="c-form__field c-form__field--input">
+                    <label class="c-form__label" for="request_email">Email</label>
+                    <div class="c-form__input-wrapper">
+                      <input class="c-form__input" type="text" id="request_email" name="request_email" placeholder="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="c-form__row c-form__row-1 c-form__row--request">
+                <div class="c-form__row-left">
+                  <div class="c-form__group c-form__group--request">
+                    <div class="c-form__group-col c-form__group-col-0">
+                      <div class="c-form__field c-form__field--select">
+                        <label class="c-form__label">Country (code)</label>
+                        <div class="c-form__select-wrap">
+                          <div class="c-form__select"><span class="c-form__select-value"></span>
+                            <select name="">
+                              <option value="0" disabled selected hidden>Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                            </select><span class="c-form__select-icon">
+                              <svg class="icon-svg icon-angle ">
+                                <use xlink:href="./img/sprite.svg#angle"></use>
+                              </svg></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="c-form__group-col c-form__group-col-1">
+                      <div class="c-form__field c-form__field--input">
+                        <label class="c-form__label" for="request_mobile">Mobile number</label>
+                        <div class="c-form__input-wrapper">
+                          <input class="c-form__input" type="text" id="request_mobile" name="request_mobile" placeholder="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-form__row-right">
+                  <div class="c-form__field c-form__field--input">
+                    <label class="c-form__label" for="request_jobTitle">Job title</label>
+                    <div class="c-form__input-wrapper">
+                      <input class="c-form__input" type="text" id="request_jobTitle" name="request_jobTitle" placeholder="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="c-form__row c-form__row-1 c-form__row--request">
+                <div class="c-form__field c-form__field--textarea">
+                  <label class="c-form__label" for="request_comment">Comment</label>
+                  <div class="c-form__textarea-wrapper">
+                    <textarea class="c-form__textarea" id="request_comment" name="request_comment"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="c-form__row c-form__row-1">
+                <div class="c-form__field c-form__field--btn">
+                  <button class="c-form__btn c-btn c-btn--bg" type="submit">Confirm</button>
+                  <button class="c-form__btn c-btn c-btn--border" type="button">cancel</button>
+                </div>
+              </div>
+            </form>
+            <p class="scheduler__information-copyright">© 2019 Tapdesk. All Rights Reserved</p>
+          </div>
         </div>
       </section>
       <!-- SECTION scheduler data :: END-->
