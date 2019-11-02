@@ -1468,29 +1468,29 @@ picture {
 }
 
 /* line 10, src/scss/_shared/_magnificPopup.scss */
-.modal#viewAgreement, .modal#makeWithdrawal, .modal#paymentHistory, .modal#updateInfo {
+.modal#viewAgreement, .modal#declineEvent, .modal#makeWithdrawal, .modal#paymentHistory, .modal#updateInfo {
   overflow: hidden;
   max-width: 1040px;
   border-radius: 10px;
   background-color: #ffffff;
 }
 
-/* line 19, src/scss/_shared/_magnificPopup.scss */
-.modal#viewAgreement .mfp-close, .modal#makeWithdrawal .mfp-close, .modal#paymentHistory .mfp-close, .modal#updateInfo .mfp-close {
+/* line 20, src/scss/_shared/_magnificPopup.scss */
+.modal#viewAgreement .mfp-close, .modal#declineEvent .mfp-close, .modal#makeWithdrawal .mfp-close, .modal#paymentHistory .mfp-close, .modal#updateInfo .mfp-close {
   display: none;
 }
 
-/* line 24, src/scss/_shared/_magnificPopup.scss */
+/* line 25, src/scss/_shared/_magnificPopup.scss */
 .modal#paymentHistory, .modal#viewAgreement {
   height: 80vh;
 }
 
-/* line 30, src/scss/_shared/_magnificPopup.scss */
+/* line 31, src/scss/_shared/_magnificPopup.scss */
 .mfp-container {
   padding: 15px;
 }
 
-/* line 39, src/scss/_shared/_magnificPopup.scss */
+/* line 40, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1501,7 +1501,7 @@ picture {
           transform: scale(0.8);
 }
 
-/* line 45, src/scss/_shared/_magnificPopup.scss */
+/* line 46, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1509,7 +1509,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 51, src/scss/_shared/_magnificPopup.scss */
+/* line 52, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1517,12 +1517,12 @@ picture {
           transform: scale(1);
 }
 
-/* line 55, src/scss/_shared/_magnificPopup.scss */
+/* line 56, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 61, src/scss/_shared/_magnificPopup.scss */
+/* line 62, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing .mfp-with-anim {
   -webkit-transform: scale(0.8);
       -ms-transform: scale(0.8);
@@ -1530,12 +1530,12 @@ picture {
   opacity: 0;
 }
 
-/* line 65, src/scss/_shared/_magnificPopup.scss */
+/* line 66, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
 
-/* line 76, src/scss/_shared/_magnificPopup.scss */
+/* line 77, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1546,7 +1546,7 @@ picture {
           transform: translateX(100%);
 }
 
-/* line 82, src/scss/_shared/_magnificPopup.scss */
+/* line 83, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1554,7 +1554,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 88, src/scss/_shared/_magnificPopup.scss */
+/* line 89, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -1562,12 +1562,12 @@ picture {
           transform: translateX(0);
 }
 
-/* line 92, src/scss/_shared/_magnificPopup.scss */
+/* line 93, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 98, src/scss/_shared/_magnificPopup.scss */
+/* line 99, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing .mfp-with-anim {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -1575,7 +1575,7 @@ picture {
   opacity: 0;
 }
 
-/* line 102, src/scss/_shared/_magnificPopup.scss */
+/* line 103, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -3299,24 +3299,161 @@ picture {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 706, src/scss/_macros/_modal.scss */
+/* line 708, src/scss/_macros/_modal.scss */
+#declineEvent .c-modal .c-modal__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 140px;
+  padding: 50px 60px 40px;
+  background-color: #ffffff;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 708, src/scss/_macros/_modal.scss */
+  #declineEvent .c-modal .c-modal__header {
+    min-height: 100px;
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 708, src/scss/_macros/_modal.scss */
+  #declineEvent .c-modal .c-modal__header {
+    min-height: 135px;
+    padding: 30px 15px;
+  }
+}
+
+/* line 726, src/scss/_macros/_modal.scss */
+#declineEvent .c-modal .c-modal__body {
+  padding: 0 60px 60px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 726, src/scss/_macros/_modal.scss */
+  #declineEvent .c-modal .c-modal__body {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 726, src/scss/_macros/_modal.scss */
+  #declineEvent .c-modal .c-modal__body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 738, src/scss/_macros/_modal.scss */
+#declineEvent .c-modal .c-modal__title {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.25;
+  color: #000000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 738, src/scss/_macros/_modal.scss */
+  #declineEvent .c-modal .c-modal__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 738, src/scss/_macros/_modal.scss */
+  #declineEvent .c-modal .c-modal__title {
+    font-size: 28px;
+  }
+}
+
+/* line 751, src/scss/_macros/_modal.scss */
+#declineEvent .c-modal .c-modal__close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 756, src/scss/_macros/_modal.scss */
+#declineEvent .c-modal .c-modal__close svg {
+  width: 26px;
+  height: 26px;
+  fill: #000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 756, src/scss/_macros/_modal.scss */
+  #declineEvent .c-modal .c-modal__close svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 756, src/scss/_macros/_modal.scss */
+  #declineEvent .c-modal .c-modal__close svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* line 771, src/scss/_macros/_modal.scss */
+#declineEvent .c-modal .c-modal__desc {
+  padding-bottom: 47px;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 771, src/scss/_macros/_modal.scss */
+  #declineEvent .c-modal .c-modal__desc {
+    font-size: 17px;
+  }
+}
+
+/* line 781, src/scss/_macros/_modal.scss */
+#declineEvent .c-modal .c-modal__btn {
+  -webkit-box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
+          box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
+}
+
+/* line 787, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal {
   height: 100%;
 }
 
-/* line 709, src/scss/_macros/_modal.scss */
+/* line 790, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .affiliate-appForm__heading--pt {
   padding-top: 100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 709, src/scss/_macros/_modal.scss */
+  /* line 790, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .affiliate-appForm__heading--pt {
     padding-top: 75px;
   }
 }
 
-/* line 717, src/scss/_macros/_modal.scss */
+/* line 798, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3338,7 +3475,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 717, src/scss/_macros/_modal.scss */
+  /* line 798, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 100px;
     padding: 20px 40px;
@@ -3346,14 +3483,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 717, src/scss/_macros/_modal.scss */
+  /* line 798, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 135px;
     padding: 30px 15px;
   }
 }
 
-/* line 734, src/scss/_macros/_modal.scss */
+/* line 815, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header.is-shadow {
   -webkit-box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
           box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
@@ -3364,26 +3501,26 @@ picture {
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 740, src/scss/_macros/_modal.scss */
+/* line 821, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__body {
   padding: 0 60px 60px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 740, src/scss/_macros/_modal.scss */
+  /* line 821, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 40px 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 740, src/scss/_macros/_modal.scss */
+  /* line 821, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 15px 15px;
   }
 }
 
-/* line 750, src/scss/_macros/_modal.scss */
+/* line 831, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__title {
   font-size: 40px;
   font-weight: 900;
@@ -3392,20 +3529,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 750, src/scss/_macros/_modal.scss */
+  /* line 831, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 750, src/scss/_macros/_modal.scss */
+  /* line 831, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 28px;
   }
 }
 
-/* line 763, src/scss/_macros/_modal.scss */
+/* line 844, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3418,7 +3555,7 @@ picture {
           justify-content: center;
 }
 
-/* line 768, src/scss/_macros/_modal.scss */
+/* line 849, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close svg {
   width: 26px;
   height: 26px;
@@ -3426,7 +3563,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 768, src/scss/_macros/_modal.scss */
+  /* line 849, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 22px;
     height: 22px;
@@ -3434,14 +3571,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 768, src/scss/_macros/_modal.scss */
+  /* line 849, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 20px;
     height: 20px;
   }
 }
 
-/* line 783, src/scss/_macros/_modal.scss */
+/* line 864, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax {
   font-size: 19px;
   font-weight: 800;
@@ -3450,18 +3587,18 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 783, src/scss/_macros/_modal.scss */
+  /* line 864, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__tax {
     font-size: 17px;
   }
 }
 
-/* line 792, src/scss/_macros/_modal.scss */
+/* line 873, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax span {
   font-weight: normal;
 }
 
-/* line 797, src/scss/_macros/_modal.scss */
+/* line 878, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc {
   padding-bottom: 40px;
   font-size: 19px;
@@ -3470,13 +3607,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 797, src/scss/_macros/_modal.scss */
+  /* line 878, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__desc {
     font-size: 17px;
   }
 }
 
-/* line 806, src/scss/_macros/_modal.scss */
+/* line 887, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc--wpb {
   padding-bottom: 20px;
 }

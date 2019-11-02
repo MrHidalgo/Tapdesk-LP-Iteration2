@@ -1390,6 +1390,29 @@ $(document).ready(function (ev) {
       });
     };
 
+    var _openPopup = function _openPopup() {
+      $('[scheduler-popup-js]').magnificPopup({
+        type: 'inline',
+        fixedContentPos: true,
+        fixedBgPos: true,
+        overflowY: 'auto',
+        closeBtnInside: true,
+        preloader: false,
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'is-show',
+        callbacks: {
+          beforeOpen: function beforeOpen() {
+            this.st.mainClass = this.st.el.attr('data-effect');
+          },
+          close: function close() {}
+        }
+      });
+      $('[scheduler-popupClose-js]').on('click', function (ev) {
+        $.magnificPopup.close();
+      });
+    };
+
     _dropdown();
     // _splitDescription();
     _chooseBox();
@@ -1397,6 +1420,7 @@ $(document).ready(function (ev) {
     _slideDataChoose();
     _chooseTime();
     _openFilter();
+    _openPopup();
   };
 
   /**
