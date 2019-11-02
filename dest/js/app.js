@@ -1339,7 +1339,7 @@ $(document).ready(function (ev) {
             767: {
               slidesPerView: 5,
               slidesPerGroup: 5,
-              spaceBetween: 11
+              spaceBetween: 15
             }
           },
           navigation: {
