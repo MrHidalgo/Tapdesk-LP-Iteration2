@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- TITLE-->
-    <title>Tapdesk | Scheduler Summary</title>
+    <title>Tapdesk | Scheduler Join</title>
     <!-- FAVICON-->
     <link rel="apple-touch-icon" sizes="60x60" href="./icon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./icon/apple-icon-72x72.png">
@@ -34,8 +34,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
-  <body data-file="scheduler-summary">
-    <div class="body body--start body--p-scheduler-summary">
+  <body data-file="scheduler-join">
+    <div class="body body--start body--p-scheduler-join">
       <!-- SECTION scheduler header :: START-->
       <section class="scheduler__header" id="scheduler__header">
         <div class="c-grid">
@@ -301,12 +301,98 @@
                     <p class="scheduler__invite-box-name">more</p>
                   </div></a></div>
             </div>
-            <div class="scheduler__invite-btn"><a class="c-btn c-btn--bg" href="#" title="">Reschedule event</a><a class="c-btn c-btn--bg" href="#" title="">CONTACT ORGANIZER</a><a class="c-btn c-btn--border" href="#" title="">DECLINE EVENT</a></div>
-            <p class="scheduler__invite-copyright">© 2019 Tapdesk. All Rights Reserved</p>
           </div>
         </div>
       </section>
       <!-- SECTION scheduler invite :: END-->
+      <!-- SECTION scheduler information :: START-->
+      <section class="scheduler__information scheduler__information--join request" id="scheduler__information">
+        <div class="request__bg">
+          <div class="request__bg-inner"></div>
+        </div>
+        <div class="c-grid">
+          <div class="request__wrapper">
+            <p class="scheduler__title scheduler__title--white">Join Event</p>
+            <form class="c-form">
+              <div class="c-form__row c-form__row-0 c-form__row--request">
+                <div class="c-form__row-left">
+                  <div class="c-form__field c-form__field--input">
+                    <label class="c-form__label" for="request_name">Name</label>
+                    <div class="c-form__input-wrapper">
+                      <input class="c-form__input" type="text" id="request_name" name="request_name" placeholder="">
+                    </div>
+                  </div>
+                </div>
+                <div class="c-form__row-right">
+                  <div class="c-form__field c-form__field--input">
+                    <label class="c-form__label" for="request_email">Email</label>
+                    <div class="c-form__input-wrapper">
+                      <input class="c-form__input" type="text" id="request_email" name="request_email" placeholder="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="c-form__row c-form__row-1 c-form__row--request">
+                <div class="c-form__row-left">
+                  <div class="c-form__group c-form__group--request">
+                    <div class="c-form__group-col c-form__group-col-0">
+                      <div class="c-form__field c-form__field--select">
+                        <label class="c-form__label">Country (code)</label>
+                        <div class="c-form__select-wrap">
+                          <div class="c-form__select"><span class="c-form__select-value"></span>
+                            <select name="">
+                              <option value="0" disabled selected hidden>Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                              <option value="1">Cyprus (357)</option>
+                            </select><span class="c-form__select-icon">
+                              <svg class="icon-svg icon-angle ">
+                                <use xlink:href="./img/sprite.svg#angle"></use>
+                              </svg></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="c-form__group-col c-form__group-col-1">
+                      <div class="c-form__field c-form__field--input">
+                        <label class="c-form__label" for="request_mobile">Mobile number</label>
+                        <div class="c-form__input-wrapper">
+                          <input class="c-form__input" type="text" id="request_mobile" name="request_mobile" placeholder="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-form__row-right">
+                  <div class="c-form__field c-form__field--input">
+                    <label class="c-form__label" for="request_jobTitle">Job title</label>
+                    <div class="c-form__input-wrapper">
+                      <input class="c-form__input" type="text" id="request_jobTitle" name="request_jobTitle" placeholder="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="c-form__row c-form__row-1 c-form__row--request">
+                <div class="c-form__field c-form__field--textarea">
+                  <label class="c-form__label" for="request_comment">Comment</label>
+                  <div class="c-form__textarea-wrapper">
+                    <textarea class="c-form__textarea" id="request_comment" name="request_comment"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="c-form__row c-form__row-1">
+                <div class="c-form__field c-form__field--btn">
+                  <button class="c-form__btn c-btn c-btn--bg" type="submit">Confirm</button>
+                </div>
+              </div>
+            </form>
+            <p class="scheduler__information-copyright">© 2019 Tapdesk. All Rights Reserved</p>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION scheduler data :: END-->
     </div>
   </body>
   <!-- SCRIPT :: START-->
