@@ -457,102 +457,120 @@
 }
 
 /* line 197, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-invite-decline {
+  width: 18px;
+  height: 18px;
+}
+
+/* line 201, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-invite-online {
+  width: 18px;
+  height: 18px;
+}
+
+/* line 205, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-invite-wait {
+  width: 18px;
+  height: 18px;
+}
+
+/* line 209, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-leads {
   width: 44px;
   height: 43px;
 }
 
-/* line 201, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 213, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-location {
   width: 16px;
   height: 20px;
 }
 
-/* line 205, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 217, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-login {
   width: 20px;
   height: 20px;
 }
 
-/* line 209, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 221, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-logo {
   width: 145px;
   height: 36px;
 }
 
-/* line 213, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 225, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-money {
   width: 26px;
   height: 36px;
 }
 
-/* line 217, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-pipelines {
   width: 40px;
   height: 42px;
 }
 
-/* line 221, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play {
   width: 69px;
   height: 80px;
 }
 
-/* line 225, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play-1 {
   width: 27px;
   height: 33px;
 }
 
-/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 241, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-request {
   width: 48px;
   height: 36px;
 }
 
-/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 245, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-right-arrow {
   width: 240.82px;
   height: 240.82px;
 }
 
-/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 249, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-robot {
   width: 44px;
   height: 42px;
 }
 
-/* line 241, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 253, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-setting {
   width: 478.7px;
   height: 478.7px;
 }
 
-/* line 245, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 257, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-signup {
   width: 16px;
   height: 20px;
 }
 
-/* line 249, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 261, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-time {
   width: 18.095px;
   height: 19px;
 }
 
-/* line 253, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 265, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-0 {
   width: 60px;
   height: 60px;
 }
 
-/* line 257, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 269, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-1 {
   width: 60px;
   height: 60px;
 }
 
-/* line 261, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 273, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-2 {
   width: 51px;
   height: 62px;
@@ -707,41 +725,6 @@
 /* line 27, src/scss/_shared/_grid.scss */
 .c-grid-fluid {
   max-width: 100%;
-}
-
-@media screen and (min-width: 576px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 1070px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 1070px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 1070px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 1070px;
-  }
-}
-
-@media screen and (min-width: 1366px) {
-  /* line 35, src/scss/_shared/_grid.scss */
-  .c-grid {
-    max-width: 1070px;
-  }
 }
 
 /* line 1, src/scss/_shared/_main-reset.scss */
@@ -18248,17 +18231,251 @@ picture {
   position: relative;
 }
 
-/* line 11, src/scss/_components/scheduler/_scheduler.scss */
+/* line 3, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f8fafc;
+}
+
+/* line 8, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box {
+  display: block;
+}
+
+/* line 12, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box.scheduler__invite-box--away .scheduler__invite-box-badge {
+  background-color: #f7b500;
+}
+
+/* line 17, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box.scheduler__invite-box--hidden .scheduler__invite-box-badge {
+  background-color: #BBBBBB;
+}
+
+/* line 22, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box.scheduler__invite-box--online .scheduler__invite-box-badge {
+  background-color: #6DD400;
+}
+
+/* line 27, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box.scheduler__invite-box--wait .scheduler__invite-box-badge {
+  background-color: #00449D;
+}
+
+/* line 32, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box.scheduler__invite-box--decline .scheduler__invite-box-badge {
+  background-color: #CD084B;
+}
+
+/* line 38, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box:hover .scheduler__invite-box-name,
+.scheduler__invite-box:hover .scheduler__invite-box-pos {
+  color: #00449d;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 45, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/* line 51, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-wrapper > div {
+  width: 100%;
+  max-width: calc(100% / 7);
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 51, src/scss/_components/scheduler/_scheduler-invite.scss */
+  .scheduler__invite-box-wrapper > div {
+    max-width: calc(100% / 5);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 51, src/scss/_components/scheduler/_scheduler-invite.scss */
+  .scheduler__invite-box-wrapper > div {
+    max-width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* line 51, src/scss/_components/scheduler/_scheduler-invite.scss */
+  .scheduler__invite-box-wrapper > div {
+    max-width: calc(100% / 2);
+  }
+}
+
+/* line 69, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-image {
+  overflow: hidden;
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* line 79, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-image-wrapper {
+  position: relative;
+}
+
+/* line 83, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+/* line 94, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-badge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 6px solid #f8fafc;
+  background-color: #f8fafc;
+}
+
+/* line 107, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-badge svg {
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+}
+
+/* line 114, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-name, .scheduler__invite-box-pos {
+  font-size: 20px;
+  text-align: center;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 121, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-name {
+  font-weight: 800;
+  color: #000;
+}
+
+/* line 126, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-box-pos {
+  display: block;
+  color: #222;
+}
+
+/* line 132, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 132, src/scss/_components/scheduler/_scheduler-invite.scss */
+  .scheduler__invite-btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 0;
+  }
+}
+
+/* line 140, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-btn .c-btn {
+  width: auto;
+  max-width: unset;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 140, src/scss/_components/scheduler/_scheduler-invite.scss */
+  .scheduler__invite-btn .c-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 140, src/scss/_components/scheduler/_scheduler-invite.scss */
+  .scheduler__invite-btn .c-btn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 157, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-btn .c-btn.c-btn--bg {
+  -webkit-box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
+          box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
+}
+
+/* line 161, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-btn .c-btn:last-of-type {
+  margin-right: 0;
+}
+
+/* line 167, src/scss/_components/scheduler/_scheduler-invite.scss */
+.scheduler__invite-copyright {
+  padding-top: 140px;
+  font-size: 20px;
+  color: #aab3b7;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 167, src/scss/_components/scheduler/_scheduler-invite.scss */
+  .scheduler__invite-copyright {
+    padding-top: 70px;
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+/* line 12, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__title {
   padding-bottom: 40px;
   font-weight: 900;
   font-size: 40px;
   line-height: 50px;
-  color: #000;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 11, src/scss/_components/scheduler/_scheduler.scss */
+  /* line 12, src/scss/_components/scheduler/_scheduler.scss */
   .scheduler__title {
     font-size: 34px;
     line-height: 40px;
@@ -18266,7 +18483,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 11, src/scss/_components/scheduler/_scheduler.scss */
+  /* line 12, src/scss/_components/scheduler/_scheduler.scss */
   .scheduler__title {
     padding-bottom: 30px;
     font-size: 24px;
@@ -18274,7 +18491,13 @@ picture {
   }
 }
 
-/* line 27, src/scss/_components/scheduler/_scheduler.scss */
+/* line 28, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler__title span {
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 33, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__title--white {
   color: #ffffff;
 }
