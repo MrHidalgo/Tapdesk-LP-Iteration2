@@ -301,7 +301,7 @@
                     <p class="scheduler__invite-box-name">more</p>
                   </div></a></div>
             </div>
-            <div class="scheduler__invite-btn"><a class="c-btn c-btn--bg" href="#" title="">Reschedule event</a><a class="c-btn c-btn--bg" href="#" title="">CONTACT ORGANIZER</a><a class="c-btn c-btn--border" href="#declineEvent" title="" data-effect="mfp-zoom-in" scheduler-popup-js>DECLINE EVENT</a></div>
+            <div class="scheduler__invite-btn"><a class="c-btn c-btn--bg" href="#" title="">Reschedule event</a><a class="c-btn c-btn--bg" href="#contactOrganizer" title="" data-effect="mfp-zoom-in" scheduler-popup-js>CONTACT ORGANIZER</a><a class="c-btn c-btn--border" href="#declineEvent" title="" data-effect="mfp-zoom-in" scheduler-popup-js>DECLINE EVENT</a></div>
             <p class="scheduler__invite-copyright">© 2019 Tapdesk. All Rights Reserved</p>
           </div>
         </div>
@@ -309,6 +309,68 @@
       <!-- SECTION scheduler invite :: END-->
     </div>
   </body>
+  <!-- SECTION scheduler decline event :: START-->
+  <div class="modal mfp-hide mfp-with-anim" id="contactOrganizer">
+      <div class="c-modal">
+        <div class="c-modal__header">
+          <p class="c-modal__title">Send a message to the organizer</p>
+          <div><a class="c-modal__close" href="#" title="" scheduler-popupClose-js>
+              <svg class="icon-svg icon-close ">
+                <use xlink:href="./img/sprite.svg#close"></use>
+              </svg></a></div>
+        </div>
+        <div class="c-modal__body">
+          <form class="c-form">
+            <div class="c-form__row c-form__row-0 c-form__row--request">
+              <div class="c-form__row-left">
+                <div class="c-form__field c-form__field--input">
+                  <label class="c-form__label" for="request_name">Name</label>
+                  <div class="c-form__input-wrapper">
+                    <input class="c-form__input" type="text" id="request_name" name="request_name" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <div class="c-form__row-right">
+                <div class="c-form__field c-form__field--input">
+                  <label class="c-form__label" for="request_email">Email</label>
+                  <div class="c-form__input-wrapper">
+                    <input class="c-form__input" type="text" id="request_email" name="request_email" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-form__row c-form__row-0 c-form__row--request">
+              <div class="c-form__field c-form__field--input">
+                <label class="c-form__label" for="request_subject">Subject</label>
+                <div class="c-form__input-wrapper">
+                  <input class="c-form__input" type="text" id="request_subject" name="request_subject" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="c-form__row c-form__row-1 c-form__row--request">
+              <div class="c-form__field c-form__field--textarea">
+                <label class="c-form__label" for="request_message">Message</label>
+                <div class="c-form__textarea-wrapper">
+                  <textarea class="c-form__textarea" id="request_message" name="request_message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="c-form__row c-form__row-1 c-form__row--request">
+              <div class="c-form__field c-form__field--file">
+                <label class="c-form__label" for="request_message">Click to attach a file</label>
+                <div class="c-form__file-wrapper">
+                  <div class="c-form__file-cover"><a class="c-form__file-btn c-btn c-btn--border" href="#" title="">Browse...</a>
+                    <input class="c-form__file" type="file" name="myFile">
+                  </div>
+                  <input class="c-form__file-input" type="text" value="No file selected" readonly>
+                </div>
+              </div>
+            </div>
+          </form><a class="c-btn c-btn--bg c-modal__btn" href="#" title="">Send</a>
+        </div>
+      </div>
+  </div>
+  <!-- SECTION scheduler decline event :: END-->
   <!-- SECTION scheduler decline event :: START-->
   <div class="modal mfp-hide mfp-with-anim" id="declineEvent">
       <div class="c-modal">

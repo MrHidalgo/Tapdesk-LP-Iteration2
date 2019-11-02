@@ -1468,29 +1468,29 @@ picture {
 }
 
 /* line 10, src/scss/_shared/_magnificPopup.scss */
-.modal#viewAgreement, .modal#declineEvent, .modal#makeWithdrawal, .modal#paymentHistory, .modal#updateInfo {
+.modal#viewAgreement, .modal#declineEvent, .modal#contactOrganizer, .modal#makeWithdrawal, .modal#paymentHistory, .modal#updateInfo {
   overflow: hidden;
   max-width: 1040px;
   border-radius: 10px;
   background-color: #ffffff;
 }
 
-/* line 20, src/scss/_shared/_magnificPopup.scss */
-.modal#viewAgreement .mfp-close, .modal#declineEvent .mfp-close, .modal#makeWithdrawal .mfp-close, .modal#paymentHistory .mfp-close, .modal#updateInfo .mfp-close {
+/* line 21, src/scss/_shared/_magnificPopup.scss */
+.modal#viewAgreement .mfp-close, .modal#declineEvent .mfp-close, .modal#contactOrganizer .mfp-close, .modal#makeWithdrawal .mfp-close, .modal#paymentHistory .mfp-close, .modal#updateInfo .mfp-close {
   display: none;
 }
 
-/* line 25, src/scss/_shared/_magnificPopup.scss */
+/* line 26, src/scss/_shared/_magnificPopup.scss */
 .modal#paymentHistory, .modal#viewAgreement {
   height: 80vh;
 }
 
-/* line 31, src/scss/_shared/_magnificPopup.scss */
+/* line 32, src/scss/_shared/_magnificPopup.scss */
 .mfp-container {
   padding: 15px;
 }
 
-/* line 40, src/scss/_shared/_magnificPopup.scss */
+/* line 41, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1501,7 +1501,7 @@ picture {
           transform: scale(0.8);
 }
 
-/* line 46, src/scss/_shared/_magnificPopup.scss */
+/* line 47, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1509,7 +1509,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 52, src/scss/_shared/_magnificPopup.scss */
+/* line 53, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1517,12 +1517,12 @@ picture {
           transform: scale(1);
 }
 
-/* line 56, src/scss/_shared/_magnificPopup.scss */
+/* line 57, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 62, src/scss/_shared/_magnificPopup.scss */
+/* line 63, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing .mfp-with-anim {
   -webkit-transform: scale(0.8);
       -ms-transform: scale(0.8);
@@ -1530,12 +1530,12 @@ picture {
   opacity: 0;
 }
 
-/* line 66, src/scss/_shared/_magnificPopup.scss */
+/* line 67, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
 
-/* line 77, src/scss/_shared/_magnificPopup.scss */
+/* line 78, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1546,7 +1546,7 @@ picture {
           transform: translateX(100%);
 }
 
-/* line 83, src/scss/_shared/_magnificPopup.scss */
+/* line 84, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1554,7 +1554,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 89, src/scss/_shared/_magnificPopup.scss */
+/* line 90, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -1562,12 +1562,12 @@ picture {
           transform: translateX(0);
 }
 
-/* line 93, src/scss/_shared/_magnificPopup.scss */
+/* line 94, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 99, src/scss/_shared/_magnificPopup.scss */
+/* line 100, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing .mfp-with-anim {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -1575,7 +1575,7 @@ picture {
   opacity: 0;
 }
 
-/* line 103, src/scss/_shared/_magnificPopup.scss */
+/* line 104, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -3436,24 +3436,281 @@ picture {
           box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
 }
 
-/* line 787, src/scss/_macros/_modal.scss */
+/* line 789, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 140px;
+  padding: 50px 60px 40px;
+  background-color: #ffffff;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 789, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__header {
+    min-height: 100px;
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 789, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__header {
+    min-height: 135px;
+    padding: 30px 15px;
+  }
+}
+
+/* line 807, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body {
+  padding: 0 60px 60px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 807, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__body {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 807, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 819, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__row {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 824, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__textarea {
+  resize: none;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #000;
+  font-size: 18px;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+/* line 834, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__textarea-wrapper {
+  width: 100%;
+  height: 200px;
+}
+
+/* line 840, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__field {
+  width: 100%;
+}
+
+/* line 843, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__field--textarea {
+  width: 100%;
+}
+
+/* line 848, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__label {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 855, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__input {
+  border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+/* line 859, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__file {
+  z-index: 5;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 868, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__file-cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 374px) {
+  /* line 868, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__body .c-form__file-cover {
+    width: 100%;
+  }
+}
+
+/* line 876, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__file-btn {
+  width: 210px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 876, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__body .c-form__file-btn {
+    width: 156px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  /* line 876, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__body .c-form__file-btn {
+    width: 100%;
+  }
+}
+
+/* line 886, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__file-input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  background-color: #fff;
+  padding-left: 30px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  border-radius: 0;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 886, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__body .c-form__file-input {
+    padding-left: 15px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  /* line 886, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__body .c-form__file-input {
+    display: none;
+  }
+}
+
+/* line 907, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__body .c-form__file-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 914, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__title {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.25;
+  color: #000000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 914, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 914, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__title {
+    font-size: 28px;
+  }
+}
+
+/* line 927, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 932, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__close svg {
+  width: 26px;
+  height: 26px;
+  fill: #000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 932, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__close svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 932, src/scss/_macros/_modal.scss */
+  #contactOrganizer .c-modal .c-modal__close svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* line 947, src/scss/_macros/_modal.scss */
+#contactOrganizer .c-modal .c-modal__btn {
+  max-width: 156px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
+          box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
+}
+
+/* line 955, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal {
   height: 100%;
 }
 
-/* line 790, src/scss/_macros/_modal.scss */
+/* line 958, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .affiliate-appForm__heading--pt {
   padding-top: 100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 790, src/scss/_macros/_modal.scss */
+  /* line 958, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .affiliate-appForm__heading--pt {
     padding-top: 75px;
   }
 }
 
-/* line 798, src/scss/_macros/_modal.scss */
+/* line 966, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3475,7 +3732,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 798, src/scss/_macros/_modal.scss */
+  /* line 966, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 100px;
     padding: 20px 40px;
@@ -3483,14 +3740,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 798, src/scss/_macros/_modal.scss */
+  /* line 966, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 135px;
     padding: 30px 15px;
   }
 }
 
-/* line 815, src/scss/_macros/_modal.scss */
+/* line 983, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header.is-shadow {
   -webkit-box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
           box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
@@ -3501,26 +3758,26 @@ picture {
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 821, src/scss/_macros/_modal.scss */
+/* line 989, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__body {
   padding: 0 60px 60px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 821, src/scss/_macros/_modal.scss */
+  /* line 989, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 40px 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 821, src/scss/_macros/_modal.scss */
+  /* line 989, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 15px 15px;
   }
 }
 
-/* line 831, src/scss/_macros/_modal.scss */
+/* line 999, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__title {
   font-size: 40px;
   font-weight: 900;
@@ -3529,20 +3786,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 831, src/scss/_macros/_modal.scss */
+  /* line 999, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 831, src/scss/_macros/_modal.scss */
+  /* line 999, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 28px;
   }
 }
 
-/* line 844, src/scss/_macros/_modal.scss */
+/* line 1012, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3555,7 +3812,7 @@ picture {
           justify-content: center;
 }
 
-/* line 849, src/scss/_macros/_modal.scss */
+/* line 1017, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close svg {
   width: 26px;
   height: 26px;
@@ -3563,7 +3820,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 849, src/scss/_macros/_modal.scss */
+  /* line 1017, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 22px;
     height: 22px;
@@ -3571,14 +3828,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 849, src/scss/_macros/_modal.scss */
+  /* line 1017, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 20px;
     height: 20px;
   }
 }
 
-/* line 864, src/scss/_macros/_modal.scss */
+/* line 1032, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax {
   font-size: 19px;
   font-weight: 800;
@@ -3587,18 +3844,18 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 864, src/scss/_macros/_modal.scss */
+  /* line 1032, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__tax {
     font-size: 17px;
   }
 }
 
-/* line 873, src/scss/_macros/_modal.scss */
+/* line 1041, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax span {
   font-weight: normal;
 }
 
-/* line 878, src/scss/_macros/_modal.scss */
+/* line 1046, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc {
   padding-bottom: 40px;
   font-size: 19px;
@@ -3607,13 +3864,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 878, src/scss/_macros/_modal.scss */
+  /* line 1046, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__desc {
     font-size: 17px;
   }
 }
 
-/* line 887, src/scss/_macros/_modal.scss */
+/* line 1055, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc--wpb {
   padding-bottom: 20px;
 }
