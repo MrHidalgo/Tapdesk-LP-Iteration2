@@ -301,7 +301,7 @@
                     <p class="scheduler__invite-box-name">more</p>
                   </div></a></div>
             </div>
-            <div class="scheduler__invite-btn"><a class="c-btn c-btn--bg" href="#" title="">Reschedule event</a><a class="c-btn c-btn--bg" href="#contactOrganizer" title="" data-effect="mfp-zoom-in" scheduler-popup-js>CONTACT ORGANIZER</a><a class="c-btn c-btn--border" href="#declineEvent" title="" data-effect="mfp-zoom-in" scheduler-popup-js>DECLINE EVENT</a></div>
+            <div class="scheduler__invite-btn"><a class="c-btn c-btn--bg" href="#rescheduleEvent" title="" data-effect="mfp-zoom-in" scheduler-popup-js>Reschedule event</a><a class="c-btn c-btn--bg" href="#contactOrganizer" title="" data-effect="mfp-zoom-in" scheduler-popup-js>CONTACT ORGANIZER</a><a class="c-btn c-btn--border" href="#declineEvent" title="" data-effect="mfp-zoom-in" scheduler-popup-js>DECLINE EVENT</a></div>
             <p class="scheduler__invite-copyright">© 2019 Tapdesk. All Rights Reserved</p>
           </div>
         </div>
@@ -309,6 +309,199 @@
       <!-- SECTION scheduler invite :: END-->
     </div>
   </body>
+  <!-- SECTION scheduler decline event :: START-->
+  <div class="modal mfp-hide mfp-with-anim" id="rescheduleEvent">
+      <div class="c-modal">
+        <div class="c-modal__header">
+          <p class="c-modal__title">Reschedule this event?</p>
+          <div><a class="c-modal__close" href="#" title="" scheduler-popupClose-js>
+              <svg class="icon-svg icon-close ">
+                <use xlink:href="./img/sprite.svg#close"></use>
+              </svg></a></div>
+        </div>
+        <div class="c-modal__body">
+          <div class="c-modal__row c-modal__row-1">
+            <div class="c-modal__col c-modal__col-1">
+              <div class="c-form__field c-form__field--date">
+                <label class="c-form__label">Start date</label>
+                <div class="c-form__input-wrapper">
+                  <input class="c-form__input" id="date-element-start-box" type="text">
+                  <p>
+                    <svg class="icon-svg icon-calendar ">
+                      <use xlink:href="./img/sprite.svg#calendar"></use>
+                    </svg>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="c-modal__col c-modal__col-2">
+              <div class="c-form__group c-form__group--request">
+                <div class="c-form__group-col c-form__group-col-0">
+                  <div class="c-form__field c-form__field--select">
+                    <label class="c-form__label">Start time</label>
+                    <div class="c-form__select-wrap">
+                      <div class="c-form__select"><span class="c-form__select-value"></span>
+                        <select name="">
+                          <option value="0" disabled selected hidden>10</option>
+                          <option value="1">2</option>
+                          <option value="1">3</option>
+                          <option value="1">4</option>
+                          <option value="1">5</option>
+                          <option value="1">6</option>
+                          <option value="1">7</option>
+                          <option value="1">8</option>
+                          <option value="1">9</option>
+                          <option value="1">10</option>
+                          <option value="1">12</option>
+                        </select><span class="c-form__select-icon">
+                          <svg class="icon-svg icon-angle ">
+                            <use xlink:href="./img/sprite.svg#angle"></use>
+                          </svg></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-form__group-col c-form__group-col-0">
+                  <div class="c-form__field c-form__field--select">
+                    <label class="c-form__label c-form__label--hidden">Start time</label>
+                    <div class="c-form__select-wrap">
+                      <div class="c-form__select"><span class="c-form__select-value"></span>
+                        <select name="">
+                          <option value="0" disabled selected hidden>15</option>
+                          <option value="1">05</option>
+                          <option value="1">10</option>
+                          <option value="1">15</option>
+                          <option value="1">20</option>
+                          <option value="1">25</option>
+                          <option value="1">30</option>
+                          <option value="1">35</option>
+                          <option value="1">40</option>
+                          <option value="1">45</option>
+                          <option value="1">50</option>
+                          <option value="1">55</option>
+                        </select><span class="c-form__select-icon">
+                          <svg class="icon-svg icon-angle ">
+                            <use xlink:href="./img/sprite.svg#angle"></use>
+                          </svg></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-modal__col c-modal__col-3">
+              <label class="c-form__label c-form__label--hidden">Start time</label>
+              <div class="c-modal__radio-wrapper">
+                <div class="c-modal__radio-col">
+                  <input class="c-modal__radio" id="modal_stime_am" type="radio" name="start_time_am" checked>
+                  <label class="c-modal__radio-label" for="modal_stime_am">
+                    <p><i class="c-modal__radio-circle"></i></p>
+                    <p><span class="c-modal__radio-text">AM</span></p>
+                  </label>
+                </div>
+                <div class="c-modal__radio-col">
+                  <input class="c-modal__radio" id="modal_stime_pm" type="radio" name="start_time_am">
+                  <label class="c-modal__radio-label" for="modal_stime_pm">
+                    <p><i class="c-modal__radio-circle"></i></p>
+                    <p><span class="c-modal__radio-text">PM</span></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c-modal__row c-modal__row-2">
+            <div class="c-modal__col c-modal__col-1">
+              <div class="c-form__field c-form__field--date">
+                <label class="c-form__label">Start date</label>
+                <div class="c-form__input-wrapper">
+                  <input class="c-form__input" id="date-element-end-box" type="text">
+                  <p>
+                    <svg class="icon-svg icon-calendar ">
+                      <use xlink:href="./img/sprite.svg#calendar"></use>
+                    </svg>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="c-modal__col c-modal__col-2">
+              <div class="c-form__group c-form__group--request">
+                <div class="c-form__group-col c-form__group-col-0">
+                  <div class="c-form__field c-form__field--select">
+                    <label class="c-form__label">Start time</label>
+                    <div class="c-form__select-wrap">
+                      <div class="c-form__select"><span class="c-form__select-value"></span>
+                        <select name="">
+                          <option value="0" disabled selected hidden>12</option>
+                          <option value="1">2</option>
+                          <option value="1">3</option>
+                          <option value="1">4</option>
+                          <option value="1">5</option>
+                          <option value="1">6</option>
+                          <option value="1">7</option>
+                          <option value="1">8</option>
+                          <option value="1">9</option>
+                          <option value="1">10</option>
+                          <option value="1">12</option>
+                        </select><span class="c-form__select-icon">
+                          <svg class="icon-svg icon-angle ">
+                            <use xlink:href="./img/sprite.svg#angle"></use>
+                          </svg></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-form__group-col c-form__group-col-0">
+                  <div class="c-form__field c-form__field--select">
+                    <label class="c-form__label c-form__label--hidden">Start time</label>
+                    <div class="c-form__select-wrap">
+                      <div class="c-form__select"><span class="c-form__select-value"></span>
+                        <select name="">
+                          <option value="0" disabled selected hidden>45</option>
+                          <option value="1">05</option>
+                          <option value="1">10</option>
+                          <option value="1">15</option>
+                          <option value="1">20</option>
+                          <option value="1">25</option>
+                          <option value="1">30</option>
+                          <option value="1">35</option>
+                          <option value="1">40</option>
+                          <option value="1">45</option>
+                          <option value="1">50</option>
+                          <option value="1">55</option>
+                        </select><span class="c-form__select-icon">
+                          <svg class="icon-svg icon-angle ">
+                            <use xlink:href="./img/sprite.svg#angle"></use>
+                          </svg></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-modal__col c-modal__col-3">
+              <label class="c-form__label c-form__label--hidden">Start time</label>
+              <div class="c-modal__radio-wrapper">
+                <div class="c-modal__radio-col">
+                  <input class="c-modal__radio" id="modal_etime_am" type="radio" name="end_time_pm" checked>
+                  <label class="c-modal__radio-label" for="modal_etime_am">
+                    <p><i class="c-modal__radio-circle"></i></p>
+                    <p><span class="c-modal__radio-text">AM</span></p>
+                  </label>
+                </div>
+                <div class="c-modal__radio-col">
+                  <input class="c-modal__radio" id="modal_etime_pm" type="radio" name="end_time_pm">
+                  <label class="c-modal__radio-label" for="modal_etime_pm">
+                    <p><i class="c-modal__radio-circle"></i></p>
+                    <p><span class="c-modal__radio-text">PM</span></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div><a class="c-btn c-btn--bg c-modal__btn" href="#" title="">Confirm</a>
+        </div>
+      </div>
+  </div>
+  <!-- SECTION scheduler decline event :: END-->
   <!-- SECTION scheduler decline event :: START-->
   <div class="modal mfp-hide mfp-with-anim" id="contactOrganizer">
       <div class="c-modal">

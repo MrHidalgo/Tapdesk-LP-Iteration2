@@ -235,342 +235,348 @@
 }
 
 /* line 49, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-calendar {
+  width: 489.1px;
+  height: 489.1px;
+}
+
+/* line 53, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-cancel {
   width: 18px;
   height: 18px;
 }
 
-/* line 53, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 57, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-check {
   width: 45.701px;
   height: 45.7px;
 }
 
-/* line 57, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 61, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-close {
   width: 47.97px;
   height: 47.97px;
 }
 
-/* line 61, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 65, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-cloud {
   width: 44px;
   height: 42px;
 }
 
-/* line 65, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 69, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-description {
   width: 18px;
   height: 18px;
 }
 
-/* line 69, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 73, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-done {
   width: 26px;
   height: 26px;
 }
 
-/* line 73, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 77, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-duration {
   width: 15.999px;
   height: 20px;
 }
 
-/* line 77, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 81, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-event-name {
   width: 18px;
   height: 18px;
 }
 
-/* line 81, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 85, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features {
   width: 40px;
   height: 37px;
 }
 
-/* line 85, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 89, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-0 {
   width: 40px;
   height: 40px;
 }
 
-/* line 89, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 93, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-1 {
   width: 40px;
   height: 40px;
 }
 
-/* line 93, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 97, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-2 {
   width: 40px;
   height: 42px;
 }
 
-/* line 97, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 101, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-3 {
   width: 44px;
   height: 46px;
 }
 
-/* line 101, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 105, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-features-box-4 {
   width: 40px;
   height: 40px;
 }
 
-/* line 105, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 109, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-flag {
   width: 24px;
   height: 28px;
 }
 
-/* line 109, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 113, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-accounts {
   width: 48px;
   height: 60px;
 }
 
-/* line 113, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 117, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-admin-tools {
   width: 56px;
   height: 56px;
 }
 
-/* line 117, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 121, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-analytics {
   width: 60px;
   height: 60px;
 }
 
-/* line 121, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 125, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-apps-settings {
   width: 72px;
   height: 60px;
 }
 
-/* line 125, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 129, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-calendar {
   width: 60px;
   height: 62px;
 }
 
-/* line 129, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 133, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-compaigns {
   width: 60px;
   height: 60px;
 }
 
-/* line 133, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 137, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-contacts {
   width: 60px;
   height: 60px;
 }
 
-/* line 137, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 141, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-faq {
   width: 64px;
   height: 64px;
 }
 
-/* line 141, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 145, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-flows {
   width: 60px;
   height: 60px;
 }
 
-/* line 145, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 149, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-invoicing {
   width: 54px;
   height: 60px;
 }
 
-/* line 149, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 153, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-pipelines {
   width: 60px;
   height: 56px;
 }
 
-/* line 153, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 157, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-help-search {
   width: 59px;
   height: 59px;
 }
 
-/* line 157, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 161, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-1 {
   width: 23px;
   height: 24px;
 }
 
-/* line 161, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 165, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-2 {
   width: 40px;
   height: 42px;
 }
 
-/* line 165, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 169, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-3 {
   width: 30px;
   height: 30px;
 }
 
-/* line 169, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 173, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-4 {
   width: 35px;
   height: 36px;
 }
 
-/* line 173, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 177, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-hero-5 {
   width: 19px;
   height: 26px;
 }
 
-/* line 177, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 181, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-email {
   width: 24px;
   height: 19px;
 }
 
-/* line 181, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 185, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-facebook {
   width: 11px;
   height: 23px;
 }
 
-/* line 185, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 189, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-linkdin {
   width: 22px;
   height: 21px;
 }
 
-/* line 189, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 193, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-share {
   width: 22px;
   height: 22px;
 }
 
-/* line 193, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 197, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-i-twitter {
   width: 21px;
   height: 17px;
 }
 
-/* line 197, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 201, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-invite-decline {
   width: 18px;
   height: 18px;
 }
 
-/* line 201, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 205, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-invite-online {
   width: 18px;
   height: 18px;
 }
 
-/* line 205, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 209, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-invite-wait {
   width: 18px;
   height: 18px;
 }
 
-/* line 209, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 213, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-leads {
   width: 44px;
   height: 43px;
 }
 
-/* line 213, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 217, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-location {
   width: 16px;
   height: 20px;
 }
 
-/* line 217, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 221, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-login {
   width: 20px;
   height: 20px;
 }
 
-/* line 221, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 225, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-logo {
   width: 145px;
   height: 36px;
 }
 
-/* line 225, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-money {
   width: 26px;
   height: 36px;
 }
 
-/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-pipelines {
   width: 40px;
   height: 42px;
 }
 
-/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play {
   width: 69px;
   height: 80px;
 }
 
-/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 241, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play-1 {
   width: 27px;
   height: 33px;
 }
 
-/* line 241, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 245, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-request {
   width: 48px;
   height: 36px;
 }
 
-/* line 245, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 249, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-right-arrow {
   width: 240.82px;
   height: 240.82px;
 }
 
-/* line 249, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 253, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-robot {
   width: 44px;
   height: 42px;
 }
 
-/* line 253, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 257, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-setting {
   width: 478.7px;
   height: 478.7px;
 }
 
-/* line 257, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 261, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-signup {
   width: 16px;
   height: 20px;
 }
 
-/* line 261, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 265, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-time {
   width: 18.095px;
   height: 19px;
 }
 
-/* line 265, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 269, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-0 {
   width: 60px;
   height: 60px;
 }
 
-/* line 269, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 273, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-1 {
   width: 60px;
   height: 60px;
 }
 
-/* line 273, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 277, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-2 {
   width: 51px;
   height: 62px;
@@ -1468,29 +1474,29 @@ picture {
 }
 
 /* line 10, src/scss/_shared/_magnificPopup.scss */
-.modal#viewAgreement, .modal#declineEvent, .modal#contactOrganizer, .modal#makeWithdrawal, .modal#paymentHistory, .modal#updateInfo {
+.modal#viewAgreement, .modal#declineEvent, .modal#rescheduleEvent, .modal#contactOrganizer, .modal#makeWithdrawal, .modal#paymentHistory, .modal#updateInfo {
   overflow: hidden;
   max-width: 1040px;
   border-radius: 10px;
   background-color: #ffffff;
 }
 
-/* line 21, src/scss/_shared/_magnificPopup.scss */
-.modal#viewAgreement .mfp-close, .modal#declineEvent .mfp-close, .modal#contactOrganizer .mfp-close, .modal#makeWithdrawal .mfp-close, .modal#paymentHistory .mfp-close, .modal#updateInfo .mfp-close {
+/* line 22, src/scss/_shared/_magnificPopup.scss */
+.modal#viewAgreement .mfp-close, .modal#declineEvent .mfp-close, .modal#rescheduleEvent .mfp-close, .modal#contactOrganizer .mfp-close, .modal#makeWithdrawal .mfp-close, .modal#paymentHistory .mfp-close, .modal#updateInfo .mfp-close {
   display: none;
 }
 
-/* line 26, src/scss/_shared/_magnificPopup.scss */
+/* line 27, src/scss/_shared/_magnificPopup.scss */
 .modal#paymentHistory, .modal#viewAgreement {
   height: 80vh;
 }
 
-/* line 32, src/scss/_shared/_magnificPopup.scss */
+/* line 33, src/scss/_shared/_magnificPopup.scss */
 .mfp-container {
   padding: 15px;
 }
 
-/* line 41, src/scss/_shared/_magnificPopup.scss */
+/* line 42, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1501,7 +1507,7 @@ picture {
           transform: scale(0.8);
 }
 
-/* line 47, src/scss/_shared/_magnificPopup.scss */
+/* line 48, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1509,7 +1515,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 53, src/scss/_shared/_magnificPopup.scss */
+/* line 54, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -1517,12 +1523,12 @@ picture {
           transform: scale(1);
 }
 
-/* line 57, src/scss/_shared/_magnificPopup.scss */
+/* line 58, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 63, src/scss/_shared/_magnificPopup.scss */
+/* line 64, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing .mfp-with-anim {
   -webkit-transform: scale(0.8);
       -ms-transform: scale(0.8);
@@ -1530,12 +1536,12 @@ picture {
   opacity: 0;
 }
 
-/* line 67, src/scss/_shared/_magnificPopup.scss */
+/* line 68, src/scss/_shared/_magnificPopup.scss */
 .mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
 
-/* line 78, src/scss/_shared/_magnificPopup.scss */
+/* line 79, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in .mfp-with-anim {
   opacity: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1546,7 +1552,7 @@ picture {
           transform: translateX(100%);
 }
 
-/* line 84, src/scss/_shared/_magnificPopup.scss */
+/* line 85, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-bg {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
@@ -1554,7 +1560,7 @@ picture {
   transition: all 0.3s ease-out;
 }
 
-/* line 90, src/scss/_shared/_magnificPopup.scss */
+/* line 91, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready .mfp-with-anim {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -1562,12 +1568,12 @@ picture {
           transform: translateX(0);
 }
 
-/* line 94, src/scss/_shared/_magnificPopup.scss */
+/* line 95, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-ready.mfp-bg {
   opacity: 0.8;
 }
 
-/* line 100, src/scss/_shared/_magnificPopup.scss */
+/* line 101, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing .mfp-with-anim {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -1575,7 +1581,7 @@ picture {
   opacity: 0;
 }
 
-/* line 104, src/scss/_shared/_magnificPopup.scss */
+/* line 105, src/scss/_shared/_magnificPopup.scss */
 .mfp-slide-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -3437,6 +3443,419 @@ picture {
 }
 
 /* line 789, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 140px;
+  padding: 50px 60px 40px;
+  background-color: #ffffff;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 789, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__header {
+    min-height: 100px;
+    padding: 20px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 789, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__header {
+    min-height: 135px;
+    padding: 30px 15px;
+  }
+}
+
+/* line 807, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__body {
+  padding: 0 60px 60px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 807, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__body {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 807, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 819, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__title {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.25;
+  color: #000000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 819, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 819, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__title {
+    font-size: 28px;
+  }
+}
+
+/* line 832, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 837, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__close svg {
+  width: 26px;
+  height: 26px;
+  fill: #000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 837, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__close svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 837, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__close svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* line 852, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 852, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__row {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+/* line 862, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__row:last-of-type {
+  padding-bottom: 50px;
+}
+
+/* line 867, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__col {
+  width: 100%;
+}
+
+/* line 870, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__col-1 {
+  width: 40%;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 870, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__col-1 {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 870, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__col-1 {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+/* line 882, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__col-2, #rescheduleEvent .c-modal .c-modal__col-3 {
+  width: 30%;
+}
+
+/* line 887, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__col-2 {
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 887, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__col-2 {
+    width: 45%;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 887, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__col-2 {
+    width: 100%;
+  }
+  /* line 896, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__col-2 .c-form__group--request {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 902, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__col-3 {
+    width: 100%;
+  }
+  /* line 906, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__col-3 .c-form__label {
+    display: none;
+  }
+}
+
+/* line 913, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+
+/* line 923, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio:checked + .c-modal__radio-label .c-modal__radio-circle {
+  border-color: #00449d;
+  background-color: #00449d;
+  -webkit-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* line 928, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio:checked + .c-modal__radio-label .c-modal__radio-circle:before {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 936, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 56px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 936, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__radio-wrapper {
+    min-height: unset;
+  }
+}
+
+/* line 947, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio-col {
+  position: relative;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 947, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__radio-col {
+    padding-bottom: 10px;
+  }
+}
+
+/* line 955, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio-label {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 961, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio-label p:nth-of-type(1) {
+  width: 50px;
+}
+
+/* line 964, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio-label p:nth-of-type(2) {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 972, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio-circle {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 2px rgba(0, 0, 0, 0.05);
+  background-color: transparent;
+  -webkit-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* line 984, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio-circle:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 996, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__radio-text {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 996, src/scss/_macros/_modal.scss */
+  #rescheduleEvent .c-modal .c-modal__radio-text {
+    font-size: 16px;
+  }
+}
+
+/* line 1005, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-modal__btn {
+  -webkit-box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
+          box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
+}
+
+/* line 1011, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-form__label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.88;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 1017, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-form__label--hidden {
+  opacity: 0;
+}
+
+/* line 1025, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-form__field--date .c-form__input {
+  border-radius: 10px;
+  border: solid 2px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+}
+
+/* line 1031, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-form__field--date .c-form__input-wrapper p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 100%;
+}
+
+/* line 1041, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-form__field--date .c-form__input-wrapper p svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* line 1052, src/scss/_macros/_modal.scss */
+#rescheduleEvent .c-modal .c-form__select {
+  border-radius: 10px;
+  border: solid 2px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+}
+
+/* line 1062, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3458,7 +3877,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 789, src/scss/_macros/_modal.scss */
+  /* line 1062, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__header {
     min-height: 100px;
     padding: 20px 40px;
@@ -3466,20 +3885,20 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 789, src/scss/_macros/_modal.scss */
+  /* line 1062, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__header {
     min-height: 135px;
     padding: 30px 15px;
   }
 }
 
-/* line 807, src/scss/_macros/_modal.scss */
+/* line 1080, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body {
   padding: 0 60px 60px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 807, src/scss/_macros/_modal.scss */
+  /* line 1080, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body {
     padding-left: 40px;
     padding-right: 40px;
@@ -3487,20 +3906,20 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 807, src/scss/_macros/_modal.scss */
+  /* line 1080, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 819, src/scss/_macros/_modal.scss */
+/* line 1092, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__row {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 824, src/scss/_macros/_modal.scss */
+/* line 1097, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__textarea {
   resize: none;
   border-radius: 10px;
@@ -3513,23 +3932,23 @@ picture {
   border: 2px solid rgba(0, 0, 0, 0.05);
 }
 
-/* line 834, src/scss/_macros/_modal.scss */
+/* line 1107, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__textarea-wrapper {
   width: 100%;
   height: 200px;
 }
 
-/* line 840, src/scss/_macros/_modal.scss */
+/* line 1113, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__field {
   width: 100%;
 }
 
-/* line 843, src/scss/_macros/_modal.scss */
+/* line 1116, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__field--textarea {
   width: 100%;
 }
 
-/* line 848, src/scss/_macros/_modal.scss */
+/* line 1121, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__label {
   margin-bottom: 0;
   font-weight: 600;
@@ -3537,12 +3956,12 @@ picture {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 855, src/scss/_macros/_modal.scss */
+/* line 1128, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__input {
   border: 2px solid rgba(0, 0, 0, 0.05);
 }
 
-/* line 859, src/scss/_macros/_modal.scss */
+/* line 1132, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file {
   z-index: 5;
   opacity: 0;
@@ -3553,7 +3972,7 @@ picture {
   height: 100%;
 }
 
-/* line 868, src/scss/_macros/_modal.scss */
+/* line 1141, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file-cover {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3562,32 +3981,32 @@ picture {
 }
 
 @media screen and (max-width: 374px) {
-  /* line 868, src/scss/_macros/_modal.scss */
+  /* line 1141, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-cover {
     width: 100%;
   }
 }
 
-/* line 876, src/scss/_macros/_modal.scss */
+/* line 1149, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file-btn {
   width: 210px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 876, src/scss/_macros/_modal.scss */
+  /* line 1149, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-btn {
     width: 156px;
   }
 }
 
 @media screen and (max-width: 374px) {
-  /* line 876, src/scss/_macros/_modal.scss */
+  /* line 1149, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-btn {
     width: 100%;
   }
 }
 
-/* line 886, src/scss/_macros/_modal.scss */
+/* line 1159, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file-input {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -3606,7 +4025,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 886, src/scss/_macros/_modal.scss */
+  /* line 1159, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-input {
     padding-left: 15px;
     font-size: 16px;
@@ -3614,20 +4033,20 @@ picture {
 }
 
 @media screen and (max-width: 374px) {
-  /* line 886, src/scss/_macros/_modal.scss */
+  /* line 1159, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-input {
     display: none;
   }
 }
 
-/* line 907, src/scss/_macros/_modal.scss */
+/* line 1180, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 914, src/scss/_macros/_modal.scss */
+/* line 1187, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__title {
   font-size: 40px;
   font-weight: 900;
@@ -3636,20 +4055,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 914, src/scss/_macros/_modal.scss */
+  /* line 1187, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 914, src/scss/_macros/_modal.scss */
+  /* line 1187, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__title {
     font-size: 28px;
   }
 }
 
-/* line 927, src/scss/_macros/_modal.scss */
+/* line 1200, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__close {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3662,7 +4081,7 @@ picture {
           justify-content: center;
 }
 
-/* line 932, src/scss/_macros/_modal.scss */
+/* line 1205, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__close svg {
   width: 26px;
   height: 26px;
@@ -3670,7 +4089,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 932, src/scss/_macros/_modal.scss */
+  /* line 1205, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__close svg {
     width: 22px;
     height: 22px;
@@ -3678,14 +4097,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 932, src/scss/_macros/_modal.scss */
+  /* line 1205, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__close svg {
     width: 20px;
     height: 20px;
   }
 }
 
-/* line 947, src/scss/_macros/_modal.scss */
+/* line 1220, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__btn {
   max-width: 156px;
   margin-top: 20px;
@@ -3693,24 +4112,24 @@ picture {
           box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
 }
 
-/* line 955, src/scss/_macros/_modal.scss */
+/* line 1228, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal {
   height: 100%;
 }
 
-/* line 958, src/scss/_macros/_modal.scss */
+/* line 1231, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .affiliate-appForm__heading--pt {
   padding-top: 100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 958, src/scss/_macros/_modal.scss */
+  /* line 1231, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .affiliate-appForm__heading--pt {
     padding-top: 75px;
   }
 }
 
-/* line 966, src/scss/_macros/_modal.scss */
+/* line 1239, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3732,7 +4151,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 966, src/scss/_macros/_modal.scss */
+  /* line 1239, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 100px;
     padding: 20px 40px;
@@ -3740,14 +4159,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 966, src/scss/_macros/_modal.scss */
+  /* line 1239, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 135px;
     padding: 30px 15px;
   }
 }
 
-/* line 983, src/scss/_macros/_modal.scss */
+/* line 1256, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header.is-shadow {
   -webkit-box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
           box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
@@ -3758,26 +4177,26 @@ picture {
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 989, src/scss/_macros/_modal.scss */
+/* line 1262, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__body {
   padding: 0 60px 60px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 989, src/scss/_macros/_modal.scss */
+  /* line 1262, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 40px 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 989, src/scss/_macros/_modal.scss */
+  /* line 1262, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 15px 15px;
   }
 }
 
-/* line 999, src/scss/_macros/_modal.scss */
+/* line 1272, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__title {
   font-size: 40px;
   font-weight: 900;
@@ -3786,20 +4205,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 999, src/scss/_macros/_modal.scss */
+  /* line 1272, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 999, src/scss/_macros/_modal.scss */
+  /* line 1272, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 28px;
   }
 }
 
-/* line 1012, src/scss/_macros/_modal.scss */
+/* line 1285, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3812,7 +4231,7 @@ picture {
           justify-content: center;
 }
 
-/* line 1017, src/scss/_macros/_modal.scss */
+/* line 1290, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close svg {
   width: 26px;
   height: 26px;
@@ -3820,7 +4239,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1017, src/scss/_macros/_modal.scss */
+  /* line 1290, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 22px;
     height: 22px;
@@ -3828,14 +4247,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1017, src/scss/_macros/_modal.scss */
+  /* line 1290, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 20px;
     height: 20px;
   }
 }
 
-/* line 1032, src/scss/_macros/_modal.scss */
+/* line 1305, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax {
   font-size: 19px;
   font-weight: 800;
@@ -3844,18 +4263,18 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1032, src/scss/_macros/_modal.scss */
+  /* line 1305, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__tax {
     font-size: 17px;
   }
 }
 
-/* line 1041, src/scss/_macros/_modal.scss */
+/* line 1314, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax span {
   font-weight: normal;
 }
 
-/* line 1046, src/scss/_macros/_modal.scss */
+/* line 1319, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc {
   padding-bottom: 40px;
   font-size: 19px;
@@ -3864,13 +4283,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1046, src/scss/_macros/_modal.scss */
+  /* line 1319, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__desc {
     font-size: 17px;
   }
 }
 
-/* line 1055, src/scss/_macros/_modal.scss */
+/* line 1328, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc--wpb {
   padding-bottom: 20px;
 }
@@ -18929,6 +19348,11 @@ picture {
 /* line 34, src/scss/_components/scheduler/_scheduler.scss */
 .scheduler__title--white {
   color: #ffffff;
+}
+
+/* line 39, src/scss/_components/scheduler/_scheduler.scss */
+.scheduler div#ui-datepicker-div {
+  width: 270px;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

@@ -1298,6 +1298,21 @@ $(document).ready(function (ev) {
       });
     };
 
+    var _smoothScroll = function _smoothScroll(_self) {
+      var linkHref = $(_self.currentTarget).attr('data-href') || $(_self.currentTarget).attr('href'),
+          headerHeight = $(".header").outerHeight() || 0,
+          topHeightOffset = $(linkHref).offset().top - headerHeight;
+
+      $('body, html').animate({
+        scrollTop: topHeightOffset
+      }, 1000);
+
+      var noHashURL = window.location.href.replace(/#.*$/, '');
+      window.history.replaceState('', document.title, noHashURL);
+
+      _self.preventDefault();
+    };
+
     var _chooseBox = function _chooseBox() {
       $('.scheduler__main-box').on('click', function (ev) {
         var _el = $(ev.currentTarget);
@@ -1319,6 +1334,8 @@ $(document).ready(function (ev) {
 
           _sliderData();
         }
+
+        _smoothScroll(ev);
       });
       $('[scheduler-toggle-js]').on('click', function (ev) {
         $(ev.currentTarget).toggleClass('is-active');
@@ -1365,6 +1382,8 @@ $(document).ready(function (ev) {
         if (!$('[scheduler-timeNode-js]').is(':visible')) {
           $('[scheduler-timeNode-js]').slideDown(450);
         }
+
+        _smoothScroll(ev);
       });
     };
 
@@ -1380,6 +1399,8 @@ $(document).ready(function (ev) {
         if (!$('[scheduler-infoNode-js]').is(':visible')) {
           $('[scheduler-infoNode-js]').slideDown(450);
         }
+
+        _smoothScroll(ev);
       });
     };
 
@@ -1387,6 +1408,15 @@ $(document).ready(function (ev) {
       $('[scheduler-filter-js]').on('click', function (ev) {
         $(ev.currentTarget).toggleClass('is-open');
         $(ev.currentTarget).siblings('[scheduler-filterBody-js]').slideToggle(450);
+      });
+    };
+
+    var _datePicker = function _datePicker() {
+      $("#date-element-start-box, #date-element-end-box").datepicker({
+        format: 'mm/mm/yy',
+        firstDay: 1,
+        showButtonPanel: true,
+        minDate: 0
       });
     };
 
@@ -1404,6 +1434,8 @@ $(document).ready(function (ev) {
         callbacks: {
           beforeOpen: function beforeOpen() {
             this.st.mainClass = this.st.el.attr('data-effect');
+
+            _datePicker();
           },
           close: function close() {}
         }
@@ -1421,6 +1453,7 @@ $(document).ready(function (ev) {
     _chooseTime();
     _openFilter();
     _openPopup();
+    _datePicker();
   };
 
   /**
