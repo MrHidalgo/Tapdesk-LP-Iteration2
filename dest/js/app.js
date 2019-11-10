@@ -1345,6 +1345,40 @@ $(document).ready(function (ev) {
     };
 
     var _sliderData = function _sliderData() {
+      var _date = new Date();
+
+      var _initSlide = 0;
+
+      if ($(window).width() > 767) {
+        if (_date.getDate() < 7) {
+          _initSlide = 0;
+        } else if (_date.getDate() < 14) {
+          _initSlide = 7;
+        } else if (_date.getDate() < 21) {
+          _initSlide = 14;
+        } else if (_date.getDate() < 28) {
+          _initSlide = 21;
+        } else {
+          _initSlide = 28;
+        }
+      } else {
+        if (_date.getDate() < 5) {
+          _initSlide = 0;
+        } else if (_date.getDate() < 10) {
+          _initSlide = 5;
+        } else if (_date.getDate() < 15) {
+          _initSlide = 10;
+        } else if (_date.getDate() < 20) {
+          _initSlide = 15;
+        } else if (_date.getDate() < 25) {
+          _initSlide = 20;
+        } else if (_date.getDate() < 30) {
+          _initSlide = 25;
+        } else {
+          _initSlide = 30;
+        }
+      }
+
       if ($('.schedulerData').length) {
         var swiperScheduler = new Swiper('.schedulerData', {
           loop: false,
@@ -1355,16 +1389,33 @@ $(document).ready(function (ev) {
           slidesPerView: 7,
           slidesPerGroup: 7,
           spaceBetween: 30,
+          initialSlide: _initSlide,
           breakpoints: {
             767: {
               slidesPerView: 5,
               slidesPerGroup: 5,
-              spaceBetween: 15
+              spaceBetween: 15,
+              initialSlide: _date.getDate() - 1
             }
           },
           navigation: {
             nextEl: '.scheduler__data-next',
             prevEl: '.scheduler__data-prev'
+          },
+          on: {
+            init: function init() {
+              console.log("init");
+              var _activeSlide = $(this)[0].slides[$(this)[0].activeIndex],
+                  _slidePartOfMonth = $(_activeSlide).find('.scheduler__data-slide').attr('data-month');
+
+              $('[scheduler-sliderMonth-js]').text(_slidePartOfMonth);
+            },
+            slideChange: function slideChange() {
+              var _activeSlide = $(this)[0].slides[$(this)[0].activeIndex],
+                  _slidePartOfMonth = $(_activeSlide).find('.scheduler__data-slide').attr('data-month');
+
+              $('[scheduler-sliderMonth-js]').text(_slidePartOfMonth);
+            }
           }
         });
       }
@@ -1445,15 +1496,82 @@ $(document).ready(function (ev) {
       });
     };
 
+    var _renderSliderDate = function _renderSliderDate() {
+      var _date = new Date();
+
+      var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+          weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          weekdayLess = ['Sun', 'Mon', 'Thu', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+      var sliderBox = function sliderBox(_currentData, _weekName, _weekNameLess, _weekDate, _month) {
+        return "\n          <div class=\"swiper-slide\">\n            <div class=\"scheduler__data-slide \n                        " + (_weekDate === _currentData ? 'scheduler__data-slide--today' : '') + "\n                        " + (_weekDate < _currentData || _weekName === 'Sunday' || _weekName === 'Saturday' ? 'scheduler__data-slide--disabled' : '') + "\n                        \" \n              data-href=\"#scheduler__time\" data-month=\"" + _month + "\">\n              <i></i>\n              <div class=\"scheduler__data-slide--top\">\n                <span>today</span>\n              </div>\n              <div class=\"scheduler__data-slide--middle\">\n                <p>" + _weekName + "</p>\n                <h5>" + _weekNameLess + "</h5>\n              </div>\n              <div class=\"scheduler__data-slide--bottom\">\n                <h4>" + _weekDate + "</h4>\n              </div>\n            </div>\n          </div>\n        ";
+      };
+
+      var daysInMonth = function daysInMonth(_month, _year) {
+        return new Date(_year, _month, 0).getDate();
+      };
+
+      var firstDayInMonthIndex = function firstDayInMonthIndex(_monthIndex, _year) {
+        return new Date(_year + "-" + (_monthIndex + 1) + "-01").getDay();
+      };
+
+      var buildIntervalMonth = function buildIntervalMonth(currentDay, currentMonth, currentYear, period) {
+        var monthCount = 0,
+            weekCount = firstDayInMonthIndex(currentMonth, currentYear);
+
+        for (var i = 1; i <= period; i++) {
+          if (currentMonth > 11) {
+            currentMonth = 0;
+            currentYear += 1;
+          }
+
+          // console.log(`year: `, currentYear);
+          // console.log(`month: `, monthNames[currentMonth]);
+          // console.log(`currentDay: `, currentDay);
+          // console.log(`weekName: `, weekday[weekCount]);
+
+          if (monthCount <= currentMonth) {
+
+            for (var dateMonth = 1; dateMonth <= daysInMonth(currentMonth + 1, currentYear); dateMonth++) {
+              $('.schedulerData .swiper-wrapper').append(sliderBox(currentDay, weekday[weekCount], weekdayLess[weekCount], dateMonth, monthNames[currentMonth]));
+
+              // console.log(`Date - ${dateMonth} ::: weekName - ${weekday[weekCount]}`);
+
+              if (weekCount >= 6) {
+                weekCount = 0;
+              } else {
+                ++weekCount;
+              }
+
+              if (currentDay === dateMonth) {
+                currentDay = 0;
+              }
+            }
+
+            ++currentMonth;
+          }
+        }
+      };
+
+      var buildPeriod = function buildPeriod(_period) {
+        buildIntervalMonth(_date.getDate(), _date.getMonth(), _date.getFullYear(), _period);
+      };
+
+      buildPeriod(6);
+
+      _sliderData();
+    };
+
     _dropdown();
     // _splitDescription();
     _chooseBox();
-    _sliderData();
+
     _slideDataChoose();
     _chooseTime();
     _openFilter();
     _openPopup();
     _datePicker();
+    _renderSliderDate();
   };
 
   /**

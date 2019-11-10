@@ -19134,7 +19134,7 @@ picture {
       flex-wrap: wrap;
 }
 
-/* line 74, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 72, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-box-wrapper > div {
   width: 100%;
   max-width: calc(100% / 7);
@@ -19142,27 +19142,27 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 74, src/scss/_components/scheduler/_scheduler-invite.scss */
+  /* line 72, src/scss/_components/scheduler/_scheduler-invite.scss */
   .scheduler__invite-box-wrapper > div {
     max-width: calc(100% / 5);
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 74, src/scss/_components/scheduler/_scheduler-invite.scss */
+  /* line 72, src/scss/_components/scheduler/_scheduler-invite.scss */
   .scheduler__invite-box-wrapper > div {
     max-width: calc(100% / 3);
   }
 }
 
 @media screen and (max-width: 424px) {
-  /* line 74, src/scss/_components/scheduler/_scheduler-invite.scss */
+  /* line 72, src/scss/_components/scheduler/_scheduler-invite.scss */
   .scheduler__invite-box-wrapper > div {
     max-width: calc(100% / 2);
   }
 }
 
-/* line 92, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 88, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-box-image {
   overflow: hidden;
   position: relative;
@@ -19174,12 +19174,15 @@ picture {
   margin-bottom: 10px;
 }
 
-/* line 102, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 98, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-box-image-wrapper {
   position: relative;
+  width: 110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 106, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 105, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-box-image img {
   position: absolute;
   top: 0;
@@ -19192,7 +19195,7 @@ picture {
      object-position: center;
 }
 
-/* line 117, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 116, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-box-badge {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19213,14 +19216,14 @@ picture {
   background-color: #f8fafc;
 }
 
-/* line 130, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 129, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-box-badge svg {
   width: 18px;
   height: 18px;
   fill: #fff;
 }
 
-/* line 137, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 136, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-box-name, .scheduler__invite-box-pos {
   font-size: 20px;
   text-align: center;
@@ -19229,19 +19232,19 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 144, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 143, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-box-name {
   font-weight: 800;
   color: #000;
 }
 
-/* line 149, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 148, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-box-pos {
   display: block;
   color: #222;
 }
 
-/* line 155, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 154, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19250,7 +19253,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 155, src/scss/_components/scheduler/_scheduler-invite.scss */
+  /* line 154, src/scss/_components/scheduler/_scheduler-invite.scss */
   .scheduler__invite-btn {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -19260,7 +19263,7 @@ picture {
   }
 }
 
-/* line 163, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 162, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-btn .c-btn {
   width: auto;
   max-width: unset;
@@ -19270,7 +19273,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 163, src/scss/_components/scheduler/_scheduler-invite.scss */
+  /* line 162, src/scss/_components/scheduler/_scheduler-invite.scss */
   .scheduler__invite-btn .c-btn {
     padding-left: 20px;
     padding-right: 20px;
@@ -19280,25 +19283,25 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 163, src/scss/_components/scheduler/_scheduler-invite.scss */
+  /* line 162, src/scss/_components/scheduler/_scheduler-invite.scss */
   .scheduler__invite-btn .c-btn {
     width: 100%;
     margin-bottom: 15px;
   }
 }
 
-/* line 180, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 179, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-btn .c-btn.c-btn--bg {
   -webkit-box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
           box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
 }
 
-/* line 184, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 183, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-btn .c-btn:last-of-type {
   margin-right: 0;
 }
 
-/* line 190, src/scss/_components/scheduler/_scheduler-invite.scss */
+/* line 189, src/scss/_components/scheduler/_scheduler-invite.scss */
 .scheduler__invite-copyright {
   padding-top: 140px;
   font-size: 20px;
@@ -19306,7 +19309,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 190, src/scss/_components/scheduler/_scheduler-invite.scss */
+  /* line 189, src/scss/_components/scheduler/_scheduler-invite.scss */
   .scheduler__invite-copyright {
     padding-top: 70px;
     font-size: 16px;
