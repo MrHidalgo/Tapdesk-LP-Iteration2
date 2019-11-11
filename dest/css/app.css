@@ -18534,6 +18534,13 @@ picture {
 }
 
 /* line 267, src/scss/_components/scheduler/_scheduler-data.scss */
+.scheduler__data-slide.scheduler__data-slide--empty {
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* line 273, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide.scheduler__data-slide--disabled {
   pointer-events: none;
   -webkit-box-shadow: none;
@@ -18546,7 +18553,7 @@ picture {
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 273, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 279, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide.scheduler__data-slide--disabled span,
 .scheduler__data-slide.scheduler__data-slide--disabled h5,
 .scheduler__data-slide.scheduler__data-slide--disabled p,
@@ -18558,27 +18565,27 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 284, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 290, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-slide.scheduler__data-slide--today h5,
   .scheduler__data-slide.scheduler__data-slide--today h4 {
     color: #cd084b;
   }
 }
 
-/* line 290, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 296, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide.scheduler__data-slide--today i,
 .scheduler__data-slide.scheduler__data-slide--today span {
   opacity: 1;
   visibility: visible;
 }
 
-/* line 298, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 304, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide--top {
   width: 100%;
   padding: 0 7px;
 }
 
-/* line 303, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 309, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide i {
   opacity: 0;
   visibility: hidden;
@@ -18592,13 +18599,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 303, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 309, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-slide i {
     display: none;
   }
 }
 
-/* line 318, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 324, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide span,
 .scheduler__data-slide h5,
 .scheduler__data-slide p,
@@ -18608,7 +18615,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 325, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 331, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide span {
   opacity: 0;
   visibility: hidden;
@@ -18622,13 +18629,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 325, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 331, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-slide span {
     display: none;
   }
 }
 
-/* line 340, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 346, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide h5,
 .scheduler__data-slide p {
   padding-bottom: 20px;
@@ -18639,7 +18646,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 340, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 346, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-slide h5,
   .scheduler__data-slide p {
     padding-bottom: 10px;
@@ -18648,26 +18655,26 @@ picture {
   }
 }
 
-/* line 354, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 360, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide h5 {
   display: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 354, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 360, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-slide h5 {
     display: block;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 361, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 367, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-slide p {
     display: none;
   }
 }
 
-/* line 367, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 373, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-slide h4 {
   font-weight: 600;
   font-size: 50px;
@@ -18676,7 +18683,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 367, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 373, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-slide h4 {
     font-size: 40px;
     line-height: 30px;
@@ -18684,7 +18691,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 367, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 373, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-slide h4 {
     font-size: 33px;
     line-height: 30px;
@@ -18692,7 +18699,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 367, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 373, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-slide h4 {
     font-size: 26px;
     line-height: 20px;

@@ -1347,32 +1347,38 @@ $(document).ready(function (ev) {
     var _sliderData = function _sliderData() {
       var _date = new Date();
 
-      var _initSlide = 0;
+      var firstDayInMonthIndex = function firstDayInMonthIndex(_monthIndex, _year) {
+        return new Date(_year + "-" + (_monthIndex + 1) + "-01").getDay();
+      };
+
+      var _initSlide = 0,
+          _weekStartNum = firstDayInMonthIndex(_date.getMonth(), _date.getFullYear()),
+          _currentDate = _date.getDate() + _weekStartNum;
 
       if ($(window).width() > 767) {
-        if (_date.getDate() < 7) {
+        if (_currentDate < 7) {
           _initSlide = 0;
-        } else if (_date.getDate() < 14) {
+        } else if (_currentDate < 14) {
           _initSlide = 7;
-        } else if (_date.getDate() < 21) {
+        } else if (_currentDate < 21) {
           _initSlide = 14;
-        } else if (_date.getDate() < 28) {
+        } else if (_currentDate < 28) {
           _initSlide = 21;
         } else {
           _initSlide = 28;
         }
       } else {
-        if (_date.getDate() < 5) {
+        if (_currentDate < 5) {
           _initSlide = 0;
-        } else if (_date.getDate() < 10) {
+        } else if (_currentDate < 10) {
           _initSlide = 5;
-        } else if (_date.getDate() < 15) {
+        } else if (_currentDate < 15) {
           _initSlide = 10;
-        } else if (_date.getDate() < 20) {
+        } else if (_currentDate < 20) {
           _initSlide = 15;
-        } else if (_date.getDate() < 25) {
+        } else if (_currentDate < 25) {
           _initSlide = 20;
-        } else if (_date.getDate() < 30) {
+        } else if (_currentDate < 30) {
           _initSlide = 25;
         } else {
           _initSlide = 30;
@@ -1395,7 +1401,7 @@ $(document).ready(function (ev) {
               slidesPerView: 5,
               slidesPerGroup: 5,
               spaceBetween: 15,
-              initialSlide: _date.getDate() - 1
+              initialSlide: _initSlide
             }
           },
           navigation: {
@@ -1507,6 +1513,10 @@ $(document).ready(function (ev) {
         return "\n          <div class=\"swiper-slide\">\n            <div class=\"scheduler__data-slide \n                        " + (_weekDate === _currentData ? 'scheduler__data-slide--today' : '') + "\n                        " + (_weekDate < _currentData || _weekName === 'Sunday' || _weekName === 'Saturday' ? 'scheduler__data-slide--disabled' : '') + "\n                        \" \n              data-href=\"#scheduler__time\" data-month=\"" + _month + "\">\n              <i></i>\n              <div class=\"scheduler__data-slide--top\">\n                <span>today</span>\n              </div>\n              <div class=\"scheduler__data-slide--middle\">\n                <p>" + _weekName + "</p>\n                <h5>" + _weekNameLess + "</h5>\n              </div>\n              <div class=\"scheduler__data-slide--bottom\">\n                <h4>" + _weekDate + "</h4>\n              </div>\n            </div>\n          </div>\n        ";
       };
 
+      var sliderBoxEmpty = function sliderBoxEmpty() {
+        return "\n          <div class=\"swiper-slide\">\n            <div class=\"scheduler__data-slide scheduler__data-slide--empty\">\n              <i></i>\n              <div class=\"scheduler__data-slide--top\">\n                <span>today</span>\n              </div>\n              <div class=\"scheduler__data-slide--middle\">\n                <p></p>\n                <h5></h5>\n              </div>\n              <div class=\"scheduler__data-slide--bottom\">\n                <h4></h4>\n              </div>\n            </div>\n          </div>\n        ";
+      };
+
       var daysInMonth = function daysInMonth(_month, _year) {
         return new Date(_year, _month, 0).getDate();
       };
@@ -1517,6 +1527,7 @@ $(document).ready(function (ev) {
 
       var buildIntervalMonth = function buildIntervalMonth(currentDay, currentMonth, currentYear, period) {
         var monthCount = 0,
+            buildWeekBool = true,
             weekCount = firstDayInMonthIndex(currentMonth, currentYear);
 
         for (var i = 1; i <= period; i++) {
@@ -1533,6 +1544,14 @@ $(document).ready(function (ev) {
           if (monthCount <= currentMonth) {
 
             for (var dateMonth = 1; dateMonth <= daysInMonth(currentMonth + 1, currentYear); dateMonth++) {
+              if (weekCount !== 0 && buildWeekBool) {
+                for (var idx = 0; idx < weekCount; idx++) {
+                  $('.schedulerData .swiper-wrapper').append(sliderBoxEmpty());
+                }
+
+                buildWeekBool = false;
+              }
+
               $('.schedulerData .swiper-wrapper').append(sliderBox(currentDay, weekday[weekCount], weekdayLess[weekCount], dateMonth, monthNames[currentMonth]));
 
               // console.log(`Date - ${dateMonth} ::: weekName - ${weekday[weekCount]}`);
@@ -1560,13 +1579,12 @@ $(document).ready(function (ev) {
       buildPeriod(6);
 
       _sliderData();
+      _slideDataChoose();
     };
 
     _dropdown();
     // _splitDescription();
     _chooseBox();
-
-    _slideDataChoose();
     _chooseTime();
     _openFilter();
     _openPopup();
