@@ -236,8 +236,8 @@
 
 /* line 49, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-calendar {
-  width: 489.1px;
-  height: 489.1px;
+  width: 14px;
+  height: 14px;
 }
 
 /* line 53, dest/src/scss/_generated/_spriteSVG.scss */
@@ -463,120 +463,126 @@
 }
 
 /* line 201, dest/src/scss/_generated/_spriteSVG.scss */
+.icon-invite-away {
+  width: 16px;
+  height: 15px;
+}
+
+/* line 205, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-invite-decline {
   width: 18px;
   height: 18px;
 }
 
-/* line 205, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 209, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-invite-online {
   width: 18px;
   height: 18px;
 }
 
-/* line 209, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 213, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-invite-wait {
   width: 18px;
   height: 18px;
 }
 
-/* line 213, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 217, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-leads {
   width: 44px;
   height: 43px;
 }
 
-/* line 217, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 221, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-location {
   width: 16px;
   height: 20px;
 }
 
-/* line 221, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 225, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-login {
   width: 20px;
   height: 20px;
 }
 
-/* line 225, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-logo {
   width: 145px;
   height: 36px;
 }
 
-/* line 229, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-money {
   width: 26px;
   height: 36px;
 }
 
-/* line 233, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-pipelines {
   width: 40px;
   height: 42px;
 }
 
-/* line 237, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 241, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play {
   width: 69px;
   height: 80px;
 }
 
-/* line 241, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 245, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-play-1 {
   width: 27px;
   height: 33px;
 }
 
-/* line 245, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 249, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-request {
   width: 48px;
   height: 36px;
 }
 
-/* line 249, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 253, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-right-arrow {
   width: 240.82px;
   height: 240.82px;
 }
 
-/* line 253, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 257, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-robot {
   width: 44px;
   height: 42px;
 }
 
-/* line 257, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 261, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-setting {
   width: 478.7px;
   height: 478.7px;
 }
 
-/* line 261, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 265, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-signup {
   width: 16px;
   height: 20px;
 }
 
-/* line 265, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 269, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-time {
   width: 18.095px;
   height: 19px;
 }
 
-/* line 269, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 273, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-0 {
   width: 60px;
   height: 60px;
 }
 
-/* line 273, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 277, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-1 {
   width: 60px;
   height: 60px;
 }
 
-/* line 277, dest/src/scss/_generated/_spriteSVG.scss */
+/* line 281, dest/src/scss/_generated/_spriteSVG.scss */
 .icon-types-icon-2 {
   width: 51px;
   height: 62px;
@@ -3821,11 +3827,12 @@ picture {
 #rescheduleEvent .c-modal .c-form__field--date .c-form__input {
   border-radius: 10px;
   border: solid 2px rgba(0, 0, 0, 0.05);
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 /* line 1031, src/scss/_macros/_modal.scss */
 #rescheduleEvent .c-modal .c-form__field--date .c-form__input-wrapper p {
+  z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
@@ -3842,20 +3849,20 @@ picture {
   height: 100%;
 }
 
-/* line 1041, src/scss/_macros/_modal.scss */
+/* line 1042, src/scss/_macros/_modal.scss */
 #rescheduleEvent .c-modal .c-form__field--date .c-form__input-wrapper p svg {
   width: 18px;
   height: 18px;
 }
 
-/* line 1052, src/scss/_macros/_modal.scss */
+/* line 1053, src/scss/_macros/_modal.scss */
 #rescheduleEvent .c-modal .c-form__select {
   border-radius: 10px;
   border: solid 2px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
 }
 
-/* line 1062, src/scss/_macros/_modal.scss */
+/* line 1063, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3877,7 +3884,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1062, src/scss/_macros/_modal.scss */
+  /* line 1063, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__header {
     min-height: 100px;
     padding: 20px 40px;
@@ -3885,20 +3892,20 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1062, src/scss/_macros/_modal.scss */
+  /* line 1063, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__header {
     min-height: 135px;
     padding: 30px 15px;
   }
 }
 
-/* line 1080, src/scss/_macros/_modal.scss */
+/* line 1081, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body {
   padding: 0 60px 60px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1080, src/scss/_macros/_modal.scss */
+  /* line 1081, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body {
     padding-left: 40px;
     padding-right: 40px;
@@ -3906,20 +3913,20 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1080, src/scss/_macros/_modal.scss */
+  /* line 1081, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 1092, src/scss/_macros/_modal.scss */
+/* line 1093, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__row {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 1097, src/scss/_macros/_modal.scss */
+/* line 1098, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__textarea {
   resize: none;
   border-radius: 10px;
@@ -3932,23 +3939,23 @@ picture {
   border: 2px solid rgba(0, 0, 0, 0.05);
 }
 
-/* line 1107, src/scss/_macros/_modal.scss */
+/* line 1108, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__textarea-wrapper {
   width: 100%;
   height: 200px;
 }
 
-/* line 1113, src/scss/_macros/_modal.scss */
+/* line 1114, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__field {
   width: 100%;
 }
 
-/* line 1116, src/scss/_macros/_modal.scss */
+/* line 1117, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__field--textarea {
   width: 100%;
 }
 
-/* line 1121, src/scss/_macros/_modal.scss */
+/* line 1122, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__label {
   margin-bottom: 0;
   font-weight: 600;
@@ -3956,12 +3963,12 @@ picture {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 1128, src/scss/_macros/_modal.scss */
+/* line 1129, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__input {
   border: 2px solid rgba(0, 0, 0, 0.05);
 }
 
-/* line 1132, src/scss/_macros/_modal.scss */
+/* line 1133, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file {
   z-index: 5;
   opacity: 0;
@@ -3972,7 +3979,7 @@ picture {
   height: 100%;
 }
 
-/* line 1141, src/scss/_macros/_modal.scss */
+/* line 1142, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file-cover {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3981,32 +3988,32 @@ picture {
 }
 
 @media screen and (max-width: 374px) {
-  /* line 1141, src/scss/_macros/_modal.scss */
+  /* line 1142, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-cover {
     width: 100%;
   }
 }
 
-/* line 1149, src/scss/_macros/_modal.scss */
+/* line 1150, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file-btn {
   width: 210px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1149, src/scss/_macros/_modal.scss */
+  /* line 1150, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-btn {
     width: 156px;
   }
 }
 
 @media screen and (max-width: 374px) {
-  /* line 1149, src/scss/_macros/_modal.scss */
+  /* line 1150, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-btn {
     width: 100%;
   }
 }
 
-/* line 1159, src/scss/_macros/_modal.scss */
+/* line 1160, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file-input {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -4025,7 +4032,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1159, src/scss/_macros/_modal.scss */
+  /* line 1160, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-input {
     padding-left: 15px;
     font-size: 16px;
@@ -4033,20 +4040,20 @@ picture {
 }
 
 @media screen and (max-width: 374px) {
-  /* line 1159, src/scss/_macros/_modal.scss */
+  /* line 1160, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__body .c-form__file-input {
     display: none;
   }
 }
 
-/* line 1180, src/scss/_macros/_modal.scss */
+/* line 1181, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__body .c-form__file-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 1187, src/scss/_macros/_modal.scss */
+/* line 1188, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__title {
   font-size: 40px;
   font-weight: 900;
@@ -4055,20 +4062,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1187, src/scss/_macros/_modal.scss */
+  /* line 1188, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1187, src/scss/_macros/_modal.scss */
+  /* line 1188, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__title {
     font-size: 28px;
   }
 }
 
-/* line 1200, src/scss/_macros/_modal.scss */
+/* line 1201, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__close {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4081,7 +4088,7 @@ picture {
           justify-content: center;
 }
 
-/* line 1205, src/scss/_macros/_modal.scss */
+/* line 1206, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__close svg {
   width: 26px;
   height: 26px;
@@ -4089,7 +4096,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1205, src/scss/_macros/_modal.scss */
+  /* line 1206, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__close svg {
     width: 22px;
     height: 22px;
@@ -4097,14 +4104,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1205, src/scss/_macros/_modal.scss */
+  /* line 1206, src/scss/_macros/_modal.scss */
   #contactOrganizer .c-modal .c-modal__close svg {
     width: 20px;
     height: 20px;
   }
 }
 
-/* line 1220, src/scss/_macros/_modal.scss */
+/* line 1221, src/scss/_macros/_modal.scss */
 #contactOrganizer .c-modal .c-modal__btn {
   max-width: 156px;
   margin-top: 20px;
@@ -4112,24 +4119,24 @@ picture {
           box-shadow: 0px 10px 15px rgba(205, 8, 75, 0.2);
 }
 
-/* line 1228, src/scss/_macros/_modal.scss */
+/* line 1229, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal {
   height: 100%;
 }
 
-/* line 1231, src/scss/_macros/_modal.scss */
+/* line 1232, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .affiliate-appForm__heading--pt {
   padding-top: 100px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1231, src/scss/_macros/_modal.scss */
+  /* line 1232, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .affiliate-appForm__heading--pt {
     padding-top: 75px;
   }
 }
 
-/* line 1239, src/scss/_macros/_modal.scss */
+/* line 1240, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4151,7 +4158,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1239, src/scss/_macros/_modal.scss */
+  /* line 1240, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 100px;
     padding: 20px 40px;
@@ -4159,14 +4166,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1239, src/scss/_macros/_modal.scss */
+  /* line 1240, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__header {
     min-height: 135px;
     padding: 30px 15px;
   }
 }
 
-/* line 1256, src/scss/_macros/_modal.scss */
+/* line 1257, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__header.is-shadow {
   -webkit-box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
           box-shadow: 0px 11px 22px rgba(72, 130, 223, 0.1);
@@ -4177,26 +4184,26 @@ picture {
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 1262, src/scss/_macros/_modal.scss */
+/* line 1263, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__body {
   padding: 0 60px 60px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1262, src/scss/_macros/_modal.scss */
+  /* line 1263, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 40px 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1262, src/scss/_macros/_modal.scss */
+  /* line 1263, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__body {
     padding: 0 15px 15px;
   }
 }
 
-/* line 1272, src/scss/_macros/_modal.scss */
+/* line 1273, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__title {
   font-size: 40px;
   font-weight: 900;
@@ -4205,20 +4212,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1272, src/scss/_macros/_modal.scss */
+  /* line 1273, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1272, src/scss/_macros/_modal.scss */
+  /* line 1273, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__title {
     font-size: 28px;
   }
 }
 
-/* line 1285, src/scss/_macros/_modal.scss */
+/* line 1286, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4231,7 +4238,7 @@ picture {
           justify-content: center;
 }
 
-/* line 1290, src/scss/_macros/_modal.scss */
+/* line 1291, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__close svg {
   width: 26px;
   height: 26px;
@@ -4239,7 +4246,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 1290, src/scss/_macros/_modal.scss */
+  /* line 1291, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 22px;
     height: 22px;
@@ -4247,14 +4254,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1290, src/scss/_macros/_modal.scss */
+  /* line 1291, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__close svg {
     width: 20px;
     height: 20px;
   }
 }
 
-/* line 1305, src/scss/_macros/_modal.scss */
+/* line 1306, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax {
   font-size: 19px;
   font-weight: 800;
@@ -4263,18 +4270,18 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1305, src/scss/_macros/_modal.scss */
+  /* line 1306, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__tax {
     font-size: 17px;
   }
 }
 
-/* line 1314, src/scss/_macros/_modal.scss */
+/* line 1315, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__tax span {
   font-weight: normal;
 }
 
-/* line 1319, src/scss/_macros/_modal.scss */
+/* line 1320, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc {
   padding-bottom: 40px;
   font-size: 19px;
@@ -4283,13 +4290,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1319, src/scss/_macros/_modal.scss */
+  /* line 1320, src/scss/_macros/_modal.scss */
   #updateInfo .c-modal .c-modal__desc {
     font-size: 17px;
   }
 }
 
-/* line 1328, src/scss/_macros/_modal.scss */
+/* line 1329, src/scss/_macros/_modal.scss */
 #updateInfo .c-modal .c-modal__desc--wpb {
   padding-bottom: 20px;
 }
@@ -18131,9 +18138,6 @@ picture {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-bottom: 20px;
 }
 
@@ -18147,61 +18151,61 @@ picture {
   }
 }
 
-/* line 33, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 32, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-list li:last-of-type {
   padding-bottom: 0;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 33, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 32, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-list li:last-of-type {
     max-width: 100%;
   }
 }
 
-/* line 41, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 40, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-list li > div:nth-of-type(1) {
   width: 40px;
   padding-top: 3px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 41, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 40, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-list li > div:nth-of-type(1) {
     padding-top: 5px;
   }
 }
 
-/* line 48, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 47, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-list li > div:nth-of-type(2) {
   width: 100%;
   max-width: 180px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 48, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 47, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-list li > div:nth-of-type(2) {
     max-width: calc(100% - 40px);
   }
 }
 
-/* line 55, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 54, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-list li > div:nth-of-type(3) {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   min-width: 1px;
-  max-width: 100%;
+  max-width: 500px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 55, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 54, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-list li > div:nth-of-type(3) {
     padding-left: 40px;
   }
 }
 
-/* line 65, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 64, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-list li p,
 .scheduler__data-list li span {
   font-size: 20px;
@@ -18209,7 +18213,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 65, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 64, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-list li p,
   .scheduler__data-list li span {
     font-size: 16px;
@@ -18217,31 +18221,31 @@ picture {
 }
 
 @media screen and (max-width: 374px) {
-  /* line 65, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 64, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-list li p,
   .scheduler__data-list li span {
     font-size: 15px;
   }
 }
 
-/* line 76, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 75, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-list li p a,
 .scheduler__data-list li span a {
   color: #00449d;
 }
 
-/* line 81, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 80, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-list li p {
   font-weight: 700;
 }
 
-/* line 85, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 84, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-list li svg {
   width: 20px;
   height: 20px;
 }
 
-/* line 92, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 91, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-option {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18255,35 +18259,35 @@ picture {
   padding-bottom: 35px;
 }
 
-/* line 99, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 98, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-option > div:nth-of-type(1), .scheduler__data-option > div:nth-of-type(3) {
   width: 100%;
   max-width: 180px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 99, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 98, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-option > div:nth-of-type(1), .scheduler__data-option > div:nth-of-type(3) {
     width: auto;
     max-width: unset;
   }
 }
 
-/* line 109, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 108, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-option > div:nth-of-type(2) {
   padding-left: 15px;
   padding-right: 15px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 109, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 108, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-option > div:nth-of-type(2) {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 
-/* line 118, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 117, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-option > div:nth-of-type(3) {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18293,7 +18297,7 @@ picture {
           justify-content: flex-end;
 }
 
-/* line 124, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 123, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-option h4 {
   font-size: 26px;
   font-weight: normal;
@@ -18302,20 +18306,20 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 124, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 123, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-option h4 {
     font-size: 22px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 124, src/scss/_components/scheduler/_scheduler-data.scss */
+  /* line 123, src/scss/_components/scheduler/_scheduler-data.scss */
   .scheduler__data-option h4 {
     font-size: 18px;
   }
 }
 
-/* line 137, src/scss/_components/scheduler/_scheduler-data.scss */
+/* line 136, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-option a {
   position: relative;
   display: -webkit-box;
@@ -18329,8 +18333,8 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 143, src/scss/_components/scheduler/_scheduler-data.scss */
-.scheduler__data-option a.swiper-button-disabled {
+/* line 142, src/scss/_components/scheduler/_scheduler-data.scss */
+.scheduler__data-option a.swiper-button-disabled, .scheduler__data-option a.scheduler__data-disabled {
   pointer-events: none;
   color: rgba(0, 0, 0, 0.4);
   -webkit-transition: color 0.3s ease-in-out;
@@ -18340,7 +18344,8 @@ picture {
 
 /* line 148, src/scss/_components/scheduler/_scheduler-data.scss */
 .scheduler__data-option a.swiper-button-disabled p,
-.scheduler__data-option a.swiper-button-disabled span {
+.scheduler__data-option a.swiper-button-disabled span, .scheduler__data-option a.scheduler__data-disabled p,
+.scheduler__data-option a.scheduler__data-disabled span {
   color: rgba(0, 0, 0, 0.4);
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
@@ -19214,8 +19219,8 @@ picture {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: -5px;
+  right: -5px;
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -19360,9 +19365,16 @@ picture {
   color: #ffffff;
 }
 
-/* line 39, src/scss/_components/scheduler/_scheduler.scss */
-.scheduler div#ui-datepicker-div {
+/* line 41, src/scss/_components/scheduler/_scheduler.scss */
+div#ui-datepicker-div {
   width: 270px;
+}
+
+@media screen and (max-width: 424px) {
+  /* line 41, src/scss/_components/scheduler/_scheduler.scss */
+  div#ui-datepicker-div {
+    width: 260px;
+  }
 }
 
 /*# sourceMappingURL=maps/app.css.map */

@@ -51,7 +51,6 @@
         </div>
       </section>
       <!-- SECTION scheduler header :: END-->
-      <!--include components/scheduler/_scheduler-main-->
       <!-- SECTION scheduler data :: START-->
       <section class="scheduler__data" id="scheduler__data" scheduler-dataNode-js style="display:block;">
         <div class="c-grid">
@@ -99,7 +98,7 @@
             </ul>
             <p class="scheduler__title">Choose date</p>
             <div class="scheduler__data-option">
-              <div><a class="scheduler__data-prev" href="#" title="">
+              <div><a class="scheduler__data-prev scheduler__data-disabled" href="#" title="">
                   <svg class="icon-svg icon-arrow ">
                     <use xlink:href="./img/sprite.svg#arrow"></use>
                   </svg><span>Previous week</span>
@@ -116,42 +115,7 @@
             <div class="scheduler__data-slider">
               <div class="swiper-container schedulerData">
                 <div class="swiper-wrapper">
-                                <!-- --->
-                                <!--   let arrWeek = [-->
-                                <!--     'Sunday',-->
-                                <!--     'Monday',-->
-                                <!--     'Tuesday',-->
-                                <!--     'Wednesday',-->
-                                <!--     'Thursday',-->
-                                <!--     'Friday',-->
-                                <!--     'Saturday',-->
-                                <!--   ];-->
-                                <!--   let arrWeekLess = [-->
-                                <!--     'Sun',-->
-                                <!--     'Mon',-->
-                                <!--     'Tue',-->
-                                <!--     'Wed',-->
-                                <!--     'Thu',-->
-                                <!--     'Fri',-->
-                                <!--     'Sat',-->
-                                <!--   ];-->
-                                <!-- - for(let idx = 1, week = 0; idx < 31; idx++, week++)-->
-                                <!---->
-                                <!--   .swiper-slide-->
-                                <!--     .scheduler__data-slide(data-href='#scheduler__time' class!=-->
-                                <!--       (idx === 4) ? 'scheduler__data-slide--today':-->
-                                <!--       (arrWeek[week] === 'Sunday' || arrWeek[week] === 'Saturday') ? 'scheduler__data-slide--disabled':''-->
-                                <!--     )-->
-                                <!--       i-->
-                                <!--       .scheduler__data-slide--top-->
-                                <!--         span!= 'today'-->
-                                <!--       .scheduler__data-slide--middle-->
-                                <!--         p!= (week < 7) ? arrWeek[week] : arrWeek[0]-->
-                                <!--         h5!= (week < 7) ? arrWeekLess[week] : arrWeekLess[0]-->
-                                <!--       .scheduler__data-slide--bottom-->
-                                <!--         h4!= idx-->
-                                <!---->
-                                <!--   - (week === 6) ? week = -1 : ''-->
+                                <!-- swiper slide generate in JS-->
                 </div>
               </div>
             </div>

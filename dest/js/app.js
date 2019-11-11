@@ -1352,6 +1352,8 @@ $(document).ready(function (ev) {
       };
 
       var _initSlide = 0,
+          _slideChange = 1,
+          _prevBtnMod = false,
           _weekStartNum = firstDayInMonthIndex(_date.getMonth(), _date.getFullYear()),
           _currentDate = _date.getDate() + _weekStartNum;
 
@@ -1388,10 +1390,10 @@ $(document).ready(function (ev) {
       if ($('.schedulerData').length) {
         var swiperScheduler = new Swiper('.schedulerData', {
           loop: false,
-          grabCursor: true,
+          grabCursor: false,
           freeMode: false,
           effect: 'slide',
-          speed: 750,
+          speed: 850,
           slidesPerView: 7,
           slidesPerGroup: 7,
           spaceBetween: 30,
@@ -1410,9 +1412,10 @@ $(document).ready(function (ev) {
           },
           on: {
             init: function init() {
-              console.log("init");
               var _activeSlide = $(this)[0].slides[$(this)[0].activeIndex],
                   _slidePartOfMonth = $(_activeSlide).find('.scheduler__data-slide').attr('data-month');
+
+              _slideChange++;
 
               $('[scheduler-sliderMonth-js]').text(_slidePartOfMonth);
             },
@@ -1425,6 +1428,24 @@ $(document).ready(function (ev) {
           }
         });
       }
+
+      var _count = _slideChange;
+
+      $('.scheduler__data-next').on('click', function (ev) {
+        console.log("scheduler__data-next");
+
+        _slideChange++;
+        $('.scheduler__data-prev').removeClass('scheduler__data-disabled');
+      });
+      $('.scheduler__data-prev').on('click', function (ev) {
+
+        console.log("scheduler__data-prev");
+        --_slideChange;
+
+        if (_count === _slideChange) {
+          $(ev.currentTarget).addClass('scheduler__data-disabled');
+        }
+      });
     };
 
     var _slideDataChoose = function _slideDataChoose() {
@@ -1522,13 +1543,17 @@ $(document).ready(function (ev) {
       };
 
       var firstDayInMonthIndex = function firstDayInMonthIndex(_monthIndex, _year) {
-        return new Date(_year + "-" + (_monthIndex + 1) + "-01").getDay();
+        return new Date(_year, _monthIndex, 1).getDay();
       };
 
       var buildIntervalMonth = function buildIntervalMonth(currentDay, currentMonth, currentYear, period) {
         var monthCount = 0,
             buildWeekBool = true,
             weekCount = firstDayInMonthIndex(currentMonth, currentYear);
+
+        // console.log(weekCount);
+        //
+        // return false;
 
         for (var i = 1; i <= period; i++) {
           if (currentMonth > 11) {
