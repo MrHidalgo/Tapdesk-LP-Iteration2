@@ -1551,20 +1551,11 @@ $(document).ready(function (ev) {
             buildWeekBool = true,
             weekCount = firstDayInMonthIndex(currentMonth, currentYear);
 
-        // console.log(weekCount);
-        //
-        // return false;
-
         for (var i = 1; i <= period; i++) {
           if (currentMonth > 11) {
             currentMonth = 0;
             currentYear += 1;
           }
-
-          // console.log(`year: `, currentYear);
-          // console.log(`month: `, monthNames[currentMonth]);
-          // console.log(`currentDay: `, currentDay);
-          // console.log(`weekName: `, weekday[weekCount]);
 
           if (monthCount <= currentMonth) {
 
@@ -1578,8 +1569,6 @@ $(document).ready(function (ev) {
               }
 
               $('.schedulerData .swiper-wrapper').append(sliderBox(currentDay, weekday[weekCount], weekdayLess[weekCount], dateMonth, monthNames[currentMonth]));
-
-              // console.log(`Date - ${dateMonth} ::: weekName - ${weekday[weekCount]}`);
 
               if (weekCount >= 6) {
                 weekCount = 0;
@@ -1608,7 +1597,6 @@ $(document).ready(function (ev) {
     };
 
     _dropdown();
-    // _splitDescription();
     _chooseBox();
     _chooseTime();
     _openFilter();
