@@ -491,11 +491,6 @@ $(window).on("scroll", function (ev) {
  * @description Document DOM ready.
  */
 $(document).ready(function (ev) {
-  // window.onbeforeunload = function () {
-  //   if($('[data-file="sale"]').length) {
-  //     window.scrollTo(0, 0);
-  //   }
-  // };
   /**
    * =============================================
    * CALLBACK
@@ -1261,43 +1256,6 @@ $(document).ready(function (ev) {
       });
     };
 
-    var _splitDescription = function _splitDescription() {
-      // const getTextareaNumberOfLines = (textarea) => {
-      //   let previous_height = textarea.style.height,
-      //     lines;
-      //
-      //   textarea.style.height = 0;
-      //
-      //   lines = parseInt(textarea.scrollHeight/parseInt(getComputedStyle(textarea).lineHeight));
-      //
-      //   textarea.style.height = previous_height;
-      //
-      //   return lines;
-      // };
-
-      $.each($('[scheduler-desc-js]'), function (idx, val) {
-        // const _textNode = document.createElement('TEXTAREA');
-
-        // _textNode.innerText = $(val).text().trim();
-
-        // $(val).append(_textNode);
-
-        // const _numberOfLines = getTextareaNumberOfLines($(val).find('textarea')[0]);
-
-        // if(_numberOfLines > 2) {
-
-        // if($(val).find('textarea').val().lastIndexOf("\n") > 0) {
-        // console.log(`if: `, $(val).find('textarea').val().substring(0, $(val).find('textarea').val().lastIndexOf("\n")));
-        // } else {
-        // console.log(`x:`, $(val).find('textarea').val());
-        // }
-        // const lessText = $(val).text().substring(0, 68).trim();
-        //
-        // $(val).html(lessText + "...");
-        // }
-      });
-    };
-
     var _smoothScroll = function _smoothScroll(_self) {
       var linkHref = $(_self.currentTarget).attr('data-href') || $(_self.currentTarget).attr('href'),
           headerHeight = $(".header").outerHeight() || 0,
@@ -1596,6 +1554,45 @@ $(document).ready(function (ev) {
       _slideDataChoose();
     };
 
+    var _dropdownTimeZone = function _dropdownTimeZone() {
+      var _arr = [];
+
+      $.each($('.scheduler__time-dropdown-content a'), function (idx, val) {
+        _arr.push($(val).text().toLowerCase());
+      });
+
+      $('.scheduler__time-dropdown-btn').on('click', function (ev) {
+        $(ev.currentTarget).siblings('.scheduler__time-dropdown-content').toggleClass('is-open');
+      });
+
+      $('.scheduler__time-dropdown-content a').on('click', function (ev) {
+        $('.scheduler__time-dropdown-btn span').text($(ev.currentTarget).text());
+        $('.scheduler__time-dropdown-content').removeClass('is-open');
+      });
+
+      $('.scheduler__time-dropdown-search').on('keyup', function (ev) {
+        var _val = $(ev.currentTarget).val().toLowerCase();
+
+        $('.scheduler__time-dropdown-content a').hide();
+
+        $.each(_arr, function (idx, val) {
+          if (val.indexOf(_val) !== -1) {
+            var _num = idx + 1;
+
+            $('.scheduler__time-dropdown-content a[timezoneid="' + _num + '"]').show();
+          }
+        });
+      });
+
+      $('body').on('click', function (e) {
+        var className = ".scheduler__time-dropdown";
+
+        if (!$(e.target).closest(className).length) {
+          $('.scheduler__time-dropdown-content').removeClass('is-open');
+        }
+      });
+    };
+
     _dropdown();
     _chooseBox();
     _chooseTime();
@@ -1603,6 +1600,7 @@ $(document).ready(function (ev) {
     _openPopup();
     _datePicker();
     _renderSliderDate();
+    _dropdownTimeZone();
   };
 
   /**
