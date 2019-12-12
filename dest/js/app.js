@@ -652,7 +652,6 @@ $(document).ready(function (ev) {
 
         topicNode.fadeIn(300);
         topicNode.addClass('is-topic');
-        console.log("block btn choose setTimeout :: end");
       }, 450);
     });
 
@@ -672,7 +671,6 @@ $(document).ready(function (ev) {
         blockNode.fadeIn(300);
         supportBlockBtn.addClass('zoomIn');
         blockElemTitle.addClass('fadeIn');
-        console.log("topic back btn setTimeout :: end");
       }, 1100);
     });
 
@@ -1390,14 +1388,10 @@ $(document).ready(function (ev) {
       var _count = _slideChange;
 
       $('.scheduler__data-next').on('click', function (ev) {
-        console.log("scheduler__data-next");
-
         _slideChange++;
         $('.scheduler__data-prev').removeClass('scheduler__data-disabled');
       });
       $('.scheduler__data-prev').on('click', function (ev) {
-
-        console.log("scheduler__data-prev");
         --_slideChange;
 
         if (_count === _slideChange) {
@@ -1519,7 +1513,7 @@ $(document).ready(function (ev) {
 
             for (var dateMonth = 1; dateMonth <= daysInMonth(currentMonth + 1, currentYear); dateMonth++) {
               if (weekCount !== 0 && buildWeekBool) {
-                for (var idx = 0; idx < weekCount; idx++) {
+                for (var idx = 1; idx < weekCount; idx++) {
                   $('.schedulerData .swiper-wrapper').append(sliderBoxEmpty());
                 }
 
@@ -1577,7 +1571,7 @@ $(document).ready(function (ev) {
 
         $.each(_arr, function (idx, val) {
           if (val.indexOf(_val) !== -1) {
-            var _num = idx + 1;
+            var e = idx + 1;
 
             $('.scheduler__time-dropdown-content a[timezoneid="' + _num + '"]').show();
           }
