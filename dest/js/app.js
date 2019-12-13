@@ -1311,7 +1311,7 @@ $(document).ready(function (ev) {
           _slideChange = 1,
           _prevBtnMod = false,
           _weekStartNum = firstDayInMonthIndex(_date.getMonth(), _date.getFullYear()),
-          _currentDate = _date.getDate() + _weekStartNum;
+          _currentDate = _date.getDate();
 
       if ($(window).width() > 767) {
         if (_currentDate < 7) {
@@ -1319,11 +1319,11 @@ $(document).ready(function (ev) {
         } else if (_currentDate < 14) {
           _initSlide = 7;
         } else if (_currentDate < 21) {
-          _initSlide = 14;
+          _initSlide = 13;
         } else if (_currentDate < 28) {
-          _initSlide = 21;
+          _initSlide = 20;
         } else {
-          _initSlide = 28;
+          _initSlide = 27;
         }
       } else {
         if (_currentDate < 5) {
