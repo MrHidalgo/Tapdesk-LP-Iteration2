@@ -1317,11 +1317,11 @@ $(document).ready(function (ev) {
         if (_currentDate < 7) {
           _initSlide = 0;
         } else if (_currentDate < 14) {
-          _initSlide = 7;
+          _initSlide = 8;
         } else if (_currentDate < 21) {
-          _initSlide = 13;
+          _initSlide = 15;
         } else if (_currentDate < 28) {
-          _initSlide = 20;
+          _initSlide = 22;
         } else {
           _initSlide = 27;
         }
