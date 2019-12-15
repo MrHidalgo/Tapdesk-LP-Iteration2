@@ -5355,7 +5355,7 @@ picture {
   height: 100%;
   margin: 0 auto;
   mix-blend-mode: soft-light;
-  background-image: url("../img/img-bg-main.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-bg-main.png");
   background-repeat: no-repeat;
   background-position: center 151%;
   background-size: cover;
@@ -5526,7 +5526,7 @@ picture {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/img-video-bg.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-video-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -6879,7 +6879,7 @@ picture {
   height: 100%;
   margin: 0 auto;
   mix-blend-mode: soft-light;
-  background-image: url("../img/img-bg-request.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-bg-request.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12601,7 +12601,7 @@ picture {
   left: 165px;
   width: 100px;
   height: 101px;
-  background-image: url("../img/img-obj-hero-2@2x.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-obj-hero-2@2x.png");
   background-size: cover;
 }
 
@@ -12626,7 +12626,7 @@ picture {
   bottom: 120px;
   width: 144px;
   height: 153px;
-  background-image: url("../img/img-obj-hero-5@2x.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-obj-hero-5@2x.png");
   background-size: cover;
 }
 
@@ -12739,7 +12739,7 @@ picture {
   bottom: 120px;
   width: 100px;
   height: 101px;
-  background-image: url("../img/img-obj-hero-2@2x.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-obj-hero-2@2x.png");
   background-size: cover;
 }
 
@@ -12756,7 +12756,7 @@ picture {
   left: 165px;
   width: 144px;
   height: 153px;
-  background-image: url("../img/img-obj-hero-5@2x.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-obj-hero-5@2x.png");
   background-size: cover;
 }
 
@@ -12787,7 +12787,7 @@ picture {
   left: 60%;
   width: 124px;
   height: 104px;
-  background-image: url("../img/img-obj-hero-7@2x.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-obj-hero-7@2x.png");
   background-size: cover;
 }
 
@@ -12811,7 +12811,7 @@ picture {
   right: 70px;
   width: 130px;
   height: 165px;
-  background-image: url("../img/img-obj-hero-9@2x.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-obj-hero-9@2x.png");
   background-size: cover;
 }
 
@@ -12843,7 +12843,7 @@ picture {
   right: 25%;
   width: 100px;
   height: 101px;
-  background-image: url("../img/img-obj-hero-11@2x.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-obj-hero-11@2x.png");
   background-size: cover;
 }
 
@@ -13246,7 +13246,7 @@ picture {
   margin-left: auto;
   margin-right: auto;
   mix-blend-mode: soft-light;
-  background-image: url("../img/img-bg-main.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-bg-main.png");
   background-repeat: no-repeat;
   background-position: center 120px;
   background-size: cover;
@@ -14190,7 +14190,7 @@ picture {
   margin-left: auto;
   margin-right: auto;
   mix-blend-mode: soft-light;
-  background-image: url("../img/img-join-bg@2x.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-join-bg@2x.png");
   background-repeat: no-repeat;
   background-position: center 35%;
   background-size: cover;
@@ -14342,7 +14342,7 @@ picture {
   margin-left: auto;
   margin-right: auto;
   mix-blend-mode: soft-light;
-  background-image: url("../img/img-impressive-bg@2x.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/images/img-impressive-bg@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
@@ -15483,7 +15483,7 @@ picture {
   width: 100%;
   height: 100%;
   mix-blend-mode: soft-light;
-  background-image: url("../img/commissions.svg");
+  background-image: url("https://s3.us-east-2.amazonaws.com/tapdesk/static/svg/commissions.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
@@ -17958,8 +17958,12 @@ picture {
 
 /* line 325, src/scss/_components/scheduler/_scheduler-main.scss */
 .scheduler__main-box-title {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
   padding-bottom: 5px;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 22px;
   color: #000;
   -webkit-transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -17967,10 +17971,10 @@ picture {
   transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 333, src/scss/_components/scheduler/_scheduler-main.scss */
+/* line 336, src/scss/_components/scheduler/_scheduler-main.scss */
 .scheduler__main-box-subtitle {
   padding-bottom: 15px;
-  font-size: 18px;
+  font-size: 16px;
   color: #222;
   -webkit-transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -17978,13 +17982,13 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 333, src/scss/_components/scheduler/_scheduler-main.scss */
+  /* line 336, src/scss/_components/scheduler/_scheduler-main.scss */
   .scheduler__main-box-subtitle {
     font-size: 16px;
   }
 }
 
-/* line 343, src/scss/_components/scheduler/_scheduler-main.scss */
+/* line 346, src/scss/_components/scheduler/_scheduler-main.scss */
 .scheduler__main-box-desc {
   overflow: hidden;
   position: relative;
@@ -17997,19 +18001,19 @@ picture {
   transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 373, src/scss/_components/scheduler/_scheduler-main.scss */
+/* line 357, src/scss/_components/scheduler/_scheduler-main.scss */
 .scheduler__main-btn {
   display: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 373, src/scss/_components/scheduler/_scheduler-main.scss */
+  /* line 357, src/scss/_components/scheduler/_scheduler-main.scss */
   .scheduler__main-btn {
     padding-top: 15px;
   }
 }
 
-/* line 379, src/scss/_components/scheduler/_scheduler-main.scss */
+/* line 363, src/scss/_components/scheduler/_scheduler-main.scss */
 .scheduler__main-btn .c-btn {
   max-width: unset;
   width: auto;
@@ -18018,7 +18022,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 379, src/scss/_components/scheduler/_scheduler-main.scss */
+  /* line 363, src/scss/_components/scheduler/_scheduler-main.scss */
   .scheduler__main-btn .c-btn {
     position: relative;
     -webkit-box-align: start;
@@ -18039,7 +18043,7 @@ picture {
   }
 }
 
-/* line 397, src/scss/_components/scheduler/_scheduler-main.scss */
+/* line 381, src/scss/_components/scheduler/_scheduler-main.scss */
 .scheduler__main-btn .c-btn.is-active svg {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
@@ -18051,17 +18055,17 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 403, src/scss/_components/scheduler/_scheduler-main.scss */
+/* line 387, src/scss/_components/scheduler/_scheduler-main.scss */
 .scheduler__main-btn .c-btn p {
   padding-right: 5px;
 }
 
-/* line 407, src/scss/_components/scheduler/_scheduler-main.scss */
+/* line 391, src/scss/_components/scheduler/_scheduler-main.scss */
 .scheduler__main-btn .c-btn span {
   padding-right: 20px;
 }
 
-/* line 412, src/scss/_components/scheduler/_scheduler-main.scss */
+/* line 396, src/scss/_components/scheduler/_scheduler-main.scss */
 .scheduler__main-btn svg {
   position: relative;
   top: 2px;
@@ -18083,7 +18087,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 412, src/scss/_components/scheduler/_scheduler-main.scss */
+  /* line 396, src/scss/_components/scheduler/_scheduler-main.scss */
   .scheduler__main-btn svg {
     position: absolute;
     top: 50%;
@@ -18162,7 +18166,6 @@ picture {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
-    max-width: 50%;
   }
 }
 
