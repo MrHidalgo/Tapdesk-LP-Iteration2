@@ -1313,35 +1313,7 @@ $(document).ready(function (ev) {
           _weekStartNum = firstDayInMonthIndex(_date.getMonth(), _date.getFullYear()),
           _currentDate = _date.getDate();
 
-      if ($(window).width() > 767) {
-        if (_currentDate < 7) {
-          _initSlide = 0;
-        } else if (_currentDate < 14) {
-          _initSlide = 8;
-        } else if (_currentDate < 21) {
-          _initSlide = 15;
-        } else if (_currentDate < 28) {
-          _initSlide = 22;
-        } else {
-          _initSlide = 27;
-        }
-      } else {
-        if (_currentDate < 5) {
-          _initSlide = 0;
-        } else if (_currentDate < 10) {
-          _initSlide = 5;
-        } else if (_currentDate < 15) {
-          _initSlide = 10;
-        } else if (_currentDate < 20) {
-          _initSlide = 15;
-        } else if (_currentDate < 25) {
-          _initSlide = 20;
-        } else if (_currentDate < 30) {
-          _initSlide = 25;
-        } else {
-          _initSlide = 30;
-        }
-      }
+      var nodes = Array.prototype.slice.call($('.schedulerData .swiper-slide'));
 
       if ($('.schedulerData').length) {
         var swiperScheduler = new Swiper('.schedulerData', {
@@ -1353,13 +1325,12 @@ $(document).ready(function (ev) {
           slidesPerView: 7,
           slidesPerGroup: 7,
           spaceBetween: 30,
-          initialSlide: _initSlide,
+          initialSlide: nodes.indexOf($('.swiper-slide--today')[0]),
           breakpoints: {
             767: {
               slidesPerView: 5,
               slidesPerGroup: 5,
-              spaceBetween: 15,
-              initialSlide: _initSlide
+              spaceBetween: 15
             }
           },
           navigation: {
@@ -1483,7 +1454,7 @@ $(document).ready(function (ev) {
           weekdayLess = ['Sun', 'Mon', 'Thu', 'Wed', 'Thu', 'Fri', 'Sat'];
 
       var sliderBox = function sliderBox(_currentData, _weekName, _weekNameLess, _weekDate, _month) {
-        return "\n          <div class=\"swiper-slide\">\n            <div class=\"scheduler__data-slide \n                        " + (_weekDate === _currentData ? 'scheduler__data-slide--today' : '') + "\n                        " + (_weekDate < _currentData || _weekName === 'Sunday' || _weekName === 'Saturday' ? 'scheduler__data-slide--disabled' : '') + "\n                        \" \n              data-href=\"#scheduler__time\" data-month=\"" + _month + "\">\n              <i></i>\n              <div class=\"scheduler__data-slide--top\">\n                <span>today</span>\n              </div>\n              <div class=\"scheduler__data-slide--middle\">\n                <p>" + _weekName + "</p>\n                <h5>" + _weekNameLess + "</h5>\n              </div>\n              <div class=\"scheduler__data-slide--bottom\">\n                <h4>" + _weekDate + "</h4>\n              </div>\n            </div>\n          </div>\n        ";
+        return "\n          <div class=\"swiper-slide " + (_weekDate === _currentData ? 'swiper-slide--today' : '') + "\">\n            <div class=\"scheduler__data-slide \n                        " + (_weekDate === _currentData ? 'scheduler__data-slide--today' : '') + "\n                        " + (_weekDate < _currentData || _weekName === 'Sunday' || _weekName === 'Saturday' ? 'scheduler__data-slide--disabled' : '') + "\n                        \" \n              data-href=\"#scheduler__time\" data-month=\"" + _month + "\">\n              <i></i>\n              <div class=\"scheduler__data-slide--top\">\n                <span>today</span>\n              </div>\n              <div class=\"scheduler__data-slide--middle\">\n                <p>" + _weekName + "</p>\n                <h5>" + _weekNameLess + "</h5>\n              </div>\n              <div class=\"scheduler__data-slide--bottom\">\n                <h4>" + _weekDate + "</h4>\n              </div>\n            </div>\n          </div>\n        ";
       };
 
       var sliderBoxEmpty = function sliderBoxEmpty() {
